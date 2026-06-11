@@ -1,0 +1,7 @@
+packages:
+  - 'apps/*'
+  - 'backend'
+  - 'modules/*'
+  - 'providers/*'
+  - 'shared'
+  - 'infrastructure'

@@ -1,0 +1,1 @@
+{"version":3,"file":"provider-router.service.d.ts","sourceRoot":"","sources":["provider-router.service.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,gBAAgB,EAAE,MAAM,uCAAuC,CAAC;AAGzE,qBACa,qBAAqB;IAChC,OAAO,CAAC,QAAQ,CAAuC;;IAOvD,QAAQ,CAAC,OAAO,EAAE,gBAAgB,GAAG,IAAI;IAIzC,UAAU,CAAC,QAAQ,EAAE,MAAM,GAAG,gBAAgB;CAO/C"}

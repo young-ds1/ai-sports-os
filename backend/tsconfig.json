@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@modules/*": ["../modules/*"],
+      "@shared/*": ["../shared/*"],
+      "@providers/*": ["../providers/*"],
+      "@infrastructure/*": ["../infrastructure/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "../modules/**/*",
+    "../providers/**/*",
+    "../shared/**/*",
+    "../infrastructure/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

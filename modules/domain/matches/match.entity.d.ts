@@ -1,0 +1,42 @@
+import { Competition } from '../competitions/competition.entity';
+import { Season } from '../seasons/season.entity';
+import { Team } from '../teams/team.entity';
+import { MatchEvent } from './match-event.entity';
+export declare class Match {
+    id: string;
+    provider: string;
+    provider_id: number;
+    competition: Competition;
+    competition_id: string;
+    season: Season;
+    season_id: string;
+    home_team: Team;
+    home_team_id: string;
+    away_team: Team;
+    away_team_id: string;
+    match_date: string;
+    kickoff_time: string;
+    status: string;
+    elapsed_minute: number;
+    home_score: number;
+    away_score: number;
+    home_ht_score: number;
+    away_ht_score: number;
+    home_et_score: number;
+    away_et_score: number;
+    home_penalty: number;
+    away_penalty: number;
+    round: string;
+    group_name: string;
+    knockout_stage: string;
+    venue: string;
+    city: string;
+    attendance: number;
+    referee: string;
+    stats_summary: Record<string, any>;
+    meta: Record<string, any>;
+    events: MatchEvent[];
+    created_at: Date;
+    updated_at: Date;
+}
+//# sourceMappingURL=match.entity.d.ts.map

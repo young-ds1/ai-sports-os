@@ -1,0 +1,1 @@
+{"version":3,"file":"competition.controller.d.ts","sourceRoot":"","sources":["../../../../src/api/controllers/competition.controller.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,mBAAmB,EAAE,MAAM,8DAA8D,CAAC;AAGnG,qBACa,qBAAqB;IACpB,OAAO,CAAC,QAAQ,CAAC,mBAAmB;gBAAnB,mBAAmB,EAAE,mBAAmB;IAI/D,OAAO;IAMP,QAAQ,CAAc,EAAE,EAAE,MAAM;CAGvC"}

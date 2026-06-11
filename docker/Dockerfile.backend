@@ -1,0 +1,18 @@
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY package.json pnpm-workspace.yaml ./
+COPY backend/package.json backend/
+COPY shared/ shared/
+COPY modules/ modules/
+COPY providers/ providers/
+COPY infrastructure/ infrastructure/
+RUN npm install -g pnpm && pnpm install --frozen-lockfile
+COPY . .
+RUN pnpm build
+
+FROM node:20-alpine
+WORKDIR /app
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/node_modules ./node_modules
+EXPOSE 3001
+CMD ["node", "dist/backend/src/main.js"]

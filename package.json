@@ -1,0 +1,26 @@
+{
+  "name": "ai-sports-os",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI Sports OS — AI-driven global sports intelligence platform",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "dev:backend": "cd backend && pnpm run start:dev",
+    "dev:web": "cd apps/web && pnpm run dev",
+    "db:migrate": "cd backend && pnpm run migration:run",
+    "db:seed": "cd backend && pnpm run seed",
+    "docker:up": "docker compose -f docker/docker-compose.yml up -d",
+    "docker:down": "docker compose -f docker/docker-compose.yml down"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.22.4"
+  }
+}
