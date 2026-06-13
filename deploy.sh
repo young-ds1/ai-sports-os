@@ -1,31 +1,46 @@
 #!/bin/bash
-# AI Sports OS — One-command deploy
-# Usage: sudo bash deploy.sh
+# AI Sports OS — Production Deploy
+# One command: sudo bash /opt/deploy.sh
 set -e
-cd /opt/ai-sports-os
 
-echo "=== 1. Pull latest code ==="
+echo "=== Deploy AI Sports OS ==="
+
+# 0. Kill ALL node/next processes
+echo "0. Cleanup..."
+sudo pkill -9 -f "node" 2>/dev/null || true
+sleep 2
+
+# 1. Pull latest code
+echo "1. Git pull..."
+cd /opt/ai-sports-os
+sudo git config --global --add safe.directory /opt/ai-sports-os 2>/dev/null || true
 sudo git fetch origin && sudo git reset --hard origin/main
 
-echo "=== 2. Scrape live match results ==="
-sudo python3 scripts/live-results-scraper.py --write || echo "ESPN scrape skipped (no new data)"
+# 2. Scrape live results
+echo "2. Scrape results..."
+sudo python3 scripts/live-results-scraper.py --write 2>/dev/null || echo "   (scrape skipped)"
 
-echo "=== 3. Run Elo update ==="
-sudo python3 scripts/elo-update.py --apply || echo "Elo update skipped"
+# 3. Elo update
+echo "3. Elo update..."
+sudo python3 scripts/elo-update.py --apply 2>/dev/null || echo "   (elo skipped)"
 
-echo "=== 4. Generate predictions ==="
+# 4. Generate predictions
+echo "4. Generate predictions..."
 sudo python3 scripts/predict-v3.py --apply
 sudo cp worldcup-predictions.json apps/web/public/
-sudo cp match-results.json apps/web/public/ 2>/dev/null
-sudo cp events.json apps/web/public/ 2>/dev/null
+sudo cp match-results.json apps/web/public/ 2>/dev/null || true
+sudo cp events.json apps/web/public/ 2>/dev/null || true
 
-echo "=== 5. Restart frontend ==="
-sudo pkill -f "next dev" 2>/dev/null || true
-sleep 1
-sudo rm -rf apps/web/.next
-cd apps/web && sudo nohup npx next dev -p 3000 > /tmp/next.log 2>&1 &
+# 5. Build + Start
+echo "5. Build & Start..."
+cd apps/web
+sudo rm -rf .next
+sudo npx next build
+sudo nohup npx next start -p 3000 > /tmp/next.log 2>&1 &
 
-sleep 5
-echo "=== Done ==="
+sleep 8
+echo ""
+echo "=== Verify ==="
 curl -s -o /dev/null -w "HTTP %{http_code}" http://localhost:3000/
-echo " → http://121.40.140.216:3000"
+echo ""
+echo "Done → http://121.40.140.216:3000"
