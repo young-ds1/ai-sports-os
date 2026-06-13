@@ -1,0 +1,41 @@
+{
+  "description": "小道消息监控清单 — 每个队容易出什么问题，去哪看。赛前快速扫描用。",
+  "lastUpdated": "2026-06-13",
+  "watchSources": {
+    "twitter_x": "搜索 '[team] news' '更衣室' '内讧' → X.com",
+    "reddit": "r/soccer, r/worldcup → 球迷爆料",
+    "weibo": "微博热搜 #世界杯# → 中文小道消息集中地",
+    "hupu": "虎扑足球区 → 中国球迷内部消息",
+    "zhibo8": "直播吧新闻 → 快速汇总",
+    "dailymail": "每日邮报体育版 → 英国队内幕消息多",
+    "marca": "马卡报 → 西班牙语球队",
+    "lequipe": "队报 → 法国队消息"
+  },
+  "keywordAlerts": {
+    "high_negative": ["内讧", "冲突", "罢训", "架空", "更衣室分裂", "拒绝出场", "夜店", "醉酒", "嫖娼", "斗殴", "受伤退出", "临时离队"],
+    "medium_negative": ["批评教练", "不满替补", "赛后争吵", "训练迟到", "装备丢失", "食物中毒", "失眠", "航班延误"],
+    "positive": ["状态火热", "更衣室团结", "训练表现出色", "伤愈复出", "核心回归", "新战术磨合好"]
+  },
+  "teamRiskProfiles": {
+    "France": {"riskLevel": "medium", "knownIssues": "姆巴佩与教练关系、队内帮派"},
+    "Brazil": {"riskLevel": "medium", "knownIssues": "多重核心竞争、战术分歧"},
+    "England": {"riskLevel": "high", "knownIssues": "装备被盗(已记录)、年轻球员压力、媒体放大"},
+    "Argentina": {"riskLevel": "low", "knownIssues": "梅西最后一届、团结度高"},
+    "Germany": {"riskLevel": "low", "knownIssues": "重建完成、教练权威强"},
+    "Portugal": {"riskLevel": "medium", "knownIssues": "C罗角色争议、新老交替"},
+    "Netherlands": {"riskLevel": "low", "knownIssues": "团结度历史最好"},
+    "Belgium": {"riskLevel": "high", "knownIssues": "黄金一代末期、内部矛盾传闻、教练下课压力"},
+    "Spain": {"riskLevel": "low", "knownIssues": "年轻化顺利"},
+    "Morocco": {"riskLevel": "low", "knownIssues": "团结度极高"},
+    "Croatia": {"riskLevel": "low", "knownIssues": "经验丰富"},
+    "Norway": {"riskLevel": "low", "knownIssues": "围绕Haaland建队"}
+  },
+  "scanChecklist": [
+    "1. 打开虎扑/直播吧 → 世界杯专区 → 扫标题找队名",
+    "2. 微博搜 #世界杯# → 看热门 → 有无争议事件",
+    "3. Reddit r/soccer → 按Hot → 找内部消息(rumor标签)",
+    "4. 对riskLevel=high的队重点搜 'team + controversy'",
+    "5. 发现事件 → 记录到 events.json (category + reliability + severity)",
+    "6. 赛前1小时最终检查 → 首发名单有无意外缺席"
+  ]
+}

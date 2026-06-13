@@ -1,7 +1,7 @@
 {
-  "description": "World Cup 2026 actual match results.",
-  "lastUpdated": "2026-06-13T04:13:32Z",
-  "source": "ESPN API",
+  "description": "World Cup 2026 match results. Auto-updated.",
+  "lastUpdated": "2026-06-13T05:35:12Z",
+  "source": "ESPN API + manual entry",
   "results": [
     {
       "homeTeam": "South Korea",
@@ -19,7 +19,8 @@
       "awayScore": 1,
       "date": "2026-06-12",
       "status": "FT",
-      "recordedAt": "2026-06-13T04:13:32Z"
+      "clock": "90'+7'",
+      "recordedAt": "2026-06-13T05:35:12.841635"
     },
     {
       "homeTeam": "USA",
@@ -28,7 +29,8 @@
       "awayScore": 1,
       "date": "2026-06-13",
       "status": "FT",
-      "recordedAt": "2026-06-13T04:13:32Z"
+      "clock": "90'+9'",
+      "recordedAt": "2026-06-13T05:35:12.842300"
     }
   ],
   "teamStats": {

@@ -1,0 +1,36 @@
+{
+  "description": "Weather conditions for each match venue. Affects playing style and expected goals.",
+  "lastUpdated": "2026-06-13",
+  "matches": {},
+  "weatherGuide": {
+    "temperature": {
+      "hot_35plus": {"totalGoals": -0.3, "description": "35°C+: 体能消耗大，比赛节奏慢，总进球偏少"},
+      "warm_25_35": {"totalGoals": 0.0, "description": "25-35°C: 正常范围"},
+      "mild_15_25": {"totalGoals": 0.1, "description": "15-25°C: 最佳比赛温度，略多进球"},
+      "cool_5_15": {"totalGoals": -0.1, "description": "5-15°C: 略冷，影响技术发挥"},
+      "cold_below5": {"totalGoals": -0.3, "description": "<5°C: 寒冷，肌肉僵硬，进球少"}
+    },
+    "rain": {
+      "none": {"totalGoals": 0.0, "favorPhysical": false},
+      "light": {"totalGoals": 0.1, "favorPhysical": false, "description": "小雨: 场地湿滑，门将易脱手"},
+      "moderate": {"totalGoals": -0.1, "favorPhysical": true, "description": "中雨: 影响传控，身体对抗队占优"},
+      "heavy": {"totalGoals": -0.5, "favorPhysical": true, "description": "大雨: 严重破坏比赛节奏"}
+    },
+    "wind": {
+      "calm": {"totalGoals": 0.0},
+      "moderate": {"totalGoals": -0.1, "description": "中速风: 影响长传和高球"},
+      "strong": {"totalGoals": -0.3, "description": "强风: 严重影响传球精度"}
+    }
+  },
+  "example": {
+    "USA vs Paraguay": {
+      "venue": "Los Angeles",
+      "temperature": 28,
+      "condition": "clear",
+      "rain": "none",
+      "wind": "calm",
+      "effect": {"totalGoalsAdjustment": 0.0, "physicalAdvantage": false}
+    }
+  },
+  "note": "可以对接 OpenWeatherMap API (免费1000次/天) 自动填充。手动录入作为 fallback。"
+}

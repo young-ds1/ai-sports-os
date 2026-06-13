@@ -1,0 +1,34 @@
+{
+  "description": "World Cup 2026 Group Standings & Progression Pressure. Auto-calculated from match results.",
+  "lastUpdated": "2026-06-13",
+  "groups": {
+    "A": {"teams": ["Canada", "Bosnia & Herzegovina", "USA", "Paraguay"], "advanceTo": 2},
+    "B": {"teams": ["Qatar", "Switzerland", "Brazil", "Morocco"], "advanceTo": 2},
+    "C": {"teams": ["Haiti", "Scotland", "Australia", "Turkey"], "advanceTo": 2},
+    "D": {"teams": ["Germany", "Curaçao", "Netherlands", "Japan"], "advanceTo": 2},
+    "E": {"teams": ["Ivory Coast", "Ecuador", "Sweden", "Tunisia"], "advanceTo": 2},
+    "F": {"teams": ["Spain", "Cape Verde", "Belgium", "Egypt"], "advanceTo": 2},
+    "G": {"teams": ["Saudi Arabia", "Uruguay", "Iran", "New Zealand"], "advanceTo": 2},
+    "H": {"teams": ["France", "Senegal", "Iraq", "Norway"], "advanceTo": 2},
+    "I": {"teams": ["Argentina", "Algeria", "Austria", "Jordan"], "advanceTo": 2},
+    "J": {"teams": ["Portugal", "DR Congo", "England", "Croatia"], "advanceTo": 2},
+    "K": {"teams": ["Ghana", "Panama", "Uzbekistan", "Colombia"], "advanceTo": 2},
+    "L": {"teams": ["South Korea", "Czech Republic"], "advanceTo": 2}
+  },
+  "progressionPressure": {
+    "description": "Motivation multiplier based on group position and remaining matches.",
+    "mustWin": {"attackMultiplier": 1.10, "defenseMultiplier": 1.05, "desc": "必须赢才能出线→进攻加成10%"},
+    "needResult": {"attackMultiplier": 1.05, "defenseMultiplier": 1.02, "desc": "需要积分→轻微加成"},
+    "normal": {"attackMultiplier": 1.0, "defenseMultiplier": 1.0, "desc": "正常竞争"},
+    "deadRubber": {"attackMultiplier": 0.95, "defenseMultiplier": 0.95, "desc": "已出线/已淘汰→轻微下滑"},
+    "finalGroupMatch": {"attackMultiplier": 1.08, "defenseMultiplier": 1.03, "desc": "小组末轮生死战→更高加成"}
+  },
+  "currentStandings": {
+    "A": {
+      "USA": {"played": 1, "points": 3, "gd": 3},
+      "Canada": {"played": 1, "points": 1, "gd": 0},
+      "Bosnia & Herzegovina": {"played": 1, "points": 1, "gd": 0},
+      "Paraguay": {"played": 1, "points": 0, "gd": -3}
+    }
+  }
+}

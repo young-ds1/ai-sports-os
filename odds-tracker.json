@@ -1,0 +1,20 @@
+{
+  "description": "Odds movement tracker. Records initial odds vs latest odds. Movement signals market information flow.",
+  "lastUpdated": "2026-06-13",
+  "trackedMatches": {},
+  "movementSignal": {
+    "description": "How to interpret odds movement",
+    "homeShortening": "Home odds dropping → market sees home advantage growing → +signal for home",
+    "homeDrifting": "Home odds rising → market losing confidence in home → -signal for home",
+    "thresholds": {
+      "small": "3-8% movement → minor signal (±2-5 Elo points)",
+      "medium": "8-20% movement → meaningful signal (±5-15 Elo points)",
+      "large": ">20% movement → major news (injury/weather/lineup) → ±15-30 Elo points"
+    }
+  },
+  "recordingGuide": {
+    "initial": "Record odds when first fetched from The Odds API",
+    "latest": "Update latest odds each polling cycle",
+    "computeMovement": "movement% = (newOdds - oldOdds) / oldOdds * 100 for each outcome"
+  }
+}

@@ -1,0 +1,1350 @@
+{
+  "description": "192 World Cup matches (2010-2022) with Elo differentials",
+  "totalMatches": 192,
+  "matches": [
+    {
+      "homeTeam": "Qatar",
+      "awayTeam": "Ecuador",
+      "eloDiff": -8,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "England",
+      "awayTeam": "Iran",
+      "eloDiff": 200,
+      "homeGoals": 6,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Senegal",
+      "awayTeam": "Netherlands",
+      "eloDiff": -39,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Wales",
+      "eloDiff": 82,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Saudi Arabia",
+      "eloDiff": 294,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Denmark",
+      "awayTeam": "Tunisia",
+      "eloDiff": 140,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Mexico",
+      "awayTeam": "Poland",
+      "eloDiff": 70,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "Australia",
+      "eloDiff": 237,
+      "homeGoals": 4,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Morocco",
+      "awayTeam": "Croatia",
+      "eloDiff": -24,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Germany",
+      "awayTeam": "Japan",
+      "eloDiff": 145,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Spain",
+      "awayTeam": "Costa Rica",
+      "eloDiff": 243,
+      "homeGoals": 7,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Belgium",
+      "awayTeam": "Canada",
+      "eloDiff": 191,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Switzerland",
+      "awayTeam": "Cameroon",
+      "eloDiff": 133,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Uruguay",
+      "awayTeam": "South Korea",
+      "eloDiff": 132,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "Ghana",
+      "eloDiff": 233,
+      "homeGoals": 3,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Serbia",
+      "eloDiff": 248,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Wales",
+      "awayTeam": "Iran",
+      "eloDiff": 26,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Qatar",
+      "awayTeam": "Senegal",
+      "eloDiff": -77,
+      "homeGoals": 1,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Netherlands",
+      "awayTeam": "Ecuador",
+      "eloDiff": 188,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "England",
+      "awayTeam": "USA",
+      "eloDiff": 172,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Tunisia",
+      "awayTeam": "Australia",
+      "eloDiff": 27,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Poland",
+      "awayTeam": "Saudi Arabia",
+      "eloDiff": 93,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "Denmark",
+      "eloDiff": 150,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Mexico",
+      "eloDiff": 211,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Costa Rica",
+      "eloDiff": 106,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Belgium",
+      "awayTeam": "Morocco",
+      "eloDiff": 130,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Croatia",
+      "awayTeam": "Canada",
+      "eloDiff": 165,
+      "homeGoals": 4,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Spain",
+      "awayTeam": "Germany",
+      "eloDiff": 72,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Cameroon",
+      "awayTeam": "Serbia",
+      "eloDiff": -5,
+      "homeGoals": 3,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Ghana",
+      "eloDiff": 102,
+      "homeGoals": 2,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Switzerland",
+      "eloDiff": 200,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "Uruguay",
+      "eloDiff": 79,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Netherlands",
+      "awayTeam": "Qatar",
+      "eloDiff": 236,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Ecuador",
+      "awayTeam": "Senegal",
+      "eloDiff": -29,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Wales",
+      "awayTeam": "England",
+      "eloDiff": -134,
+      "homeGoals": 0,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Iran",
+      "awayTeam": "USA",
+      "eloDiff": 12,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Australia",
+      "awayTeam": "Denmark",
+      "eloDiff": -47,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Tunisia",
+      "awayTeam": "France",
+      "eloDiff": -170,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Poland",
+      "awayTeam": "Argentina",
+      "eloDiff": -161,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Mexico",
+      "eloDiff": -43,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Croatia",
+      "awayTeam": "Belgium",
+      "eloDiff": 14,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Canada",
+      "awayTeam": "Morocco",
+      "eloDiff": -21,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Spain",
+      "eloDiff": -97,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Costa Rica",
+      "awayTeam": "Germany",
+      "eloDiff": -131,
+      "homeGoals": 2,
+      "awayGoals": 4
+    },
+    {
+      "homeTeam": "Ghana",
+      "awayTeam": "Uruguay",
+      "eloDiff": -114,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Portugal",
+      "eloDiff": -91,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Serbia",
+      "awayTeam": "Switzerland",
+      "eloDiff": -8,
+      "homeGoals": 2,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Cameroon",
+      "awayTeam": "Brazil",
+      "eloDiff": -213,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Russia",
+      "awayTeam": "Saudi Arabia",
+      "eloDiff": 80,
+      "homeGoals": 5,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Egypt",
+      "awayTeam": "Uruguay",
+      "eloDiff": -86,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Morocco",
+      "awayTeam": "Iran",
+      "eloDiff": 15,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "Spain",
+      "eloDiff": 8,
+      "homeGoals": 3,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "Australia",
+      "eloDiff": 213,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Iceland",
+      "eloDiff": 221,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Peru",
+      "awayTeam": "Denmark",
+      "eloDiff": -64,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Croatia",
+      "awayTeam": "Nigeria",
+      "eloDiff": 149,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Costa Rica",
+      "awayTeam": "Serbia",
+      "eloDiff": 2,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Germany",
+      "awayTeam": "Mexico",
+      "eloDiff": 202,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Switzerland",
+      "eloDiff": 196,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Sweden",
+      "awayTeam": "South Korea",
+      "eloDiff": 62,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Belgium",
+      "awayTeam": "Panama",
+      "eloDiff": 248,
+      "homeGoals": 3,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Tunisia",
+      "awayTeam": "England",
+      "eloDiff": -132,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Colombia",
+      "awayTeam": "Japan",
+      "eloDiff": 123,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Poland",
+      "awayTeam": "Senegal",
+      "eloDiff": -25,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Russia",
+      "awayTeam": "Egypt",
+      "eloDiff": 35,
+      "homeGoals": 3,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "Morocco",
+      "eloDiff": 206,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Uruguay",
+      "awayTeam": "Saudi Arabia",
+      "eloDiff": 211,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Iran",
+      "awayTeam": "Spain",
+      "eloDiff": -133,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Denmark",
+      "awayTeam": "Australia",
+      "eloDiff": 94,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "Peru",
+      "eloDiff": 263,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Croatia",
+      "eloDiff": 105,
+      "homeGoals": 0,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Costa Rica",
+      "eloDiff": 291,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Nigeria",
+      "awayTeam": "Iceland",
+      "eloDiff": 47,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Serbia",
+      "awayTeam": "Switzerland",
+      "eloDiff": -17,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Belgium",
+      "awayTeam": "Tunisia",
+      "eloDiff": 231,
+      "homeGoals": 5,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Mexico",
+      "eloDiff": 10,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Germany",
+      "awayTeam": "Sweden",
+      "eloDiff": 210,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "England",
+      "awayTeam": "Panama",
+      "eloDiff": 229,
+      "homeGoals": 6,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Senegal",
+      "eloDiff": 12,
+      "homeGoals": 2,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Poland",
+      "awayTeam": "Colombia",
+      "eloDiff": -80,
+      "homeGoals": 0,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Uruguay",
+      "awayTeam": "Russia",
+      "eloDiff": 171,
+      "homeGoals": 3,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Egypt",
+      "eloDiff": -5,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Spain",
+      "awayTeam": "Morocco",
+      "eloDiff": 238,
+      "homeGoals": 2,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Iran",
+      "awayTeam": "Portugal",
+      "eloDiff": -101,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Australia",
+      "awayTeam": "Peru",
+      "eloDiff": 90,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Denmark",
+      "awayTeam": "France",
+      "eloDiff": -79,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Nigeria",
+      "awayTeam": "Argentina",
+      "eloDiff": -134,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Iceland",
+      "awayTeam": "Croatia",
+      "eloDiff": -76,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Germany",
+      "eloDiff": -152,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Mexico",
+      "awayTeam": "Sweden",
+      "eloDiff": 48,
+      "homeGoals": 0,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Switzerland",
+      "awayTeam": "Costa Rica",
+      "eloDiff": 135,
+      "homeGoals": 2,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Serbia",
+      "awayTeam": "Brazil",
+      "eloDiff": -173,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Poland",
+      "eloDiff": 77,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Senegal",
+      "awayTeam": "Colombia",
+      "eloDiff": -15,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Panama",
+      "awayTeam": "Tunisia",
+      "eloDiff": 23,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "England",
+      "awayTeam": "Belgium",
+      "eloDiff": 21,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Croatia",
+      "eloDiff": 178,
+      "homeGoals": 3,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Mexico",
+      "awayTeam": "Cameroon",
+      "eloDiff": 120,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Spain",
+      "awayTeam": "Netherlands",
+      "eloDiff": 84,
+      "homeGoals": 1,
+      "awayGoals": 5
+    },
+    {
+      "homeTeam": "Chile",
+      "awayTeam": "Australia",
+      "eloDiff": 155,
+      "homeGoals": 3,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Colombia",
+      "awayTeam": "Greece",
+      "eloDiff": 100,
+      "homeGoals": 3,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Japan",
+      "eloDiff": 45,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Uruguay",
+      "awayTeam": "Costa Rica",
+      "eloDiff": 180,
+      "homeGoals": 1,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "England",
+      "awayTeam": "Italy",
+      "eloDiff": 70,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Switzerland",
+      "awayTeam": "Ecuador",
+      "eloDiff": 85,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "Honduras",
+      "eloDiff": 208,
+      "homeGoals": 3,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Bosnia-Herzegovina",
+      "eloDiff": 230,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Iran",
+      "awayTeam": "Nigeria",
+      "eloDiff": 30,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Germany",
+      "awayTeam": "Portugal",
+      "eloDiff": 83,
+      "homeGoals": 4,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Ghana",
+      "awayTeam": "USA",
+      "eloDiff": -15,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Belgium",
+      "awayTeam": "Algeria",
+      "eloDiff": 150,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Mexico",
+      "eloDiff": 228,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Russia",
+      "awayTeam": "South Korea",
+      "eloDiff": 62,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Australia",
+      "awayTeam": "Netherlands",
+      "eloDiff": -171,
+      "homeGoals": 2,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Spain",
+      "awayTeam": "Chile",
+      "eloDiff": 180,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Cameroon",
+      "awayTeam": "Croatia",
+      "eloDiff": -90,
+      "homeGoals": 0,
+      "awayGoals": 4
+    },
+    {
+      "homeTeam": "Colombia",
+      "awayTeam": "Ivory Coast",
+      "eloDiff": 140,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Uruguay",
+      "awayTeam": "England",
+      "eloDiff": 20,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Greece",
+      "eloDiff": -5,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Italy",
+      "awayTeam": "Costa Rica",
+      "eloDiff": 170,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Switzerland",
+      "awayTeam": "France",
+      "eloDiff": 7,
+      "homeGoals": 2,
+      "awayGoals": 5
+    },
+    {
+      "homeTeam": "Honduras",
+      "awayTeam": "Ecuador",
+      "eloDiff": -50,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Iran",
+      "eloDiff": 260,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Germany",
+      "awayTeam": "Ghana",
+      "eloDiff": 244,
+      "homeGoals": 2,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Nigeria",
+      "awayTeam": "Bosnia-Herzegovina",
+      "eloDiff": 20,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Belgium",
+      "awayTeam": "Russia",
+      "eloDiff": 148,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Algeria",
+      "eloDiff": 20,
+      "homeGoals": 2,
+      "awayGoals": 4
+    },
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Portugal",
+      "eloDiff": -66,
+      "homeGoals": 2,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Cameroon",
+      "awayTeam": "Brazil",
+      "eloDiff": -228,
+      "homeGoals": 1,
+      "awayGoals": 4
+    },
+    {
+      "homeTeam": "Croatia",
+      "awayTeam": "Mexico",
+      "eloDiff": 90,
+      "homeGoals": 1,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Australia",
+      "awayTeam": "Spain",
+      "eloDiff": -215,
+      "homeGoals": 0,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Netherlands",
+      "awayTeam": "Chile",
+      "eloDiff": 136,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Colombia",
+      "eloDiff": -65,
+      "homeGoals": 1,
+      "awayGoals": 4
+    },
+    {
+      "homeTeam": "Costa Rica",
+      "awayTeam": "England",
+      "eloDiff": -120,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Italy",
+      "awayTeam": "Uruguay",
+      "eloDiff": 30,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Greece",
+      "awayTeam": "Ivory Coast",
+      "eloDiff": 80,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Honduras",
+      "awayTeam": "Switzerland",
+      "eloDiff": -95,
+      "homeGoals": 0,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Ecuador",
+      "awayTeam": "France",
+      "eloDiff": -38,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Nigeria",
+      "awayTeam": "Argentina",
+      "eloDiff": -170,
+      "homeGoals": 2,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Bosnia-Herzegovina",
+      "awayTeam": "Iran",
+      "eloDiff": 70,
+      "homeGoals": 3,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Germany",
+      "eloDiff": -109,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "Ghana",
+      "eloDiff": 201,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Algeria",
+      "awayTeam": "Russia",
+      "eloDiff": 38,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Belgium",
+      "eloDiff": -90,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "South Africa",
+      "awayTeam": "Mexico",
+      "eloDiff": -20,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Uruguay",
+      "awayTeam": "France",
+      "eloDiff": 25,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Greece",
+      "eloDiff": 45,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Nigeria",
+      "eloDiff": 185,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "England",
+      "awayTeam": "United States",
+      "eloDiff": 130,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Algeria",
+      "awayTeam": "Slovenia",
+      "eloDiff": 45,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Serbia",
+      "awayTeam": "Ghana",
+      "eloDiff": 80,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Germany",
+      "awayTeam": "Australia",
+      "eloDiff": 155,
+      "homeGoals": 4,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Netherlands",
+      "awayTeam": "Denmark",
+      "eloDiff": 195,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Cameroon",
+      "eloDiff": 45,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Italy",
+      "awayTeam": "Paraguay",
+      "eloDiff": 95,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "New Zealand",
+      "awayTeam": "Slovakia",
+      "eloDiff": 0,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Portugal",
+      "eloDiff": -40,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "North Korea",
+      "eloDiff": 326,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Honduras",
+      "awayTeam": "Chile",
+      "eloDiff": -75,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Spain",
+      "awayTeam": "Switzerland",
+      "eloDiff": 218,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "South Africa",
+      "awayTeam": "Uruguay",
+      "eloDiff": -60,
+      "homeGoals": 0,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "South Korea",
+      "eloDiff": 165,
+      "homeGoals": 4,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Greece",
+      "awayTeam": "Nigeria",
+      "eloDiff": 55,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "Mexico",
+      "eloDiff": 95,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Germany",
+      "awayTeam": "Serbia",
+      "eloDiff": 125,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Slovenia",
+      "awayTeam": "United States",
+      "eloDiff": -45,
+      "homeGoals": 2,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "England",
+      "awayTeam": "Algeria",
+      "eloDiff": 210,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Netherlands",
+      "awayTeam": "Japan",
+      "eloDiff": 210,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Ghana",
+      "awayTeam": "Australia",
+      "eloDiff": 30,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Cameroon",
+      "awayTeam": "Denmark",
+      "eloDiff": 20,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Slovakia",
+      "awayTeam": "Paraguay",
+      "eloDiff": -30,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Italy",
+      "awayTeam": "New Zealand",
+      "eloDiff": 205,
+      "homeGoals": 1,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Ivory Coast",
+      "eloDiff": 216,
+      "homeGoals": 3,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "North Korea",
+      "eloDiff": 230,
+      "homeGoals": 7,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Chile",
+      "awayTeam": "Switzerland",
+      "eloDiff": 85,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Spain",
+      "awayTeam": "Honduras",
+      "eloDiff": 288,
+      "homeGoals": 2,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Mexico",
+      "awayTeam": "Uruguay",
+      "eloDiff": 0,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "South Africa",
+      "eloDiff": 155,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Nigeria",
+      "awayTeam": "South Korea",
+      "eloDiff": 20,
+      "homeGoals": 2,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Greece",
+      "awayTeam": "Argentina",
+      "eloDiff": -90,
+      "homeGoals": 0,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Slovenia",
+      "awayTeam": "England",
+      "eloDiff": -135,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "United States",
+      "awayTeam": "Algeria",
+      "eloDiff": 120,
+      "homeGoals": 1,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Ghana",
+      "awayTeam": "Germany",
+      "eloDiff": -85,
+      "homeGoals": 0,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Australia",
+      "awayTeam": "Serbia",
+      "eloDiff": 10,
+      "homeGoals": 2,
+      "awayGoals": 1
+    },
+    {
+      "homeTeam": "Paraguay",
+      "awayTeam": "New Zealand",
+      "eloDiff": 150,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Slovakia",
+      "awayTeam": "Italy",
+      "eloDiff": -85,
+      "homeGoals": 3,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Denmark",
+      "awayTeam": "Japan",
+      "eloDiff": 55,
+      "homeGoals": 1,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Cameroon",
+      "awayTeam": "Netherlands",
+      "eloDiff": -135,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "North Korea",
+      "awayTeam": "Ivory Coast",
+      "eloDiff": -70,
+      "homeGoals": 0,
+      "awayGoals": 3
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "Brazil",
+      "eloDiff": -56,
+      "homeGoals": 0,
+      "awayGoals": 0
+    },
+    {
+      "homeTeam": "Chile",
+      "awayTeam": "Spain",
+      "eloDiff": -93,
+      "homeGoals": 1,
+      "awayGoals": 2
+    },
+    {
+      "homeTeam": "Switzerland",
+      "awayTeam": "Honduras",
+      "eloDiff": 110,
+      "homeGoals": 0,
+      "awayGoals": 0
+    }
+  ]
+}

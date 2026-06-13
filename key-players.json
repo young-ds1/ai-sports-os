@@ -1,0 +1,46 @@
+{
+  "description": "Key player injury/absence tracking. Missing star players cause Elo penalty proportional to their weight.",
+  "lastUpdated": "2026-06-13",
+  "players": {
+    "Argentina": [
+      {"name": "Messi", "weight": 30, "status": "available"}
+    ],
+    "France": [
+      {"name": "Mbappé", "weight": 28, "status": "available"}
+    ],
+    "Brazil": [
+      {"name": "Vinicius Jr", "weight": 22, "status": "available"},
+      {"name": "Rodrygo", "weight": 15, "status": "available"}
+    ],
+    "England": [
+      {"name": "Bellingham", "weight": 25, "status": "available"},
+      {"name": "Kane", "weight": 22, "status": "available"}
+    ],
+    "Portugal": [
+      {"name": "Cristiano Ronaldo", "weight": 18, "status": "available"}
+    ],
+    "Germany": [
+      {"name": "Musiala", "weight": 20, "status": "available"}
+    ],
+    "Spain": [
+      {"name": "Lamine Yamal", "weight": 18, "status": "available"}
+    ],
+    "Netherlands": [
+      {"name": "Van Dijk", "weight": 18, "status": "available"}
+    ],
+    "Belgium": [
+      {"name": "De Bruyne", "weight": 20, "status": "available"}
+    ],
+    "Norway": [
+      {"name": "Haaland", "weight": 28, "status": "available"}
+    ]
+  },
+  "statusOptions": ["available", "doubtful", "out"],
+  "weightGuide": {
+    "30": "Ballon d'Or level — team collapses without them (Messi, Mbappé, Haaland)",
+    "20-28": "World-class — major impact on both attack and morale",
+    "12-18": "Key player — noticeable absence, team has alternatives",
+    "5-10": "Important squad member — minor adjustment"
+  },
+  "effectFormula": "If status='out': Elo -= weight. If status='doubtful': Elo -= weight * 0.4."
+}

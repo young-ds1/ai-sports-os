@@ -1,0 +1,11 @@
+{
+  "BASELINE": 0.9,
+  "HOME_FACTOR": 1.2,
+  "ATTACK_SPREAD": 1.2,
+  "DEFENSE_SPREAD": 0.6,
+  "DC_RHO": -0.04,
+  "outcome_acc": 55.7,
+  "score_acc": 14.6,
+  "training": "WC 2010-2022 (192 matches)",
+  "calibratedAt": "2026-06-13"
+}

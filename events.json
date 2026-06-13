@@ -1,0 +1,43 @@
+{
+  "description": "Off-field events & 小道消息 (insider news). These affect team performance but are NOT priced into betting odds.",
+  "lastUpdated": "2026-06-13",
+  "reliabilityWeights": {
+    "confirmed": 1.0,
+    "reliable_source": 0.8,
+    "rumor": 0.4,
+    "unverified": 0.2
+  },
+  "categories": {
+    "locker_room": "更衣室矛盾/内讧/教练球员冲突 → 团队协作崩溃",
+    "scandal": "丑闻/夜店/违纪 → 士气打击+媒体压力",
+    "injury_news": "非官方伤病消息/训练受伤 → 可能缺席",
+    "travel_logistics": "行程问题/装备丢失/住宿差 → 备战受影响",
+    "external_pressure": "国内舆论/足协施压/球迷抗议 → 心理负担",
+    "referee_news": "裁判争议/尺度预判 → 影响比赛节奏",
+    "positive_momentum": "士气高涨/更衣室团结/训练状态好 → 正面加成"
+  },
+  "events": [
+    {
+      "team": "England",
+      "event": "全队装备被盗，包括球鞋和战术平板",
+      "category": "travel_logistics",
+      "reliability": "reliable_source",
+      "severity": -25,
+      "date": "2026-06-13",
+      "expiresAfter": "2026-06-20",
+      "source": "BBC Sport / The Guardian",
+      "note": "装备丢失影响备战节奏，年轻球员心理受冲击更大"
+    }
+  ],
+  "watchTemplate": {
+    "team": "",
+    "event": "",
+    "category": "locker_room",
+    "reliability": "rumor",
+    "severity": -15,
+    "date": "2026-06-13",
+    "expiresAfter": "2026-06-20",
+    "source": "",
+    "note": ""
+  }
+}
