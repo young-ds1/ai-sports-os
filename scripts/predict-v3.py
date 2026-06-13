@@ -320,6 +320,21 @@ def compute_xg(home_elo, away_elo, h_fatigue=1.0, a_fatigue=1.0, h_event=0, a_ev
     return max(0.1, min(7.0, xh)), max(0.1, min(7.0, xa))
 
 
+def xg_from_elo_gap(home_elo, away_elo, fatigue_h=1.0, fatigue_a=1.0):
+    """Extreme Elo gap lookup. Poisson fails at gap>200, use empirical table."""
+    gap = (home_elo + HOME_ADV_ELO) - away_elo
+    if gap > 300:    xh, xa = 3.8, 0.3
+    elif gap > 250:  xh, xa = 3.2, 0.4
+    elif gap > 200:  xh, xa = 2.6, 0.5
+    elif gap > 150:  xh, xa = 2.0, 0.6
+    elif gap < -300: xh, xa = 0.3, 3.8
+    elif gap < -250: xh, xa = 0.4, 3.2
+    elif gap < -200: xh, xa = 0.5, 2.6
+    elif gap < -150: xh, xa = 0.6, 2.0
+    else: return None
+    return xh * fatigue_h, xa * fatigue_a
+
+
 def score_distribution_dc(xg_h, xg_a):
     """Score distribution with Dixon-Coles ρ correction."""
     scores = []
@@ -474,7 +489,12 @@ def main():
         weather_physical = weather.get('physical', False)
 
         # Compute xG with ALL factors
-        xg_h, xg_a = compute_xg(h_elo, a_elo, h_fatigue, a_fatigue, h_event, a_event)
+        # Try extreme Elo gap lookup first, fall back to compute_xg
+        xg_extreme = xg_from_elo_gap(h_elo, a_elo, h_fatigue, a_fatigue)
+        if xg_extreme:
+            xg_h, xg_a = xg_extreme
+        else:
+            xg_h, xg_a = compute_xg(h_elo, a_elo, h_fatigue, a_fatigue, h_event, a_event)
         # Apply pressure + tactical multipliers
         xg_h = xg_h * h_press_att / a_press_def * tactic_mult
         xg_a = xg_a * a_press_att / h_press_def / tactic_mult
