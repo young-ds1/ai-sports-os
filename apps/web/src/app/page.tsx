@@ -121,7 +121,8 @@ export default function HomePage() {
   // Build match factor indicators
   function getFactors(p: any): string[] {
     const f: string[] = [];
-    if (p.eventHome !== 0 || p.eventAway !== 0) f.push("📰");
+    // Only flag negative events (real off-field issues), not experience bonuses
+    if ((p.eventHome || 0) < -3 || (p.eventAway || 0) < -3) f.push("📰");
     if (p.pressureHome && p.pressureHome !== "normal") f.push("🔴");
     if (p.pressureAway && p.pressureAway !== "normal") f.push("🔴");
     if (p.tacticMult && p.tacticMult !== 1.0) f.push("⚔️");
