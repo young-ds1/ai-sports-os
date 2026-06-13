@@ -50,7 +50,7 @@ export default function PredictPage({ params }: { params: { teams: string[] } })
   const dwp = match.drawPct || 34;
   const awp = match.awayWinPct || 33;
   const fav = hwp >= awp ? ht : at;
-  const hasEvents = (match.eventHome || 0) !== 0 || (match.eventAway || 0) !== 0;
+  const hasEvents = (match.eventHome || 0) < -3 || (match.eventAway || 0) < -3;
   const hasHistory = match.historicalSimilar && match.historicalSimilar.matchCount > 0;
   const hasPressure = match.pressureHome && match.pressureHome !== 'normal' || match.pressureAway && match.pressureAway !== 'normal';
   const hasTactic = match.tacticMult && match.tacticMult !== 1.0;
@@ -124,21 +124,21 @@ export default function PredictPage({ params }: { params: { teams: string[] } })
         <div style={{background:"#1a0a0a",border:"1px solid #7f1d1d",borderRadius:14,padding:16,marginBottom:16}}>
           {section("⚠️ 场外因素")}
           <div style={{fontSize:12,lineHeight:1.8}}>
-            {match.eventHome !== 0 && (
+            {(match.eventHome || 0) < -3 && (
               <div style={{marginBottom:4,display:"flex",alignItems:"center",gap:8}}>
                 <span style={{fontSize:18}}>{flag(ht)}</span>
                 <span style={{color:_.light}}>{cn(ht)}</span>
-                <span style={{color:match.eventHome<0?_.red:_.green,fontWeight:600,fontFamily:"monospace"}}>
-                  {match.eventHome>0?"+":""}{match.eventHome} Elo点
+                <span style={{color:_.red,fontWeight:600,fontFamily:"monospace"}}>
+                  {match.eventHome} Elo点
                 </span>
               </div>
             )}
-            {match.eventAway !== 0 && (
+            {(match.eventAway || 0) < -3 && (
               <div style={{marginBottom:4,display:"flex",alignItems:"center",gap:8}}>
                 <span style={{fontSize:18}}>{flag(at)}</span>
                 <span style={{color:_.light}}>{cn(at)}</span>
-                <span style={{color:match.eventAway<0?_.red:_.green,fontWeight:600,fontFamily:"monospace"}}>
-                  {match.eventAway>0?"+":""}{match.eventAway} Elo点
+                <span style={{color:_.red,fontWeight:600,fontFamily:"monospace"}}>
+                  {match.eventAway} Elo点
                 </span>
               </div>
             )}
