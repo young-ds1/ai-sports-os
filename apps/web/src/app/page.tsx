@@ -83,11 +83,14 @@ export default function HomePage() {
     }
   }
 
-  // Completed matches lookup
+  // Completed matches lookup with actual scores
   const completedMatches = new Set<string>();
+  const actualScores: Record<string, string> = {};
   if (resultsData?.results) {
     for (const r of resultsData.results) {
-      completedMatches.add(`${r.homeTeam}|${r.awayTeam}`);
+      const key = `${r.homeTeam}|${r.awayTeam}`;
+      completedMatches.add(key);
+      actualScores[key] = `${r.homeScore}-${r.awayScore}`;
     }
   }
 
@@ -216,22 +219,31 @@ export default function HomePage() {
               {preds.map((p: any) => {
                 const href = `/predict/${encodeURIComponent(p.homeTeam)}/${encodeURIComponent(p.awayTeam)}`;
                 const factors = getFactors(p);
-                const isCompleted = completedMatches.has(`${p.homeTeam}|${p.awayTeam}`);
+                const matchKey = `${p.homeTeam}|${p.awayTeam}`;
+                const isCompleted = completedMatches.has(matchKey);
+                const actualScore = actualScores[matchKey];
+                const predictedWinner = p.homeWinPct >= p.drawPct && p.homeWinPct >= p.awayWinPct ? "home" : (p.drawPct >= p.awayWinPct ? "draw" : "away");
+                const actualOutcome = actualScore ? (() => { const [h,a] = actualScore.split("-").map(Number); return h>a?"home":(h===a?"draw":"away"); })() : null;
+                const outcomeMatch = actualOutcome === predictedWinner;
                 return (
-                  <Link key={`${p.homeTeam}-${p.awayTeam}`} href={href} style={{textDecoration:"none",color:"inherit"}}>
-                    <div style={{background:isCompleted?"#f0fdf4":"#fff",borderRadius:10,padding:"12px 16px",marginBottom:6,
-                      boxShadow:"0 1px 3px rgba(0,0,0,0.04)",border:isCompleted?"1px solid #bbf7d0":"none"}}>
+                  <Link key={matchKey} href={href} style={{textDecoration:"none",color:"inherit"}}>
+                    <div style={{background:isCompleted?(outcomeMatch?"#f0fdf4":"#fef2f2"):"#fff",borderRadius:10,padding:"12px 16px",marginBottom:6,
+                      boxShadow:"0 1px 3px rgba(0,0,0,0.04)",border:isCompleted?(outcomeMatch?"1px solid #bbf7d0":"1px solid #fecaca"):"none"}}>
                       <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8}}>
                         <div style={{display:"flex",alignItems:"center",gap:6}}>
                           <span style={{fontSize:18}}>{FLAGS[p.homeTeam] || "⚽"}</span>
                           <span style={{fontSize:14,fontWeight:600,color:"#222"}}>{cn(p.homeTeam)}</span>
-                          <span style={{fontSize:11,color:"#999"}}>vs</span>
+                          {isCompleted && actualScore ? (
+                            <><span style={{fontSize:16,fontWeight:700,fontFamily:"monospace",color:"#111"}}>{actualScore}</span></>
+                          ) : (
+                            <span style={{fontSize:11,color:"#999"}}>vs</span>
+                          )}
                           <span style={{fontSize:14,fontWeight:600,color:"#222"}}>{cn(p.awayTeam)}</span>
                           <span style={{fontSize:18}}>{FLAGS[p.awayTeam] || "⚽"}</span>
                         </div>
                         <div style={{display:"flex",alignItems:"center",gap:6}}>
                           {factors.map((f,i)=><span key={i} style={{fontSize:12}} title="有影响因素">{f}</span>)}
-                          {isCompleted && <span style={{fontSize:10,color:"#10b981",background:"#dcfce7",padding:"1px 6px",borderRadius:4}}>完赛</span>}
+                          {isCompleted && <span style={{fontSize:10,color:outcomeMatch?"#10b981":"#dc2626",background:outcomeMatch?"#dcfce7":"#fef2f2",padding:"1px 6px",borderRadius:4}}>{outcomeMatch?"✓预测正确":"✗预测错误"}</span>}
                           {activeEvents[p.homeTeam] && <span style={{fontSize:10,color:"#dc2626",background:"#fef2f2",padding:"1px 6px",borderRadius:4}}>📰事件</span>}
                           {activeEvents[p.awayTeam] && <span style={{fontSize:10,color:"#dc2626",background:"#fef2f2",padding:"1px 6px",borderRadius:4}}>📰事件</span>}
                           <span style={{fontSize:11,color:"#999"}}>{p.kickoff||""}</span>
