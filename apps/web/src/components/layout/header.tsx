@@ -9,8 +9,8 @@ export function Header() {
       <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <span className="text-2xl">⚽</span>
-          <span className="bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">
-            AI Sports OS
+          <span className="text-gray-900 font-bold">
+            2026世界杯 AI 预测
           </span>
         </Link>
         <nav className="flex items-center gap-3">

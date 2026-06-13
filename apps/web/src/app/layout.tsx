@@ -3,8 +3,8 @@ import './globals.css';
 import { Header } from '@/components/layout/header';
 
 export const metadata: Metadata = {
-  title: 'AI Sports OS',
-  description: 'AI-driven global sports intelligence platform',
+  title: '2026世界杯 AI 预测',
+  description: 'AI驱动的世界杯比赛预测平台，实时比分 + 概率分析',
   icons: { icon: '/favicon.ico' },
 };
 
