@@ -1,5 +1,7 @@
 import Link from "next/link";
 import AccuracyBadge from "@/components/ai/accuracy-badge";
+import fs from "fs";
+import path from "path";
 
 const CN: Record<string,string> = {
   Argentina:"阿根廷",France:"法国",Brazil:"巴西",England:"英格兰",
@@ -34,15 +36,17 @@ const FLAGS: Record<string,string> = {
   Paraguay:"🇵🇾",Switzerland:"🇨�?","Czechia":"🇨🇿",
 };
 
-async function getData() {
+function getData() {
   try {
-    const p = await fetch("http://localhost:3000/worldcup-predictions.json", { cache: "no-store" }).then(r => r.json());
-    return Array.isArray(p) ? p : [];
+    const filePath = path.join(process.cwd(), "public", "worldcup-predictions.json");
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const data = JSON.parse(raw);
+    return Array.isArray(data) ? data : [];
   } catch { return []; }
 }
 
-export default async function HomePage() {
-  const predictions = await getData();
+export default function HomePage() {
+  const predictions = getData();
 
   // Compute tournament ranking from prediction data
   const teamScores: Record<string, number> = {};
