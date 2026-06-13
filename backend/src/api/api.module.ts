@@ -22,6 +22,8 @@ import { AiChatController } from './controllers/ai-chat.controller';
 import { AiPredictionController } from './controllers/ai-prediction.controller';
 import { UserController } from './controllers/user.controller';
 import { AnalyticsController } from './controllers/analytics.controller';
+import { MatchResultsController } from './controllers/match-results.controller';
+import { MatchResultsService } from './controllers/match-results.service';
 
 const CONTROLLERS = [
   HealthController,
@@ -34,6 +36,7 @@ const CONTROLLERS = [
   AiPredictionController,
   UserController,
   AnalyticsController, // Admin analytics dashboard
+  MatchResultsController,
 ];
 
 const GUARDS = [
@@ -60,6 +63,8 @@ const INTERCEPTORS = [
     { provide: APP_INTERCEPTOR, useExisting: UsageTrackerInterceptor },
     // Middleware
     AiRequestMiddleware,
+    // Services
+    MatchResultsService,
   ],
 })
 export class ApiModule implements NestModule {

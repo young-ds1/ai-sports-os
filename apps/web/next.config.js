@@ -11,6 +11,11 @@ const nextConfig = {
         source: '/api/:path*',
         destination: 'http://localhost:3001/api/:path*',
       },
+      // Proxy match-results.json to backend API for live updates
+      {
+        source: '/match-results.json',
+        destination: 'http://localhost:3001/api/results',
+      },
     ];
   },
 };
