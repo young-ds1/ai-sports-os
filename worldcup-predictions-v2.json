@@ -1,0 +1,2690 @@
+[
+  {
+    "date": "2026-06-12",
+    "homeTeam": "South Korea",
+    "awayTeam": "Czech Republic",
+    "homeWinPct": 42,
+    "drawPct": 30,
+    "awayWinPct": 28,
+    "oddsHome": 2.65,
+    "oddsDraw": 3.17,
+    "oddsAway": 3.05,
+    "over25Pct": 43,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "10:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 19.6
+      },
+      {
+        "score": "0-0",
+        "prob": 14.2
+      },
+      {
+        "score": "1-1",
+        "prob": 13.9
+      },
+      {
+        "score": "2-0",
+        "prob": 13.6
+      },
+      {
+        "score": "0-1",
+        "prob": 10.0
+      },
+      {
+        "score": "2-1",
+        "prob": 9.6
+      },
+      {
+        "score": "3-0",
+        "prob": 6.3
+      },
+      {
+        "score": "1-2",
+        "prob": 4.9
+      },
+      {
+        "score": "3-1",
+        "prob": 4.4
+      },
+      {
+        "score": "0-2",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 19.6
+    },
+    "xgHome": 1.38,
+    "xgAway": 0.71,
+    "eloHome": 1900,
+    "eloAway": 1820
+  },
+  {
+    "date": "2026-06-12",
+    "homeTeam": "Canada",
+    "awayTeam": "Bosnia & Herzegovina",
+    "homeWinPct": 50,
+    "drawPct": 28,
+    "awayWinPct": 21,
+    "oddsHome": 1.89,
+    "oddsDraw": 3.45,
+    "oddsAway": 4.7,
+    "over25Pct": 45,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "03:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.3
+      },
+      {
+        "score": "1-1",
+        "prob": 14.9
+      },
+      {
+        "score": "0-0",
+        "prob": 14.4
+      },
+      {
+        "score": "0-1",
+        "prob": 11.7
+      },
+      {
+        "score": "2-0",
+        "prob": 11.6
+      },
+      {
+        "score": "2-1",
+        "prob": 9.5
+      },
+      {
+        "score": "1-2",
+        "prob": 6.0
+      },
+      {
+        "score": "3-0",
+        "prob": 4.9
+      },
+      {
+        "score": "0-2",
+        "prob": 4.7
+      },
+      {
+        "score": "3-1",
+        "prob": 4.0
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.3
+    },
+    "xgHome": 1.27,
+    "xgAway": 0.81,
+    "eloHome": 1890,
+    "eloAway": 1845
+  },
+  {
+    "date": "2026-06-13",
+    "homeTeam": "USA",
+    "awayTeam": "Paraguay",
+    "homeWinPct": 51,
+    "drawPct": 27,
+    "awayWinPct": 22,
+    "oddsHome": 1.95,
+    "oddsDraw": 3.51,
+    "oddsAway": 4.21,
+    "over25Pct": 48,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "09:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.2
+      },
+      {
+        "score": "1-1",
+        "prob": 14.4
+      },
+      {
+        "score": "2-0",
+        "prob": 13.3
+      },
+      {
+        "score": "0-0",
+        "prob": 12.4
+      },
+      {
+        "score": "2-1",
+        "prob": 10.5
+      },
+      {
+        "score": "0-1",
+        "prob": 9.8
+      },
+      {
+        "score": "3-0",
+        "prob": 6.5
+      },
+      {
+        "score": "1-2",
+        "prob": 5.7
+      },
+      {
+        "score": "3-1",
+        "prob": 5.1
+      },
+      {
+        "score": "2-2",
+        "prob": 4.1
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.2
+    },
+    "xgHome": 1.46,
+    "xgAway": 0.79,
+    "eloHome": 1935,
+    "eloAway": 1855
+  },
+  {
+    "date": "2026-06-13",
+    "homeTeam": "Qatar",
+    "awayTeam": "Switzerland",
+    "homeWinPct": 12,
+    "drawPct": 18,
+    "awayWinPct": 70,
+    "oddsHome": 16.0,
+    "oddsDraw": 7.0,
+    "oddsAway": 1.23,
+    "over25Pct": 57,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "03:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 16.4
+      },
+      {
+        "score": "1-1",
+        "prob": 15.6
+      },
+      {
+        "score": "0-0",
+        "prob": 12.2
+      },
+      {
+        "score": "1-0",
+        "prob": 11.6
+      },
+      {
+        "score": "0-2",
+        "prob": 11.0
+      },
+      {
+        "score": "1-2",
+        "prob": 10.5
+      },
+      {
+        "score": "2-1",
+        "prob": 7.4
+      },
+      {
+        "score": "2-0",
+        "prob": 5.5
+      },
+      {
+        "score": "2-2",
+        "prob": 5.0
+      },
+      {
+        "score": "0-3",
+        "prob": 4.9
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 16.4
+    },
+    "xgHome": 0.95,
+    "xgAway": 1.34,
+    "eloHome": 1870,
+    "eloAway": 1975
+  },
+  {
+    "date": "2026-06-13",
+    "homeTeam": "Brazil",
+    "awayTeam": "Morocco",
+    "homeWinPct": 60,
+    "drawPct": 23,
+    "awayWinPct": 16,
+    "oddsHome": 1.62,
+    "oddsDraw": 3.89,
+    "oddsAway": 6.04,
+    "over25Pct": 47,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "06:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 14.9
+      },
+      {
+        "score": "2-0",
+        "prob": 14.1
+      },
+      {
+        "score": "1-1",
+        "prob": 13.7
+      },
+      {
+        "score": "2-1",
+        "prob": 12.9
+      },
+      {
+        "score": "3-0",
+        "prob": 8.8
+      },
+      {
+        "score": "3-1",
+        "prob": 8.1
+      },
+      {
+        "score": "0-0",
+        "prob": 7.9
+      },
+      {
+        "score": "0-1",
+        "prob": 7.3
+      },
+      {
+        "score": "1-2",
+        "prob": 6.3
+      },
+      {
+        "score": "2-2",
+        "prob": 5.9
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 14.9
+    },
+    "xgHome": 1.88,
+    "xgAway": 0.92,
+    "eloHome": 2098,
+    "eloAway": 1960
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Haiti",
+    "awayTeam": "Scotland",
+    "homeWinPct": 20,
+    "drawPct": 25,
+    "awayWinPct": 55,
+    "oddsHome": 5.87,
+    "oddsDraw": 4.26,
+    "oddsAway": 1.58,
+    "over25Pct": 50,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "09:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.8
+      },
+      {
+        "score": "0-0",
+        "prob": 17.5
+      },
+      {
+        "score": "1-1",
+        "prob": 14.9
+      },
+      {
+        "score": "1-0",
+        "prob": 14.7
+      },
+      {
+        "score": "0-2",
+        "prob": 9.0
+      },
+      {
+        "score": "1-2",
+        "prob": 7.5
+      },
+      {
+        "score": "2-1",
+        "prob": 6.2
+      },
+      {
+        "score": "2-0",
+        "prob": 6.2
+      },
+      {
+        "score": "2-2",
+        "prob": 3.2
+      },
+      {
+        "score": "0-3",
+        "prob": 3.0
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.8
+    },
+    "xgHome": 0.84,
+    "xgAway": 1.01,
+    "eloHome": 1805,
+    "eloAway": 1860
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Australia",
+    "awayTeam": "Turkey",
+    "homeWinPct": 24,
+    "drawPct": 26,
+    "awayWinPct": 50,
+    "oddsHome": 5.4,
+    "oddsDraw": 3.87,
+    "oddsAway": 1.73,
+    "over25Pct": 47,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "12:00",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.0
+      },
+      {
+        "score": "1-0",
+        "prob": 15.0
+      },
+      {
+        "score": "0-1",
+        "prob": 13.9
+      },
+      {
+        "score": "0-0",
+        "prob": 13.1
+      },
+      {
+        "score": "2-1",
+        "prob": 9.2
+      },
+      {
+        "score": "2-0",
+        "prob": 8.6
+      },
+      {
+        "score": "1-2",
+        "prob": 8.5
+      },
+      {
+        "score": "0-2",
+        "prob": 7.4
+      },
+      {
+        "score": "2-2",
+        "prob": 4.9
+      },
+      {
+        "score": "3-1",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.0
+    },
+    "xgHome": 1.15,
+    "xgAway": 1.06,
+    "eloHome": 1895,
+    "eloAway": 1915
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Germany",
+    "awayTeam": "Curaçao",
+    "homeWinPct": 89,
+    "drawPct": 8,
+    "awayWinPct": 4,
+    "oddsHome": 1.04,
+    "oddsDraw": 19.0,
+    "oddsAway": 41.0,
+    "over25Pct": 50,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "01:00",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.9
+      },
+      {
+        "score": "1-0",
+        "prob": 17.0
+      },
+      {
+        "score": "3-0",
+        "prob": 13.9
+      },
+      {
+        "score": "2-1",
+        "prob": 10.0
+      },
+      {
+        "score": "1-1",
+        "prob": 9.1
+      },
+      {
+        "score": "4-0",
+        "prob": 7.7
+      },
+      {
+        "score": "0-0",
+        "prob": 7.7
+      },
+      {
+        "score": "3-1",
+        "prob": 7.4
+      },
+      {
+        "score": "0-1",
+        "prob": 4.1
+      },
+      {
+        "score": "4-1",
+        "prob": 4.1
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.9
+    },
+    "xgHome": 2.21,
+    "xgAway": 0.53,
+    "eloHome": 2055,
+    "eloAway": 1810
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Japan",
+    "homeWinPct": 50,
+    "drawPct": 26,
+    "awayWinPct": 24,
+    "oddsHome": 2.03,
+    "oddsDraw": 3.62,
+    "oddsAway": 3.75,
+    "over25Pct": 49,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "04:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 15.4
+      },
+      {
+        "score": "1-1",
+        "prob": 14.9
+      },
+      {
+        "score": "2-0",
+        "prob": 12.6
+      },
+      {
+        "score": "2-1",
+        "prob": 12.1
+      },
+      {
+        "score": "0-0",
+        "prob": 9.5
+      },
+      {
+        "score": "0-1",
+        "prob": 9.1
+      },
+      {
+        "score": "1-2",
+        "prob": 7.2
+      },
+      {
+        "score": "3-0",
+        "prob": 6.8
+      },
+      {
+        "score": "3-1",
+        "prob": 6.6
+      },
+      {
+        "score": "2-2",
+        "prob": 5.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 15.4
+    },
+    "xgHome": 1.63,
+    "xgAway": 0.96,
+    "eloHome": 2025,
+    "eloAway": 1945
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Ivory Coast",
+    "awayTeam": "Ecuador",
+    "homeWinPct": 29,
+    "drawPct": 32,
+    "awayWinPct": 38,
+    "oddsHome": 3.69,
+    "oddsDraw": 2.82,
+    "oddsAway": 2.45,
+    "over25Pct": 53,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "07:00",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 15.9
+      },
+      {
+        "score": "1-0",
+        "prob": 15.0
+      },
+      {
+        "score": "0-1",
+        "prob": 14.3
+      },
+      {
+        "score": "0-0",
+        "prob": 13.4
+      },
+      {
+        "score": "2-1",
+        "prob": 8.9
+      },
+      {
+        "score": "1-2",
+        "prob": 8.5
+      },
+      {
+        "score": "2-0",
+        "prob": 8.4
+      },
+      {
+        "score": "0-2",
+        "prob": 7.6
+      },
+      {
+        "score": "2-2",
+        "prob": 4.7
+      },
+      {
+        "score": "3-1",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 15.9
+    },
+    "xgHome": 1.12,
+    "xgAway": 1.06,
+    "eloHome": 1885,
+    "eloAway": 1910
+  },
+  {
+    "date": "2026-06-15",
+    "homeTeam": "Sweden",
+    "awayTeam": "Tunisia",
+    "homeWinPct": 50,
+    "drawPct": 28,
+    "awayWinPct": 22,
+    "oddsHome": 1.92,
+    "oddsDraw": 3.5,
+    "oddsAway": 4.5,
+    "over25Pct": 42,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "10:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 17.7
+      },
+      {
+        "score": "1-1",
+        "prob": 14.9
+      },
+      {
+        "score": "0-0",
+        "prob": 13.0
+      },
+      {
+        "score": "2-0",
+        "prob": 12.1
+      },
+      {
+        "score": "0-1",
+        "prob": 10.9
+      },
+      {
+        "score": "2-1",
+        "prob": 10.2
+      },
+      {
+        "score": "1-2",
+        "prob": 6.3
+      },
+      {
+        "score": "3-0",
+        "prob": 5.5
+      },
+      {
+        "score": "3-1",
+        "prob": 4.7
+      },
+      {
+        "score": "0-2",
+        "prob": 4.6
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 17.7
+    },
+    "xgHome": 1.37,
+    "xgAway": 0.84,
+    "eloHome": 1920,
+    "eloAway": 1865
+  },
+  {
+    "date": "2026-06-15",
+    "homeTeam": "Spain",
+    "awayTeam": "Cape Verde",
+    "homeWinPct": 87,
+    "drawPct": 10,
+    "awayWinPct": 4,
+    "oddsHome": 1.07,
+    "oddsDraw": 11.86,
+    "oddsAway": 29.08,
+    "over25Pct": 50,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "00:00",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.8
+      },
+      {
+        "score": "1-0",
+        "prob": 16.6
+      },
+      {
+        "score": "3-0",
+        "prob": 14.3
+      },
+      {
+        "score": "2-1",
+        "prob": 10.1
+      },
+      {
+        "score": "1-1",
+        "prob": 8.9
+      },
+      {
+        "score": "4-0",
+        "prob": 8.1
+      },
+      {
+        "score": "3-1",
+        "prob": 7.6
+      },
+      {
+        "score": "0-0",
+        "prob": 7.3
+      },
+      {
+        "score": "4-1",
+        "prob": 4.3
+      },
+      {
+        "score": "0-1",
+        "prob": 3.9
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.8
+    },
+    "xgHome": 2.27,
+    "xgAway": 0.54,
+    "eloHome": 2070,
+    "eloAway": 1815
+  },
+  {
+    "date": "2026-06-15",
+    "homeTeam": "Belgium",
+    "awayTeam": "Egypt",
+    "homeWinPct": 58,
+    "drawPct": 24,
+    "awayWinPct": 18,
+    "oddsHome": 1.65,
+    "oddsDraw": 4.0,
+    "oddsAway": 5.6,
+    "over25Pct": 48,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "03:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.5
+      },
+      {
+        "score": "1-1",
+        "prob": 14.3
+      },
+      {
+        "score": "2-0",
+        "prob": 13.6
+      },
+      {
+        "score": "2-1",
+        "prob": 11.8
+      },
+      {
+        "score": "0-0",
+        "prob": 10.0
+      },
+      {
+        "score": "0-1",
+        "prob": 8.7
+      },
+      {
+        "score": "3-0",
+        "prob": 7.5
+      },
+      {
+        "score": "3-1",
+        "prob": 6.5
+      },
+      {
+        "score": "1-2",
+        "prob": 6.2
+      },
+      {
+        "score": "2-2",
+        "prob": 5.1
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.5
+    },
+    "xgHome": 1.65,
+    "xgAway": 0.87,
+    "eloHome": 2005,
+    "eloAway": 1905
+  },
+  {
+    "date": "2026-06-15",
+    "homeTeam": "Saudi Arabia",
+    "awayTeam": "Uruguay",
+    "homeWinPct": 16,
+    "drawPct": 23,
+    "awayWinPct": 61,
+    "oddsHome": 7.75,
+    "oddsDraw": 4.46,
+    "oddsAway": 1.46,
+    "over25Pct": 48,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "06:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 16.4
+      },
+      {
+        "score": "1-1",
+        "prob": 15.5
+      },
+      {
+        "score": "0-0",
+        "prob": 11.8
+      },
+      {
+        "score": "0-2",
+        "prob": 11.4
+      },
+      {
+        "score": "1-0",
+        "prob": 11.2
+      },
+      {
+        "score": "1-2",
+        "prob": 10.8
+      },
+      {
+        "score": "2-1",
+        "prob": 7.4
+      },
+      {
+        "score": "2-0",
+        "prob": 5.3
+      },
+      {
+        "score": "0-3",
+        "prob": 5.3
+      },
+      {
+        "score": "2-2",
+        "prob": 5.1
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 16.4
+    },
+    "xgHome": 0.95,
+    "xgAway": 1.39,
+    "eloHome": 1875,
+    "eloAway": 1990
+  },
+  {
+    "date": "2026-06-16",
+    "homeTeam": "Iran",
+    "awayTeam": "New Zealand",
+    "homeWinPct": 56,
+    "drawPct": 26,
+    "awayWinPct": 18,
+    "oddsHome": 1.83,
+    "oddsDraw": 3.57,
+    "oddsAway": 4.73,
+    "over25Pct": 47,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "09:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 20.1
+      },
+      {
+        "score": "2-0",
+        "prob": 16.6
+      },
+      {
+        "score": "0-0",
+        "prob": 12.2
+      },
+      {
+        "score": "1-1",
+        "prob": 12.0
+      },
+      {
+        "score": "2-1",
+        "prob": 9.9
+      },
+      {
+        "score": "3-0",
+        "prob": 9.2
+      },
+      {
+        "score": "0-1",
+        "prob": 7.2
+      },
+      {
+        "score": "3-1",
+        "prob": 5.4
+      },
+      {
+        "score": "4-0",
+        "prob": 3.8
+      },
+      {
+        "score": "1-2",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 20.1
+    },
+    "xgHome": 1.65,
+    "xgAway": 0.59,
+    "eloHome": 1940,
+    "eloAway": 1800
+  },
+  {
+    "date": "2026-06-16",
+    "homeTeam": "France",
+    "awayTeam": "Senegal",
+    "homeWinPct": 65,
+    "drawPct": 21,
+    "awayWinPct": 14,
+    "oddsHome": 1.49,
+    "oddsDraw": 4.4,
+    "oddsAway": 7.09,
+    "over25Pct": 48,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "03:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 15.1
+      },
+      {
+        "score": "2-0",
+        "prob": 14.8
+      },
+      {
+        "score": "1-1",
+        "prob": 13.2
+      },
+      {
+        "score": "2-1",
+        "prob": 13.0
+      },
+      {
+        "score": "3-0",
+        "prob": 9.7
+      },
+      {
+        "score": "3-1",
+        "prob": 8.5
+      },
+      {
+        "score": "0-0",
+        "prob": 7.6
+      },
+      {
+        "score": "0-1",
+        "prob": 6.7
+      },
+      {
+        "score": "1-2",
+        "prob": 5.8
+      },
+      {
+        "score": "2-2",
+        "prob": 5.7
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 15.1
+    },
+    "xgHome": 1.97,
+    "xgAway": 0.87,
+    "eloHome": 2112,
+    "eloAway": 1950
+  },
+  {
+    "date": "2026-06-16",
+    "homeTeam": "Iraq",
+    "awayTeam": "Norway",
+    "homeWinPct": 14,
+    "drawPct": 19,
+    "awayWinPct": 66,
+    "oddsHome": 16.0,
+    "oddsDraw": 6.75,
+    "oddsAway": 1.22,
+    "over25Pct": 49,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "06:00",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 16.7
+      },
+      {
+        "score": "1-0",
+        "prob": 16.6
+      },
+      {
+        "score": "0-1",
+        "prob": 15.3
+      },
+      {
+        "score": "1-1",
+        "prob": 15.2
+      },
+      {
+        "score": "2-0",
+        "prob": 8.3
+      },
+      {
+        "score": "2-1",
+        "prob": 7.6
+      },
+      {
+        "score": "0-2",
+        "prob": 7.0
+      },
+      {
+        "score": "1-2",
+        "prob": 7.0
+      },
+      {
+        "score": "2-2",
+        "prob": 3.5
+      },
+      {
+        "score": "3-0",
+        "prob": 2.8
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 16.7
+    },
+    "xgHome": 1.0,
+    "xgAway": 0.92,
+    "eloHome": 1835,
+    "eloAway": 1850
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "Argentina",
+    "awayTeam": "Algeria",
+    "homeWinPct": 73,
+    "drawPct": 19,
+    "awayWinPct": 9,
+    "oddsHome": 1.41,
+    "oddsDraw": 4.55,
+    "oddsAway": 9.05,
+    "over25Pct": 49,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "09:00",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.1
+      },
+      {
+        "score": "3-0",
+        "prob": 14.9
+      },
+      {
+        "score": "1-0",
+        "prob": 14.7
+      },
+      {
+        "score": "2-1",
+        "prob": 10.4
+      },
+      {
+        "score": "4-0",
+        "prob": 9.2
+      },
+      {
+        "score": "3-1",
+        "prob": 8.5
+      },
+      {
+        "score": "1-1",
+        "prob": 8.4
+      },
+      {
+        "score": "0-0",
+        "prob": 5.9
+      },
+      {
+        "score": "4-1",
+        "prob": 5.3
+      },
+      {
+        "score": "5-0",
+        "prob": 4.6
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.1
+    },
+    "xgHome": 2.47,
+    "xgAway": 0.57,
+    "eloHome": 2138,
+    "eloAway": 1845
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "Austria",
+    "awayTeam": "Jordan",
+    "homeWinPct": 72,
+    "drawPct": 18,
+    "awayWinPct": 10,
+    "oddsHome": 1.29,
+    "oddsDraw": 6.1,
+    "oddsAway": 11.0,
+    "over25Pct": 60,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "12:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 20.6
+      },
+      {
+        "score": "2-0",
+        "prob": 16.3
+      },
+      {
+        "score": "0-0",
+        "prob": 12.9
+      },
+      {
+        "score": "1-1",
+        "prob": 12.1
+      },
+      {
+        "score": "2-1",
+        "prob": 9.6
+      },
+      {
+        "score": "3-0",
+        "prob": 8.6
+      },
+      {
+        "score": "0-1",
+        "prob": 7.6
+      },
+      {
+        "score": "3-1",
+        "prob": 5.1
+      },
+      {
+        "score": "1-2",
+        "prob": 3.6
+      },
+      {
+        "score": "4-0",
+        "prob": 3.4
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 20.6
+    },
+    "xgHome": 1.59,
+    "xgAway": 0.59,
+    "eloHome": 1925,
+    "eloAway": 1795
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "Portugal",
+    "awayTeam": "DR Congo",
+    "homeWinPct": 77,
+    "drawPct": 16,
+    "awayWinPct": 7,
+    "oddsHome": 1.3,
+    "oddsDraw": 5.8,
+    "oddsAway": 11.5,
+    "over25Pct": 56,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "01:00",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 19.8
+      },
+      {
+        "score": "1-0",
+        "prob": 17.5
+      },
+      {
+        "score": "3-0",
+        "prob": 15.0
+      },
+      {
+        "score": "2-1",
+        "prob": 9.0
+      },
+      {
+        "score": "4-0",
+        "prob": 8.5
+      },
+      {
+        "score": "1-1",
+        "prob": 7.9
+      },
+      {
+        "score": "0-0",
+        "prob": 7.7
+      },
+      {
+        "score": "3-1",
+        "prob": 6.8
+      },
+      {
+        "score": "4-1",
+        "prob": 3.9
+      },
+      {
+        "score": "5-0",
+        "prob": 3.9
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 19.8
+    },
+    "xgHome": 2.27,
+    "xgAway": 0.45,
+    "eloHome": 2040,
+    "eloAway": 1780
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "England",
+    "awayTeam": "Croatia",
+    "homeWinPct": 57,
+    "drawPct": 24,
+    "awayWinPct": 20,
+    "oddsHome": 1.73,
+    "oddsDraw": 3.9,
+    "oddsAway": 4.96,
+    "over25Pct": 50,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "04:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 14.6
+      },
+      {
+        "score": "1-1",
+        "prob": 14.4
+      },
+      {
+        "score": "2-0",
+        "prob": 13.0
+      },
+      {
+        "score": "2-1",
+        "prob": 12.8
+      },
+      {
+        "score": "0-0",
+        "prob": 8.2
+      },
+      {
+        "score": "0-1",
+        "prob": 8.1
+      },
+      {
+        "score": "3-0",
+        "prob": 7.7
+      },
+      {
+        "score": "3-1",
+        "prob": 7.6
+      },
+      {
+        "score": "1-2",
+        "prob": 7.1
+      },
+      {
+        "score": "2-2",
+        "prob": 6.3
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 14.6
+    },
+    "xgHome": 1.78,
+    "xgAway": 0.99,
+    "eloHome": 2085,
+    "eloAway": 1980
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "Ghana",
+    "awayTeam": "Panama",
+    "homeWinPct": 44,
+    "drawPct": 28,
+    "awayWinPct": 28,
+    "oddsHome": 2.18,
+    "oddsDraw": 3.51,
+    "oddsAway": 3.45,
+    "over25Pct": 48,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "07:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.0
+      },
+      {
+        "score": "0-0",
+        "prob": 17.0
+      },
+      {
+        "score": "1-1",
+        "prob": 14.9
+      },
+      {
+        "score": "0-1",
+        "prob": 14.0
+      },
+      {
+        "score": "2-0",
+        "prob": 9.6
+      },
+      {
+        "score": "2-1",
+        "prob": 7.9
+      },
+      {
+        "score": "1-2",
+        "prob": 6.1
+      },
+      {
+        "score": "0-2",
+        "prob": 5.8
+      },
+      {
+        "score": "3-0",
+        "prob": 3.4
+      },
+      {
+        "score": "2-2",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.0
+    },
+    "xgHome": 1.06,
+    "xgAway": 0.83,
+    "eloHome": 1840,
+    "eloAway": 1830
+  },
+  {
+    "date": "2026-06-18",
+    "homeTeam": "Uzbekistan",
+    "awayTeam": "Colombia",
+    "homeWinPct": 12,
+    "drawPct": 22,
+    "awayWinPct": 68,
+    "oddsHome": 9.17,
+    "oddsDraw": 4.73,
+    "oddsAway": 1.39,
+    "over25Pct": 49,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "10:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 20.3
+      },
+      {
+        "score": "0-2",
+        "prob": 15.8
+      },
+      {
+        "score": "0-0",
+        "prob": 13.1
+      },
+      {
+        "score": "1-1",
+        "prob": 12.6
+      },
+      {
+        "score": "1-2",
+        "prob": 9.8
+      },
+      {
+        "score": "0-3",
+        "prob": 8.2
+      },
+      {
+        "score": "1-0",
+        "prob": 8.1
+      },
+      {
+        "score": "1-3",
+        "prob": 5.1
+      },
+      {
+        "score": "2-1",
+        "prob": 3.9
+      },
+      {
+        "score": "0-4",
+        "prob": 3.2
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 20.3
+    },
+    "xgHome": 0.62,
+    "xgAway": 1.55,
+    "eloHome": 1785,
+    "eloAway": 1970
+  },
+  {
+    "date": "2026-06-19",
+    "homeTeam": "USA",
+    "awayTeam": "Australia",
+    "homeWinPct": 53,
+    "drawPct": 25,
+    "awayWinPct": 22,
+    "oddsHome": 1.75,
+    "oddsDraw": 4.0,
+    "oddsAway": 4.6,
+    "over25Pct": 50,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "03:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.7
+      },
+      {
+        "score": "1-1",
+        "prob": 15.4
+      },
+      {
+        "score": "0-0",
+        "prob": 12.2
+      },
+      {
+        "score": "2-0",
+        "prob": 11.4
+      },
+      {
+        "score": "0-1",
+        "prob": 11.3
+      },
+      {
+        "score": "2-1",
+        "prob": 10.5
+      },
+      {
+        "score": "1-2",
+        "prob": 7.2
+      },
+      {
+        "score": "0-2",
+        "prob": 5.2
+      },
+      {
+        "score": "3-0",
+        "prob": 5.2
+      },
+      {
+        "score": "2-2",
+        "prob": 4.9
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.7
+    },
+    "xgHome": 1.37,
+    "xgAway": 0.93,
+    "eloHome": 1935,
+    "eloAway": 1895
+  },
+  {
+    "date": "2026-06-20",
+    "homeTeam": "Turkey",
+    "awayTeam": "Paraguay",
+    "homeWinPct": 45,
+    "drawPct": 29,
+    "awayWinPct": 26,
+    "oddsHome": 2.28,
+    "oddsDraw": 3.3,
+    "oddsAway": 3.55,
+    "over25Pct": 42,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "12:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.1
+      },
+      {
+        "score": "1-1",
+        "prob": 14.7
+      },
+      {
+        "score": "0-0",
+        "prob": 13.2
+      },
+      {
+        "score": "2-0",
+        "prob": 12.4
+      },
+      {
+        "score": "0-1",
+        "prob": 10.8
+      },
+      {
+        "score": "2-1",
+        "prob": 10.1
+      },
+      {
+        "score": "1-2",
+        "prob": 6.0
+      },
+      {
+        "score": "3-0",
+        "prob": 5.6
+      },
+      {
+        "score": "3-1",
+        "prob": 4.6
+      },
+      {
+        "score": "0-2",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.1
+    },
+    "xgHome": 1.37,
+    "xgAway": 0.81,
+    "eloHome": 1915,
+    "eloAway": 1855
+  },
+  {
+    "date": "2026-06-20",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Sweden",
+    "homeWinPct": 58,
+    "drawPct": 24,
+    "awayWinPct": 18,
+    "oddsHome": 1.65,
+    "oddsDraw": 3.95,
+    "oddsAway": 5.3,
+    "over25Pct": 50,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "01:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.0
+      },
+      {
+        "score": "1-1",
+        "prob": 14.3
+      },
+      {
+        "score": "2-0",
+        "prob": 13.6
+      },
+      {
+        "score": "2-1",
+        "prob": 12.1
+      },
+      {
+        "score": "0-0",
+        "prob": 9.5
+      },
+      {
+        "score": "0-1",
+        "prob": 8.4
+      },
+      {
+        "score": "3-0",
+        "prob": 7.7
+      },
+      {
+        "score": "3-1",
+        "prob": 6.8
+      },
+      {
+        "score": "1-2",
+        "prob": 6.3
+      },
+      {
+        "score": "2-2",
+        "prob": 5.4
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.0
+    },
+    "xgHome": 1.69,
+    "xgAway": 0.89,
+    "eloHome": 2025,
+    "eloAway": 1920
+  },
+  {
+    "date": "2026-06-20",
+    "homeTeam": "Germany",
+    "awayTeam": "Ivory Coast",
+    "homeWinPct": 64,
+    "drawPct": 22,
+    "awayWinPct": 14,
+    "oddsHome": 1.53,
+    "oddsDraw": 4.25,
+    "oddsAway": 6.25,
+    "over25Pct": 52,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "04:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.6
+      },
+      {
+        "score": "2-0",
+        "prob": 16.0
+      },
+      {
+        "score": "1-1",
+        "prob": 12.5
+      },
+      {
+        "score": "2-1",
+        "prob": 12.0
+      },
+      {
+        "score": "3-0",
+        "prob": 10.3
+      },
+      {
+        "score": "0-0",
+        "prob": 8.6
+      },
+      {
+        "score": "3-1",
+        "prob": 7.7
+      },
+      {
+        "score": "0-1",
+        "prob": 6.5
+      },
+      {
+        "score": "4-0",
+        "prob": 5.0
+      },
+      {
+        "score": "1-2",
+        "prob": 4.7
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.6
+    },
+    "xgHome": 1.93,
+    "xgAway": 0.75,
+    "eloHome": 2055,
+    "eloAway": 1885
+  },
+  {
+    "date": "2026-06-21",
+    "homeTeam": "Tunisia",
+    "awayTeam": "Japan",
+    "homeWinPct": 21,
+    "drawPct": 27,
+    "awayWinPct": 52,
+    "oddsHome": 5.1,
+    "oddsDraw": 3.6,
+    "oddsAway": 1.74,
+    "over25Pct": 43,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "01:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 16.2
+      },
+      {
+        "score": "1-1",
+        "prob": 15.7
+      },
+      {
+        "score": "0-0",
+        "prob": 13.1
+      },
+      {
+        "score": "1-0",
+        "prob": 12.7
+      },
+      {
+        "score": "0-2",
+        "prob": 10.0
+      },
+      {
+        "score": "1-2",
+        "prob": 9.7
+      },
+      {
+        "score": "2-1",
+        "prob": 7.6
+      },
+      {
+        "score": "2-0",
+        "prob": 6.2
+      },
+      {
+        "score": "2-2",
+        "prob": 4.7
+      },
+      {
+        "score": "0-3",
+        "prob": 4.1
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 16.2
+    },
+    "xgHome": 0.97,
+    "xgAway": 1.24,
+    "eloHome": 1865,
+    "eloAway": 1945
+  },
+  {
+    "date": "2026-06-21",
+    "homeTeam": "Spain",
+    "awayTeam": "Saudi Arabia",
+    "homeWinPct": 84,
+    "drawPct": 11,
+    "awayWinPct": 5,
+    "oddsHome": 1.09,
+    "oddsDraw": 12.2,
+    "oddsAway": 34.0,
+    "over25Pct": 43,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "04:00",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 16.8
+      },
+      {
+        "score": "1-0",
+        "prob": 16.5
+      },
+      {
+        "score": "2-1",
+        "prob": 11.9
+      },
+      {
+        "score": "1-1",
+        "prob": 11.7
+      },
+      {
+        "score": "3-0",
+        "prob": 11.4
+      },
+      {
+        "score": "0-0",
+        "prob": 8.1
+      },
+      {
+        "score": "3-1",
+        "prob": 8.0
+      },
+      {
+        "score": "4-0",
+        "prob": 5.8
+      },
+      {
+        "score": "0-1",
+        "prob": 5.7
+      },
+      {
+        "score": "2-2",
+        "prob": 4.2
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 16.8
+    },
+    "xgHome": 2.03,
+    "xgAway": 0.71,
+    "eloHome": 2070,
+    "eloAway": 1875
+  },
+  {
+    "date": "2026-06-21",
+    "homeTeam": "Belgium",
+    "awayTeam": "Iran",
+    "homeWinPct": 64,
+    "drawPct": 21,
+    "awayWinPct": 14,
+    "oddsHome": 1.37,
+    "oddsDraw": 4.62,
+    "oddsAway": 7.75,
+    "over25Pct": 52,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "03:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 15.6
+      },
+      {
+        "score": "1-1",
+        "prob": 15.2
+      },
+      {
+        "score": "2-0",
+        "prob": 12.1
+      },
+      {
+        "score": "2-1",
+        "prob": 11.8
+      },
+      {
+        "score": "0-0",
+        "prob": 10.0
+      },
+      {
+        "score": "0-1",
+        "prob": 9.7
+      },
+      {
+        "score": "1-2",
+        "prob": 7.4
+      },
+      {
+        "score": "3-0",
+        "prob": 6.3
+      },
+      {
+        "score": "3-1",
+        "prob": 6.1
+      },
+      {
+        "score": "2-2",
+        "prob": 5.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 15.6
+    },
+    "xgHome": 1.56,
+    "xgAway": 0.98,
+    "eloHome": 2005,
+    "eloAway": 1940
+  },
+  {
+    "date": "2026-06-21",
+    "homeTeam": "Uruguay",
+    "awayTeam": "Cape Verde",
+    "homeWinPct": 67,
+    "drawPct": 21,
+    "awayWinPct": 12,
+    "oddsHome": 1.45,
+    "oddsDraw": 4.35,
+    "oddsAway": 7.5,
+    "over25Pct": 49,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "07:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.8
+      },
+      {
+        "score": "2-0",
+        "prob": 17.5
+      },
+      {
+        "score": "1-1",
+        "prob": 11.3
+      },
+      {
+        "score": "3-0",
+        "prob": 10.8
+      },
+      {
+        "score": "2-1",
+        "prob": 10.5
+      },
+      {
+        "score": "0-0",
+        "prob": 10.1
+      },
+      {
+        "score": "3-1",
+        "prob": 6.5
+      },
+      {
+        "score": "0-1",
+        "prob": 6.1
+      },
+      {
+        "score": "4-0",
+        "prob": 5.0
+      },
+      {
+        "score": "1-2",
+        "prob": 3.4
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.8
+    },
+    "xgHome": 1.86,
+    "xgAway": 0.6,
+    "eloHome": 1990,
+    "eloAway": 1815
+  },
+  {
+    "date": "2026-06-22",
+    "homeTeam": "New Zealand",
+    "awayTeam": "Egypt",
+    "homeWinPct": 20,
+    "drawPct": 27,
+    "awayWinPct": 53,
+    "oddsHome": 5.2,
+    "oddsDraw": 3.6,
+    "oddsAway": 1.72,
+    "over25Pct": 43,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "10:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 19.2
+      },
+      {
+        "score": "0-0",
+        "prob": 15.7
+      },
+      {
+        "score": "1-1",
+        "prob": 14.5
+      },
+      {
+        "score": "1-0",
+        "prob": 11.8
+      },
+      {
+        "score": "0-2",
+        "prob": 11.7
+      },
+      {
+        "score": "1-2",
+        "prob": 8.8
+      },
+      {
+        "score": "2-1",
+        "prob": 5.4
+      },
+      {
+        "score": "0-3",
+        "prob": 4.8
+      },
+      {
+        "score": "2-0",
+        "prob": 4.5
+      },
+      {
+        "score": "1-3",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 19.2
+    },
+    "xgHome": 0.75,
+    "xgAway": 1.22,
+    "eloHome": 1800,
+    "eloAway": 1905
+  },
+  {
+    "date": "2026-06-22",
+    "homeTeam": "Argentina",
+    "awayTeam": "Austria",
+    "homeWinPct": 61,
+    "drawPct": 23,
+    "awayWinPct": 16,
+    "oddsHome": 1.67,
+    "oddsDraw": 3.8,
+    "oddsAway": 5.2,
+    "over25Pct": 49,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "01:00",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 16.2
+      },
+      {
+        "score": "1-0",
+        "prob": 15.0
+      },
+      {
+        "score": "2-1",
+        "prob": 12.7
+      },
+      {
+        "score": "1-1",
+        "prob": 11.7
+      },
+      {
+        "score": "3-0",
+        "prob": 11.7
+      },
+      {
+        "score": "3-1",
+        "prob": 9.1
+      },
+      {
+        "score": "0-0",
+        "prob": 7.0
+      },
+      {
+        "score": "4-0",
+        "prob": 6.3
+      },
+      {
+        "score": "0-1",
+        "prob": 5.4
+      },
+      {
+        "score": "2-2",
+        "prob": 4.9
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 16.2
+    },
+    "xgHome": 2.16,
+    "xgAway": 0.78,
+    "eloHome": 2138,
+    "eloAway": 1925
+  },
+  {
+    "date": "2026-06-22",
+    "homeTeam": "France",
+    "awayTeam": "Iraq",
+    "homeWinPct": 85,
+    "drawPct": 12,
+    "awayWinPct": 4,
+    "oddsHome": 1.12,
+    "oddsDraw": 9.0,
+    "oddsAway": 23.0,
+    "over25Pct": 43,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "05:00",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.4
+      },
+      {
+        "score": "1-0",
+        "prob": 15.4
+      },
+      {
+        "score": "3-0",
+        "prob": 14.7
+      },
+      {
+        "score": "2-1",
+        "prob": 10.4
+      },
+      {
+        "score": "4-0",
+        "prob": 8.8
+      },
+      {
+        "score": "1-1",
+        "prob": 8.7
+      },
+      {
+        "score": "3-1",
+        "prob": 8.3
+      },
+      {
+        "score": "0-0",
+        "prob": 6.4
+      },
+      {
+        "score": "4-1",
+        "prob": 4.9
+      },
+      {
+        "score": "5-0",
+        "prob": 4.2
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.4
+    },
+    "xgHome": 2.39,
+    "xgAway": 0.56,
+    "eloHome": 2112,
+    "eloAway": 1835
+  },
+  {
+    "date": "2026-06-23",
+    "homeTeam": "Norway",
+    "awayTeam": "Senegal",
+    "homeWinPct": 39,
+    "drawPct": 27,
+    "awayWinPct": 33,
+    "oddsHome": 2.19,
+    "oddsDraw": 3.55,
+    "oddsAway": 3.46,
+    "over25Pct": 49,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "03:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.0
+      },
+      {
+        "score": "1-1",
+        "prob": 15.4
+      },
+      {
+        "score": "0-0",
+        "prob": 13.2
+      },
+      {
+        "score": "1-0",
+        "prob": 11.9
+      },
+      {
+        "score": "0-2",
+        "prob": 11.0
+      },
+      {
+        "score": "1-2",
+        "prob": 9.9
+      },
+      {
+        "score": "2-1",
+        "prob": 7.0
+      },
+      {
+        "score": "2-0",
+        "prob": 5.4
+      },
+      {
+        "score": "0-3",
+        "prob": 4.7
+      },
+      {
+        "score": "2-2",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.0
+    },
+    "xgHome": 0.9,
+    "xgAway": 1.29,
+    "eloHome": 1850,
+    "eloAway": 1950
+  },
+  {
+    "date": "2026-06-23",
+    "homeTeam": "Jordan",
+    "awayTeam": "Algeria",
+    "homeWinPct": 18,
+    "drawPct": 26,
+    "awayWinPct": 56,
+    "oddsHome": 6.5,
+    "oddsDraw": 4.25,
+    "oddsAway": 1.56,
+    "over25Pct": 50,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "06:00",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 18.6
+      },
+      {
+        "score": "0-1",
+        "prob": 18.0
+      },
+      {
+        "score": "1-0",
+        "prob": 15.1
+      },
+      {
+        "score": "1-1",
+        "prob": 14.6
+      },
+      {
+        "score": "0-2",
+        "prob": 8.7
+      },
+      {
+        "score": "1-2",
+        "prob": 7.1
+      },
+      {
+        "score": "2-0",
+        "prob": 6.2
+      },
+      {
+        "score": "2-1",
+        "prob": 6.0
+      },
+      {
+        "score": "2-2",
+        "prob": 2.9
+      },
+      {
+        "score": "0-3",
+        "prob": 2.8
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 18.6
+    },
+    "xgHome": 0.81,
+    "xgAway": 0.97,
+    "eloHome": 1795,
+    "eloAway": 1845
+  },
+  {
+    "date": "2026-06-24",
+    "homeTeam": "Colombia",
+    "awayTeam": "DR Congo",
+    "homeWinPct": 67,
+    "drawPct": 22,
+    "awayWinPct": 11,
+    "oddsHome": 1.53,
+    "oddsDraw": 4.2,
+    "oddsAway": 7.5,
+    "over25Pct": 45,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "09:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 19.9
+      },
+      {
+        "score": "2-0",
+        "prob": 18.8
+      },
+      {
+        "score": "3-0",
+        "prob": 11.8
+      },
+      {
+        "score": "0-0",
+        "prob": 10.6
+      },
+      {
+        "score": "1-1",
+        "prob": 10.0
+      },
+      {
+        "score": "2-1",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 5.9
+      },
+      {
+        "score": "4-0",
+        "prob": 5.6
+      },
+      {
+        "score": "0-1",
+        "prob": 5.3
+      },
+      {
+        "score": "4-1",
+        "prob": 2.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 19.9
+    },
+    "xgHome": 1.89,
+    "xgAway": 0.5,
+    "eloHome": 1970,
+    "eloAway": 1780
+  },
+  {
+    "date": "2026-06-24",
+    "homeTeam": "Scotland",
+    "awayTeam": "Brazil",
+    "homeWinPct": 13,
+    "drawPct": 21,
+    "awayWinPct": 66,
+    "oddsHome": 7.5,
+    "oddsDraw": 4.35,
+    "oddsAway": 1.45,
+    "over25Pct": 52,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "12:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 16.8
+      },
+      {
+        "score": "0-2",
+        "prob": 15.6
+      },
+      {
+        "score": "1-1",
+        "prob": 13.0
+      },
+      {
+        "score": "1-2",
+        "prob": 12.0
+      },
+      {
+        "score": "0-3",
+        "prob": 9.6
+      },
+      {
+        "score": "0-0",
+        "prob": 9.1
+      },
+      {
+        "score": "1-3",
+        "prob": 7.4
+      },
+      {
+        "score": "1-0",
+        "prob": 7.0
+      },
+      {
+        "score": "2-1",
+        "prob": 5.0
+      },
+      {
+        "score": "2-2",
+        "prob": 4.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 16.8
+    },
+    "xgHome": 0.77,
+    "xgAway": 1.85,
+    "eloHome": 1860,
+    "eloAway": 2098
+  },
+  {
+    "date": "2026-06-26",
+    "homeTeam": "Norway",
+    "awayTeam": "France",
+    "homeWinPct": 19,
+    "drawPct": 24,
+    "awayWinPct": 58,
+    "oddsHome": 4.39,
+    "oddsDraw": 3.66,
+    "oddsAway": 1.78,
+    "over25Pct": 48,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "03:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 16.9
+      },
+      {
+        "score": "0-2",
+        "prob": 16.3
+      },
+      {
+        "score": "1-1",
+        "prob": 12.2
+      },
+      {
+        "score": "1-2",
+        "prob": 11.8
+      },
+      {
+        "score": "0-3",
+        "prob": 10.6
+      },
+      {
+        "score": "0-0",
+        "prob": 8.7
+      },
+      {
+        "score": "1-3",
+        "prob": 7.6
+      },
+      {
+        "score": "1-0",
+        "prob": 6.3
+      },
+      {
+        "score": "0-4",
+        "prob": 5.1
+      },
+      {
+        "score": "2-1",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 16.9
+    },
+    "xgHome": 0.72,
+    "xgAway": 1.94,
+    "eloHome": 1850,
+    "eloAway": 2112
+  },
+  {
+    "date": "2026-06-26",
+    "homeTeam": "Senegal",
+    "awayTeam": "Iraq",
+    "homeWinPct": 65,
+    "drawPct": 22,
+    "awayWinPct": 13,
+    "oddsHome": 1.45,
+    "oddsDraw": 4.31,
+    "oddsAway": 7.34,
+    "over25Pct": 49,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "06:00",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.9
+      },
+      {
+        "score": "2-0",
+        "prob": 15.0
+      },
+      {
+        "score": "1-1",
+        "prob": 13.3
+      },
+      {
+        "score": "0-0",
+        "prob": 11.9
+      },
+      {
+        "score": "2-1",
+        "prob": 10.6
+      },
+      {
+        "score": "0-1",
+        "prob": 8.3
+      },
+      {
+        "score": "3-0",
+        "prob": 8.0
+      },
+      {
+        "score": "3-1",
+        "prob": 5.6
+      },
+      {
+        "score": "1-2",
+        "prob": 4.7
+      },
+      {
+        "score": "2-2",
+        "prob": 3.7
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.9
+    },
+    "xgHome": 1.59,
+    "xgAway": 0.7,
+    "eloHome": 1950,
+    "eloAway": 1835
+  },
+  {
+    "date": "2026-06-27",
+    "homeTeam": "New Zealand",
+    "awayTeam": "Belgium",
+    "homeWinPct": 10,
+    "drawPct": 18,
+    "awayWinPct": 71,
+    "oddsHome": 9.85,
+    "oddsDraw": 5.58,
+    "oddsAway": 1.3,
+    "over25Pct": 57,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "09:00",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 19.4
+      },
+      {
+        "score": "0-2",
+        "prob": 16.1
+      },
+      {
+        "score": "1-1",
+        "prob": 12.5
+      },
+      {
+        "score": "0-0",
+        "prob": 11.7
+      },
+      {
+        "score": "1-2",
+        "prob": 10.4
+      },
+      {
+        "score": "0-3",
+        "prob": 8.9
+      },
+      {
+        "score": "1-0",
+        "prob": 7.5
+      },
+      {
+        "score": "1-3",
+        "prob": 5.8
+      },
+      {
+        "score": "2-1",
+        "prob": 4.1
+      },
+      {
+        "score": "0-4",
+        "prob": 3.7
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 19.4
+    },
+    "xgHome": 0.65,
+    "xgAway": 1.66,
+    "eloHome": 1800,
+    "eloAway": 2005
+  },
+  {
+    "date": "2026-06-27",
+    "homeTeam": "Egypt",
+    "awayTeam": "Iran",
+    "homeWinPct": 40,
+    "drawPct": 31,
+    "awayWinPct": 30,
+    "oddsHome": 2.38,
+    "oddsDraw": 3.08,
+    "oddsAway": 3.62,
+    "over25Pct": 63,
+    "source": "odds + bivariate-poisson-elo-v2",
+    "kickoff": "12:00",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.1
+      },
+      {
+        "score": "1-0",
+        "prob": 14.2
+      },
+      {
+        "score": "0-1",
+        "prob": 14.1
+      },
+      {
+        "score": "0-0",
+        "prob": 12.4
+      },
+      {
+        "score": "2-1",
+        "prob": 9.2
+      },
+      {
+        "score": "1-2",
+        "prob": 9.2
+      },
+      {
+        "score": "2-0",
+        "prob": 8.1
+      },
+      {
+        "score": "0-2",
+        "prob": 8.0
+      },
+      {
+        "score": "2-2",
+        "prob": 5.3
+      },
+      {
+        "score": "3-1",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.1
+    },
+    "xgHome": 1.15,
+    "xgAway": 1.14,
+    "eloHome": 1905,
+    "eloAway": 1940
+  }
+]

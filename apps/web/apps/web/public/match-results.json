@@ -1,0 +1,98 @@
+{
+  "description": "World Cup 2026 match results. Auto-updated.",
+  "lastUpdated": "2026-06-13T05:35:12Z",
+  "source": "ESPN API + manual entry",
+  "results": [
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "homeScore": 2,
+      "awayScore": 1,
+      "date": "2026-06-12",
+      "status": "FT",
+      "recordedAt": "2026-06-12T14:00:00.000000"
+    },
+    {
+      "homeTeam": "Canada",
+      "awayTeam": "Bosnia & Herzegovina",
+      "homeScore": 1,
+      "awayScore": 1,
+      "date": "2026-06-12",
+      "status": "FT",
+      "clock": "90'+7'",
+      "recordedAt": "2026-06-13T05:35:12.841635"
+    },
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Paraguay",
+      "homeScore": 4,
+      "awayScore": 1,
+      "date": "2026-06-13",
+      "status": "FT",
+      "clock": "90'+9'",
+      "recordedAt": "2026-06-13T05:35:12.842300"
+    }
+  ],
+  "teamStats": {
+    "South Korea": {
+      "gp": 1,
+      "gf": 2,
+      "ga": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gpg": 2.0,
+      "gapg": 1.0
+    },
+    "Czech Republic": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 2,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gpg": 1.0,
+      "gapg": 2.0
+    },
+    "Canada": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 1.0
+    },
+    "Bosnia & Herzegovina": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 1.0
+    },
+    "USA": {
+      "gp": 1,
+      "gf": 4,
+      "ga": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gpg": 4.0,
+      "gapg": 1.0
+    },
+    "Paraguay": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 4,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gpg": 1.0,
+      "gapg": 4.0
+    }
+  }
+}
