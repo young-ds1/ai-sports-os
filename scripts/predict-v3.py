@@ -390,16 +390,37 @@ def load_team_form_adjustments():
             f['shots'] += shots; f['sot'] += sot; f['shots_faced'] += shots_faced
 
     # Convert to adjustment multipliers (1.0 = no change)
+    # Blend: 40% actual goals, 30% shot conversion, 15% shot accuracy, 15% defense
     adj = {}
-    INITIAL_ELO_LOCAL = INITIAL_ELO  # from module scope
+    INITIAL_ELO_LOCAL = INITIAL_ELO
     for team, f in form.items():
         if f['gp'] == 0: continue
-        actual_gpg = f['goals'] / f['gp']
+        gp = f['gp']
+
+        # 1. Goals vs expected (25% - small sample, don't overfit)
+        actual_gpg = f['goals'] / gp
         elo = INITIAL_ELO_LOCAL.get(team, 1900)
-        expected_gpg = elo / 1200  # rough: 2138 Elo ≈ 1.78 goals/game
-        # Multiplier: if actual > expected, boost. Cap at ±20%
-        mult = 1.0 + max(-0.20, min(0.20, (actual_gpg - expected_gpg) / expected_gpg * 0.5))
-        adj[team] = round(mult, 3)
+        expected_gpg = elo / 1200
+        goal_mult = 1.0 + (actual_gpg - expected_gpg) / max(expected_gpg, 0.5) * 0.25
+
+        # 2. Shot conversion rate (35% - stabilizes faster than goals)
+        avg_conversion = 0.10
+        team_conversion = f['goals'] / max(f['shots'], 1)
+        conversion_mult = 1.0 + (team_conversion - avg_conversion) * 2.0 * 0.35
+
+        # 3. Shot accuracy SoT/shots (20% - indicates attack quality)
+        avg_accuracy = 0.35
+        team_accuracy = f['sot'] / max(f['shots'], 1)
+        accuracy_mult = 1.0 + (team_accuracy - avg_accuracy) * 1.0 * 0.20
+
+        # 4. Defensive solidity (20% - goals conceded per shots faced)
+        avg_concede_rate = 0.12
+        team_concede_rate = f['conceded'] / max(f['shots_faced'], 1)
+        defense_mult = 1.0 - (team_concede_rate - avg_concede_rate) * 2.0 * 0.20
+
+        blend = goal_mult + conversion_mult + accuracy_mult + defense_mult - 3.0
+        capped = max(0.80, min(1.20, blend))
+        adj[team] = round(capped, 3)
 
     return adj
 
