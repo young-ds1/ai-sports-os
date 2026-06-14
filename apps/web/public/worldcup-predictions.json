@@ -92,10 +92,109 @@
     "oddsHome": 2.09,
     "oddsDraw": 1.44,
     "oddsAway": 1.92,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 25,
+    "drawPct": 43,
+    "awayWinPct": 32,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 21.6
+      },
+      {
+        "score": "0-1",
+        "prob": 18.7
+      },
+      {
+        "score": "1-0",
+        "prob": 14.6
+      },
+      {
+        "score": "1-1",
+        "prob": 14.4
+      },
+      {
+        "score": "0-2",
+        "prob": 9.0
+      },
+      {
+        "score": "1-2",
+        "prob": 6.4
+      },
+      {
+        "score": "2-0",
+        "prob": 5.3
+      },
+      {
+        "score": "2-1",
+        "prob": 4.9
+      },
+      {
+        "score": "0-3",
+        "prob": 2.8
+      },
+      {
+        "score": "2-2",
+        "prob": 2.3
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 21.6
+    },
+    "xgHome": 0.71,
+    "xgAway": 0.92,
+    "eloHome": 1805,
+    "eloAway": 1860,
+    "eventHome": -5,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -12.4,
+      "outcomes": {
+        "home": 5,
+        "draw": 35,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          5
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.95,
+      "avgAwayGoals": 1.7
+    }
   },
   {
     "date": "2026-06-13",
@@ -106,24 +205,222 @@
     "oddsHome": 1.89,
     "oddsDraw": 1.44,
     "oddsAway": 2.12,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 32,
+    "drawPct": 42,
+    "awayWinPct": 26,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 16.1
+      },
+      {
+        "score": "1-1",
+        "prob": 16.1
+      },
+      {
+        "score": "1-0",
+        "prob": 15.6
+      },
+      {
+        "score": "0-1",
+        "prob": 14.2
+      },
+      {
+        "score": "2-0",
+        "prob": 8.5
+      },
+      {
+        "score": "2-1",
+        "prob": 8.1
+      },
+      {
+        "score": "1-2",
+        "prob": 7.4
+      },
+      {
+        "score": "0-2",
+        "prob": 7.1
+      },
+      {
+        "score": "2-2",
+        "prob": 3.9
+      },
+      {
+        "score": "3-0",
+        "prob": 3.0
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 16.1
+    },
+    "xgHome": 1.05,
+    "xgAway": 0.95,
+    "eloHome": 1895,
+    "eloAway": 1915,
+    "eventHome": 5,
+    "eventAway": 0,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 19.65,
+      "outcomes": {
+        "home": 15,
+        "draw": 35,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.35
+    }
   },
   {
     "date": "2026-06-14",
     "homeTeam": "Germany",
-    "awayTeam": "Cura\u00e7ao",
+    "awayTeam": "Curaçao",
     "group": "E",
     "kickoff": "01:00",
     "oddsHome": 1.19,
     "oddsDraw": 2.65,
     "oddsAway": 6.16,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 77,
+    "drawPct": 20,
+    "awayWinPct": 3,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.6
+      },
+      {
+        "score": "2-0",
+        "prob": 17.5
+      },
+      {
+        "score": "4-0",
+        "prob": 14.9
+      },
+      {
+        "score": "5-0",
+        "prob": 9.5
+      },
+      {
+        "score": "1-0",
+        "prob": 9.5
+      },
+      {
+        "score": "3-1",
+        "prob": 7.4
+      },
+      {
+        "score": "2-1",
+        "prob": 7.0
+      },
+      {
+        "score": "4-1",
+        "prob": 6.0
+      },
+      {
+        "score": "6-0",
+        "prob": 5.1
+      },
+      {
+        "score": "1-1",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.6
+    },
+    "xgHome": 3.2,
+    "xgAway": 0.4,
+    "eloHome": 2055,
+    "eloAway": 1810,
+    "eventHome": 10,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    }
   },
   {
     "date": "2026-06-14",
@@ -134,10 +431,109 @@
     "oddsHome": 1.5,
     "oddsDraw": 1.62,
     "oddsAway": 3.0,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 48,
+    "drawPct": 37,
+    "awayWinPct": 15,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.6
+      },
+      {
+        "score": "1-1",
+        "prob": 15.2
+      },
+      {
+        "score": "2-0",
+        "prob": 12.9
+      },
+      {
+        "score": "0-0",
+        "prob": 12.7
+      },
+      {
+        "score": "2-1",
+        "prob": 10.7
+      },
+      {
+        "score": "0-1",
+        "prob": 9.7
+      },
+      {
+        "score": "3-0",
+        "prob": 6.3
+      },
+      {
+        "score": "1-2",
+        "prob": 6.1
+      },
+      {
+        "score": "3-1",
+        "prob": 5.2
+      },
+      {
+        "score": "2-2",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.6
+    },
+    "xgHome": 1.46,
+    "xgAway": 0.83,
+    "eloHome": 2025,
+    "eloAway": 1945,
+    "eventHome": -15,
+    "eventAway": -14,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 121.1,
+      "outcomes": {
+        "home": 30,
+        "draw": 30,
+        "away": 40
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.05
+    }
   },
   {
     "date": "2026-06-14",
@@ -148,10 +544,109 @@
     "oddsHome": 1.92,
     "oddsDraw": 1.44,
     "oddsAway": 2.09,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 31,
+    "drawPct": 42,
+    "awayWinPct": 27,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 16.7
+      },
+      {
+        "score": "1-1",
+        "prob": 16.1
+      },
+      {
+        "score": "1-0",
+        "prob": 15.4
+      },
+      {
+        "score": "0-1",
+        "prob": 14.9
+      },
+      {
+        "score": "2-0",
+        "prob": 8.0
+      },
+      {
+        "score": "2-1",
+        "prob": 7.7
+      },
+      {
+        "score": "0-2",
+        "prob": 7.5
+      },
+      {
+        "score": "1-2",
+        "prob": 7.5
+      },
+      {
+        "score": "2-2",
+        "prob": 3.7
+      },
+      {
+        "score": "3-0",
+        "prob": 2.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 16.7
+    },
+    "xgHome": 1.0,
+    "xgAway": 0.96,
+    "eloHome": 1885,
+    "eloAway": 1910,
+    "eventHome": 0,
+    "eventAway": 0,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 17.1,
+      "outcomes": {
+        "home": 15,
+        "draw": 30,
+        "away": 55
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.95,
+      "avgAwayGoals": 1.55
+    }
   },
   {
     "date": "2026-06-14",
@@ -162,10 +657,109 @@
     "oddsHome": 1.58,
     "oddsDraw": 1.55,
     "oddsAway": 2.73,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 44,
+    "drawPct": 39,
+    "awayWinPct": 17,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.2
+      },
+      {
+        "score": "0-0",
+        "prob": 15.7
+      },
+      {
+        "score": "1-1",
+        "prob": 15.0
+      },
+      {
+        "score": "2-0",
+        "prob": 12.1
+      },
+      {
+        "score": "0-1",
+        "prob": 11.1
+      },
+      {
+        "score": "2-1",
+        "prob": 9.1
+      },
+      {
+        "score": "1-2",
+        "prob": 5.5
+      },
+      {
+        "score": "3-0",
+        "prob": 5.1
+      },
+      {
+        "score": "0-2",
+        "prob": 4.3
+      },
+      {
+        "score": "3-1",
+        "prob": 3.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.2
+    },
+    "xgHome": 1.26,
+    "xgAway": 0.75,
+    "eloHome": 1920,
+    "eloAway": 1865,
+    "eventHome": 5,
+    "eventAway": 5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 90.9,
+      "outcomes": {
+        "home": 40,
+        "draw": 20,
+        "away": 40
+      },
+      "topScores": [
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.4,
+      "avgAwayGoals": 1.25
+    }
   },
   {
     "date": "2026-06-15",
@@ -176,10 +770,109 @@
     "oddsHome": 1.18,
     "oddsDraw": 2.75,
     "oddsAway": 6.46,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 77,
+    "drawPct": 20,
+    "awayWinPct": 3,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.3
+      },
+      {
+        "score": "3-0",
+        "prob": 18.0
+      },
+      {
+        "score": "4-0",
+        "prob": 13.2
+      },
+      {
+        "score": "1-0",
+        "prob": 11.0
+      },
+      {
+        "score": "2-1",
+        "prob": 8.0
+      },
+      {
+        "score": "3-1",
+        "prob": 7.8
+      },
+      {
+        "score": "5-0",
+        "prob": 7.8
+      },
+      {
+        "score": "4-1",
+        "prob": 5.8
+      },
+      {
+        "score": "1-1",
+        "prob": 5.6
+      },
+      {
+        "score": "0-0",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.3
+    },
+    "xgHome": 2.94,
+    "xgAway": 0.43,
+    "eloHome": 2070,
+    "eloAway": 1815,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "counter",
+    "tacticMult": 0.92,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    }
   },
   {
     "date": "2026-06-15",
@@ -190,10 +883,109 @@
     "oddsHome": 1.45,
     "oddsDraw": 1.69,
     "oddsAway": 3.24,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 51,
+    "drawPct": 36,
+    "awayWinPct": 13,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 17.3
+      },
+      {
+        "score": "2-0",
+        "prob": 14.4
+      },
+      {
+        "score": "1-1",
+        "prob": 14.3
+      },
+      {
+        "score": "0-0",
+        "prob": 12.4
+      },
+      {
+        "score": "2-1",
+        "prob": 10.8
+      },
+      {
+        "score": "0-1",
+        "prob": 8.6
+      },
+      {
+        "score": "3-0",
+        "prob": 7.5
+      },
+      {
+        "score": "3-1",
+        "prob": 5.6
+      },
+      {
+        "score": "1-2",
+        "prob": 5.1
+      },
+      {
+        "score": "2-2",
+        "prob": 4.0
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 17.3
+    },
+    "xgHome": 1.56,
+    "xgAway": 0.75,
+    "eloHome": 2005,
+    "eloAway": 1905,
+    "eventHome": 10,
+    "eventAway": 0,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 140.05,
+      "outcomes": {
+        "home": 50,
+        "draw": 25,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-0",
+          3
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.3,
+      "avgAwayGoals": 0.8
+    }
   },
   {
     "date": "2026-06-15",
@@ -204,10 +996,109 @@
     "oddsHome": 2.54,
     "oddsDraw": 1.51,
     "oddsAway": 1.65,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 19,
+    "drawPct": 40,
+    "awayWinPct": 42,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.3
+      },
+      {
+        "score": "1-1",
+        "prob": 15.4
+      },
+      {
+        "score": "0-0",
+        "prob": 14.4
+      },
+      {
+        "score": "0-2",
+        "prob": 12.1
+      },
+      {
+        "score": "1-0",
+        "prob": 10.8
+      },
+      {
+        "score": "1-2",
+        "prob": 9.8
+      },
+      {
+        "score": "2-1",
+        "prob": 6.0
+      },
+      {
+        "score": "0-3",
+        "prob": 5.4
+      },
+      {
+        "score": "2-0",
+        "prob": 4.5
+      },
+      {
+        "score": "1-3",
+        "prob": 4.3
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.3
+    },
+    "xgHome": 0.81,
+    "xgAway": 1.33,
+    "eloHome": 1875,
+    "eloAway": 1990,
+    "eventHome": 0,
+    "eventAway": 10,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -78.65,
+      "outcomes": {
+        "home": 10,
+        "draw": 15,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-3",
+          4
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "1-3",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.55,
+      "avgAwayGoals": 1.95
+    }
   },
   {
     "date": "2026-06-15",
@@ -218,10 +1109,109 @@
     "oddsHome": 1.35,
     "oddsDraw": 1.86,
     "oddsAway": 3.82,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 60,
+    "drawPct": 31,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.0
+      },
+      {
+        "score": "1-0",
+        "prob": 16.6
+      },
+      {
+        "score": "3-0",
+        "prob": 12.0
+      },
+      {
+        "score": "1-1",
+        "prob": 11.2
+      },
+      {
+        "score": "2-1",
+        "prob": 10.8
+      },
+      {
+        "score": "0-0",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 7.2
+      },
+      {
+        "score": "4-0",
+        "prob": 6.0
+      },
+      {
+        "score": "0-1",
+        "prob": 5.3
+      },
+      {
+        "score": "4-1",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.0
+    },
+    "xgHome": 2.0,
+    "xgAway": 0.6,
+    "eloHome": 1940,
+    "eloAway": 1800,
+    "eventHome": -7,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 182.7,
+      "outcomes": {
+        "home": 60,
+        "draw": 20,
+        "away": 20
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "3-1",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "4-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.9,
+      "avgAwayGoals": 0.85
+    }
   },
   {
     "date": "2026-06-16",
@@ -232,10 +1222,109 @@
     "oddsHome": 1.31,
     "oddsDraw": 1.98,
     "oddsAway": 4.2,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 66,
+    "drawPct": 28,
+    "awayWinPct": 6,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.7
+      },
+      {
+        "score": "3-0",
+        "prob": 16.2
+      },
+      {
+        "score": "1-0",
+        "prob": 12.9
+      },
+      {
+        "score": "4-0",
+        "prob": 10.6
+      },
+      {
+        "score": "2-1",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 8.1
+      },
+      {
+        "score": "1-1",
+        "prob": 7.5
+      },
+      {
+        "score": "0-0",
+        "prob": 5.8
+      },
+      {
+        "score": "5-0",
+        "prob": 5.5
+      },
+      {
+        "score": "4-1",
+        "prob": 5.3
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.7
+    },
+    "xgHome": 2.6,
+    "xgAway": 0.5,
+    "eloHome": 2112,
+    "eloAway": 1950,
+    "eventHome": -2,
+    "eventAway": 0,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 203.8,
+      "outcomes": {
+        "home": 70,
+        "draw": 20,
+        "away": 10
+      },
+      "topScores": [
+        [
+          "1-0",
+          6
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.55,
+      "avgAwayGoals": 0.55
+    }
   },
   {
     "date": "2026-06-16",
@@ -246,10 +1335,109 @@
     "oddsHome": 1.87,
     "oddsDraw": 1.45,
     "oddsAway": 2.15,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 31,
+    "drawPct": 43,
+    "awayWinPct": 26,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 20.7
+      },
+      {
+        "score": "1-0",
+        "prob": 17.0
+      },
+      {
+        "score": "0-1",
+        "prob": 15.9
+      },
+      {
+        "score": "1-1",
+        "prob": 15.0
+      },
+      {
+        "score": "2-0",
+        "prob": 7.7
+      },
+      {
+        "score": "0-2",
+        "prob": 6.7
+      },
+      {
+        "score": "2-1",
+        "prob": 6.3
+      },
+      {
+        "score": "1-2",
+        "prob": 5.9
+      },
+      {
+        "score": "2-2",
+        "prob": 2.6
+      },
+      {
+        "score": "3-0",
+        "prob": 2.2
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 20.7
+    },
+    "xgHome": 0.87,
+    "xgAway": 0.82,
+    "eloHome": 1835,
+    "eloAway": 1850,
+    "eventHome": -5,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 22.4,
+      "outcomes": {
+        "home": 15,
+        "draw": 35,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-1",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.85,
+      "avgAwayGoals": 1.25
+    }
   },
   {
     "date": "2026-06-16",
@@ -260,10 +1448,109 @@
     "oddsHome": 1.15,
     "oddsDraw": 3.22,
     "oddsAway": 7.8,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 82,
+    "drawPct": 16,
+    "awayWinPct": 2,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.7
+      },
+      {
+        "score": "4-0",
+        "prob": 17.8
+      },
+      {
+        "score": "2-0",
+        "prob": 14.8
+      },
+      {
+        "score": "5-0",
+        "prob": 13.5
+      },
+      {
+        "score": "6-0",
+        "prob": 8.6
+      },
+      {
+        "score": "1-0",
+        "prob": 6.6
+      },
+      {
+        "score": "3-1",
+        "prob": 5.6
+      },
+      {
+        "score": "4-1",
+        "prob": 5.3
+      },
+      {
+        "score": "7-0",
+        "prob": 4.6
+      },
+      {
+        "score": "2-1",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.7
+    },
+    "xgHome": 3.8,
+    "xgAway": 0.3,
+    "eloHome": 2138,
+    "eloAway": 1845,
+    "eventHome": 6,
+    "eventAway": 0,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 15,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    }
   },
   {
     "date": "2026-06-16",
@@ -274,10 +1561,109 @@
     "oddsHome": 1.38,
     "oddsDraw": 1.81,
     "oddsAway": 3.66,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 59,
+    "drawPct": 32,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.0
+      },
+      {
+        "score": "1-0",
+        "prob": 16.6
+      },
+      {
+        "score": "3-0",
+        "prob": 12.0
+      },
+      {
+        "score": "1-1",
+        "prob": 11.2
+      },
+      {
+        "score": "2-1",
+        "prob": 10.8
+      },
+      {
+        "score": "0-0",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 7.2
+      },
+      {
+        "score": "4-0",
+        "prob": 6.0
+      },
+      {
+        "score": "0-1",
+        "prob": 5.3
+      },
+      {
+        "score": "4-1",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.0
+    },
+    "xgHome": 2.0,
+    "xgAway": 0.6,
+    "eloHome": 1925,
+    "eloAway": 1795,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 165.1,
+      "outcomes": {
+        "home": 60,
+        "draw": 15,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "4-1",
+          2
+        ],
+        [
+          "3-1",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.7,
+      "avgAwayGoals": 0.85
+    }
   },
   {
     "date": "2026-06-17",
@@ -288,10 +1674,109 @@
     "oddsHome": 1.18,
     "oddsDraw": 2.81,
     "oddsAway": 6.62,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 78,
+    "drawPct": 19,
+    "awayWinPct": 3,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.6
+      },
+      {
+        "score": "2-0",
+        "prob": 17.5
+      },
+      {
+        "score": "4-0",
+        "prob": 14.9
+      },
+      {
+        "score": "5-0",
+        "prob": 9.5
+      },
+      {
+        "score": "1-0",
+        "prob": 9.5
+      },
+      {
+        "score": "3-1",
+        "prob": 7.4
+      },
+      {
+        "score": "2-1",
+        "prob": 7.0
+      },
+      {
+        "score": "4-1",
+        "prob": 6.0
+      },
+      {
+        "score": "6-0",
+        "prob": 5.1
+      },
+      {
+        "score": "1-1",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.6
+    },
+    "xgHome": 3.2,
+    "xgAway": 0.4,
+    "eloHome": 2040,
+    "eloAway": 1780,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    }
   },
   {
     "date": "2026-06-17",
@@ -302,10 +1787,109 @@
     "oddsHome": 1.43,
     "oddsDraw": 1.7,
     "oddsAway": 3.3,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 50,
+    "drawPct": 35,
+    "awayWinPct": 14,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 15.5
+      },
+      {
+        "score": "1-0",
+        "prob": 15.4
+      },
+      {
+        "score": "2-0",
+        "prob": 12.6
+      },
+      {
+        "score": "2-1",
+        "prob": 11.5
+      },
+      {
+        "score": "0-0",
+        "prob": 11.2
+      },
+      {
+        "score": "0-1",
+        "prob": 9.4
+      },
+      {
+        "score": "1-2",
+        "prob": 6.8
+      },
+      {
+        "score": "3-0",
+        "prob": 6.4
+      },
+      {
+        "score": "3-1",
+        "prob": 5.9
+      },
+      {
+        "score": "2-2",
+        "prob": 5.2
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 15.5
+    },
+    "xgHome": 1.54,
+    "xgAway": 0.91,
+    "eloHome": 2085,
+    "eloAway": 1980,
+    "eventHome": -15,
+    "eventAway": 10,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 144.4,
+      "outcomes": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "topScores": [
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.6,
+      "avgAwayGoals": 0.8
+    }
   },
   {
     "date": "2026-06-17",
@@ -316,10 +1900,109 @@
     "oddsHome": 1.75,
     "oddsDraw": 1.47,
     "oddsAway": 2.33,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 34,
+    "drawPct": 42,
+    "awayWinPct": 23,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 22.2
+      },
+      {
+        "score": "1-0",
+        "prob": 17.8
+      },
+      {
+        "score": "0-1",
+        "prob": 15.8
+      },
+      {
+        "score": "1-1",
+        "prob": 14.5
+      },
+      {
+        "score": "2-0",
+        "prob": 7.9
+      },
+      {
+        "score": "0-2",
+        "prob": 6.1
+      },
+      {
+        "score": "2-1",
+        "prob": 5.9
+      },
+      {
+        "score": "1-2",
+        "prob": 5.2
+      },
+      {
+        "score": "3-0",
+        "prob": 2.2
+      },
+      {
+        "score": "2-2",
+        "prob": 2.2
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 22.2
+    },
+    "xgHome": 0.85,
+    "xgAway": 0.75,
+    "eloHome": 1840,
+    "eloAway": 1830,
+    "eventHome": -22,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 49.05,
+      "outcomes": {
+        "home": 40,
+        "draw": 30,
+        "away": 30
+      },
+      "topScores": [
+        [
+          "1-1",
+          4
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.1,
+      "avgAwayGoals": 0.95
+    }
   },
   {
     "date": "2026-06-17",
@@ -330,10 +2013,109 @@
     "oddsHome": 3.3,
     "oddsDraw": 1.7,
     "oddsAway": 1.43,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 11,
+    "drawPct": 35,
+    "awayWinPct": 54,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 21.2
+      },
+      {
+        "score": "0-2",
+        "prob": 17.4
+      },
+      {
+        "score": "0-0",
+        "prob": 15.1
+      },
+      {
+        "score": "1-1",
+        "prob": 11.5
+      },
+      {
+        "score": "0-3",
+        "prob": 8.9
+      },
+      {
+        "score": "1-2",
+        "prob": 8.5
+      },
+      {
+        "score": "1-0",
+        "prob": 7.0
+      },
+      {
+        "score": "1-3",
+        "prob": 4.4
+      },
+      {
+        "score": "0-4",
+        "prob": 3.4
+      },
+      {
+        "score": "2-1",
+        "prob": 2.7
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 21.2
+    },
+    "xgHome": 0.49,
+    "xgAway": 1.54,
+    "eloHome": 1785,
+    "eloAway": 1970,
+    "eventHome": -5,
+    "eventAway": 5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -133.0,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "1-2",
+          4
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "2-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.8,
+      "avgAwayGoals": 1.75
+    }
   },
   {
     "date": "2026-06-18",
@@ -345,9 +2127,108 @@
     "oddsDraw": 1.45,
     "oddsAway": 2.22,
     "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "drawPct": 43,
+    "awayWinPct": 24,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 23.0
+      },
+      {
+        "score": "1-0",
+        "prob": 17.8
+      },
+      {
+        "score": "0-1",
+        "prob": 16.3
+      },
+      {
+        "score": "1-1",
+        "prob": 14.3
+      },
+      {
+        "score": "2-0",
+        "prob": 7.5
+      },
+      {
+        "score": "0-2",
+        "prob": 6.3
+      },
+      {
+        "score": "2-1",
+        "prob": 5.6
+      },
+      {
+        "score": "1-2",
+        "prob": 5.1
+      },
+      {
+        "score": "2-2",
+        "prob": 2.1
+      },
+      {
+        "score": "3-0",
+        "prob": 2.0
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 23.0
+    },
+    "xgHome": 0.82,
+    "xgAway": 0.75,
+    "eloHome": 1809,
+    "eloAway": 1825,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": 7,
+    "restAway": 7,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 22.4,
+      "outcomes": {
+        "home": 15,
+        "draw": 35,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "1-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.85,
+      "avgAwayGoals": 1.25
+    }
   },
   {
     "date": "2026-06-18",
@@ -358,10 +2239,109 @@
     "oddsHome": 1.38,
     "oddsDraw": 1.81,
     "oddsAway": 3.66,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 58,
+    "drawPct": 32,
+    "awayWinPct": 10,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 17.6
+      },
+      {
+        "score": "1-0",
+        "prob": 16.5
+      },
+      {
+        "score": "1-1",
+        "prob": 11.7
+      },
+      {
+        "score": "3-0",
+        "prob": 11.5
+      },
+      {
+        "score": "2-1",
+        "prob": 11.1
+      },
+      {
+        "score": "0-0",
+        "prob": 9.6
+      },
+      {
+        "score": "3-1",
+        "prob": 7.2
+      },
+      {
+        "score": "4-0",
+        "prob": 5.6
+      },
+      {
+        "score": "0-1",
+        "prob": 5.6
+      },
+      {
+        "score": "1-2",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 17.6
+    },
+    "xgHome": 1.96,
+    "xgAway": 0.63,
+    "eloHome": 1975,
+    "eloAway": 1849,
+    "eventHome": 10,
+    "eventAway": 0,
+    "restHome": 5,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "needResult",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 165.1,
+      "outcomes": {
+        "home": 60,
+        "draw": 15,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "4-1",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "3-1",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.7,
+      "avgAwayGoals": 0.85
+    }
   },
   {
     "date": "2026-06-18",
@@ -372,10 +2352,109 @@
     "oddsHome": 1.71,
     "oddsDraw": 1.48,
     "oddsAway": 2.41,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 38,
+    "drawPct": 41,
+    "awayWinPct": 21,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 17.9
+      },
+      {
+        "score": "0-0",
+        "prob": 17.2
+      },
+      {
+        "score": "1-1",
+        "prob": 15.3
+      },
+      {
+        "score": "0-1",
+        "prob": 12.6
+      },
+      {
+        "score": "2-0",
+        "prob": 10.6
+      },
+      {
+        "score": "2-1",
+        "prob": 8.3
+      },
+      {
+        "score": "1-2",
+        "prob": 5.8
+      },
+      {
+        "score": "0-2",
+        "prob": 5.1
+      },
+      {
+        "score": "3-0",
+        "prob": 4.0
+      },
+      {
+        "score": "2-2",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 17.9
+    },
+    "xgHome": 1.13,
+    "xgAway": 0.79,
+    "eloHome": 1886,
+    "eloAway": 1870,
+    "eventHome": -5,
+    "eventAway": -6,
+    "restHome": 6,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needResult",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 59.0,
+      "outcomes": {
+        "home": 55,
+        "draw": 20,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "2-0",
+          3
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.5,
+      "avgAwayGoals": 0.9
+    }
   },
   {
     "date": "2026-06-18",
@@ -386,10 +2465,109 @@
     "oddsHome": 1.67,
     "oddsDraw": 1.5,
     "oddsAway": 2.5,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 40,
+    "drawPct": 40,
+    "awayWinPct": 21,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.3
+      },
+      {
+        "score": "1-1",
+        "prob": 16.0
+      },
+      {
+        "score": "0-0",
+        "prob": 14.7
+      },
+      {
+        "score": "0-1",
+        "prob": 12.1
+      },
+      {
+        "score": "2-0",
+        "prob": 10.5
+      },
+      {
+        "score": "2-1",
+        "prob": 9.4
+      },
+      {
+        "score": "1-2",
+        "prob": 6.9
+      },
+      {
+        "score": "0-2",
+        "prob": 5.6
+      },
+      {
+        "score": "3-0",
+        "prob": 4.3
+      },
+      {
+        "score": "2-2",
+        "prob": 4.2
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.3
+    },
+    "xgHome": 1.22,
+    "xgAway": 0.9,
+    "eloHome": 1930,
+    "eloAway": 1911,
+    "eventHome": 15,
+    "eventAway": 10,
+    "restHome": 7,
+    "restAway": 7,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 15,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 61.25,
+      "outcomes": {
+        "home": 50,
+        "draw": 20,
+        "away": 30
+      },
+      "topScores": [
+        [
+          "1-1",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "2-0",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.35,
+      "avgAwayGoals": 0.9
+    }
   },
   {
     "date": "2026-06-19",
@@ -400,10 +2578,109 @@
     "oddsHome": 1.63,
     "oddsDraw": 1.52,
     "oddsAway": 2.58,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 41,
+    "drawPct": 40,
+    "awayWinPct": 19,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 17.1
+      },
+      {
+        "score": "1-1",
+        "prob": 15.6
+      },
+      {
+        "score": "0-0",
+        "prob": 15.0
+      },
+      {
+        "score": "0-1",
+        "prob": 11.6
+      },
+      {
+        "score": "2-0",
+        "prob": 11.3
+      },
+      {
+        "score": "2-1",
+        "prob": 9.4
+      },
+      {
+        "score": "1-2",
+        "prob": 6.3
+      },
+      {
+        "score": "0-2",
+        "prob": 5.0
+      },
+      {
+        "score": "3-0",
+        "prob": 4.7
+      },
+      {
+        "score": "3-1",
+        "prob": 3.9
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 17.1
+    },
+    "xgHome": 1.25,
+    "xgAway": 0.83,
+    "eloHome": 1954,
+    "eloAway": 1895,
+    "eventHome": -14,
+    "eventAway": 5,
+    "restHome": 7,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 90.9,
+      "outcomes": {
+        "home": 40,
+        "draw": 20,
+        "away": 40
+      },
+      "topScores": [
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.4,
+      "avgAwayGoals": 1.25
+    }
   },
   {
     "date": "2026-06-19",
@@ -414,10 +2691,109 @@
     "oddsHome": 2.41,
     "oddsDraw": 1.48,
     "oddsAway": 1.71,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 21,
+    "drawPct": 41,
+    "awayWinPct": 38,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.4
+      },
+      {
+        "score": "0-0",
+        "prob": 16.5
+      },
+      {
+        "score": "1-1",
+        "prob": 15.5
+      },
+      {
+        "score": "1-0",
+        "prob": 12.6
+      },
+      {
+        "score": "0-2",
+        "prob": 10.4
+      },
+      {
+        "score": "1-2",
+        "prob": 8.6
+      },
+      {
+        "score": "2-1",
+        "prob": 6.1
+      },
+      {
+        "score": "2-0",
+        "prob": 5.3
+      },
+      {
+        "score": "0-3",
+        "prob": 4.0
+      },
+      {
+        "score": "2-2",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.4
+    },
+    "xgHome": 0.82,
+    "xgAway": 1.15,
+    "eloHome": 1860,
+    "eloAway": 1960,
+    "eventHome": -5,
+    "eventAway": -20,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -62.0,
+      "outcomes": {
+        "home": 10,
+        "draw": 30,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-3",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.65
+    }
   },
   {
     "date": "2026-06-19",
@@ -428,10 +2804,109 @@
     "oddsHome": 1.15,
     "oddsDraw": 3.22,
     "oddsAway": 7.8,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 82,
+    "drawPct": 16,
+    "awayWinPct": 2,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.7
+      },
+      {
+        "score": "4-0",
+        "prob": 17.8
+      },
+      {
+        "score": "2-0",
+        "prob": 14.8
+      },
+      {
+        "score": "5-0",
+        "prob": 13.5
+      },
+      {
+        "score": "6-0",
+        "prob": 8.6
+      },
+      {
+        "score": "1-0",
+        "prob": 6.6
+      },
+      {
+        "score": "3-1",
+        "prob": 5.6
+      },
+      {
+        "score": "4-1",
+        "prob": 5.3
+      },
+      {
+        "score": "7-0",
+        "prob": 4.6
+      },
+      {
+        "score": "2-1",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.7
+    },
+    "xgHome": 3.8,
+    "xgAway": 0.3,
+    "eloHome": 2098,
+    "eloAway": 1805,
+    "eventHome": -18,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    }
   },
   {
     "date": "2026-06-19",
@@ -442,10 +2917,109 @@
     "oddsHome": 1.56,
     "oddsDraw": 1.56,
     "oddsAway": 2.78,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 44,
+    "drawPct": 39,
+    "awayWinPct": 17,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.8
+      },
+      {
+        "score": "0-0",
+        "prob": 16.4
+      },
+      {
+        "score": "1-1",
+        "prob": 14.7
+      },
+      {
+        "score": "2-0",
+        "prob": 12.4
+      },
+      {
+        "score": "0-1",
+        "prob": 11.0
+      },
+      {
+        "score": "2-1",
+        "prob": 8.8
+      },
+      {
+        "score": "3-0",
+        "prob": 5.1
+      },
+      {
+        "score": "1-2",
+        "prob": 5.1
+      },
+      {
+        "score": "0-2",
+        "prob": 4.0
+      },
+      {
+        "score": "3-1",
+        "prob": 3.7
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.8
+    },
+    "xgHome": 1.25,
+    "xgAway": 0.72,
+    "eloHome": 1915,
+    "eloAway": 1836,
+    "eventHome": 0,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 7,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 118.55,
+      "outcomes": {
+        "home": 30,
+        "draw": 35,
+        "away": 35
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.0
+    }
   },
   {
     "date": "2026-06-20",
@@ -456,10 +3030,109 @@
     "oddsHome": 1.43,
     "oddsDraw": 1.7,
     "oddsAway": 3.3,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 50,
+    "drawPct": 36,
+    "awayWinPct": 15,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.5
+      },
+      {
+        "score": "1-1",
+        "prob": 15.6
+      },
+      {
+        "score": "0-0",
+        "prob": 13.1
+      },
+      {
+        "score": "2-0",
+        "prob": 12.3
+      },
+      {
+        "score": "2-1",
+        "prob": 10.5
+      },
+      {
+        "score": "0-1",
+        "prob": 10.3
+      },
+      {
+        "score": "1-2",
+        "prob": 6.4
+      },
+      {
+        "score": "3-0",
+        "prob": 5.8
+      },
+      {
+        "score": "3-1",
+        "prob": 4.9
+      },
+      {
+        "score": "0-2",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.5
+    },
+    "xgHome": 1.41,
+    "xgAway": 0.85,
+    "eloHome": 2025,
+    "eloAway": 1920,
+    "eventHome": -15,
+    "eventAway": 5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "physical",
+    "tacticMult": 0.95,
+    "experienceHome": 5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 144.4,
+      "outcomes": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "topScores": [
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.6,
+      "avgAwayGoals": 0.8
+    }
   },
   {
     "date": "2026-06-20",
@@ -470,24 +3143,222 @@
     "oddsHome": 1.3,
     "oddsDraw": 2.03,
     "oddsAway": 4.35,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 67,
+    "drawPct": 27,
+    "awayWinPct": 6,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.7
+      },
+      {
+        "score": "3-0",
+        "prob": 16.2
+      },
+      {
+        "score": "1-0",
+        "prob": 12.9
+      },
+      {
+        "score": "4-0",
+        "prob": 10.6
+      },
+      {
+        "score": "2-1",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 8.1
+      },
+      {
+        "score": "1-1",
+        "prob": 7.5
+      },
+      {
+        "score": "0-0",
+        "prob": 5.8
+      },
+      {
+        "score": "5-0",
+        "prob": 5.5
+      },
+      {
+        "score": "4-1",
+        "prob": 5.3
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.7
+    },
+    "xgHome": 2.6,
+    "xgAway": 0.5,
+    "eloHome": 2055,
+    "eloAway": 1885,
+    "eventHome": 10,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 207.6,
+      "outcomes": {
+        "home": 65,
+        "draw": 25,
+        "away": 10
+      },
+      "topScores": [
+        [
+          "1-0",
+          5
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.5,
+      "avgAwayGoals": 0.55
+    }
   },
   {
     "date": "2026-06-20",
     "homeTeam": "Ecuador",
-    "awayTeam": "Cura\u00e7ao",
+    "awayTeam": "Curaçao",
     "group": "E",
     "kickoff": "07:00",
     "oddsHome": 1.45,
     "oddsDraw": 1.69,
     "oddsAway": 3.24,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 51,
+    "drawPct": 37,
+    "awayWinPct": 12,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 21.1
+      },
+      {
+        "score": "0-0",
+        "prob": 16.6
+      },
+      {
+        "score": "2-0",
+        "prob": 15.5
+      },
+      {
+        "score": "1-1",
+        "prob": 12.7
+      },
+      {
+        "score": "0-1",
+        "prob": 8.6
+      },
+      {
+        "score": "2-1",
+        "prob": 8.5
+      },
+      {
+        "score": "3-0",
+        "prob": 7.2
+      },
+      {
+        "score": "3-1",
+        "prob": 3.9
+      },
+      {
+        "score": "1-2",
+        "prob": 3.3
+      },
+      {
+        "score": "4-0",
+        "prob": 2.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 21.1
+    },
+    "xgHome": 1.39,
+    "xgAway": 0.55,
+    "eloHome": 1910,
+    "eloAway": 1810,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 140.05,
+      "outcomes": {
+        "home": 50,
+        "draw": 25,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-0",
+          3
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.3,
+      "avgAwayGoals": 0.8
+    }
   },
   {
     "date": "2026-06-20",
@@ -498,10 +3369,109 @@
     "oddsHome": 2.26,
     "oddsDraw": 1.46,
     "oddsAway": 1.79,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 23,
+    "drawPct": 42,
+    "awayWinPct": 35,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 16.5
+      },
+      {
+        "score": "0-1",
+        "prob": 16.3
+      },
+      {
+        "score": "1-1",
+        "prob": 15.9
+      },
+      {
+        "score": "1-0",
+        "prob": 13.7
+      },
+      {
+        "score": "0-2",
+        "prob": 9.2
+      },
+      {
+        "score": "1-2",
+        "prob": 8.2
+      },
+      {
+        "score": "2-1",
+        "prob": 6.8
+      },
+      {
+        "score": "2-0",
+        "prob": 6.4
+      },
+      {
+        "score": "2-2",
+        "prob": 3.7
+      },
+      {
+        "score": "0-3",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 16.5
+    },
+    "xgHome": 0.89,
+    "xgAway": 1.08,
+    "eloHome": 1865,
+    "eloAway": 1945,
+    "eventHome": 5,
+    "eventAway": -14,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -37.15,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.6,
+      "avgAwayGoals": 1.5
+    }
   },
   {
     "date": "2026-06-21",
@@ -512,10 +3482,109 @@
     "oddsHome": 1.26,
     "oddsDraw": 2.21,
     "oddsAway": 4.87,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 68,
+    "drawPct": 26,
+    "awayWinPct": 6,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.7
+      },
+      {
+        "score": "3-0",
+        "prob": 14.9
+      },
+      {
+        "score": "1-0",
+        "prob": 14.2
+      },
+      {
+        "score": "2-1",
+        "prob": 10.2
+      },
+      {
+        "score": "4-0",
+        "prob": 8.9
+      },
+      {
+        "score": "1-1",
+        "prob": 8.9
+      },
+      {
+        "score": "3-1",
+        "prob": 8.1
+      },
+      {
+        "score": "0-0",
+        "prob": 6.9
+      },
+      {
+        "score": "4-1",
+        "prob": 4.9
+      },
+      {
+        "score": "5-0",
+        "prob": 4.3
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.7
+    },
+    "xgHome": 2.39,
+    "xgAway": 0.54,
+    "eloHome": 2070,
+    "eloAway": 1875,
+    "eventHome": 5,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "counter",
+    "tacticMult": 0.92,
+    "experienceHome": 5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 228.75,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ],
+        [
+          "4-1",
+          1
+        ]
+      ],
+      "avgHomeGoals": 2.8,
+      "avgAwayGoals": 0.8
+    }
   },
   {
     "date": "2026-06-21",
@@ -526,10 +3595,109 @@
     "oddsHome": 1.55,
     "oddsDraw": 1.58,
     "oddsAway": 2.83,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 46,
+    "drawPct": 38,
+    "awayWinPct": 16,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.6
+      },
+      {
+        "score": "1-1",
+        "prob": 15.2
+      },
+      {
+        "score": "2-0",
+        "prob": 13.0
+      },
+      {
+        "score": "0-0",
+        "prob": 12.5
+      },
+      {
+        "score": "2-1",
+        "prob": 10.8
+      },
+      {
+        "score": "0-1",
+        "prob": 9.6
+      },
+      {
+        "score": "3-0",
+        "prob": 6.4
+      },
+      {
+        "score": "1-2",
+        "prob": 6.1
+      },
+      {
+        "score": "3-1",
+        "prob": 5.3
+      },
+      {
+        "score": "2-2",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.6
+    },
+    "xgHome": 1.48,
+    "xgAway": 0.83,
+    "eloHome": 2005,
+    "eloAway": 1940,
+    "eventHome": 10,
+    "eventAway": -7,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 99.35,
+      "outcomes": {
+        "home": 35,
+        "draw": 20,
+        "away": 45
+      },
+      "topScores": [
+        [
+          "1-1",
+          3
+        ],
+        [
+          "1-0",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-3",
+          1
+        ]
+      ],
+      "avgHomeGoals": 1.1,
+      "avgAwayGoals": 1.3
+    }
   },
   {
     "date": "2026-06-21",
@@ -540,10 +3708,109 @@
     "oddsHome": 1.29,
     "oddsDraw": 2.07,
     "oddsAway": 4.45,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 67,
+    "drawPct": 26,
+    "awayWinPct": 6,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.7
+      },
+      {
+        "score": "3-0",
+        "prob": 16.2
+      },
+      {
+        "score": "1-0",
+        "prob": 12.9
+      },
+      {
+        "score": "4-0",
+        "prob": 10.6
+      },
+      {
+        "score": "2-1",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 8.1
+      },
+      {
+        "score": "1-1",
+        "prob": 7.5
+      },
+      {
+        "score": "0-0",
+        "prob": 5.8
+      },
+      {
+        "score": "5-0",
+        "prob": 5.5
+      },
+      {
+        "score": "4-1",
+        "prob": 5.3
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.7
+    },
+    "xgHome": 2.6,
+    "xgAway": 0.5,
+    "eloHome": 1990,
+    "eloAway": 1815,
+    "eventHome": 10,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 212.95,
+      "outcomes": {
+        "home": 70,
+        "draw": 20,
+        "away": 10
+      },
+      "topScores": [
+        [
+          "2-1",
+          4
+        ],
+        [
+          "1-0",
+          4
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "1-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.05,
+      "avgAwayGoals": 0.6
+    }
   },
   {
     "date": "2026-06-21",
@@ -554,10 +3821,109 @@
     "oddsHome": 2.45,
     "oddsDraw": 1.49,
     "oddsAway": 1.69,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 18,
+    "drawPct": 41,
+    "awayWinPct": 40,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 20.4
+      },
+      {
+        "score": "0-0",
+        "prob": 19.0
+      },
+      {
+        "score": "1-1",
+        "prob": 13.8
+      },
+      {
+        "score": "0-2",
+        "prob": 12.4
+      },
+      {
+        "score": "1-0",
+        "prob": 11.2
+      },
+      {
+        "score": "1-2",
+        "prob": 7.7
+      },
+      {
+        "score": "0-3",
+        "prob": 4.8
+      },
+      {
+        "score": "2-1",
+        "prob": 4.1
+      },
+      {
+        "score": "2-0",
+        "prob": 3.5
+      },
+      {
+        "score": "1-3",
+        "prob": 3.0
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 20.4
+    },
+    "xgHome": 0.62,
+    "xgAway": 1.16,
+    "eloHome": 1800,
+    "eloAway": 1905,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -69.45,
+      "outcomes": {
+        "home": 10,
+        "draw": 20,
+        "away": 70
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-3",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.85
+    }
   },
   {
     "date": "2026-06-22",
@@ -568,10 +3934,109 @@
     "oddsHome": 1.23,
     "oddsDraw": 2.35,
     "oddsAway": 5.29,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 74,
+    "drawPct": 22,
+    "awayWinPct": 4,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.6
+      },
+      {
+        "score": "2-0",
+        "prob": 17.5
+      },
+      {
+        "score": "4-0",
+        "prob": 14.9
+      },
+      {
+        "score": "5-0",
+        "prob": 9.5
+      },
+      {
+        "score": "1-0",
+        "prob": 9.5
+      },
+      {
+        "score": "3-1",
+        "prob": 7.4
+      },
+      {
+        "score": "2-1",
+        "prob": 7.0
+      },
+      {
+        "score": "4-1",
+        "prob": 6.0
+      },
+      {
+        "score": "6-0",
+        "prob": 5.1
+      },
+      {
+        "score": "1-1",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.6
+    },
+    "xgHome": 3.2,
+    "xgAway": 0.4,
+    "eloHome": 2138,
+    "eloAway": 1925,
+    "eventHome": 6,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 15,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 241.6,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ],
+        [
+          "3-0",
+          1
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.7
+    }
   },
   {
     "date": "2026-06-22",
@@ -582,10 +4047,109 @@
     "oddsHome": 1.16,
     "oddsDraw": 3.01,
     "oddsAway": 7.2,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 81,
+    "drawPct": 17,
+    "awayWinPct": 2,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.7
+      },
+      {
+        "score": "4-0",
+        "prob": 17.8
+      },
+      {
+        "score": "2-0",
+        "prob": 14.8
+      },
+      {
+        "score": "5-0",
+        "prob": 13.5
+      },
+      {
+        "score": "6-0",
+        "prob": 8.6
+      },
+      {
+        "score": "1-0",
+        "prob": 6.6
+      },
+      {
+        "score": "3-1",
+        "prob": 5.6
+      },
+      {
+        "score": "4-1",
+        "prob": 5.3
+      },
+      {
+        "score": "7-0",
+        "prob": 4.6
+      },
+      {
+        "score": "2-1",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.7
+    },
+    "xgHome": 3.8,
+    "xgAway": 0.3,
+    "eloHome": 2112,
+    "eloAway": 1835,
+    "eventHome": -2,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    }
   },
   {
     "date": "2026-06-22",
@@ -596,10 +4160,109 @@
     "oddsHome": 2.41,
     "oddsDraw": 1.48,
     "oddsAway": 1.71,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 20,
+    "drawPct": 41,
+    "awayWinPct": 39,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 18.1
+      },
+      {
+        "score": "0-0",
+        "prob": 16.3
+      },
+      {
+        "score": "1-1",
+        "prob": 15.2
+      },
+      {
+        "score": "1-0",
+        "prob": 11.6
+      },
+      {
+        "score": "0-2",
+        "prob": 11.5
+      },
+      {
+        "score": "1-2",
+        "prob": 8.8
+      },
+      {
+        "score": "2-1",
+        "prob": 5.6
+      },
+      {
+        "score": "0-3",
+        "prob": 4.7
+      },
+      {
+        "score": "2-0",
+        "prob": 4.6
+      },
+      {
+        "score": "1-3",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 18.1
+    },
+    "xgHome": 0.77,
+    "xgAway": 1.21,
+    "eloHome": 1850,
+    "eloAway": 1950,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -62.0,
+      "outcomes": {
+        "home": 10,
+        "draw": 30,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-3",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.65
+    }
   },
   {
     "date": "2026-06-22",
@@ -610,10 +4273,109 @@
     "oddsHome": 2.06,
     "oddsDraw": 1.44,
     "oddsAway": 1.94,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 25,
+    "drawPct": 43,
+    "awayWinPct": 31,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 22.6
+      },
+      {
+        "score": "0-1",
+        "prob": 19.2
+      },
+      {
+        "score": "1-0",
+        "prob": 14.6
+      },
+      {
+        "score": "1-1",
+        "prob": 14.1
+      },
+      {
+        "score": "0-2",
+        "prob": 9.0
+      },
+      {
+        "score": "1-2",
+        "prob": 6.1
+      },
+      {
+        "score": "2-0",
+        "prob": 5.1
+      },
+      {
+        "score": "2-1",
+        "prob": 4.6
+      },
+      {
+        "score": "0-3",
+        "prob": 2.7
+      },
+      {
+        "score": "2-2",
+        "prob": 2.1
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 22.6
+    },
+    "xgHome": 0.68,
+    "xgAway": 0.9,
+    "eloHome": 1795,
+    "eloAway": 1845,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -10.0,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          6
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "3-3",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.0,
+      "avgAwayGoals": 1.8
+    }
   },
   {
     "date": "2026-06-23",
@@ -624,10 +4386,109 @@
     "oddsHome": 1.18,
     "oddsDraw": 2.75,
     "oddsAway": 6.46,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 78,
+    "drawPct": 19,
+    "awayWinPct": 3,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.6
+      },
+      {
+        "score": "2-0",
+        "prob": 17.5
+      },
+      {
+        "score": "4-0",
+        "prob": 14.9
+      },
+      {
+        "score": "5-0",
+        "prob": 9.5
+      },
+      {
+        "score": "1-0",
+        "prob": 9.5
+      },
+      {
+        "score": "3-1",
+        "prob": 7.4
+      },
+      {
+        "score": "2-1",
+        "prob": 7.0
+      },
+      {
+        "score": "4-1",
+        "prob": 6.0
+      },
+      {
+        "score": "6-0",
+        "prob": 5.1
+      },
+      {
+        "score": "1-1",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.6
+    },
+    "xgHome": 3.2,
+    "xgAway": 0.4,
+    "eloHome": 2040,
+    "eloAway": 1785,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    }
   },
   {
     "date": "2026-06-23",
@@ -638,10 +4499,109 @@
     "oddsHome": 1.19,
     "oddsDraw": 2.65,
     "oddsAway": 6.16,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 76,
+    "drawPct": 20,
+    "awayWinPct": 4,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.3
+      },
+      {
+        "score": "2-0",
+        "prob": 18.1
+      },
+      {
+        "score": "4-0",
+        "prob": 13.9
+      },
+      {
+        "score": "1-0",
+        "prob": 10.5
+      },
+      {
+        "score": "5-0",
+        "prob": 8.5
+      },
+      {
+        "score": "3-1",
+        "prob": 7.7
+      },
+      {
+        "score": "2-1",
+        "prob": 7.6
+      },
+      {
+        "score": "4-1",
+        "prob": 5.9
+      },
+      {
+        "score": "1-1",
+        "prob": 5.2
+      },
+      {
+        "score": "6-0",
+        "prob": 4.3
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.3
+    },
+    "xgHome": 3.04,
+    "xgAway": 0.42,
+    "eloHome": 2085,
+    "eloAway": 1840,
+    "eventHome": -15,
+    "eventAway": -22,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "physical",
+    "tacticMult": 0.95,
+    "experienceHome": 5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    }
   },
   {
     "date": "2026-06-23",
@@ -652,10 +4612,109 @@
     "oddsHome": 2.88,
     "oddsDraw": 1.59,
     "oddsAway": 1.53,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 15,
+    "drawPct": 38,
+    "awayWinPct": 47,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 19.1
+      },
+      {
+        "score": "0-0",
+        "prob": 15.3
+      },
+      {
+        "score": "1-1",
+        "prob": 14.2
+      },
+      {
+        "score": "0-2",
+        "prob": 13.9
+      },
+      {
+        "score": "1-0",
+        "prob": 9.7
+      },
+      {
+        "score": "1-2",
+        "prob": 9.3
+      },
+      {
+        "score": "0-3",
+        "prob": 6.3
+      },
+      {
+        "score": "2-1",
+        "prob": 4.6
+      },
+      {
+        "score": "1-3",
+        "prob": 4.3
+      },
+      {
+        "score": "2-0",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 19.1
+    },
+    "xgHome": 0.67,
+    "xgAway": 1.37,
+    "eloHome": 1830,
+    "eloAway": 1980,
+    "eventHome": -5,
+    "eventAway": 10,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "possession",
+    "tacticMult": 1.05,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -107.25,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-1",
+          6
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.75
+    }
   },
   {
     "date": "2026-06-23",
@@ -666,10 +4725,109 @@
     "oddsHome": 1.27,
     "oddsDraw": 2.17,
     "oddsAway": 4.76,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 69,
+    "drawPct": 26,
+    "awayWinPct": 6,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.7
+      },
+      {
+        "score": "3-0",
+        "prob": 16.2
+      },
+      {
+        "score": "1-0",
+        "prob": 12.9
+      },
+      {
+        "score": "4-0",
+        "prob": 10.6
+      },
+      {
+        "score": "2-1",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 8.1
+      },
+      {
+        "score": "1-1",
+        "prob": 7.5
+      },
+      {
+        "score": "0-0",
+        "prob": 5.8
+      },
+      {
+        "score": "5-0",
+        "prob": 5.5
+      },
+      {
+        "score": "4-1",
+        "prob": 5.3
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.7
+    },
+    "xgHome": 2.6,
+    "xgAway": 0.5,
+    "eloHome": 1970,
+    "eloAway": 1780,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 228.75,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-1",
+          3
+        ],
+        [
+          "2-0",
+          3
+        ],
+        [
+          "7-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "5-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 2.8,
+      "avgAwayGoals": 0.8
+    }
   },
   {
     "date": "2026-06-24",
@@ -680,10 +4838,109 @@
     "oddsHome": 1.49,
     "oddsDraw": 1.63,
     "oddsAway": 3.05,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 49,
+    "drawPct": 37,
+    "awayWinPct": 14,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 17.7
+      },
+      {
+        "score": "1-1",
+        "prob": 14.6
+      },
+      {
+        "score": "2-0",
+        "prob": 13.9
+      },
+      {
+        "score": "0-0",
+        "prob": 13.3
+      },
+      {
+        "score": "2-1",
+        "prob": 10.3
+      },
+      {
+        "score": "0-1",
+        "prob": 9.2
+      },
+      {
+        "score": "3-0",
+        "prob": 6.8
+      },
+      {
+        "score": "1-2",
+        "prob": 5.2
+      },
+      {
+        "score": "3-1",
+        "prob": 5.1
+      },
+      {
+        "score": "2-2",
+        "prob": 3.9
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 17.7
+    },
+    "xgHome": 1.47,
+    "xgAway": 0.75,
+    "eloHome": 1975,
+    "eloAway": 1886,
+    "eventHome": 10,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "needResult",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 133.6,
+      "outcomes": {
+        "home": 45,
+        "draw": 30,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "0-0",
+          4
+        ],
+        [
+          "1-0",
+          4
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.95,
+      "avgAwayGoals": 0.7
+    }
   },
   {
     "date": "2026-06-24",
@@ -694,10 +4951,109 @@
     "oddsHome": 1.92,
     "oddsDraw": 1.44,
     "oddsAway": 2.09,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 31,
+    "drawPct": 42,
+    "awayWinPct": 26,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 18.7
+      },
+      {
+        "score": "1-0",
+        "prob": 16.9
+      },
+      {
+        "score": "1-1",
+        "prob": 15.4
+      },
+      {
+        "score": "0-1",
+        "prob": 14.7
+      },
+      {
+        "score": "2-0",
+        "prob": 8.6
+      },
+      {
+        "score": "2-1",
+        "prob": 7.2
+      },
+      {
+        "score": "0-2",
+        "prob": 6.4
+      },
+      {
+        "score": "1-2",
+        "prob": 6.2
+      },
+      {
+        "score": "2-2",
+        "prob": 3.0
+      },
+      {
+        "score": "3-0",
+        "prob": 2.8
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 18.7
+    },
+    "xgHome": 0.97,
+    "xgAway": 0.84,
+    "eloHome": 1849,
+    "eloAway": 1870,
+    "eventHome": 0,
+    "eventAway": -6,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needResult",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 19.65,
+      "outcomes": {
+        "home": 15,
+        "draw": 35,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.35
+    }
   },
   {
     "date": "2026-06-24",
@@ -708,10 +5064,109 @@
     "oddsHome": 4.13,
     "oddsDraw": 1.96,
     "oddsAway": 1.32,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 8,
+    "drawPct": 30,
+    "awayWinPct": 62,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-2",
+        "prob": 18.0
+      },
+      {
+        "score": "0-1",
+        "prob": 16.6
+      },
+      {
+        "score": "0-3",
+        "prob": 12.0
+      },
+      {
+        "score": "1-1",
+        "prob": 11.2
+      },
+      {
+        "score": "1-2",
+        "prob": 10.8
+      },
+      {
+        "score": "0-0",
+        "prob": 9.4
+      },
+      {
+        "score": "1-3",
+        "prob": 7.2
+      },
+      {
+        "score": "0-4",
+        "prob": 6.0
+      },
+      {
+        "score": "1-0",
+        "prob": 5.3
+      },
+      {
+        "score": "1-4",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-2",
+      "prob": 18.0
+    },
+    "xgHome": 0.6,
+    "xgAway": 2.0,
+    "eloHome": 1860,
+    "eloAway": 2098,
+    "eventHome": -5,
+    "eventAway": -18,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    }
   },
   {
     "date": "2026-06-24",
@@ -722,10 +5177,109 @@
     "oddsHome": 1.33,
     "oddsDraw": 1.94,
     "oddsAway": 4.07,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 62,
+    "drawPct": 30,
+    "awayWinPct": 8,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.0
+      },
+      {
+        "score": "1-0",
+        "prob": 16.6
+      },
+      {
+        "score": "3-0",
+        "prob": 12.0
+      },
+      {
+        "score": "1-1",
+        "prob": 11.2
+      },
+      {
+        "score": "2-1",
+        "prob": 10.8
+      },
+      {
+        "score": "0-0",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 7.2
+      },
+      {
+        "score": "4-0",
+        "prob": 6.0
+      },
+      {
+        "score": "0-1",
+        "prob": 5.3
+      },
+      {
+        "score": "4-1",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.0
+    },
+    "xgHome": 2.0,
+    "xgAway": 0.6,
+    "eloHome": 1960,
+    "eloAway": 1805,
+    "eventHome": -20,
+    "eventAway": -5,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 198.35,
+      "outcomes": {
+        "home": 65,
+        "draw": 20,
+        "away": 15
+      },
+      "topScores": [
+        [
+          "1-0",
+          6
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "6-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 1.5,
+      "avgAwayGoals": 0.7
+    }
   },
   {
     "date": "2026-06-24",
@@ -736,10 +5290,109 @@
     "oddsHome": 2.5,
     "oddsDraw": 1.5,
     "oddsAway": 1.67,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 18,
+    "drawPct": 40,
+    "awayWinPct": 42,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 20.0
+      },
+      {
+        "score": "0-0",
+        "prob": 16.8
+      },
+      {
+        "score": "1-1",
+        "prob": 13.8
+      },
+      {
+        "score": "0-2",
+        "prob": 13.7
+      },
+      {
+        "score": "1-0",
+        "prob": 10.0
+      },
+      {
+        "score": "1-2",
+        "prob": 8.6
+      },
+      {
+        "score": "0-3",
+        "prob": 5.9
+      },
+      {
+        "score": "2-1",
+        "prob": 4.2
+      },
+      {
+        "score": "1-3",
+        "prob": 3.7
+      },
+      {
+        "score": "2-0",
+        "prob": 3.2
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 20.0
+    },
+    "xgHome": 0.63,
+    "xgAway": 1.3,
+    "eloHome": 1809,
+    "eloAway": 1930,
+    "eventHome": 0,
+    "eventAway": 15,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 15,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -82.75,
+      "outcomes": {
+        "home": 15,
+        "draw": 15,
+        "away": 70
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-3",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "0-0",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.7,
+      "avgAwayGoals": 1.9
+    }
   },
   {
     "date": "2026-06-24",
@@ -750,10 +5403,109 @@
     "oddsHome": 2.22,
     "oddsDraw": 1.45,
     "oddsAway": 1.82,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 22,
+    "drawPct": 42,
+    "awayWinPct": 36,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 19.1
+      },
+      {
+        "score": "0-0",
+        "prob": 17.8
+      },
+      {
+        "score": "1-1",
+        "prob": 14.7
+      },
+      {
+        "score": "1-0",
+        "prob": 11.8
+      },
+      {
+        "score": "0-2",
+        "prob": 11.6
+      },
+      {
+        "score": "1-2",
+        "prob": 8.2
+      },
+      {
+        "score": "2-1",
+        "prob": 5.0
+      },
+      {
+        "score": "0-3",
+        "prob": 4.5
+      },
+      {
+        "score": "2-0",
+        "prob": 4.3
+      },
+      {
+        "score": "1-3",
+        "prob": 3.2
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 19.1
+    },
+    "xgHome": 0.7,
+    "xgAway": 1.16,
+    "eloHome": 1825,
+    "eloAway": 1911,
+    "eventHome": -5,
+    "eventAway": 10,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -42.45,
+      "outcomes": {
+        "home": 5,
+        "draw": 35,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          6
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.6
+    }
   },
   {
     "date": "2026-06-25",
@@ -764,24 +5516,222 @@
     "oddsHome": 2.83,
     "oddsDraw": 1.58,
     "oddsAway": 1.55,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 16,
+    "drawPct": 38,
+    "awayWinPct": 45,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 16.5
+      },
+      {
+        "score": "1-1",
+        "prob": 15.3
+      },
+      {
+        "score": "0-2",
+        "prob": 12.8
+      },
+      {
+        "score": "0-0",
+        "prob": 12.5
+      },
+      {
+        "score": "1-2",
+        "prob": 10.8
+      },
+      {
+        "score": "1-0",
+        "prob": 9.7
+      },
+      {
+        "score": "0-3",
+        "prob": 6.2
+      },
+      {
+        "score": "2-1",
+        "prob": 6.2
+      },
+      {
+        "score": "1-3",
+        "prob": 5.3
+      },
+      {
+        "score": "2-2",
+        "prob": 4.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 16.5
+    },
+    "xgHome": 0.84,
+    "xgAway": 1.46,
+    "eloHome": 1910,
+    "eloAway": 2055,
+    "eventHome": 0,
+    "eventAway": 10,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -98.9,
+      "outcomes": {
+        "home": 15,
+        "draw": 15,
+        "away": 70
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.75
+    }
   },
   {
     "date": "2026-06-25",
-    "homeTeam": "Cura\u00e7ao",
+    "homeTeam": "Curaçao",
     "awayTeam": "Ivory Coast",
     "group": "E",
     "kickoff": "12:00",
     "oddsHome": 2.22,
     "oddsDraw": 1.45,
     "oddsAway": 1.82,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 23,
+    "drawPct": 42,
+    "awayWinPct": 35,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 19.9
+      },
+      {
+        "score": "0-1",
+        "prob": 19.3
+      },
+      {
+        "score": "1-1",
+        "prob": 14.5
+      },
+      {
+        "score": "1-0",
+        "prob": 13.0
+      },
+      {
+        "score": "0-2",
+        "prob": 10.5
+      },
+      {
+        "score": "1-2",
+        "prob": 7.3
+      },
+      {
+        "score": "2-1",
+        "prob": 4.8
+      },
+      {
+        "score": "2-0",
+        "prob": 4.6
+      },
+      {
+        "score": "0-3",
+        "prob": 3.7
+      },
+      {
+        "score": "1-3",
+        "prob": 2.5
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 19.9
+    },
+    "xgHome": 0.69,
+    "xgAway": 1.04,
+    "eloHome": 1810,
+    "eloAway": 1885,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -31.5,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "2-2",
+          1
+        ],
+        [
+          "1-0",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.5
+    }
   },
   {
     "date": "2026-06-25",
@@ -792,10 +5742,109 @@
     "oddsHome": 1.69,
     "oddsDraw": 1.49,
     "oddsAway": 2.45,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 37,
+    "drawPct": 41,
+    "awayWinPct": 22,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.3
+      },
+      {
+        "score": "1-0",
+        "prob": 15.3
+      },
+      {
+        "score": "0-0",
+        "prob": 15.2
+      },
+      {
+        "score": "0-1",
+        "prob": 13.7
+      },
+      {
+        "score": "2-0",
+        "prob": 8.8
+      },
+      {
+        "score": "2-1",
+        "prob": 8.6
+      },
+      {
+        "score": "1-2",
+        "prob": 7.7
+      },
+      {
+        "score": "0-2",
+        "prob": 7.0
+      },
+      {
+        "score": "2-2",
+        "prob": 4.2
+      },
+      {
+        "score": "3-0",
+        "prob": 3.2
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.3
+    },
+    "xgHome": 1.1,
+    "xgAway": 0.98,
+    "eloHome": 1945,
+    "eloAway": 1920,
+    "eventHome": -14,
+    "eventAway": 5,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "physical",
+    "tacticMult": 0.95,
+    "experienceHome": 10,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 69.3,
+      "outcomes": {
+        "home": 50,
+        "draw": 20,
+        "away": 30
+      },
+      "topScores": [
+        [
+          "2-1",
+          4
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "1-0",
+          1
+        ]
+      ],
+      "avgHomeGoals": 1.55,
+      "avgAwayGoals": 1.15
+    }
   },
   {
     "date": "2026-06-25",
@@ -806,10 +5855,109 @@
     "oddsHome": 3.0,
     "oddsDraw": 1.62,
     "oddsAway": 1.5,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 15,
+    "drawPct": 37,
+    "awayWinPct": 47,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.6
+      },
+      {
+        "score": "1-1",
+        "prob": 15.1
+      },
+      {
+        "score": "0-0",
+        "prob": 14.1
+      },
+      {
+        "score": "0-2",
+        "prob": 12.8
+      },
+      {
+        "score": "1-0",
+        "prob": 10.2
+      },
+      {
+        "score": "1-2",
+        "prob": 10.0
+      },
+      {
+        "score": "0-3",
+        "prob": 5.9
+      },
+      {
+        "score": "2-1",
+        "prob": 5.7
+      },
+      {
+        "score": "1-3",
+        "prob": 4.6
+      },
+      {
+        "score": "2-0",
+        "prob": 4.1
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.6
+    },
+    "xgHome": 0.78,
+    "xgAway": 1.38,
+    "eloHome": 1865,
+    "eloAway": 2025,
+    "eventHome": 5,
+    "eventAway": -15,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -113.1,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "1-2",
+          4
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.7
+    }
   },
   {
     "date": "2026-06-25",
@@ -820,10 +5968,109 @@
     "oddsHome": 1.89,
     "oddsDraw": 1.44,
     "oddsAway": 2.12,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 32,
+    "drawPct": 42,
+    "awayWinPct": 27,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.4
+      },
+      {
+        "score": "0-0",
+        "prob": 15.3
+      },
+      {
+        "score": "1-0",
+        "prob": 14.9
+      },
+      {
+        "score": "0-1",
+        "prob": 14.2
+      },
+      {
+        "score": "2-1",
+        "prob": 8.3
+      },
+      {
+        "score": "2-0",
+        "prob": 8.2
+      },
+      {
+        "score": "1-2",
+        "prob": 8.0
+      },
+      {
+        "score": "0-2",
+        "prob": 7.5
+      },
+      {
+        "score": "2-2",
+        "prob": 4.2
+      },
+      {
+        "score": "3-1",
+        "prob": 2.9
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.4
+    },
+    "xgHome": 1.06,
+    "xgAway": 1.01,
+    "eloHome": 1915,
+    "eloAway": 1954,
+    "eventHome": 0,
+    "eventAway": -14,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 1.6,
+      "outcomes": {
+        "home": 15,
+        "draw": 30,
+        "away": 55
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "3-3",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.1,
+      "avgAwayGoals": 1.65
+    }
   },
   {
     "date": "2026-06-25",
@@ -834,10 +6081,109 @@
     "oddsHome": 2.0,
     "oddsDraw": 1.44,
     "oddsAway": 2.0,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 28,
+    "drawPct": 42,
+    "awayWinPct": 30,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 17.9
+      },
+      {
+        "score": "0-1",
+        "prob": 16.4
+      },
+      {
+        "score": "1-1",
+        "prob": 15.7
+      },
+      {
+        "score": "1-0",
+        "prob": 14.8
+      },
+      {
+        "score": "0-2",
+        "prob": 8.4
+      },
+      {
+        "score": "1-2",
+        "prob": 7.4
+      },
+      {
+        "score": "2-0",
+        "prob": 6.8
+      },
+      {
+        "score": "2-1",
+        "prob": 6.7
+      },
+      {
+        "score": "2-2",
+        "prob": 3.3
+      },
+      {
+        "score": "0-3",
+        "prob": 2.7
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 17.9
+    },
+    "xgHome": 0.88,
+    "xgAway": 0.98,
+    "eloHome": 1836,
+    "eloAway": 1895,
+    "eventHome": 0,
+    "eventAway": 5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -17.1,
+      "outcomes": {
+        "home": 5,
+        "draw": 35,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          5
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "1-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.7,
+      "avgAwayGoals": 1.4
+    }
   },
   {
     "date": "2026-06-26",
@@ -848,10 +6194,109 @@
     "oddsHome": 4.59,
     "oddsDraw": 2.11,
     "oddsAway": 1.28,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 6,
+    "drawPct": 27,
+    "awayWinPct": 68,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-2",
+        "prob": 19.1
+      },
+      {
+        "score": "0-3",
+        "prob": 16.1
+      },
+      {
+        "score": "0-1",
+        "prob": 13.6
+      },
+      {
+        "score": "0-4",
+        "prob": 10.1
+      },
+      {
+        "score": "1-2",
+        "prob": 9.3
+      },
+      {
+        "score": "1-3",
+        "prob": 7.8
+      },
+      {
+        "score": "1-1",
+        "prob": 7.6
+      },
+      {
+        "score": "0-0",
+        "prob": 6.3
+      },
+      {
+        "score": "0-5",
+        "prob": 5.1
+      },
+      {
+        "score": "1-4",
+        "prob": 4.9
+      }
+    ],
+    "bestScore": {
+      "score": "0-2",
+      "prob": 19.1
+    },
+    "xgHome": 0.48,
+    "xgAway": 2.52,
+    "eloHome": 1850,
+    "eloAway": 2112,
+    "eventHome": -5,
+    "eventAway": -2,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    }
   },
   {
     "date": "2026-06-26",
@@ -862,10 +6307,109 @@
     "oddsHome": 1.41,
     "oddsDraw": 1.75,
     "oddsAway": 3.44,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 57,
+    "drawPct": 33,
+    "awayWinPct": 10,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.1
+      },
+      {
+        "score": "1-0",
+        "prob": 17.2
+      },
+      {
+        "score": "3-0",
+        "prob": 11.7
+      },
+      {
+        "score": "1-1",
+        "prob": 11.3
+      },
+      {
+        "score": "2-1",
+        "prob": 10.5
+      },
+      {
+        "score": "0-0",
+        "prob": 10.0
+      },
+      {
+        "score": "3-1",
+        "prob": 6.8
+      },
+      {
+        "score": "4-0",
+        "prob": 5.7
+      },
+      {
+        "score": "0-1",
+        "prob": 5.5
+      },
+      {
+        "score": "4-1",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.1
+    },
+    "xgHome": 1.94,
+    "xgAway": 0.58,
+    "eloHome": 1950,
+    "eloAway": 1835,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 150.8,
+      "outcomes": {
+        "home": 60,
+        "draw": 25,
+        "away": 15
+      },
+      "topScores": [
+        [
+          "0-0",
+          4
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.7,
+      "avgAwayGoals": 0.65
+    }
   },
   {
     "date": "2026-06-26",
@@ -876,10 +6420,109 @@
     "oddsHome": 2.12,
     "oddsDraw": 1.44,
     "oddsAway": 1.89,
-    "homeWinPct": 33,
-    "drawPct": 34,
+    "homeWinPct": 25,
+    "drawPct": 42,
     "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 20.2
+      },
+      {
+        "score": "0-1",
+        "prob": 18.6
+      },
+      {
+        "score": "1-1",
+        "prob": 14.7
+      },
+      {
+        "score": "1-0",
+        "prob": 13.9
+      },
+      {
+        "score": "0-2",
+        "prob": 9.6
+      },
+      {
+        "score": "1-2",
+        "prob": 7.0
+      },
+      {
+        "score": "2-0",
+        "prob": 5.2
+      },
+      {
+        "score": "2-1",
+        "prob": 5.1
+      },
+      {
+        "score": "0-3",
+        "prob": 3.2
+      },
+      {
+        "score": "2-2",
+        "prob": 2.5
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 20.2
+    },
+    "xgHome": 0.73,
+    "xgAway": 0.99,
+    "eloHome": 1815,
+    "eloAway": 1875,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -17.1,
+      "outcomes": {
+        "home": 5,
+        "draw": 35,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          5
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "1-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.7,
+      "avgAwayGoals": 1.4
+    }
   },
   {
     "date": "2026-06-26",
@@ -890,10 +6533,109 @@
     "oddsHome": 2.26,
     "oddsDraw": 1.46,
     "oddsAway": 1.79,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 25,
+    "drawPct": 41,
+    "awayWinPct": 34,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.8
+      },
+      {
+        "score": "0-1",
+        "prob": 13.1
+      },
+      {
+        "score": "1-0",
+        "prob": 12.7
+      },
+      {
+        "score": "0-0",
+        "prob": 12.0
+      },
+      {
+        "score": "1-2",
+        "prob": 9.8
+      },
+      {
+        "score": "2-1",
+        "prob": 9.5
+      },
+      {
+        "score": "0-2",
+        "prob": 8.4
+      },
+      {
+        "score": "2-0",
+        "prob": 7.8
+      },
+      {
+        "score": "2-2",
+        "prob": 5.8
+      },
+      {
+        "score": "1-3",
+        "prob": 4.0
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.8
+    },
+    "xgHome": 1.18,
+    "xgAway": 1.21,
+    "eloHome": 1990,
+    "eloAway": 2070,
+    "eventHome": 10,
+    "eventAway": 5,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "possession",
+    "tacticMult": 1.05,
+    "experienceHome": 10,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -37.15,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.6,
+      "avgAwayGoals": 1.5
+    }
   },
   {
     "date": "2026-06-26",
@@ -904,10 +6646,109 @@
     "oddsHome": 1.97,
     "oddsDraw": 1.44,
     "oddsAway": 2.03,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 30,
+    "drawPct": 42,
+    "awayWinPct": 28,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.3
+      },
+      {
+        "score": "0-0",
+        "prob": 15.7
+      },
+      {
+        "score": "1-0",
+        "prob": 14.9
+      },
+      {
+        "score": "0-1",
+        "prob": 14.6
+      },
+      {
+        "score": "2-1",
+        "prob": 8.1
+      },
+      {
+        "score": "2-0",
+        "prob": 8.0
+      },
+      {
+        "score": "1-2",
+        "prob": 7.9
+      },
+      {
+        "score": "0-2",
+        "prob": 7.7
+      },
+      {
+        "score": "2-2",
+        "prob": 4.1
+      },
+      {
+        "score": "3-1",
+        "prob": 2.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.3
+    },
+    "xgHome": 1.03,
+    "xgAway": 1.01,
+    "eloHome": 1905,
+    "eloAway": 1940,
+    "eventHome": 0,
+    "eventAway": -7,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 6.95,
+      "outcomes": {
+        "home": 20,
+        "draw": 30,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          4
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "3-3",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.2,
+      "avgAwayGoals": 1.7
+    }
   },
   {
     "date": "2026-06-26",
@@ -918,10 +6759,109 @@
     "oddsHome": 3.59,
     "oddsDraw": 1.79,
     "oddsAway": 1.39,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 9,
+    "drawPct": 32,
+    "awayWinPct": 58,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-2",
+        "prob": 18.0
+      },
+      {
+        "score": "0-1",
+        "prob": 16.6
+      },
+      {
+        "score": "0-3",
+        "prob": 12.0
+      },
+      {
+        "score": "1-1",
+        "prob": 11.2
+      },
+      {
+        "score": "1-2",
+        "prob": 10.8
+      },
+      {
+        "score": "0-0",
+        "prob": 9.4
+      },
+      {
+        "score": "1-3",
+        "prob": 7.2
+      },
+      {
+        "score": "0-4",
+        "prob": 6.0
+      },
+      {
+        "score": "1-0",
+        "prob": 5.3
+      },
+      {
+        "score": "1-4",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-2",
+      "prob": 18.0
+    },
+    "xgHome": 0.6,
+    "xgAway": 2.0,
+    "eloHome": 1800,
+    "eloAway": 2005,
+    "eventHome": -5,
+    "eventAway": 10,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    }
   },
   {
     "date": "2026-06-27",
@@ -932,10 +6872,109 @@
     "oddsHome": 4.45,
     "oddsDraw": 2.07,
     "oddsAway": 1.29,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 6,
+    "drawPct": 27,
+    "awayWinPct": 66,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-2",
+        "prob": 19.1
+      },
+      {
+        "score": "0-3",
+        "prob": 15.3
+      },
+      {
+        "score": "0-1",
+        "prob": 14.4
+      },
+      {
+        "score": "1-2",
+        "prob": 9.7
+      },
+      {
+        "score": "0-4",
+        "prob": 9.2
+      },
+      {
+        "score": "1-1",
+        "prob": 8.4
+      },
+      {
+        "score": "1-3",
+        "prob": 7.8
+      },
+      {
+        "score": "0-0",
+        "prob": 7.0
+      },
+      {
+        "score": "1-4",
+        "prob": 4.7
+      },
+      {
+        "score": "0-5",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "0-2",
+      "prob": 19.1
+    },
+    "xgHome": 0.51,
+    "xgAway": 2.4,
+    "eloHome": 1830,
+    "eloAway": 2085,
+    "eventHome": -5,
+    "eventAway": -15,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "possession",
+    "tacticMult": 1.05,
+    "experienceHome": -5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    }
   },
   {
     "date": "2026-06-27",
@@ -946,10 +6985,109 @@
     "oddsHome": 1.35,
     "oddsDraw": 1.86,
     "oddsAway": 3.82,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 59,
+    "drawPct": 32,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 17.5
+      },
+      {
+        "score": "2-0",
+        "prob": 17.4
+      },
+      {
+        "score": "1-1",
+        "prob": 12.0
+      },
+      {
+        "score": "0-0",
+        "prob": 10.7
+      },
+      {
+        "score": "3-0",
+        "prob": 10.7
+      },
+      {
+        "score": "2-1",
+        "prob": 10.6
+      },
+      {
+        "score": "3-1",
+        "prob": 6.5
+      },
+      {
+        "score": "0-1",
+        "prob": 6.1
+      },
+      {
+        "score": "4-0",
+        "prob": 4.9
+      },
+      {
+        "score": "1-2",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 17.5
+    },
+    "xgHome": 1.84,
+    "xgAway": 0.61,
+    "eloHome": 1980,
+    "eloAway": 1840,
+    "eventHome": 10,
+    "eventAway": -22,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "possession",
+    "styleAway": "physical",
+    "tacticMult": 0.95,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 182.7,
+      "outcomes": {
+        "home": 60,
+        "draw": 20,
+        "away": 20
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "3-1",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "4-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.9,
+      "avgAwayGoals": 0.85
+    }
   },
   {
     "date": "2026-06-27",
@@ -960,10 +7098,109 @@
     "oddsHome": 2.19,
     "oddsDraw": 1.45,
     "oddsAway": 1.84,
-    "homeWinPct": 33,
-    "drawPct": 34,
+    "homeWinPct": 26,
+    "drawPct": 41,
     "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.6
+      },
+      {
+        "score": "0-1",
+        "prob": 14.4
+      },
+      {
+        "score": "0-0",
+        "prob": 13.3
+      },
+      {
+        "score": "1-0",
+        "prob": 12.8
+      },
+      {
+        "score": "1-2",
+        "prob": 9.6
+      },
+      {
+        "score": "0-2",
+        "prob": 9.1
+      },
+      {
+        "score": "2-1",
+        "prob": 8.4
+      },
+      {
+        "score": "2-0",
+        "prob": 7.0
+      },
+      {
+        "score": "2-2",
+        "prob": 5.1
+      },
+      {
+        "score": "1-3",
+        "prob": 3.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.6
+    },
+    "xgHome": 1.06,
+    "xgAway": 1.2,
+    "eloHome": 1970,
+    "eloAway": 2040,
+    "eventHome": 5,
+    "eventAway": 5,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -26.2,
+      "outcomes": {
+        "home": 10,
+        "draw": 30,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-1",
+          1
+        ],
+        [
+          "0-1",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.55
+    }
   },
   {
     "date": "2026-06-27",
@@ -974,10 +7211,109 @@
     "oddsHome": 1.82,
     "oddsDraw": 1.45,
     "oddsAway": 2.22,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 32,
+    "drawPct": 44,
+    "awayWinPct": 24,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 29.0
+      },
+      {
+        "score": "1-0",
+        "prob": 19.1
+      },
+      {
+        "score": "0-1",
+        "prob": 16.9
+      },
+      {
+        "score": "1-1",
+        "prob": 12.4
+      },
+      {
+        "score": "2-0",
+        "prob": 6.8
+      },
+      {
+        "score": "0-2",
+        "prob": 5.2
+      },
+      {
+        "score": "2-1",
+        "prob": 4.1
+      },
+      {
+        "score": "1-2",
+        "prob": 3.6
+      },
+      {
+        "score": "3-0",
+        "prob": 1.6
+      },
+      {
+        "score": "2-2",
+        "prob": 1.2
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 29.0
+    },
+    "xgHome": 0.69,
+    "xgAway": 0.61,
+    "eloHome": 1780,
+    "eloAway": 1785,
+    "eventHome": -5,
+    "eventAway": -5,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 32.0,
+      "outcomes": {
+        "home": 35,
+        "draw": 20,
+        "away": 45
+      },
+      "topScores": [
+        [
+          "0-1",
+          4
+        ],
+        [
+          "1-1",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.95,
+      "avgAwayGoals": 1.1
+    }
   },
   {
     "date": "2026-06-27",
@@ -988,10 +7324,109 @@
     "oddsHome": 2.26,
     "oddsDraw": 1.46,
     "oddsAway": 1.79,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 22,
+    "drawPct": 42,
+    "awayWinPct": 36,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.6
+      },
+      {
+        "score": "0-0",
+        "prob": 17.2
+      },
+      {
+        "score": "1-1",
+        "prob": 15.4
+      },
+      {
+        "score": "1-0",
+        "prob": 12.9
+      },
+      {
+        "score": "0-2",
+        "prob": 10.3
+      },
+      {
+        "score": "1-2",
+        "prob": 8.2
+      },
+      {
+        "score": "2-1",
+        "prob": 5.9
+      },
+      {
+        "score": "2-0",
+        "prob": 5.3
+      },
+      {
+        "score": "0-3",
+        "prob": 3.8
+      },
+      {
+        "score": "2-2",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.6
+    },
+    "xgHome": 0.8,
+    "xgAway": 1.11,
+    "eloHome": 1845,
+    "eloAway": 1925,
+    "eventHome": 0,
+    "eventAway": 0,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -37.15,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.6,
+      "avgAwayGoals": 1.5
+    }
   },
   {
     "date": "2026-06-27",
@@ -1002,9 +7437,108 @@
     "oddsHome": 6.72,
     "oddsDraw": 2.84,
     "oddsAway": 1.17,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
-    "source": "fifa-schedule-72"
+    "homeWinPct": 2,
+    "drawPct": 18,
+    "awayWinPct": 80,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-3",
+        "prob": 19.2
+      },
+      {
+        "score": "0-4",
+        "prob": 16.9
+      },
+      {
+        "score": "0-2",
+        "prob": 16.3
+      },
+      {
+        "score": "0-5",
+        "prob": 11.9
+      },
+      {
+        "score": "0-1",
+        "prob": 8.0
+      },
+      {
+        "score": "0-6",
+        "prob": 7.0
+      },
+      {
+        "score": "1-3",
+        "prob": 6.2
+      },
+      {
+        "score": "1-4",
+        "prob": 5.5
+      },
+      {
+        "score": "1-2",
+        "prob": 5.3
+      },
+      {
+        "score": "1-5",
+        "prob": 3.8
+      }
+    ],
+    "bestScore": {
+      "score": "0-3",
+      "prob": 19.2
+    },
+    "xgHome": 0.32,
+    "xgAway": 3.52,
+    "eloHome": 1795,
+    "eloAway": 2138,
+    "eventHome": -5,
+    "eventAway": 6,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "normal",
+    "pressureAway": "normal",
+    "styleHome": "counter",
+    "styleAway": "possession",
+    "tacticMult": 1.08,
+    "experienceHome": -5,
+    "experienceAway": 15,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    }
   }
 ]

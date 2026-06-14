@@ -548,7 +548,7 @@ def main():
 
     # Stats
     from collections import Counter
-    scores = Counter(p['bestScore']['score'] for p in new_preds)
+    scores = Counter(p.get('bestScore',{}).get('score','?') for p in new_preds)
     ones = scores.get('1-0', 0)
     print(f'\n── v3预测 ({len(new_preds)}场) ──')
     print(f'1-0: {ones}/{len(new_preds)} ({ones/len(new_preds)*100:.0f}%)')
@@ -565,7 +565,7 @@ def main():
                     if eh: signs.append(f"{p['homeTeam']} {eh:+d}")
                     if ea: signs.append(f"{p['awayTeam']} {ea:+d}")
                     print(f"  {p['homeTeam']} vs {p['awayTeam']}: {', '.join(signs)}  "
-                          f"xG={p['xgHome']}-{p['xgAway']}  {p['bestScore']['score']}")
+                          f"xG={p['xgHome']}-{p['xgAway']}  {p.get('bestScore',{}).get('score','?')}")
 
     # Show fatigue impact
     fatigued = [p for p in new_preds if p.get('fatigueHome', 1.0) < 0.95 or p.get('fatigueAway', 1.0) < 0.95]
@@ -614,7 +614,7 @@ def main():
             if h:
                 tops = ', '.join(f'{s}({c})' for s, c in h['topScores'][:3])
                 print(f"  {p['homeTeam']} vs {p['awayTeam']} (Elo差≈{h['avgEloDiff']:.0f}):")
-                print(f"  模型预测: {p['bestScore']['score']}")
+                print(f"  模型预测: {p.get('bestScore',{}).get('score','?')}")
                 print(f"  历史({h['matchCount']}场相似): 胜{h['outcomes']['home']}%/平{h['outcomes']['draw']}%/客{h['outcomes']['away']}%  {tops}")
 
     if apply_flag:
