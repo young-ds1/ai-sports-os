@@ -12,7 +12,8 @@ sleep 2
 git config --global --add safe.directory /opt/ai-sports-os 2>/dev/null || true
 sudo git fetch origin && sudo git reset --hard origin/main
 
-# 3. Regenerate data
+# 3. Regenerate data (fetch from running server if local file missing)
+if [ ! -f worldcup-predictions.json ]; then curl -s http://localhost:3000/worldcup-predictions.json -o worldcup-predictions.json 2>/dev/null; fi
 python3 scripts/live-results-scraper.py --write 2>/dev/null || true
 python3 scripts/elo-update.py --apply 2>/dev/null || true
 python3 scripts/predict-v3.py --apply
