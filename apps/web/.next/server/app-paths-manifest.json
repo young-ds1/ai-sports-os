@@ -1,13 +1,13 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/chat/page": "app/chat/page.js",
   "/admin/page": "app/admin/page.js",
   "/players/[id]/page": "app/players/[id]/page.js",
-  "/matches/[id]/page": "app/matches/[id]/page.js",
   "/page": "app/page.js",
-  "/matches/[id]/analysis/page": "app/matches/[id]/analysis/page.js",
-  "/user/page": "app/user/page.js",
-  "/chat/page": "app/chat/page.js",
   "/teams/[id]/page": "app/teams/[id]/page.js",
+  "/user/page": "app/user/page.js",
   "/predict/[...teams]/page": "app/predict/[...teams]/page.js",
-  "/accuracy/page": "app/accuracy/page.js"
+  "/matches/[id]/page": "app/matches/[id]/page.js",
+  "/accuracy/page": "app/accuracy/page.js",
+  "/matches/[id]/analysis/page": "app/matches/[id]/analysis/page.js"
 }
