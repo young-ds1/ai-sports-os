@@ -1,13 +1,377 @@
 {
-  "description": "World Cup 2026 match results. Auto-updated.",
-  "lastUpdated": "2026-06-14T14:00:00Z",
-  "source": "ESPN API + manual entry",
+  "description": "World Cup 2026 actual match results. Auto-updated from ESPN API.",
+  "lastUpdated": "2026-06-14T06:42:32Z",
+  "source": "ESPN API (site.api.espn.com)",
   "results": [
-    {"homeTeam":"South Korea","awayTeam":"Czech Republic","homeScore":2,"awayScore":1,"date":"2026-06-12","status":"FT"},
-    {"homeTeam":"Mexico","awayTeam":"South Africa","homeScore":2,"awayScore":0,"date":"2026-06-12","status":"FT"},
-    {"homeTeam":"Canada","awayTeam":"Bosnia & Herzegovina","homeScore":1,"awayScore":1,"date":"2026-06-12","status":"FT"},
-    {"homeTeam":"USA","awayTeam":"Paraguay","homeScore":4,"awayScore":1,"date":"2026-06-13","status":"FT"},
-    {"homeTeam":"Qatar","awayTeam":"Switzerland","homeScore":1,"awayScore":1,"date":"2026-06-13","status":"FT"},
-    {"homeTeam":"Brazil","awayTeam":"Morocco","homeScore":1,"awayScore":1,"date":"2026-06-13","status":"FT"}
-  ]
+    {
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "homeScore": 2,
+      "awayScore": 1,
+      "date": "2026-06-12",
+      "status": "FT"
+    },
+    {
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "homeScore": 2,
+      "awayScore": 0,
+      "date": "2026-06-12",
+      "status": "FT"
+    },
+    {
+      "homeTeam": "Canada",
+      "awayTeam": "Bosnia & Herzegovina",
+      "homeScore": 1,
+      "awayScore": 1,
+      "date": "2026-06-12",
+      "status": "FT",
+      "clock": "90'+7'",
+      "recordedAt": "2026-06-14T06:42:32.221035",
+      "homeStats": {
+        "appearances": "0",
+        "foulsCommitted": "10",
+        "wonCorners": "9",
+        "goalAssists": "1",
+        "possessionPct": "61.1",
+        "shotAssists": "12",
+        "shotsOnTarget": "4",
+        "totalGoals": "1",
+        "totalShots": "13"
+      },
+      "awayStats": {
+        "appearances": "0",
+        "foulsCommitted": "20",
+        "wonCorners": "4",
+        "goalAssists": "1",
+        "possessionPct": "38.9",
+        "shotAssists": "5",
+        "shotsOnTarget": "3",
+        "totalGoals": "1",
+        "totalShots": "8"
+      }
+    },
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Paraguay",
+      "homeScore": 4,
+      "awayScore": 1,
+      "date": "2026-06-13",
+      "status": "FT",
+      "clock": "90'+9'",
+      "recordedAt": "2026-06-14T06:42:32.221120",
+      "homeStats": {
+        "appearances": "0",
+        "foulsCommitted": "13",
+        "wonCorners": "3",
+        "goalAssists": "3",
+        "possessionPct": "65.3",
+        "shotAssists": "12",
+        "shotsOnTarget": "6",
+        "totalGoals": "4",
+        "totalShots": "16"
+      },
+      "awayStats": {
+        "appearances": "0",
+        "foulsCommitted": "17",
+        "wonCorners": "1",
+        "goalAssists": "1",
+        "possessionPct": "34.7",
+        "shotAssists": "7",
+        "shotsOnTarget": "1",
+        "totalGoals": "1",
+        "totalShots": "9"
+      }
+    },
+    {
+      "homeTeam": "Qatar",
+      "awayTeam": "Switzerland",
+      "homeScore": 1,
+      "awayScore": 1,
+      "date": "2026-06-13",
+      "status": "FT",
+      "clock": "90'+7'",
+      "recordedAt": "2026-06-14T06:42:32.221146",
+      "homeStats": {
+        "appearances": "0",
+        "foulsCommitted": "12",
+        "wonCorners": "3",
+        "goalAssists": "1",
+        "possessionPct": "32",
+        "shotAssists": "4",
+        "shotsOnTarget": "3",
+        "totalGoals": "1",
+        "totalShots": "6"
+      },
+      "awayStats": {
+        "appearances": "0",
+        "foulsCommitted": "11",
+        "wonCorners": "10",
+        "goalAssists": "0",
+        "possessionPct": "68",
+        "shotAssists": "24",
+        "shotsOnTarget": "7",
+        "totalGoals": "1",
+        "totalShots": "26"
+      }
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Morocco",
+      "homeScore": 1,
+      "awayScore": 1,
+      "date": "2026-06-13",
+      "status": "FT",
+      "clock": "90'+25'",
+      "recordedAt": "2026-06-14T06:42:32.221166",
+      "homeStats": {
+        "appearances": "0",
+        "foulsCommitted": "16",
+        "wonCorners": "6",
+        "goalAssists": "1",
+        "possessionPct": "51.4",
+        "shotAssists": "10",
+        "shotsOnTarget": "5",
+        "totalGoals": "1",
+        "totalShots": "12"
+      },
+      "awayStats": {
+        "appearances": "0",
+        "foulsCommitted": "14",
+        "wonCorners": "2",
+        "goalAssists": "1",
+        "possessionPct": "48.6",
+        "shotAssists": "10",
+        "shotsOnTarget": "3",
+        "totalGoals": "1",
+        "totalShots": "14"
+      }
+    },
+    {
+      "homeTeam": "Haiti",
+      "awayTeam": "Scotland",
+      "homeScore": 0,
+      "awayScore": 1,
+      "date": "2026-06-14",
+      "status": "FT",
+      "clock": "90'+8'",
+      "recordedAt": "2026-06-14T06:42:32.221185",
+      "homeStats": {
+        "appearances": "0",
+        "foulsCommitted": "23",
+        "wonCorners": "4",
+        "goalAssists": "0",
+        "possessionPct": "53.7",
+        "shotAssists": "11",
+        "shotsOnTarget": "2",
+        "totalGoals": "0",
+        "totalShots": "15"
+      },
+      "awayStats": {
+        "appearances": "0",
+        "foulsCommitted": "21",
+        "wonCorners": "3",
+        "goalAssists": "0",
+        "possessionPct": "46.3",
+        "shotAssists": "7",
+        "shotsOnTarget": "2",
+        "totalGoals": "1",
+        "totalShots": "9"
+      }
+    },
+    {
+      "homeTeam": "Australia",
+      "awayTeam": "Turkey",
+      "homeScore": 2,
+      "awayScore": 0,
+      "date": "2026-06-14",
+      "status": "FT",
+      "clock": "90'+6'",
+      "recordedAt": "2026-06-14T06:42:32.221208",
+      "homeStats": {
+        "appearances": "0",
+        "foulsCommitted": "12",
+        "wonCorners": "5",
+        "goalAssists": "1",
+        "possessionPct": "28.3",
+        "shotAssists": "8",
+        "shotsOnTarget": "4",
+        "totalGoals": "2",
+        "totalShots": "9"
+      },
+      "awayStats": {
+        "appearances": "0",
+        "foulsCommitted": "4",
+        "wonCorners": "8",
+        "goalAssists": "0",
+        "possessionPct": "71.7",
+        "shotAssists": "20",
+        "shotsOnTarget": "8",
+        "totalGoals": "0",
+        "totalShots": "30"
+      }
+    }
+  ],
+  "teamStats": {
+    "South Korea": {
+      "gp": 1,
+      "gf": 2,
+      "ga": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gpg": 2.0,
+      "gapg": 1.0
+    },
+    "Czech Republic": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 2,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gpg": 1.0,
+      "gapg": 2.0
+    },
+    "Mexico": {
+      "gp": 1,
+      "gf": 2,
+      "ga": 0,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gpg": 2.0,
+      "gapg": 0.0
+    },
+    "South Africa": {
+      "gp": 1,
+      "gf": 0,
+      "ga": 2,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gpg": 0.0,
+      "gapg": 2.0
+    },
+    "Canada": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 1.0
+    },
+    "Bosnia & Herzegovina": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 1.0
+    },
+    "USA": {
+      "gp": 1,
+      "gf": 4,
+      "ga": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gpg": 4.0,
+      "gapg": 1.0
+    },
+    "Paraguay": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 4,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gpg": 1.0,
+      "gapg": 4.0
+    },
+    "Qatar": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 1.0
+    },
+    "Switzerland": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 1.0
+    },
+    "Brazil": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 1.0
+    },
+    "Morocco": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 1.0
+    },
+    "Haiti": {
+      "gp": 1,
+      "gf": 0,
+      "ga": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gpg": 0.0,
+      "gapg": 1.0
+    },
+    "Scotland": {
+      "gp": 1,
+      "gf": 1,
+      "ga": 0,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gpg": 1.0,
+      "gapg": 0.0
+    },
+    "Australia": {
+      "gp": 1,
+      "gf": 2,
+      "ga": 0,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gpg": 2.0,
+      "gapg": 0.0
+    },
+    "Turkey": {
+      "gp": 1,
+      "gf": 0,
+      "ga": 2,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gpg": 0.0,
+      "gapg": 2.0
+    }
+  }
 }

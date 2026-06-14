@@ -144,6 +144,12 @@ def parse_results(data):
         except (ValueError, TypeError):
             continue
 
+        # Collect match statistics
+        home_stats_raw = home.get("statistics", [])
+        away_stats_raw = away.get("statistics", [])
+        home_stats = {s.get("name",""): s.get("displayValue","") for s in home_stats_raw}
+        away_stats = {s.get("name",""): s.get("displayValue","") for s in away_stats_raw}
+
         results.append({
             "homeTeam": home_name,
             "awayTeam": away_name,
@@ -153,6 +159,8 @@ def parse_results(data):
             "status": status.get("shortDetail", status.get("name", "")),
             "clock": comp.get("status", {}).get("displayClock", ""),
             "recordedAt": recorded_at,
+            "homeStats": home_stats,
+            "awayStats": away_stats,
         })
 
     return results
