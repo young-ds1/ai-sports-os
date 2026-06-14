@@ -1,43 +1,69 @@
 {
-  "description": "Off-field events & 小道消息 (insider news). These affect team performance but are NOT priced into betting odds.",
-  "lastUpdated": "2026-06-13",
-  "reliabilityWeights": {
-    "confirmed": 1.0,
-    "reliable_source": 0.8,
-    "rumor": 0.4,
-    "unverified": 0.2
-  },
+  "description": "Off-field events & 小道消息 affecting team performance",
+  "lastUpdated": "2026-06-14",
+  "reliabilityWeights": {"confirmed": 1.0, "reliable_source": 0.8, "rumor": 0.4, "unverified": 0.2},
   "categories": {
-    "locker_room": "更衣室矛盾/内讧/教练球员冲突 → 团队协作崩溃",
-    "scandal": "丑闻/夜店/违纪 → 士气打击+媒体压力",
-    "injury_news": "非官方伤病消息/训练受伤 → 可能缺席",
-    "travel_logistics": "行程问题/装备丢失/住宿差 → 备战受影响",
-    "external_pressure": "国内舆论/足协施压/球迷抗议 → 心理负担",
-    "referee_news": "裁判争议/尺度预判 → 影响比赛节奏",
-    "positive_momentum": "士气高涨/更衣室团结/训练状态好 → 正面加成"
+    "injury": "核心球员伤停/缺阵",
+    "locker_room": "更衣室矛盾/内讧",
+    "scandal": "丑闻/争议",
+    "travel_logistics": "行程/签证/后勤问题",
+    "external_pressure": "舆论/足协施压"
   },
   "events": [
     {
-      "team": "England",
-      "event": "全队装备被盗，包括球鞋和战术平板",
-      "category": "travel_logistics",
-      "reliability": "reliable_source",
-      "severity": -25,
-      "date": "2026-06-13",
-      "expiresAfter": "2026-06-20",
-      "source": "BBC Sport / The Guardian",
-      "note": "装备丢失影响备战节奏，年轻球员心理受冲击更大"
+      "team": "England", "event": "全队装备被盗(球鞋+战术平板)", "category": "travel_logistics",
+      "reliability": "reliable_source", "severity": -25,
+      "date": "2026-06-13", "expiresAfter": "2026-06-20", "source": "BBC/Guardian"
+    },
+    {
+      "team": "Japan", "event": "队长远藤航伤退+队内疑似内讧(绕开足协自行宣布退出)", "category": "locker_room",
+      "reliability": "reliable_source", "severity": -30,
+      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "Sohu/Nikkansports"
+    },
+    {
+      "team": "Brazil", "event": "内马尔小腿二级撕裂缺阵首战, 俱乐部隐瞒伤情引发信任危机", "category": "injury",
+      "reliability": "confirmed", "severity": -28,
+      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "ChinaTimes/ESPN"
+    },
+    {
+      "team": "Netherlands", "event": "主力后卫Jurrien Timber腹股沟伤退出世界杯", "category": "injury",
+      "reliability": "confirmed", "severity": -20,
+      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+    },
+    {
+      "team": "USA", "event": "Pulisic小腿被踢, 半场换下, 走路困难", "category": "injury",
+      "reliability": "reliable_source", "severity": -18,
+      "date": "2026-06-14", "expiresAfter": "2026-06-19", "source": "The Mirror"
+    },
+    {
+      "team": "France", "event": "Mbappé/Cherki不满博彩广告未经同意使用其形象, 队内气氛紧张", "category": "scandal",
+      "reliability": "reliable_source", "severity": -15,
+      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+    },
+    {
+      "team": "Argentina", "event": "后防核心塔利亚菲科受伤, 大概率缺阵首战", "category": "injury",
+      "reliability": "reliable_source", "severity": -12,
+      "date": "2026-06-14", "expiresAfter": "2026-06-19", "source": "Leisu Sports"
+    },
+    {
+      "team": "Ghana", "event": "核心Thomas Partey被加拿大拒绝入境签证, 缺席首战", "category": "travel_logistics",
+      "reliability": "confirmed", "severity": -22,
+      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+    },
+    {
+      "team": "Iran", "event": "15名足协成员被美国拒签, FIFA被指控毁约, 训练营被迫从亚利桑那迁至墨西哥", "category": "travel_logistics",
+      "reliability": "confirmed", "severity": -12,
+      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+    },
+    {
+      "team": "Morocco", "event": "边锋Ezzalzouli右膝重伤退赛+后卫Aguerd未恢复", "category": "injury",
+      "reliability": "confirmed", "severity": -20,
+      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+    },
+    {
+      "team": "Qatar", "event": "首战1-1逼平瑞士, 补时乌龙送对手队史首个世界杯积分", "category": "external_pressure",
+      "reliability": "confirmed", "severity": -6,
+      "date": "2026-06-14", "expiresAfter": "2026-06-18", "source": "Titan Sports"
     }
-  ],
-  "watchTemplate": {
-    "team": "",
-    "event": "",
-    "category": "locker_room",
-    "reliability": "rumor",
-    "severity": -15,
-    "date": "2026-06-13",
-    "expiresAfter": "2026-06-20",
-    "source": "",
-    "note": ""
-  }
+  ]
 }
