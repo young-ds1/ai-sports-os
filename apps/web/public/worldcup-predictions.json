@@ -8,9 +8,9 @@
     "oddsHome": 1.43,
     "oddsDraw": 4.59,
     "oddsAway": 3.3,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
+    "homeWinPct": 63,
+    "drawPct": 14,
+    "awayWinPct": 23,
     "source": "fifa-schedule-72"
   },
   {
@@ -22,9 +22,9 @@
     "oddsHome": 1.5,
     "oddsDraw": 4.53,
     "oddsAway": 3.0,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
+    "homeWinPct": 59,
+    "drawPct": 15,
+    "awayWinPct": 26,
     "source": "fifa-schedule-72"
   },
   {
@@ -36,9 +36,9 @@
     "oddsHome": 1.61,
     "oddsDraw": 4.44,
     "oddsAway": 2.63,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
+    "homeWinPct": 55,
+    "drawPct": 15,
+    "awayWinPct": 30,
     "source": "fifa-schedule-72"
   },
   {
@@ -50,9 +50,9 @@
     "oddsHome": 1.5,
     "oddsDraw": 4.53,
     "oddsAway": 3.0,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
+    "homeWinPct": 59,
+    "drawPct": 15,
+    "awayWinPct": 26,
     "source": "fifa-schedule-72"
   },
   {
@@ -65,8 +65,8 @@
     "oddsDraw": 4.38,
     "oddsAway": 1.69,
     "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
+    "drawPct": 15,
+    "awayWinPct": 52,
     "source": "fifa-schedule-72"
   },
   {
@@ -78,9 +78,9 @@
     "oddsHome": 1.36,
     "oddsDraw": 10.39,
     "oddsAway": 3.79,
-    "homeWinPct": 33,
-    "drawPct": 34,
-    "awayWinPct": 33,
+    "homeWinPct": 70,
+    "drawPct": 6,
+    "awayWinPct": 23,
     "source": "fifa-schedule-72"
   },
   {

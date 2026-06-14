@@ -439,6 +439,15 @@ def main():
         key = f"{home}|{away}"
 
         if key in completed:
+            oh2, od2, oa2 = p.get('oddsHome',2), p.get('oddsDraw',3.5), p.get('oddsAway',3.5)
+            if oh2 > 1.01:
+                hp2, dp2, ap2 = 1/oh2, 1/od2, 1/oa2
+                mg2 = (hp2+dp2+ap2-1)/3
+                hc2, dc2, ac2 = max(.02,hp2-mg2), max(.02,dp2-mg2), max(.02,ap2-mg2)
+                t2 = hc2+dc2+ac2
+                p['homeWinPct'] = round(hc2/t2*100)
+                p['drawPct'] = round(dc2/t2*100)
+                p['awayWinPct'] = round(ac2/t2*100)
             new_preds.append(p)
             continue
 
