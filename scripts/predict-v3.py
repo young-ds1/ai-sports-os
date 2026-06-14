@@ -363,6 +363,47 @@ def score_distribution_dc(xg_h, xg_a):
     return {'topScores': top, 'bestScore': top[0], 'homeWinPct': hw, 'drawPct': dd, 'awayWinPct': aw}
 
 
+def load_team_form_adjustments():
+    """Load match stats and compute form-based xG adjustments per team."""
+    mr = load_json(os.path.join(PROJECT_DIR, 'match-results.json'))
+    if not mr: return {}
+    results = mr.get('results', [])
+    if not results: return {}
+
+    form = {}
+    for r in results:
+        if 'homeStats' not in r: continue
+        h, a = r['homeTeam'], r['awayTeam']
+        hg, ag = r['homeScore'], r['awayScore']
+        hs, aw = r['homeStats'], r['awayStats']
+        for team, gf, ga, shots_str, sot_str, shots_faced_str in [
+            (h, hg, ag, hs.get('totalShots','0'), hs.get('shotsOnTarget','0'), aw.get('totalShots','0')),
+            (a, ag, hg, aw.get('totalShots','0'), aw.get('shotsOnTarget','0'), hs.get('totalShots','0'))]:
+            try:
+                shots = int(shots_str); sot = int(sot_str); shots_faced = int(shots_faced_str)
+            except (ValueError, TypeError):
+                continue
+            if team not in form:
+                form[team] = {'gp':0, 'goals':0, 'conceded':0, 'shots':0, 'sot':0, 'shots_faced':0}
+            f = form[team]
+            f['gp'] += 1; f['goals'] += gf; f['conceded'] += ga
+            f['shots'] += shots; f['sot'] += sot; f['shots_faced'] += shots_faced
+
+    # Convert to adjustment multipliers (1.0 = no change)
+    adj = {}
+    INITIAL_ELO_LOCAL = INITIAL_ELO  # from module scope
+    for team, f in form.items():
+        if f['gp'] == 0: continue
+        actual_gpg = f['goals'] / f['gp']
+        elo = INITIAL_ELO_LOCAL.get(team, 1900)
+        expected_gpg = elo / 1200  # rough: 2138 Elo ≈ 1.78 goals/game
+        # Multiplier: if actual > expected, boost. Cap at ±20%
+        mult = 1.0 + max(-0.20, min(0.20, (actual_gpg - expected_gpg) / expected_gpg * 0.5))
+        adj[team] = round(mult, 3)
+
+    return adj
+
+
 def main():
     global BASELINE, HOME_FACTOR, ATTACK_SPREAD, DEFENSE_SPREAD, DC_RHO
     # Load calibrated parameters
@@ -428,6 +469,7 @@ def main():
     pressure_levels = (pressure_config or {}).get('progressionPressure', {})
     odds_signals = load_odds_signals()
     weather_effects = load_weather_effects()
+    team_form_adj = load_team_form_adjustments()
 
     # Build schedule for rest days
     schedule = load_schedule(predictions)
@@ -515,6 +557,14 @@ def main():
         if weather_physical:
             if h_style == 'physical': xg_h *= 1.08
             if a_style == 'physical': xg_a *= 1.08
+        xg_h = max(0.1, min(7.0, xg_h))
+        xg_a = max(0.1, min(7.0, xg_a))
+
+        # Team form adjustment from actual match stats
+        h_form_adj = team_form_adj.get(home, 1.0)
+        a_form_adj = team_form_adj.get(away, 1.0)
+        xg_h *= h_form_adj
+        xg_a *= a_form_adj
         xg_h = max(0.1, min(7.0, xg_h))
         xg_a = max(0.1, min(7.0, xg_a))
 

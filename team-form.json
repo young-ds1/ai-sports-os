@@ -1,0 +1,134 @@
+{
+  "Canada": {
+    "gp": 1,
+    "goals": 1,
+    "conceded": 1,
+    "shots": 13,
+    "sot": 4,
+    "shots_faced": 8,
+    "sot_faced": 3,
+    "fouls": 10,
+    "avg_possession": 61.1
+  },
+  "Bosnia & Herzegovina": {
+    "gp": 1,
+    "goals": 1,
+    "conceded": 1,
+    "shots": 8,
+    "sot": 3,
+    "shots_faced": 13,
+    "sot_faced": 4,
+    "fouls": 20,
+    "avg_possession": 38.9
+  },
+  "USA": {
+    "gp": 1,
+    "goals": 4,
+    "conceded": 1,
+    "shots": 16,
+    "sot": 6,
+    "shots_faced": 9,
+    "sot_faced": 1,
+    "fouls": 13,
+    "avg_possession": 65.3
+  },
+  "Paraguay": {
+    "gp": 1,
+    "goals": 1,
+    "conceded": 4,
+    "shots": 9,
+    "sot": 1,
+    "shots_faced": 16,
+    "sot_faced": 6,
+    "fouls": 17,
+    "avg_possession": 34.7
+  },
+  "Qatar": {
+    "gp": 1,
+    "goals": 1,
+    "conceded": 1,
+    "shots": 6,
+    "sot": 3,
+    "shots_faced": 26,
+    "sot_faced": 7,
+    "fouls": 12,
+    "avg_possession": 32.0
+  },
+  "Switzerland": {
+    "gp": 1,
+    "goals": 1,
+    "conceded": 1,
+    "shots": 26,
+    "sot": 7,
+    "shots_faced": 6,
+    "sot_faced": 3,
+    "fouls": 11,
+    "avg_possession": 68.0
+  },
+  "Brazil": {
+    "gp": 1,
+    "goals": 1,
+    "conceded": 1,
+    "shots": 12,
+    "sot": 5,
+    "shots_faced": 14,
+    "sot_faced": 3,
+    "fouls": 16,
+    "avg_possession": 51.4
+  },
+  "Morocco": {
+    "gp": 1,
+    "goals": 1,
+    "conceded": 1,
+    "shots": 14,
+    "sot": 3,
+    "shots_faced": 12,
+    "sot_faced": 5,
+    "fouls": 14,
+    "avg_possession": 48.6
+  },
+  "Haiti": {
+    "gp": 1,
+    "goals": 0,
+    "conceded": 1,
+    "shots": 15,
+    "sot": 2,
+    "shots_faced": 9,
+    "sot_faced": 2,
+    "fouls": 23,
+    "avg_possession": 53.7
+  },
+  "Scotland": {
+    "gp": 1,
+    "goals": 1,
+    "conceded": 0,
+    "shots": 9,
+    "sot": 2,
+    "shots_faced": 15,
+    "sot_faced": 2,
+    "fouls": 21,
+    "avg_possession": 46.3
+  },
+  "Australia": {
+    "gp": 1,
+    "goals": 2,
+    "conceded": 0,
+    "shots": 9,
+    "sot": 4,
+    "shots_faced": 30,
+    "sot_faced": 8,
+    "fouls": 12,
+    "avg_possession": 28.3
+  },
+  "Turkey": {
+    "gp": 1,
+    "goals": 0,
+    "conceded": 2,
+    "shots": 30,
+    "sot": 8,
+    "shots_faced": 9,
+    "sot_faced": 4,
+    "fouls": 4,
+    "avg_possession": 71.7
+  }
+}

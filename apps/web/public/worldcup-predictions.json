@@ -92,9 +92,9 @@
     "oddsHome": 2.09,
     "oddsDraw": 2.82,
     "oddsAway": 1.92,
-    "homeWinPct": 33,
-    "drawPct": 28,
-    "awayWinPct": 39,
+    "homeWinPct": 36,
+    "drawPct": 24,
+    "awayWinPct": 40,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
@@ -205,9 +205,9 @@
     "oddsHome": 1.89,
     "oddsDraw": 2.83,
     "oddsAway": 2.12,
-    "homeWinPct": 40,
-    "drawPct": 26,
-    "awayWinPct": 34,
+    "homeWinPct": 41,
+    "drawPct": 24,
+    "awayWinPct": 35,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
@@ -2239,58 +2239,58 @@
     "oddsHome": 1.38,
     "oddsDraw": 10.31,
     "oddsAway": 3.66,
-    "homeWinPct": 69,
-    "drawPct": 11,
+    "homeWinPct": 67,
+    "drawPct": 13,
     "awayWinPct": 20,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
-        "score": "2-0",
-        "prob": 17.6
-      },
-      {
         "score": "1-0",
-        "prob": 16.5
+        "prob": 20.5
       },
       {
-        "score": "1-1",
-        "prob": 11.7
-      },
-      {
-        "score": "3-0",
-        "prob": 11.5
-      },
-      {
-        "score": "2-1",
-        "prob": 11.1
+        "score": "2-0",
+        "prob": 17.2
       },
       {
         "score": "0-0",
-        "prob": 9.6
+        "prob": 14.3
       },
       {
-        "score": "3-1",
-        "prob": 7.2
+        "score": "1-1",
+        "prob": 11.8
       },
       {
-        "score": "4-0",
-        "prob": 5.6
+        "score": "3-0",
+        "prob": 9.0
+      },
+      {
+        "score": "2-1",
+        "prob": 8.9
       },
       {
         "score": "0-1",
-        "prob": 5.6
+        "prob": 7.1
+      },
+      {
+        "score": "3-1",
+        "prob": 4.7
+      },
+      {
+        "score": "4-0",
+        "prob": 3.6
       },
       {
         "score": "1-2",
-        "prob": 3.6
+        "prob": 3.0
       }
     ],
     "bestScore": {
-      "score": "2-0",
-      "prob": 17.6
+      "score": "1-0",
+      "prob": 20.5
     },
-    "xgHome": 1.96,
-    "xgAway": 0.63,
+    "xgHome": 1.58,
+    "xgAway": 0.52,
     "eloHome": 1975,
     "eloAway": 1849,
     "eventHome": 10,
@@ -2352,58 +2352,58 @@
     "oddsHome": 1.71,
     "oddsDraw": 4.37,
     "oddsAway": 2.41,
-    "homeWinPct": 49,
-    "drawPct": 20,
+    "homeWinPct": 48,
+    "drawPct": 21,
     "awayWinPct": 31,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
-        "score": "1-0",
-        "prob": 17.9
-      },
-      {
         "score": "0-0",
-        "prob": 17.2
+        "prob": 22.9
       },
       {
-        "score": "1-1",
-        "prob": 15.3
+        "score": "1-0",
+        "prob": 19.9
       },
       {
         "score": "0-1",
-        "prob": 12.6
+        "prob": 14.0
+      },
+      {
+        "score": "1-1",
+        "prob": 13.8
       },
       {
         "score": "2-0",
-        "prob": 10.6
+        "prob": 9.5
       },
       {
         "score": "2-1",
-        "prob": 8.3
-      },
-      {
-        "score": "1-2",
-        "prob": 5.8
+        "prob": 6.1
       },
       {
         "score": "0-2",
-        "prob": 5.1
+        "prob": 4.6
+      },
+      {
+        "score": "1-2",
+        "prob": 4.3
       },
       {
         "score": "3-0",
-        "prob": 4.0
+        "prob": 2.9
       },
       {
         "score": "2-2",
-        "prob": 3.3
+        "prob": 2.0
       }
     ],
     "bestScore": {
-      "score": "1-0",
-      "prob": 17.9
+      "score": "0-0",
+      "prob": 22.9
     },
-    "xgHome": 1.13,
-    "xgAway": 0.79,
+    "xgHome": 0.92,
+    "xgAway": 0.64,
     "eloHome": 1886,
     "eloAway": 1870,
     "eventHome": -5,
@@ -2578,58 +2578,58 @@
     "oddsHome": 1.63,
     "oddsDraw": 4.43,
     "oddsAway": 2.58,
-    "homeWinPct": 51,
-    "drawPct": 20,
+    "homeWinPct": 53,
+    "drawPct": 19,
     "awayWinPct": 29,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
-        "score": "1-0",
-        "prob": 17.1
-      },
-      {
         "score": "1-1",
-        "prob": 15.6
+        "prob": 15.8
       },
       {
-        "score": "0-0",
-        "prob": 15.0
-      },
-      {
-        "score": "0-1",
-        "prob": 11.6
+        "score": "1-0",
+        "prob": 15.1
       },
       {
         "score": "2-0",
-        "prob": 11.3
+        "prob": 12.1
       },
       {
         "score": "2-1",
-        "prob": 9.4
+        "prob": 11.4
+      },
+      {
+        "score": "0-0",
+        "prob": 11.3
+      },
+      {
+        "score": "0-1",
+        "prob": 9.7
       },
       {
         "score": "1-2",
-        "prob": 6.3
-      },
-      {
-        "score": "0-2",
-        "prob": 5.0
+        "prob": 7.2
       },
       {
         "score": "3-0",
-        "prob": 4.7
+        "prob": 6.1
       },
       {
         "score": "3-1",
-        "prob": 3.9
+        "prob": 5.7
+      },
+      {
+        "score": "2-2",
+        "prob": 5.4
       }
     ],
     "bestScore": {
-      "score": "1-0",
-      "prob": 17.1
+      "score": "1-1",
+      "prob": 15.8
     },
-    "xgHome": 1.25,
-    "xgAway": 0.83,
+    "xgHome": 1.5,
+    "xgAway": 0.94,
     "eloHome": 1954,
     "eloAway": 1895,
     "eventHome": -14,
@@ -2691,58 +2691,58 @@
     "oddsHome": 2.41,
     "oddsDraw": 4.37,
     "oddsAway": 1.71,
-    "homeWinPct": 32,
-    "drawPct": 20,
-    "awayWinPct": 49,
+    "homeWinPct": 31,
+    "drawPct": 21,
+    "awayWinPct": 47,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
-        "score": "0-1",
-        "prob": 17.4
-      },
-      {
         "score": "0-0",
-        "prob": 16.5
+        "prob": 22.3
       },
       {
-        "score": "1-1",
-        "prob": 15.5
+        "score": "0-1",
+        "prob": 19.3
       },
       {
         "score": "1-0",
-        "prob": 12.6
+        "prob": 14.3
+      },
+      {
+        "score": "1-1",
+        "prob": 14.1
       },
       {
         "score": "0-2",
-        "prob": 10.4
+        "prob": 9.3
       },
       {
         "score": "1-2",
-        "prob": 8.6
-      },
-      {
-        "score": "2-1",
-        "prob": 6.1
+        "prob": 6.3
       },
       {
         "score": "2-0",
-        "prob": 5.3
+        "prob": 4.9
+      },
+      {
+        "score": "2-1",
+        "prob": 4.6
       },
       {
         "score": "0-3",
-        "prob": 4.0
+        "prob": 2.9
       },
       {
         "score": "2-2",
-        "prob": 3.5
+        "prob": 2.1
       }
     ],
     "bestScore": {
-      "score": "0-1",
-      "prob": 17.4
+      "score": "0-0",
+      "prob": 22.3
     },
-    "xgHome": 0.82,
-    "xgAway": 1.15,
+    "xgHome": 0.67,
+    "xgAway": 0.92,
     "eloHome": 1860,
     "eloAway": 1960,
     "eventHome": -5,
@@ -2811,51 +2811,51 @@
     "topScores": [
       {
         "score": "3-0",
-        "prob": 18.7
-      },
-      {
-        "score": "4-0",
-        "prob": 17.8
+        "prob": 20.4
       },
       {
         "score": "2-0",
-        "prob": 14.8
+        "prob": 20.2
       },
       {
-        "score": "5-0",
-        "prob": 13.5
-      },
-      {
-        "score": "6-0",
-        "prob": 8.6
+        "score": "4-0",
+        "prob": 15.5
       },
       {
         "score": "1-0",
-        "prob": 6.6
+        "prob": 11.7
+      },
+      {
+        "score": "5-0",
+        "prob": 9.4
       },
       {
         "score": "3-1",
-        "prob": 5.6
-      },
-      {
-        "score": "4-1",
-        "prob": 5.3
-      },
-      {
-        "score": "7-0",
-        "prob": 4.6
+        "prob": 4.9
       },
       {
         "score": "2-1",
-        "prob": 4.4
+        "prob": 4.8
+      },
+      {
+        "score": "6-0",
+        "prob": 4.8
+      },
+      {
+        "score": "0-0",
+        "prob": 4.5
+      },
+      {
+        "score": "4-1",
+        "prob": 3.7
       }
     ],
     "bestScore": {
       "score": "3-0",
-      "prob": 18.7
+      "prob": 20.4
     },
-    "xgHome": 3.8,
-    "xgAway": 0.3,
+    "xgHome": 3.04,
+    "xgAway": 0.24,
     "eloHome": 2098,
     "eloAway": 1805,
     "eventHome": -18,
@@ -2917,58 +2917,58 @@
     "oddsHome": 1.56,
     "oddsDraw": 4.48,
     "oddsAway": 2.78,
-    "homeWinPct": 54,
-    "drawPct": 20,
+    "homeWinPct": 53,
+    "drawPct": 21,
     "awayWinPct": 27,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
-        "score": "1-0",
-        "prob": 18.8
+        "score": "0-0",
+        "prob": 22.4
       },
       {
-        "score": "0-0",
-        "prob": 16.4
+        "score": "1-0",
+        "prob": 21.0
       },
       {
         "score": "1-1",
-        "prob": 14.7
-      },
-      {
-        "score": "2-0",
-        "prob": 12.4
+        "prob": 13.4
       },
       {
         "score": "0-1",
-        "prob": 11.0
+        "prob": 12.6
+      },
+      {
+        "score": "2-0",
+        "prob": 10.9
       },
       {
         "score": "2-1",
-        "prob": 8.8
-      },
-      {
-        "score": "3-0",
-        "prob": 5.1
-      },
-      {
-        "score": "1-2",
-        "prob": 5.1
+        "prob": 6.4
       },
       {
         "score": "0-2",
-        "prob": 4.0
+        "prob": 3.8
+      },
+      {
+        "score": "1-2",
+        "prob": 3.8
+      },
+      {
+        "score": "3-0",
+        "prob": 3.6
       },
       {
         "score": "3-1",
-        "prob": 3.7
+        "prob": 2.1
       }
     ],
     "bestScore": {
-      "score": "1-0",
-      "prob": 18.8
+      "score": "0-0",
+      "prob": 22.4
     },
-    "xgHome": 1.25,
-    "xgAway": 0.72,
+    "xgHome": 1.0,
+    "xgAway": 0.59,
     "eloHome": 1915,
     "eloAway": 1836,
     "eventHome": 0,
@@ -4838,58 +4838,58 @@
     "oddsHome": 1.49,
     "oddsDraw": 4.55,
     "oddsAway": 3.05,
-    "homeWinPct": 58,
-    "drawPct": 19,
+    "homeWinPct": 57,
+    "drawPct": 20,
     "awayWinPct": 23,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
         "score": "1-0",
-        "prob": 17.7
-      },
-      {
-        "score": "1-1",
-        "prob": 14.6
-      },
-      {
-        "score": "2-0",
-        "prob": 13.9
+        "prob": 20.6
       },
       {
         "score": "0-0",
-        "prob": 13.3
+        "prob": 18.7
       },
       {
-        "score": "2-1",
-        "prob": 10.3
+        "score": "1-1",
+        "prob": 13.7
+      },
+      {
+        "score": "2-0",
+        "prob": 12.8
       },
       {
         "score": "0-1",
-        "prob": 9.2
+        "prob": 10.8
+      },
+      {
+        "score": "2-1",
+        "prob": 7.8
       },
       {
         "score": "3-0",
-        "prob": 6.8
-      },
-      {
-        "score": "1-2",
-        "prob": 5.2
-      },
-      {
-        "score": "3-1",
         "prob": 5.1
       },
       {
-        "score": "2-2",
-        "prob": 3.9
+        "score": "1-2",
+        "prob": 4.0
+      },
+      {
+        "score": "0-2",
+        "prob": 3.4
+      },
+      {
+        "score": "3-1",
+        "prob": 3.1
       }
     ],
     "bestScore": {
       "score": "1-0",
-      "prob": 17.7
+      "prob": 20.6
     },
-    "xgHome": 1.47,
-    "xgAway": 0.75,
+    "xgHome": 1.19,
+    "xgAway": 0.61,
     "eloHome": 1975,
     "eloAway": 1886,
     "eventHome": 10,
@@ -4951,58 +4951,58 @@
     "oddsHome": 1.92,
     "oddsDraw": 2.82,
     "oddsAway": 2.09,
-    "homeWinPct": 39,
-    "drawPct": 27,
+    "homeWinPct": 38,
+    "drawPct": 28,
     "awayWinPct": 34,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
         "score": "0-0",
-        "prob": 18.7
+        "prob": 24.4
       },
       {
         "score": "1-0",
-        "prob": 16.9
-      },
-      {
-        "score": "1-1",
-        "prob": 15.4
+        "prob": 18.6
       },
       {
         "score": "0-1",
-        "prob": 14.7
+        "prob": 16.1
+      },
+      {
+        "score": "1-1",
+        "prob": 13.8
       },
       {
         "score": "2-0",
-        "prob": 8.6
-      },
-      {
-        "score": "2-1",
-        "prob": 7.2
+        "prob": 7.7
       },
       {
         "score": "0-2",
-        "prob": 6.4
+        "prob": 5.7
+      },
+      {
+        "score": "2-1",
+        "prob": 5.3
       },
       {
         "score": "1-2",
-        "prob": 6.2
-      },
-      {
-        "score": "2-2",
-        "prob": 3.0
+        "prob": 4.6
       },
       {
         "score": "3-0",
-        "prob": 2.8
+        "prob": 2.1
+      },
+      {
+        "score": "2-2",
+        "prob": 1.8
       }
     ],
     "bestScore": {
       "score": "0-0",
-      "prob": 18.7
+      "prob": 24.4
     },
-    "xgHome": 0.97,
-    "xgAway": 0.84,
+    "xgHome": 0.8,
+    "xgAway": 0.69,
     "eloHome": 1849,
     "eloAway": 1870,
     "eventHome": 0,
@@ -5065,57 +5065,57 @@
     "oddsDraw": 1.96,
     "oddsAway": 1.32,
     "homeWinPct": 8,
-    "drawPct": 30,
-    "awayWinPct": 62,
+    "drawPct": 31,
+    "awayWinPct": 60,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
-        "score": "0-2",
-        "prob": 18.0
-      },
-      {
         "score": "0-1",
-        "prob": 16.6
+        "prob": 20.7
       },
       {
-        "score": "0-3",
-        "prob": 12.0
-      },
-      {
-        "score": "1-1",
-        "prob": 11.2
-      },
-      {
-        "score": "1-2",
-        "prob": 10.8
+        "score": "0-2",
+        "prob": 17.7
       },
       {
         "score": "0-0",
+        "prob": 14.3
+      },
+      {
+        "score": "1-1",
+        "prob": 11.4
+      },
+      {
+        "score": "0-3",
         "prob": 9.4
       },
       {
-        "score": "1-3",
-        "prob": 7.2
-      },
-      {
-        "score": "0-4",
-        "prob": 6.0
+        "score": "1-2",
+        "prob": 8.7
       },
       {
         "score": "1-0",
-        "prob": 5.3
+        "prob": 6.7
       },
       {
-        "score": "1-4",
-        "prob": 3.6
+        "score": "1-3",
+        "prob": 4.7
+      },
+      {
+        "score": "0-4",
+        "prob": 3.8
+      },
+      {
+        "score": "2-1",
+        "prob": 2.7
       }
     ],
     "bestScore": {
-      "score": "0-2",
-      "prob": 18.0
+      "score": "0-1",
+      "prob": 20.7
     },
-    "xgHome": 0.6,
-    "xgAway": 2.0,
+    "xgHome": 0.49,
+    "xgAway": 1.6,
     "eloHome": 1860,
     "eloAway": 2098,
     "eventHome": -5,
@@ -5177,58 +5177,58 @@
     "oddsHome": 1.33,
     "oddsDraw": 10.54,
     "oddsAway": 4.07,
-    "homeWinPct": 71,
-    "drawPct": 10,
+    "homeWinPct": 70,
+    "drawPct": 12,
     "awayWinPct": 18,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
+      {
+        "score": "1-0",
+        "prob": 20.8
+      },
       {
         "score": "2-0",
         "prob": 18.0
       },
       {
-        "score": "1-0",
-        "prob": 16.6
-      },
-      {
-        "score": "3-0",
-        "prob": 12.0
+        "score": "0-0",
+        "prob": 14.2
       },
       {
         "score": "1-1",
-        "prob": 11.2
+        "prob": 11.1
+      },
+      {
+        "score": "3-0",
+        "prob": 9.6
       },
       {
         "score": "2-1",
-        "prob": 10.8
-      },
-      {
-        "score": "0-0",
-        "prob": 9.4
-      },
-      {
-        "score": "3-1",
-        "prob": 7.2
-      },
-      {
-        "score": "4-0",
-        "prob": 6.0
+        "prob": 8.6
       },
       {
         "score": "0-1",
-        "prob": 5.3
+        "prob": 6.5
       },
       {
-        "score": "4-1",
-        "prob": 3.6
+        "score": "3-1",
+        "prob": 4.6
+      },
+      {
+        "score": "4-0",
+        "prob": 3.9
+      },
+      {
+        "score": "1-2",
+        "prob": 2.6
       }
     ],
     "bestScore": {
-      "score": "2-0",
-      "prob": 18.0
+      "score": "1-0",
+      "prob": 20.8
     },
-    "xgHome": 2.0,
-    "xgAway": 0.6,
+    "xgHome": 1.61,
+    "xgAway": 0.48,
     "eloHome": 1960,
     "eloAway": 1805,
     "eventHome": -20,
@@ -5968,14 +5968,18 @@
     "oddsHome": 1.89,
     "oddsDraw": 2.83,
     "oddsAway": 2.12,
-    "homeWinPct": 40,
+    "homeWinPct": 36,
     "drawPct": 26,
-    "awayWinPct": 34,
+    "awayWinPct": 38,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
+        "score": "0-1",
+        "prob": 17.0
+      },
+      {
         "score": "1-1",
-        "prob": 16.4
+        "prob": 15.7
       },
       {
         "score": "0-0",
@@ -5983,43 +5987,39 @@
       },
       {
         "score": "1-0",
-        "prob": 14.9
-      },
-      {
-        "score": "0-1",
-        "prob": 14.2
-      },
-      {
-        "score": "2-1",
-        "prob": 8.3
-      },
-      {
-        "score": "2-0",
-        "prob": 8.2
-      },
-      {
-        "score": "1-2",
-        "prob": 8.0
+        "prob": 12.0
       },
       {
         "score": "0-2",
-        "prob": 7.5
+        "prob": 10.8
+      },
+      {
+        "score": "1-2",
+        "prob": 9.2
+      },
+      {
+        "score": "2-1",
+        "prob": 6.4
+      },
+      {
+        "score": "2-0",
+        "prob": 5.3
+      },
+      {
+        "score": "0-3",
+        "prob": 4.4
       },
       {
         "score": "2-2",
-        "prob": 4.2
-      },
-      {
-        "score": "3-1",
-        "prob": 2.9
+        "prob": 3.9
       }
     ],
     "bestScore": {
-      "score": "1-1",
-      "prob": 16.4
+      "score": "0-1",
+      "prob": 17.0
     },
-    "xgHome": 1.06,
-    "xgAway": 1.01,
+    "xgHome": 0.85,
+    "xgAway": 1.22,
     "eloHome": 1915,
     "eloAway": 1954,
     "eventHome": 0,
@@ -6081,58 +6081,58 @@
     "oddsHome": 2.0,
     "oddsDraw": 2.8,
     "oddsAway": 2.0,
-    "homeWinPct": 36,
+    "homeWinPct": 34,
     "drawPct": 27,
-    "awayWinPct": 37,
+    "awayWinPct": 40,
     "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
     "topScores": [
       {
-        "score": "0-0",
-        "prob": 17.9
+        "score": "0-1",
+        "prob": 18.8
       },
       {
-        "score": "0-1",
-        "prob": 16.4
+        "score": "0-0",
+        "prob": 18.2
       },
       {
         "score": "1-1",
-        "prob": 15.7
+        "prob": 14.9
       },
       {
         "score": "1-0",
-        "prob": 14.8
+        "prob": 12.4
       },
       {
         "score": "0-2",
-        "prob": 8.4
+        "prob": 10.9
       },
       {
         "score": "1-2",
-        "prob": 7.4
-      },
-      {
-        "score": "2-0",
-        "prob": 6.8
+        "prob": 8.0
       },
       {
         "score": "2-1",
-        "prob": 6.7
+        "prob": 5.2
       },
       {
-        "score": "2-2",
-        "prob": 3.3
+        "score": "2-0",
+        "prob": 4.7
       },
       {
         "score": "0-3",
-        "prob": 2.7
+        "prob": 4.1
+      },
+      {
+        "score": "1-3",
+        "prob": 3.0
       }
     ],
     "bestScore": {
-      "score": "0-0",
-      "prob": 17.9
+      "score": "0-1",
+      "prob": 18.8
     },
-    "xgHome": 0.88,
-    "xgAway": 0.98,
+    "xgHome": 0.73,
+    "xgAway": 1.11,
     "eloHome": 1836,
     "eloAway": 1895,
     "eventHome": 0,
