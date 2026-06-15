@@ -1,6 +1,6 @@
 {
   "description": "Off-field events & 小道消息 affecting team performance",
-  "lastUpdated": "2026-06-14",
+  "lastUpdated": "2026-06-15",
   "reliabilityWeights": {"confirmed": 1.0, "reliable_source": 0.8, "rumor": 0.4, "unverified": 0.2},
   "categories": {
     "injury": "核心球员伤停/缺阵",
@@ -64,6 +64,26 @@
       "team": "Qatar", "event": "首战1-1逼平瑞士, 补时乌龙送对手队史首个世界杯积分", "category": "external_pressure",
       "reliability": "confirmed", "severity": -6,
       "date": "2026-06-14", "expiresAfter": "2026-06-18", "source": "Titan Sports"
+    },
+    {
+      "team": "Uruguay", "event": "专机被美国拒入滞留墨西哥,Bielsa赛前发布会被迫取消", "category": "travel_logistics",
+      "reliability": "confirmed", "severity": -18,
+      "date": "2026-06-15", "expiresAfter": "2026-06-22", "source": "KhelNow/OneFootball"
+    },
+    {
+      "team": "Japan", "event": "久保建英膝盖受伤退场,伤势待评估", "category": "injury",
+      "reliability": "reliable_source", "severity": -15,
+      "date": "2026-06-15", "expiresAfter": "2026-06-22", "source": "Chosun"
+    },
+    {
+      "team": "Spain", "event": "Yamal/Williams恢复但替补出场,攻击线受限", "category": "injury_news",
+      "reliability": "reliable_source", "severity": -10,
+      "date": "2026-06-15", "expiresAfter": "2026-06-19", "source": "Xinhua"
+    },
+    {
+      "team": "Brazil", "event": "1-1平摩洛哥后媒体围攻安切洛蒂,更衣室压力大", "category": "external_pressure",
+      "reliability": "reliable_source", "severity": -12,
+      "date": "2026-06-15", "expiresAfter": "2026-06-22", "source": "BHarian/Media Brazil"
     }
   ]
 }
