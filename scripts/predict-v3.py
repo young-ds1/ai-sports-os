@@ -414,18 +414,18 @@ def load_team_form_adjustments():
         if f['gp'] == 0: continue
         gp = f['gp']
 
-        # 1. Goals vs expected (25% - small sample, don't overfit)
+        # 1. Goals vs expected (20% - small sample, don't overfit)
         actual_gpg = f['goals'] / gp
         elo = INITIAL_ELO_LOCAL.get(team, 1900)
         expected_gpg = elo / 1200
-        goal_mult = 1.0 + (actual_gpg - expected_gpg) / max(expected_gpg, 0.5) * 0.25
+        goal_mult = 1.0 + (actual_gpg - expected_gpg) / max(expected_gpg, 0.5) * 0.20
 
-        # 2. Shot conversion rate (35% - stabilizes faster than goals)
+        # 2. Shot conversion rate (40% - KEY efficiency metric for upset detection)
         avg_conversion = 0.10
         team_conversion = f['goals'] / max(f['shots'], 1)
-        conversion_mult = 1.0 + (team_conversion - avg_conversion) * 2.0 * 0.35
+        conversion_mult = 1.0 + (team_conversion - avg_conversion) * 2.5 * 0.40
 
-        # 3. Shot accuracy SoT/shots (20% - indicates attack quality)
+        # 3. Shot accuracy SoT/shots (20% - attack quality)
         avg_accuracy = 0.35
         team_accuracy = f['sot'] / max(f['shots'], 1)
         accuracy_mult = 1.0 + (team_accuracy - avg_accuracy) * 1.0 * 0.20
@@ -433,7 +433,7 @@ def load_team_form_adjustments():
         # 4. Defensive solidity (20% - goals conceded per shots faced)
         avg_concede_rate = 0.12
         team_concede_rate = f['conceded'] / max(f['shots_faced'], 1)
-        defense_mult = 1.0 - (team_concede_rate - avg_concede_rate) * 2.0 * 0.20
+        defense_mult = 1.0 - (team_concede_rate - avg_concede_rate) * 2.5 * 0.20
 
         blend = goal_mult + conversion_mult + accuracy_mult + defense_mult - 3.0
         capped = max(0.80, min(1.20, blend))
@@ -615,19 +615,9 @@ def main():
         xg_h = max(0.1, min(7.0, xg_h))
         xg_a = max(0.1, min(7.0, xg_a))
 
-        # Upset dampening: big favorites get slight penalty (complacency factor)
-        elo_gap = (h_elo + HOME_ADV_ELO) - a_elo
-        upset_idx = abs(elo_gap)/400*0.4 + (0.15 if home in ['Cape Verde','Curaçao','Jordan','Uzbekistan'] or away in ['Cape Verde','Curaçao','Jordan','Uzbekistan'] else 0)
-        if upset_idx > 0.3:
-            dampen = 1.0 - (upset_idx - 0.3) * 0.2
-            if elo_gap > 0:
-                xg_h *= dampen
-                xg_a *= (2.0 - dampen)
-            else:
-                xg_a *= dampen
-                xg_h *= (2.0 - dampen)
-
-        # Team form adjustment from actual match stats
+        # Team form: efficiency-based adjustment from actual match stats
+        # Low efficiency teams (high shots, low goals) get penalized
+        # High efficiency teams (low shots, high goals) get boosted
         h_form_adj = team_form_adj.get(home, 1.0)
         a_form_adj = team_form_adj.get(away, 1.0)
         xg_h *= h_form_adj
