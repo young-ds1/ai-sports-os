@@ -673,11 +673,7 @@ def main():
         if und_pressure in ('mustWin', 'needResult'):
             upset_reasons.append(f'{underdog}背水一战-出线压力激发')
 
-        # Condition 9-10: Set piece + Momentum
-        if h_corners >= 6 and h_fouls_opp >= 15:
-            upset_reasons.append(f'{home}定位球威胁(角球{h_corners}+对手犯规{h_fouls_opp})')
-        if a_corners >= 6 and a_fouls_opp >= 15:
-            upset_reasons.append(f'{away}定位球威胁(角球{a_corners}+对手犯规{a_fouls_opp})')
+        # Condition 9: Momentum — team in hot form from previous match
         if (h_form_adj > 1.10): upset_reasons.append(f'{home}势头正盛-上场高效')
         if (a_form_adj > 1.10): upset_reasons.append(f'{away}势头正盛-上场高效')
 
