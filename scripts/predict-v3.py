@@ -615,6 +615,18 @@ def main():
         xg_h = max(0.1, min(7.0, xg_h))
         xg_a = max(0.1, min(7.0, xg_a))
 
+        # Upset dampening: big favorites get slight penalty (complacency factor)
+        elo_gap = (h_elo + HOME_ADV_ELO) - a_elo
+        upset_idx = abs(elo_gap)/400*0.4 + (0.15 if home in ['Cape Verde','Curaçao','Jordan','Uzbekistan'] or away in ['Cape Verde','Curaçao','Jordan','Uzbekistan'] else 0)
+        if upset_idx > 0.3:
+            dampen = 1.0 - (upset_idx - 0.3) * 0.2
+            if elo_gap > 0:
+                xg_h *= dampen
+                xg_a *= (2.0 - dampen)
+            else:
+                xg_a *= dampen
+                xg_h *= (2.0 - dampen)
+
         # Team form adjustment from actual match stats
         h_form_adj = team_form_adj.get(home, 1.0)
         a_form_adj = team_form_adj.get(away, 1.0)
