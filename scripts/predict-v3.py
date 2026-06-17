@@ -625,6 +625,43 @@ def main():
         xg_h = max(0.1, min(7.0, xg_h))
         xg_a = max(0.1, min(7.0, xg_a))
 
+        # ── Upset Analysis: specific conditions that make an upset likely ──
+        upset_reasons = []
+        elo_gap2 = (h_elo + HOME_ADV_ELO) - a_elo
+        favorite = home if elo_gap2 > 0 else away
+        underdog = away if elo_gap2 > 0 else home
+        fav_elo = max(h_elo, a_elo); und_elo = min(h_elo, a_elo)
+
+        # Condition 1: Extreme Elo gap (>200) — mismatch = volatile
+        if abs(elo_gap2) > 200:
+            upset_reasons.append(f'Elo差{abs(elo_gap2):.0f}分-强弱悬殊但足球非数学')
+
+        # Condition 2: Favorite injury/event crisis
+        fav_events = h_event if favorite == home else a_event
+        if fav_events < -12:
+            upset_reasons.append(f'{cn(favorite)}受负面事件影响({fav_events}Elo点)')
+
+        # Condition 3: Underdog efficiency — clinical finishing
+        und_form = team_form_adj.get(underdog, 1.0)
+        if und_form > 1.05:
+            upset_reasons.append(f'{cn(underdog)}射门转化率异常高-临床级终结')
+
+        # Condition 4: Debutant unpredictability
+        if underdog in ['Cape Verde','Curaçao','Jordan','Uzbekistan'] or favorite in ['Cape Verde','Curaçao','Jordan','Uzbekistan']:
+            upset_reasons.append('新军参赛-历史数据缺乏-变数极大')
+
+        # Condition 5: Favorite wasteful (high shots, low goals from form data)
+        fav_form = team_form_adj.get(favorite, 1.0)
+        if fav_form < 0.90:
+            upset_reasons.append(f'{cn(favorite)}攻击低效-射门多进球少')
+
+        # Condition 6: Low possession but winning — counter-attack threat
+        und_pressure = pressure.get(underdog, 'normal')
+        if und_pressure in ('mustWin', 'needResult'):
+            upset_reasons.append(f'{cn(underdog)}背水一战-出线压力激发')
+
+        upset_risk = 'high' if len(upset_reasons) >= 3 else ('medium' if len(upset_reasons) >= 2 else ('low' if len(upset_reasons) >= 1 else 'none'))
+
         # Historical similarity
         hist = load_historical_similar(h_elo, a_elo)
         elo_probs = score_distribution_dc(xg_h, xg_a)
@@ -660,6 +697,8 @@ def main():
             'weatherTotalAdj': round(weather_total_adj, 2),
             'weatherPhysical': weather_physical,
             'historicalSimilar': hist,
+            'upsetReasons': upset_reasons,
+            'upsetRisk': upset_risk,
             'source': 'odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho',
         })
 
