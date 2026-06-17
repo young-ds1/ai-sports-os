@@ -570,14 +570,14 @@ def main():
         if h_super_boost:
             h_super_boost = round(h_super_boost * (1 + (1900 - a_elo) / 400))
             h_event += h_super_boost
-            # Superstar overrides debutant penalty
-            if squad_adj.get(home,{}).get('debutant'):
-                h_event += 5  # Cancel debutant -5
+            # Superstar overrides negative experience (debutant/inexperienced teams)
+            if h_exp < 0:
+                h_event += abs(h_exp)  # Cancel negative experience
         if a_super_boost:
             a_super_boost = round(a_super_boost * (1 + (1900 - h_elo) / 400))
             a_event += a_super_boost
-            if squad_adj.get(away,{}).get('debutant'):
-                a_event += 5
+            if a_exp < 0:
+                a_event += abs(a_exp)
 
         # Tactical matchup
         h_style = squad_adj.get(home, {}).get('style', 'balanced')
