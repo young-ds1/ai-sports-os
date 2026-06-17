@@ -655,12 +655,47 @@ def main():
         if fav_form < 0.90:
             upset_reasons.append(f'{favorite}攻击低效-射门多进球少')
 
+        # Condition 7: Counter-attack specialist (low possession + high efficiency → upset threat)
+        if h_style == 'counter' or a_style == 'counter':
+            counter_team = home if h_style == 'counter' else away
+            counter_form = team_form_adj.get(counter_team, 1.0)
+            if counter_form > 1.03:
+                upset_reasons.append(f'{counter_team}防反效率高-专克传控')
+
+        # Condition 8: Asian confederation overperformance trend
+        asian_teams = ['Japan','South Korea','Iran','Saudi Arabia','Qatar','Iraq','Australia','Uzbekistan','Jordan']
+        if home in asian_teams or away in asian_teams:
+            asian_team = home if home in asian_teams else away
+            upset_reasons.append(f'{asian_team}亚洲队-本届保持不败趋势')
+
         # Condition 6: Low possession but winning — counter-attack threat
         und_pressure = pressure.get(underdog, 'normal')
         if und_pressure in ('mustWin', 'needResult'):
             upset_reasons.append(f'{underdog}背水一战-出线压力激发')
 
+        # Condition 9-10: Set piece + Momentum
+        if h_corners >= 6 and h_fouls_opp >= 15:
+            upset_reasons.append(f'{home}定位球威胁(角球{h_corners}+对手犯规{h_fouls_opp})')
+        if a_corners >= 6 and a_fouls_opp >= 15:
+            upset_reasons.append(f'{away}定位球威胁(角球{a_corners}+对手犯规{a_fouls_opp})')
+        if (h_form_adj > 1.10): upset_reasons.append(f'{home}势头正盛-上场高效')
+        if (a_form_adj > 1.10): upset_reasons.append(f'{away}势头正盛-上场高效')
+
         upset_risk = 'high' if len(upset_reasons) >= 3 else ('medium' if len(upset_reasons) >= 2 else ('low' if len(upset_reasons) >= 1 else 'none'))
+
+        # ── Attack vs Defense matchup: sharp spear vs strong shield ──
+        # Use recent match stats to check if attacker is clinical + defender is leaky
+        h_conv = (team_form_adj.get(home, 1.0) - 1.0)  # positive = efficient
+        a_conv = (team_form_adj.get(away, 1.0) - 1.0)
+        if h_conv > 0.03 and a_conv < -0.03:
+            xg_h *= 1.08  # Sharp attack vs weak defense
+        if a_conv > 0.03 and h_conv < -0.03:
+            xg_a *= 1.08
+
+        # ── Asian confederation trend bonus: AFC teams overperforming ──
+        asian_teams = ['Japan','South Korea','Iran','Saudi Arabia','Qatar','Iraq','Australia','Uzbekistan','Jordan']
+        if home in asian_teams: xg_h *= 1.05
+        if away in asian_teams: xg_a *= 1.05
 
         # Historical similarity
         hist = load_historical_similar(h_elo, a_elo)
