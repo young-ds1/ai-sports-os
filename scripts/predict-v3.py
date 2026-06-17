@@ -97,15 +97,24 @@ def load_player_penalties():
     penalties = {}
     boosts = {}
     for team, players in kp.get('players', {}).items():
-        penalty = 0; boost = 0
+        penalty = 0; boost = 0; has_superstar = False
         for p in players:
             status = p.get('status', 'available')
             weight = p.get('weight', 10)
+            name = p.get('name', '')
             if status == 'out':
+                if '首次' in name or 'Debut' in name or '新军' in name:
+                    continue  # Skip debutant penalties for teams with superstars
                 penalty += weight
             elif status == 'doubtful':
+                if '首次' in name or 'Debut' in name or '新军' in name:
+                    continue
                 penalty += int(weight * 0.4)
             elif status == 'available' and weight >= 20:
+                has_superstar = True
+                if weight >= 28: boost += int(weight * 0.4)
+                elif weight >= 22: boost += int(weight * 0.35)
+                else: boost += int(weight * 0.3)
                 # Superstar available: bonus scaled by tier
                 if weight >= 28: boost += int(weight * 0.4)      # Ballon d'Or level
                 elif weight >= 22: boost += int(weight * 0.35)   # World class
@@ -472,7 +481,7 @@ def main():
     for team, penalty in player_penalties.items():
         events[team] = events.get(team, 0) + penalty
     for team, boost in player_boosts.items():
-        pass  # Boosts applied dynamically in loop based on opponent defense
+        events[team] = events.get(team, 0) + boost
 
     if events:
         print(f'📰 场外+球员因素: {len(events)}队受影响')
