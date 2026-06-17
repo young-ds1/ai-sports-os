@@ -91,12 +91,13 @@ def load_events():
 
 
 def load_player_penalties():
-    """Load key player absences. Returns {team: elo_penalty}."""
+    """Load key player absences AND superstar boosts. Returns {team: elo_adjustment}."""
     kp = load_json(os.path.join(PROJECT_DIR, 'key-players.json'))
-    if not kp: return {}
+    if not kp: return {}, {}
     penalties = {}
+    boosts = {}
     for team, players in kp.get('players', {}).items():
-        penalty = 0
+        penalty = 0; boost = 0
         for p in players:
             status = p.get('status', 'available')
             weight = p.get('weight', 10)
@@ -104,9 +105,14 @@ def load_player_penalties():
                 penalty += weight
             elif status == 'doubtful':
                 penalty += int(weight * 0.4)
+            elif status == 'available' and weight >= 25:
+                # Superstar available: +40% of weight as bonus (carry factor)
+                boost += int(weight * 0.4)
         if penalty > 0:
             penalties[team] = -penalty
-    return penalties
+        if boost > 0:
+            boosts[team] = boost
+    return penalties, boosts
 
 
 def load_squad_adjustments():
@@ -460,9 +466,11 @@ def main():
     # Load events
     events = load_events()
     # Merge player penalties into events
-    player_penalties = load_player_penalties()
+    player_penalties, player_boosts = load_player_penalties()
     for team, penalty in player_penalties.items():
         events[team] = events.get(team, 0) + penalty
+    for team, boost in player_boosts.items():
+        events[team] = events.get(team, 0) + boost
 
     if events:
         print(f'📰 场外+球员因素: {len(events)}队受影响')
