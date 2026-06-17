@@ -105,9 +105,11 @@ def load_player_penalties():
                 penalty += weight
             elif status == 'doubtful':
                 penalty += int(weight * 0.4)
-            elif status == 'available' and weight >= 25:
-                # Superstar available: +40% of weight as bonus (carry factor)
-                boost += int(weight * 0.4)
+            elif status == 'available' and weight >= 20:
+                # Superstar available: bonus scaled by tier
+                if weight >= 28: boost += int(weight * 0.4)      # Ballon d'Or level
+                elif weight >= 22: boost += int(weight * 0.35)   # World class
+                else: boost += int(weight * 0.3)                  # Elite
         if penalty > 0:
             penalties[team] = -penalty
         if boost > 0:
@@ -470,7 +472,7 @@ def main():
     for team, penalty in player_penalties.items():
         events[team] = events.get(team, 0) + penalty
     for team, boost in player_boosts.items():
-        events[team] = events.get(team, 0) + boost
+        pass  # Boosts applied dynamically in loop based on opponent defense
 
     if events:
         print(f'📰 场外+球员因素: {len(events)}队受影响')
@@ -552,6 +554,21 @@ def main():
         press_config_a = pressure_levels.get(a_pressure, {})
         a_press_att = press_config_a.get('attackMultiplier', 1.0)
         a_press_def = press_config_a.get('defenseMultiplier', 1.0)
+
+        # Superstar boost scaled by opponent defense: Haaland vs weak defense = higher
+        h_super_boost = player_boosts.get(home, 0)
+        a_super_boost = player_boosts.get(away, 0)
+        if h_super_boost:
+            h_super_boost = round(h_super_boost * (1 + (1900 - a_elo) / 400))
+            h_event += h_super_boost
+            # Superstar overrides debutant penalty
+            if squad_adj.get(home,{}).get('debutant'):
+                h_event += 5  # Cancel debutant -5
+        if a_super_boost:
+            a_super_boost = round(a_super_boost * (1 + (1900 - h_elo) / 400))
+            a_event += a_super_boost
+            if squad_adj.get(away,{}).get('debutant'):
+                a_event += 5
 
         # Tactical matchup
         h_style = squad_adj.get(home, {}).get('style', 'balanced')
