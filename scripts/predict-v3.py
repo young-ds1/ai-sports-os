@@ -611,6 +611,7 @@ def main():
             'bestScore': elo_probs['bestScore'],
             'xgHome': round(xg_h, 2),
             'xgAway': round(xg_a, 2),
+            'upsetIndex': round(abs(elo_gap)/400*0.4 + (0.15 if home in ['Cape Verde','Curaçao','Jordan','Uzbekistan'] or away in ['Cape Verde','Curaçao','Jordan','Uzbekistan'] else 0) + (0.1 if (h_event< -10 or a_event< -10) else 0), 2),
             'eloHome': h_elo, 'eloAway': a_elo,
             'eventHome': h_event, 'eventAway': a_event,
             'restHome': h_rest, 'restAway': a_rest,
