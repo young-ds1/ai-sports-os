@@ -84,6 +84,31 @@
       "team": "Brazil", "event": "1-1平摩洛哥后媒体围攻安切洛蒂,更衣室压力大", "category": "external_pressure",
       "reliability": "reliable_source", "severity": -12,
       "date": "2026-06-15", "expiresAfter": "2026-06-22", "source": "BHarian/Media Brazil"
+    },
+    {
+      "team": "Brazil", "event": "Neymar缺阵整个小组赛(二级肌肉撕裂),媒体炮轰安切洛蒂", "category": "injury",
+      "reliability": "confirmed", "severity": -30,
+      "date": "2026-06-17", "expiresAfter": "2026-06-28", "source": "Vietnam.vn"
+    },
+    {
+      "team": "Norway", "event": "主帅Solbakken公开骂球员Strand Larsen(发烧就回家)", "category": "locker_room",
+      "reliability": "reliable_source", "severity": -10,
+      "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Vietnam.vn"
+    },
+    {
+      "team": "England", "event": "Livramento伤退,Tuchel争议选人跳过Arnold/Maguire", "category": "injury",
+      "reliability": "confirmed", "severity": -12,
+      "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Independent"
+    },
+    {
+      "team": "Iran", "event": "国歌被球迷嘘+场外抗议+球员枪手势庆祝引争议", "category": "external_pressure",
+      "reliability": "confirmed", "severity": -10,
+      "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Multiple"
+    },
+    {
+      "team": "Senegal", "event": "对法国进球被VAR取消+点球争议,士气受挫", "category": "external_pressure",
+      "reliability": "reliable_source", "severity": -8,
+      "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Mirror"
     }
   ]
 }
