@@ -728,7 +728,8 @@ def main():
 
         # Historical similarity
         hist = load_historical_similar(h_elo, a_elo)
-        adaptive_rho = adaptive_draw_correction(elo_gap)
+        elo_gap_dc = (h_elo + HOME_ADV_ELO) - a_elo
+        adaptive_rho = adaptive_draw_correction(elo_gap_dc)
         elo_probs = score_distribution_dc(xg_h, xg_a, adaptive_rho)
 
         # Blend with odds
