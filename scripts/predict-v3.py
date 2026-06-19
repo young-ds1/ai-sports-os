@@ -115,6 +115,9 @@ def load_player_penalties():
                 if weight >= 28: boost += int(weight * 0.4)
                 elif weight >= 22: boost += int(weight * 0.35)
                 else: boost += int(weight * 0.3)
+                team_elo = INITIAL_ELO.get(team, 1900)
+                if team_elo < 1950 and weight >= 25:
+                    boost += int((1950 - team_elo) / 10)
                 # Superstar available: bonus scaled by tier
                 if weight >= 28: boost += int(weight * 0.4)      # Ballon d'Or level
                 elif weight >= 22: boost += int(weight * 0.35)   # World class
