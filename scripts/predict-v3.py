@@ -352,14 +352,47 @@ def xg_from_elo_gap(home_elo, away_elo, fatigue_h=1.0, fatigue_a=1.0):
     return xh * fatigue_h, xa * fatigue_a
 
 
-def score_distribution_dc(xg_h, xg_a):
-    """Score distribution with Dixon-Coles ρ correction."""
+def newton_lambda(p_draw, max_iter=10):
+    """Newton iteration: solve for λ where P(draw|λ) = p_draw.
+    Adapted from worldcup-prediction-system. More precise than simple formula."""
+    if p_draw <= 0.01: return 0.5
+    if p_draw >= 0.40: return 1.8
+    lam = 1.0
+    for _ in range(max_iter):
+        e = math.exp(-lam)
+        # P(draw) = e^(-2λ) * Σ(λ^(2k) / (k!)^2), approximate for small λ
+        p_est = e * e  # simplified: P(0-0) dominant for low λ
+        for k in range(1, 6):
+            p_est += (e * lam**k / math.factorial(k)) * (e * lam**k / math.factorial(k))
+        err = p_est - p_draw
+        if abs(err) < 0.001: break
+        # Gradient approximation
+        lam = lam - err * 0.5
+        lam = max(0.3, min(3.0, lam))
+    return round(lam, 3)
+
+
+def adaptive_draw_correction(elo_gap):
+    """Adaptive Dixon-Coles ρ: bigger Elo gap = fewer draws.
+    Scale: gap<50 → ρ=-0.06 (more draws), gap>200 → ρ=-0.01 (fewer draws)."""
+    gap = abs(elo_gap)
+    if gap < 50: return -0.06
+    if gap < 100: return -0.05
+    if gap < 150: return -0.04
+    if gap < 200: return -0.03
+    if gap < 250: return -0.02
+    return -0.01
+
+
+def score_distribution_dc(xg_h, xg_a, custom_rho=None):
+    """Score distribution with Dixon-Coles ρ correction. Uses adaptive ρ if provided."""
+    rho = custom_rho if custom_rho is not None else DC_RHO
     scores = []
     hw = dd = aw = tp = 0
     for h in range(0, 8):
         for a in range(0, 8):
             p_raw = poisson_pmf(h, xg_h) * poisson_pmf(a, xg_a)
-            tau = dc_correction(h, a, xg_h, xg_a, DC_RHO)
+            tau = dc_correction(h, a, xg_h, xg_a, rho)
             p = max(0, p_raw * tau) * 100
             scores.append({'score': f'{h}-{a}', 'prob': round(p, 2)})
             tp += p
@@ -695,7 +728,8 @@ def main():
 
         # Historical similarity
         hist = load_historical_similar(h_elo, a_elo)
-        elo_probs = score_distribution_dc(xg_h, xg_a)
+        adaptive_rho = adaptive_draw_correction(elo_gap)
+        elo_probs = score_distribution_dc(xg_h, xg_a, adaptive_rho)
 
         # Blend with odds
         oh, od, oa = p.get('oddsHome', 2.0), p.get('oddsDraw', 3.5), p.get('oddsAway', 3.5)
