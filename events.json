@@ -109,6 +109,29 @@
       "team": "Senegal", "event": "对法国进球被VAR取消+点球争议,士气受挫", "category": "external_pressure",
       "reliability": "reliable_source", "severity": -8,
       "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Mirror"
+    },
+    {
+      "team": "Germany", "event": "主力中卫Schlotterbeck脚踝韧带撕裂退出世界杯", "category": "injury",
+      "reliability": "confirmed", "severity": -18,
+      "date": "2026-06-23", "expiresAfter": "2026-07-05", "source": "Bundesliga.com"
+    },
+    {
+      "team": "Paraguay", "event": "Almiron历史性红牌(捂嘴新规)停赛,10人仍1-0胜土耳其", "category": "scandal",
+      "reliability": "confirmed", "severity": -12,
+      "date": "2026-06-23", "expiresAfter": "2026-06-27", "source": "Vietnam.vn"
+    },
+    {
+      "team": "England", "event": "Saka伤愈回归训练,利好进攻线", "severity": +10,
+      "reliability": "reliable_source", "date": "2026-06-23", "expiresAfter": "2026-06-28", "source": "Mirror"
+    },
+    {
+      "team": "Belgium", "event": "Trossard小腿流血+队友阻医疗入场引发争议", "category": "scandal",
+      "reliability": "confirmed", "severity": -8,
+      "date": "2026-06-23", "expiresAfter": "2026-06-28", "source": "Vietnam.vn"
+    },
+    {
+      "team": "Egypt", "event": "Salah传射历史性首胜,士气高涨", "severity": +10,
+      "reliability": "confirmed", "date": "2026-06-23", "expiresAfter": "2026-06-30", "source": "Multiple"
     }
   ]
 }
