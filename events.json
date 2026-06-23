@@ -121,7 +121,7 @@
       "date": "2026-06-23", "expiresAfter": "2026-06-27", "source": "Vietnam.vn"
     },
     {
-      "team": "England", "event": "Saka伤愈回归训练,利好进攻线", "severity": +10,
+      "team": "England", "event": "Saka伤愈回归训练,利好进攻线", "severity": 10,
       "reliability": "reliable_source", "date": "2026-06-23", "expiresAfter": "2026-06-28", "source": "Mirror"
     },
     {
@@ -130,7 +130,7 @@
       "date": "2026-06-23", "expiresAfter": "2026-06-28", "source": "Vietnam.vn"
     },
     {
-      "team": "Egypt", "event": "Salah传射历史性首胜,士气高涨", "severity": +10,
+      "team": "Egypt", "event": "Salah传射历史性首胜,士气高涨", "severity": 10,
       "reliability": "confirmed", "date": "2026-06-23", "expiresAfter": "2026-06-30", "source": "Multiple"
     }
   ]
