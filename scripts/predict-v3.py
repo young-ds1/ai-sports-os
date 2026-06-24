@@ -148,30 +148,47 @@ def load_squad_adjustments():
 
 
 def load_group_pressure():
-    """Load group standings. Returns {team: pressureLevel}."""
+    """Load group standings after MD2. Returns {team: pressureLevel}."""
     gs = load_json(os.path.join(PROJECT_DIR, 'group-standings.json'))
     if not gs: return {}
     pressure = {}
-    standings = gs.get('currentStandings', {})
-    for group_name, teams in standings.items():
-        # Find teams that have played 0 matches → normal pressure
-        # Teams that played 1 match → determine pressure from points
+    groups = gs.get('groups', {})
+    for g_name, teams in groups.items():
+        # Determine tight race: 3+ teams within 3 points of 2nd
+        pts = {t: s['pts'] for t, s in teams.items()}
+        sorted_teams = sorted(pts.items(), key=lambda x: -x[1])
+        if len(sorted_teams) >= 3:
+            second_pts = sorted_teams[1][1]
+            third_pts = sorted_teams[2][1]
+            tight = (second_pts - min(pts.values())) <= 3
+        else:
+            tight = False
+
         for team, stats in teams.items():
-            played = stats.get('played', 0)
-            points = stats.get('points', 0)
-            if played == 0:
-                pressure[team] = 'normal'
-            elif played >= 2:
-                # Last group match → higher stakes
-                pressure[team] = 'finalGroupMatch'
-            else:
-                # After 1 match: 3pts=comfortable, 1pt=needResult, 0pt=mustWin
-                if points == 3:
-                    pressure[team] = 'normal'
-                elif points == 1:
-                    pressure[team] = 'needResult'
+            pts2 = stats.get('pts', 0)
+            pos = stats.get('pos', 5)
+            qualified = stats.get('qualified', False)
+            eliminated = stats.get('eliminated', False)
+
+            if qualified:
+                # Already through - may rest players. Still play for group top spot
+                if pos == 2 and sorted_teams[0][1] == pts2:
+                    pressure[team] = 'tightRace'  # Fighting for top spot
                 else:
-                    pressure[team] = 'mustWin'
+                    pressure[team] = 'qualified_resting'
+            elif eliminated:
+                pressure[team] = 'deadRubber'
+            elif pos == 1 and pts2 >= 4 and tight:
+                pressure[team] = 'needWin'  # Close to qualified but not safe yet
+            elif pos <= 2 and tight:
+                pressure[team] = 'tightRace'  # 3-team battle
+            elif pts2 <= 1 and pos >= 3:
+                pressure[team] = 'mustWin'  # Must win to stay alive
+            elif pos >= 3:
+                pressure[team] = 'mustWin'
+            else:
+                pressure[team] = 'needWin'
+
     return pressure
 
 

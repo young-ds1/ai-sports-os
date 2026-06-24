@@ -1,34 +1,39 @@
 {
-  "description": "World Cup 2026 Group Standings & Progression Pressure. Auto-calculated from match results.",
-  "lastUpdated": "2026-06-13",
+  "lastUpdated": "2026-06-24",
+  "round": "after MD2, before MD3",
   "groups": {
-    "A": {"teams": ["Canada", "Bosnia & Herzegovina", "USA", "Paraguay"], "advanceTo": 2},
-    "B": {"teams": ["Qatar", "Switzerland", "Brazil", "Morocco"], "advanceTo": 2},
-    "C": {"teams": ["Haiti", "Scotland", "Australia", "Turkey"], "advanceTo": 2},
-    "D": {"teams": ["Germany", "Curaçao", "Netherlands", "Japan"], "advanceTo": 2},
-    "E": {"teams": ["Ivory Coast", "Ecuador", "Sweden", "Tunisia"], "advanceTo": 2},
-    "F": {"teams": ["Spain", "Cape Verde", "Belgium", "Egypt"], "advanceTo": 2},
-    "G": {"teams": ["Saudi Arabia", "Uruguay", "Iran", "New Zealand"], "advanceTo": 2},
-    "H": {"teams": ["France", "Senegal", "Iraq", "Norway"], "advanceTo": 2},
-    "I": {"teams": ["Argentina", "Algeria", "Austria", "Jordan"], "advanceTo": 2},
-    "J": {"teams": ["Portugal", "DR Congo", "England", "Croatia"], "advanceTo": 2},
-    "K": {"teams": ["Ghana", "Panama", "Uzbekistan", "Colombia"], "advanceTo": 2},
-    "L": {"teams": ["South Korea", "Czech Republic"], "advanceTo": 2}
+    "A": {"Mexico": {"pts":6,"gd":3,"pos":1}, "South Korea": {"pts":3,"gd":0,"pos":2}, "Czech Republic": {"pts":1,"gd":-1,"pos":3}, "South Africa": {"pts":1,"gd":-2,"pos":4}},
+    "B": {"Switzerland": {"pts":4,"gd":4,"pos":1}, "Canada": {"pts":4,"gd":4,"pos":2}, "Bosnia & Herzegovina": {"pts":1,"gd":-6,"pos":3}, "Qatar": {"pts":1,"gd":-6,"pos":4}},
+    "C": {"Brazil": {"pts":4,"gd":3,"pos":1}, "Morocco": {"pts":4,"gd":1,"pos":2}, "Scotland": {"pts":3,"gd":0,"pos":3}, "Haiti": {"pts":0,"gd":-4,"pos":4}},
+    "D": {"USA": {"pts":6,"gd":5,"pos":1,"qualified":true}, "Australia": {"pts":3,"gd":0,"pos":2}, "Paraguay": {"pts":3,"gd":-2,"pos":3}, "Turkey": {"pts":0,"gd":-3,"pos":4,"eliminated":true}},
+    "E": {"Germany": {"pts":6,"gd":9,"pos":1,"qualified":true}, "Ivory Coast": {"pts":3,"gd":0,"pos":2}, "Ecuador": {"pts":1,"gd":-1,"pos":3}, "Curaçao": {"pts":1,"gd":-8,"pos":4}},
+    "F": {"Netherlands": {"pts":4,"gd":4,"pos":1}, "Japan": {"pts":4,"gd":4,"pos":2}, "Sweden": {"pts":3,"gd":0,"pos":3}, "Tunisia": {"pts":0,"gd":-8,"pos":4,"eliminated":true}},
+    "G": {"Iran": {"pts":2,"gd":0,"pos":1}, "Belgium": {"pts":2,"gd":0,"pos":2}, "New Zealand": {"pts":1,"gd":0,"pos":3}, "Egypt": {"pts":1,"gd":0,"pos":4}},
+    "H": {"Spain": {"pts":4,"gd":4,"pos":1}, "Uruguay": {"pts":2,"gd":0,"pos":2}, "Cape Verde": {"pts":2,"gd":0,"pos":3}, "Saudi Arabia": {"pts":1,"gd":-4,"pos":4}},
+    "I": {"France": {"pts":6,"gd":5,"pos":1,"qualified":true}, "Norway": {"pts":6,"gd":3,"pos":2,"qualified":true}, "Senegal": {"pts":0,"gd":-3,"pos":3,"eliminated":true}, "Iraq": {"pts":0,"gd":-5,"pos":4,"eliminated":true}},
+    "J": {"Argentina": {"pts":6,"gd":5,"pos":1,"qualified":true}, "Austria": {"pts":3,"gd":0,"pos":2}, "Algeria": {"pts":3,"gd":-2,"pos":3}, "Jordan": {"pts":0,"gd":-3,"pos":4}},
+    "K": {"Portugal": {"pts":4,"gd":5,"pos":1}, "Colombia": {"pts":4,"gd":2,"pos":2}, "DR Congo": {"pts":1,"gd":-4,"pos":3}, "Uzbekistan": {"pts":0,"gd":-3,"pos":4}},
+    "L": {"England": {"pts":4,"gd":2,"pos":1}, "Ghana": {"pts":4,"gd":1,"pos":2}, "Croatia": {"pts":3,"gd":-1,"pos":3}, "Panama": {"pts":0,"gd":-2,"pos":4,"eliminated":true}}
   },
   "progressionPressure": {
-    "description": "Motivation multiplier based on group position and remaining matches.",
-    "mustWin": {"attackMultiplier": 1.10, "defenseMultiplier": 1.05, "desc": "必须赢才能出线→进攻加成10%"},
-    "needResult": {"attackMultiplier": 1.05, "defenseMultiplier": 1.02, "desc": "需要积分→轻微加成"},
-    "normal": {"attackMultiplier": 1.0, "defenseMultiplier": 1.0, "desc": "正常竞争"},
-    "deadRubber": {"attackMultiplier": 0.95, "defenseMultiplier": 0.95, "desc": "已出线/已淘汰→轻微下滑"},
-    "finalGroupMatch": {"attackMultiplier": 1.08, "defenseMultiplier": 1.03, "desc": "小组末轮生死战→更高加成"}
+    "qualified_resting": {"attackMultiplier": 0.92, "defenseMultiplier": 0.95, "desc": "已出线,可能轮换主力"},
+    "mustWin": {"attackMultiplier": 1.12, "defenseMultiplier": 1.05, "desc": "必须赢才能出线"},
+    "needWin": {"attackMultiplier": 1.06, "defenseMultiplier": 1.02, "desc": "赢球就出线"},
+    "tightRace": {"attackMultiplier": 1.08, "defenseMultiplier": 1.03, "desc": "3队抢2席,末轮生死战"},
+    "deadRubber": {"attackMultiplier": 0.92, "defenseMultiplier": 0.92, "desc": "已出局或已出线无压力"}
   },
-  "currentStandings": {
-    "A": {
-      "USA": {"played": 1, "points": 3, "gd": 3},
-      "Canada": {"played": 1, "points": 1, "gd": 0},
-      "Bosnia & Herzegovina": {"played": 1, "points": 1, "gd": 0},
-      "Paraguay": {"played": 1, "points": 0, "gd": -3}
-    }
+  "keyScenarios": {
+    "A": "墨西哥已出线,韩国/捷克争第二,南非需赢4球以上",
+    "B": "瑞士加拿大4分领跑,末轮交锋争头名。波黑卡塔尔需赢球+看脸色",
+    "C": "巴西摩洛哥4分,苏格兰3分紧追。巴西对海地(0分)基本锁定出线",
+    "D": "美国已出线。澳洲(3分+0)vs巴拉圭(3分-2)直接对决争第二",
+    "E": "德国已出线。科特迪瓦vs厄瓜多尔直接争第二",
+    "F": "荷兰日本4分,瑞典3分。末轮日本vs瑞典决定出线",
+    "G": "全员生死战！伊朗比利时2分,新西兰埃及1分。4队全有出线机会",
+    "H": "西班牙4分基本出线。乌拉圭佛得角2分直接对决争第二",
+    "I": "法国挪威已出线,末轮争头名。塞内加尔伊拉克已淘汰",
+    "J": "阿根廷已出线。奥地利vs阿尔及利亚直接对决争第二",
+    "K": "葡萄牙vs哥伦比亚争头名。刚果金(1分)赢球仍有机会第三",
+    "L": "英格兰加纳4分,克罗地亚3分。末轮英vs加纳直接争头名,克罗地亚vs巴拿马"
   }
 }
