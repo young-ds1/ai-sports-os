@@ -607,15 +607,20 @@ def main():
         h_fatigue = fatigue_factor(h_rest)
         a_fatigue = fatigue_factor(a_rest)
 
-        # Group pressure (motivation multiplier)
+        # Group pressure (motivation multiplier) — scaled by team strength
         h_pressure = pressure.get(home, 'normal')
         a_pressure = pressure.get(away, 'normal')
         press_config = pressure_levels.get(h_pressure, {})
-        h_press_att = press_config.get('attackMultiplier', 1.0)
+        h_press_raw = press_config.get('attackMultiplier', 1.0)
         h_press_def = press_config.get('defenseMultiplier', 1.0)
         press_config_a = pressure_levels.get(a_pressure, {})
-        a_press_att = press_config_a.get('attackMultiplier', 1.0)
+        a_press_raw = press_config_a.get('attackMultiplier', 1.0)
         a_press_def = press_config_a.get('defenseMultiplier', 1.0)
+        # Strong teams benefit more from motivation, suffer less from resting
+        h_press_att = 1.0 + (h_press_raw - 1.0) * (h_elo / 1900)
+        a_press_att = 1.0 + (a_press_raw - 1.0) * (a_elo / 1900)
+        h_press_def = 1.0 + (h_press_def - 1.0) * (h_elo / 1900)
+        a_press_def = 1.0 + (a_press_def - 1.0) * (a_elo / 1900)
 
         # Superstar boost scaled by opponent defense: Haaland vs weak defense = higher
         h_super_boost = player_boosts.get(home, 0)
