@@ -125,6 +125,16 @@
       "reliability": "reliable_source", "date": "2026-06-23", "expiresAfter": "2026-06-28", "source": "Mirror"
     },
     {
+      "team": "Norway", "event": "已出线对法国轮换二队,Haaland等主力休息", "category": "injury_news",
+      "reliability": "confirmed", "severity": -25,
+      "date": "2026-06-27", "expiresAfter": "2026-06-28", "source": "Lineup"
+    },
+    {
+      "team": "France", "event": "已出线对挪威轮换,姆巴佩替补", "category": "injury_news",
+      "reliability": "confirmed", "severity": -15,
+      "date": "2026-06-27", "expiresAfter": "2026-06-28", "source": "Lineup"
+    },
+    {
       "team": "Belgium", "event": "Trossard小腿流血+队友阻医疗入场引发争议", "category": "scandal",
       "reliability": "confirmed", "severity": -8,
       "date": "2026-06-23", "expiresAfter": "2026-06-28", "source": "Vietnam.vn"
