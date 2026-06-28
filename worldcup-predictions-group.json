@@ -1,0 +1,7701 @@
+[
+  {
+    "date": "2026-06-12",
+    "homeTeam": "Mexico",
+    "awayTeam": "South Africa",
+    "kickoff": "03:00",
+    "group": "A",
+    "oddsHome": 1.43,
+    "oddsDraw": 4.59,
+    "oddsAway": 3.3,
+    "homeWinPct": 63,
+    "drawPct": 14,
+    "awayWinPct": 23,
+    "source": "fifa-72-bj"
+  },
+  {
+    "date": "2026-06-12",
+    "homeTeam": "South Korea",
+    "awayTeam": "Czech Republic",
+    "kickoff": "10:00",
+    "group": "A",
+    "oddsHome": 1.5,
+    "oddsDraw": 4.53,
+    "oddsAway": 3.0,
+    "homeWinPct": 59,
+    "drawPct": 15,
+    "awayWinPct": 26,
+    "source": "fifa-72-bj"
+  },
+  {
+    "date": "2026-06-13",
+    "homeTeam": "Canada",
+    "awayTeam": "Bosnia & Herzegovina",
+    "kickoff": "03:00",
+    "group": "B",
+    "oddsHome": 1.61,
+    "oddsDraw": 4.44,
+    "oddsAway": 2.63,
+    "homeWinPct": 55,
+    "drawPct": 15,
+    "awayWinPct": 30,
+    "source": "fifa-72-bj"
+  },
+  {
+    "date": "2026-06-13",
+    "homeTeam": "USA",
+    "awayTeam": "Paraguay",
+    "kickoff": "09:00",
+    "group": "D",
+    "oddsHome": 1.5,
+    "oddsDraw": 4.53,
+    "oddsAway": 3.0,
+    "homeWinPct": 59,
+    "drawPct": 15,
+    "awayWinPct": 26,
+    "source": "fifa-72-bj"
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Qatar",
+    "awayTeam": "Switzerland",
+    "kickoff": "03:00",
+    "group": "B",
+    "oddsHome": 2.45,
+    "oddsDraw": 4.38,
+    "oddsAway": 1.69,
+    "homeWinPct": 33,
+    "drawPct": 15,
+    "awayWinPct": 52,
+    "source": "fifa-72-bj"
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Brazil",
+    "awayTeam": "Morocco",
+    "kickoff": "06:00",
+    "group": "C",
+    "oddsHome": 1.36,
+    "oddsDraw": 10.39,
+    "oddsAway": 3.79,
+    "homeWinPct": 70,
+    "drawPct": 6,
+    "awayWinPct": 23,
+    "source": "fifa-72-bj"
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Haiti",
+    "awayTeam": "Scotland",
+    "kickoff": "09:00",
+    "group": "C",
+    "oddsHome": 2.09,
+    "oddsDraw": 2.82,
+    "oddsAway": 1.92,
+    "homeWinPct": 36,
+    "drawPct": 24,
+    "awayWinPct": 40,
+    "source": "fifa-72-bj"
+  },
+  {
+    "date": "2026-06-14",
+    "homeTeam": "Australia",
+    "awayTeam": "Turkey",
+    "kickoff": "12:00",
+    "group": "D",
+    "oddsHome": 1.89,
+    "oddsDraw": 2.83,
+    "oddsAway": 2.12,
+    "homeWinPct": 41,
+    "drawPct": 24,
+    "awayWinPct": 35,
+    "source": "fifa-72-bj"
+  },
+  {
+    "date": "2026-06-15",
+    "homeTeam": "Germany",
+    "awayTeam": "Curaçao",
+    "kickoff": "01:00",
+    "group": "E",
+    "oddsHome": 1.19,
+    "oddsDraw": 11.2,
+    "oddsAway": 6.16,
+    "homeWinPct": 82,
+    "drawPct": 8,
+    "awayWinPct": 10,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.3
+      },
+      {
+        "score": "3-0",
+        "prob": 17.1
+      },
+      {
+        "score": "1-0",
+        "prob": 12.8
+      },
+      {
+        "score": "4-0",
+        "prob": 11.9
+      },
+      {
+        "score": "2-1",
+        "prob": 8.6
+      },
+      {
+        "score": "3-1",
+        "prob": 8.0
+      },
+      {
+        "score": "5-0",
+        "prob": 6.6
+      },
+      {
+        "score": "1-1",
+        "prob": 6.3
+      },
+      {
+        "score": "4-1",
+        "prob": 5.6
+      },
+      {
+        "score": "0-0",
+        "prob": 4.8
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.3
+    },
+    "xgHome": 2.79,
+    "xgAway": 0.47,
+    "upsetIndex": 0.44,
+    "eloHome": 2055,
+    "eloAway": 1810,
+    "eventHome": 19,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "qualified_resting",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    },
+    "upsetReasons": [
+      "Elo差285分-强弱悬殊但足球非数学",
+      "新军参赛-历史数据缺乏-变数极大",
+      "Curaçao背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-15",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Japan",
+    "kickoff": "04:00",
+    "group": "F",
+    "oddsHome": 1.5,
+    "oddsDraw": 4.53,
+    "oddsAway": 3.0,
+    "homeWinPct": 56,
+    "drawPct": 19,
+    "awayWinPct": 25,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 15.7
+      },
+      {
+        "score": "1-0",
+        "prob": 14.9
+      },
+      {
+        "score": "2-0",
+        "prob": 12.3
+      },
+      {
+        "score": "2-1",
+        "prob": 11.7
+      },
+      {
+        "score": "0-0",
+        "prob": 10.9
+      },
+      {
+        "score": "0-1",
+        "prob": 9.4
+      },
+      {
+        "score": "1-2",
+        "prob": 7.2
+      },
+      {
+        "score": "3-0",
+        "prob": 6.3
+      },
+      {
+        "score": "3-1",
+        "prob": 6.0
+      },
+      {
+        "score": "2-2",
+        "prob": 5.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 15.7
+    },
+    "xgHome": 1.54,
+    "xgAway": 0.95,
+    "upsetIndex": 0.12,
+    "eloHome": 2025,
+    "eloAway": 1945,
+    "eventHome": 5,
+    "eventAway": 10,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "needWin",
+    "styleHome": "possession",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 121.1,
+      "outcomes": {
+        "home": 30,
+        "draw": 30,
+        "away": 40
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.05
+    },
+    "upsetReasons": [
+      "Japan亚洲队-本届保持不败趋势"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-15",
+    "homeTeam": "Ivory Coast",
+    "awayTeam": "Ecuador",
+    "kickoff": "07:00",
+    "group": "E",
+    "oddsHome": 1.92,
+    "oddsDraw": 2.82,
+    "oddsAway": 2.09,
+    "homeWinPct": 38,
+    "drawPct": 26,
+    "awayWinPct": 36,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.7
+      },
+      {
+        "score": "0-0",
+        "prob": 15.6
+      },
+      {
+        "score": "0-1",
+        "prob": 14.4
+      },
+      {
+        "score": "1-0",
+        "prob": 14.1
+      },
+      {
+        "score": "1-2",
+        "prob": 8.3
+      },
+      {
+        "score": "0-2",
+        "prob": 8.1
+      },
+      {
+        "score": "2-1",
+        "prob": 8.1
+      },
+      {
+        "score": "2-0",
+        "prob": 7.7
+      },
+      {
+        "score": "2-2",
+        "prob": 4.2
+      },
+      {
+        "score": "1-3",
+        "prob": 2.9
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.7
+    },
+    "xgHome": 1.02,
+    "xgAway": 1.05,
+    "upsetIndex": 0.01,
+    "eloHome": 1885,
+    "eloAway": 1910,
+    "eventHome": 0,
+    "eventAway": 0,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "mustWin",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 17.1,
+      "outcomes": {
+        "home": 15,
+        "draw": 30,
+        "away": 55
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.95,
+      "avgAwayGoals": 1.55
+    },
+    "upsetReasons": [
+      "Ecuador背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-15",
+    "homeTeam": "Sweden",
+    "awayTeam": "Tunisia",
+    "kickoff": "10:00",
+    "group": "F",
+    "oddsHome": 1.58,
+    "oddsDraw": 4.47,
+    "oddsAway": 2.73,
+    "homeWinPct": 56,
+    "drawPct": 19,
+    "awayWinPct": 25,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.3
+      },
+      {
+        "score": "2-0",
+        "prob": 15.3
+      },
+      {
+        "score": "1-1",
+        "prob": 13.8
+      },
+      {
+        "score": "0-0",
+        "prob": 13.6
+      },
+      {
+        "score": "2-1",
+        "prob": 10.1
+      },
+      {
+        "score": "0-1",
+        "prob": 8.3
+      },
+      {
+        "score": "3-0",
+        "prob": 7.8
+      },
+      {
+        "score": "3-1",
+        "prob": 5.2
+      },
+      {
+        "score": "1-2",
+        "prob": 4.3
+      },
+      {
+        "score": "2-2",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.3
+    },
+    "xgHome": 1.54,
+    "xgAway": 0.66,
+    "upsetIndex": 0.1,
+    "eloHome": 1920,
+    "eloAway": 1865,
+    "eventHome": 5,
+    "eventAway": 5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "deadRubber",
+    "styleHome": "physical",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 90.9,
+      "outcomes": {
+        "home": 40,
+        "draw": 20,
+        "away": 40
+      },
+      "topScores": [
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.4,
+      "avgAwayGoals": 1.25
+    },
+    "upsetReasons": [],
+    "upsetRisk": "none"
+  },
+  {
+    "date": "2026-06-16",
+    "homeTeam": "Spain",
+    "awayTeam": "Cape Verde",
+    "kickoff": "00:00",
+    "group": "H",
+    "oddsHome": 1.18,
+    "oddsDraw": 11.26,
+    "oddsAway": 6.46,
+    "homeWinPct": 84,
+    "drawPct": 7,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 17.6
+      },
+      {
+        "score": "3-0",
+        "prob": 17.5
+      },
+      {
+        "score": "4-0",
+        "prob": 13.1
+      },
+      {
+        "score": "1-0",
+        "prob": 11.4
+      },
+      {
+        "score": "2-1",
+        "prob": 8.3
+      },
+      {
+        "score": "3-1",
+        "prob": 8.3
+      },
+      {
+        "score": "5-0",
+        "prob": 7.9
+      },
+      {
+        "score": "4-1",
+        "prob": 6.2
+      },
+      {
+        "score": "1-1",
+        "prob": 5.6
+      },
+      {
+        "score": "0-0",
+        "prob": 4.0
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 17.6
+    },
+    "xgHome": 2.99,
+    "xgAway": 0.47,
+    "upsetIndex": 0.45,
+    "eloHome": 2070,
+    "eloAway": 1815,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "possession",
+    "styleAway": "counter",
+    "tacticMult": 0.92,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    },
+    "upsetReasons": [
+      "Elo差295分-强弱悬殊但足球非数学",
+      "新军参赛-历史数据缺乏-变数极大",
+      "Cape Verde背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-16",
+    "homeTeam": "Belgium",
+    "awayTeam": "Egypt",
+    "kickoff": "03:00",
+    "group": "G",
+    "oddsHome": 1.45,
+    "oddsDraw": 4.58,
+    "oddsAway": 3.24,
+    "homeWinPct": 60,
+    "drawPct": 18,
+    "awayWinPct": 22,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 16.0
+      },
+      {
+        "score": "1-1",
+        "prob": 14.6
+      },
+      {
+        "score": "2-0",
+        "prob": 14.1
+      },
+      {
+        "score": "2-1",
+        "prob": 11.6
+      },
+      {
+        "score": "0-0",
+        "prob": 10.9
+      },
+      {
+        "score": "0-1",
+        "prob": 8.2
+      },
+      {
+        "score": "3-0",
+        "prob": 7.8
+      },
+      {
+        "score": "3-1",
+        "prob": 6.4
+      },
+      {
+        "score": "1-2",
+        "prob": 5.8
+      },
+      {
+        "score": "2-2",
+        "prob": 4.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 16.0
+    },
+    "xgHome": 1.65,
+    "xgAway": 0.82,
+    "upsetIndex": 0.14,
+    "eloHome": 2005,
+    "eloAway": 1905,
+    "eventHome": 26,
+    "eventAway": 10,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 140.05,
+      "outcomes": {
+        "home": 50,
+        "draw": 25,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-0",
+          3
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.3,
+      "avgAwayGoals": 0.8
+    },
+    "upsetReasons": [
+      "Egypt背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-16",
+    "homeTeam": "Saudi Arabia",
+    "awayTeam": "Uruguay",
+    "kickoff": "06:00",
+    "group": "H",
+    "oddsHome": 2.54,
+    "oddsDraw": 1.51,
+    "oddsAway": 1.65,
+    "homeWinPct": 19,
+    "drawPct": 40,
+    "awayWinPct": 41,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.2
+      },
+      {
+        "score": "0-1",
+        "prob": 15.6
+      },
+      {
+        "score": "0-0",
+        "prob": 13.0
+      },
+      {
+        "score": "0-2",
+        "prob": 11.5
+      },
+      {
+        "score": "1-0",
+        "prob": 10.8
+      },
+      {
+        "score": "1-2",
+        "prob": 10.6
+      },
+      {
+        "score": "2-1",
+        "prob": 7.1
+      },
+      {
+        "score": "0-3",
+        "prob": 5.2
+      },
+      {
+        "score": "2-0",
+        "prob": 5.2
+      },
+      {
+        "score": "2-2",
+        "prob": 4.9
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.2
+    },
+    "xgHome": 0.92,
+    "xgAway": 1.37,
+    "upsetIndex": 0.08,
+    "eloHome": 1875,
+    "eloAway": 1990,
+    "eventHome": 0,
+    "eventAway": 10,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "tightRace",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -78.65,
+      "outcomes": {
+        "home": 10,
+        "draw": 15,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-3",
+          4
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "1-3",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.55,
+      "avgAwayGoals": 1.95
+    },
+    "upsetReasons": [
+      "Saudi Arabia亚洲队-本届保持不败趋势",
+      "Saudi Arabia背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-16",
+    "homeTeam": "Iran",
+    "awayTeam": "New Zealand",
+    "kickoff": "09:00",
+    "group": "G",
+    "oddsHome": 1.35,
+    "oddsDraw": 10.4,
+    "oddsAway": 3.82,
+    "homeWinPct": 71,
+    "drawPct": 10,
+    "awayWinPct": 19,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 17.6
+      },
+      {
+        "score": "1-0",
+        "prob": 15.2
+      },
+      {
+        "score": "3-0",
+        "prob": 12.7
+      },
+      {
+        "score": "2-1",
+        "prob": 11.4
+      },
+      {
+        "score": "1-1",
+        "prob": 10.9
+      },
+      {
+        "score": "3-1",
+        "prob": 8.3
+      },
+      {
+        "score": "0-0",
+        "prob": 7.8
+      },
+      {
+        "score": "4-0",
+        "prob": 6.9
+      },
+      {
+        "score": "0-1",
+        "prob": 4.8
+      },
+      {
+        "score": "4-1",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 17.6
+    },
+    "xgHome": 2.17,
+    "xgAway": 0.65,
+    "upsetIndex": 0.18,
+    "eloHome": 1940,
+    "eloAway": 1800,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "mustWin",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 182.7,
+      "outcomes": {
+        "home": 60,
+        "draw": 20,
+        "away": 20
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "3-1",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "4-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.9,
+      "avgAwayGoals": 0.85
+    },
+    "upsetReasons": [
+      "Iran亚洲队-本届保持不败趋势",
+      "New Zealand背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "France",
+    "awayTeam": "Senegal",
+    "kickoff": "03:00",
+    "group": "I",
+    "oddsHome": 1.31,
+    "oddsDraw": 10.59,
+    "oddsAway": 4.2,
+    "homeWinPct": 76,
+    "drawPct": 8,
+    "awayWinPct": 16,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.9
+      },
+      {
+        "score": "3-0",
+        "prob": 16.2
+      },
+      {
+        "score": "1-0",
+        "prob": 13.9
+      },
+      {
+        "score": "4-0",
+        "prob": 10.5
+      },
+      {
+        "score": "2-1",
+        "prob": 9.2
+      },
+      {
+        "score": "3-1",
+        "prob": 7.9
+      },
+      {
+        "score": "1-1",
+        "prob": 7.2
+      },
+      {
+        "score": "0-0",
+        "prob": 5.8
+      },
+      {
+        "score": "5-0",
+        "prob": 5.4
+      },
+      {
+        "score": "4-1",
+        "prob": 5.1
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.9
+    },
+    "xgHome": 2.58,
+    "xgAway": 0.49,
+    "upsetIndex": 0.2,
+    "eloHome": 2112,
+    "eloAway": 1950,
+    "eventHome": 51,
+    "eventAway": 0,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "qualified_resting",
+    "pressureAway": "deadRubber",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 203.8,
+      "outcomes": {
+        "home": 70,
+        "draw": 20,
+        "away": 10
+      },
+      "topScores": [
+        [
+          "1-0",
+          6
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.55,
+      "avgAwayGoals": 0.55
+    },
+    "upsetReasons": [
+      "Elo差202分-强弱悬殊但足球非数学"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "Iraq",
+    "awayTeam": "Norway",
+    "kickoff": "06:00",
+    "group": "I",
+    "oddsHome": 1.87,
+    "oddsDraw": 2.84,
+    "oddsAway": 2.15,
+    "homeWinPct": 35,
+    "drawPct": 25,
+    "awayWinPct": 40,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 18.3
+      },
+      {
+        "score": "0-0",
+        "prob": 15.9
+      },
+      {
+        "score": "1-1",
+        "prob": 14.8
+      },
+      {
+        "score": "0-2",
+        "prob": 13.1
+      },
+      {
+        "score": "1-0",
+        "prob": 10.2
+      },
+      {
+        "score": "1-2",
+        "prob": 9.2
+      },
+      {
+        "score": "0-3",
+        "prob": 5.7
+      },
+      {
+        "score": "2-1",
+        "prob": 4.9
+      },
+      {
+        "score": "1-3",
+        "prob": 4.0
+      },
+      {
+        "score": "2-0",
+        "prob": 3.8
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 18.3
+    },
+    "xgHome": 0.71,
+    "xgAway": 1.32,
+    "upsetIndex": 0.03,
+    "eloHome": 1835,
+    "eloAway": 1850,
+    "eventHome": -5,
+    "eventAway": 69,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "deadRubber",
+    "pressureAway": "tightRace",
+    "styleHome": "counter",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 22.4,
+      "outcomes": {
+        "home": 15,
+        "draw": 35,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-1",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.85,
+      "avgAwayGoals": 1.25
+    },
+    "upsetReasons": [
+      "Iraq亚洲队-本届保持不败趋势"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "Argentina",
+    "awayTeam": "Algeria",
+    "kickoff": "09:00",
+    "group": "J",
+    "oddsHome": 1.15,
+    "oddsDraw": 25.44,
+    "oddsAway": 7.8,
+    "homeWinPct": 88,
+    "drawPct": 4,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.9
+      },
+      {
+        "score": "2-0",
+        "prob": 17.2
+      },
+      {
+        "score": "4-0",
+        "prob": 15.6
+      },
+      {
+        "score": "5-0",
+        "prob": 10.3
+      },
+      {
+        "score": "1-0",
+        "prob": 10.1
+      },
+      {
+        "score": "3-1",
+        "prob": 6.7
+      },
+      {
+        "score": "2-1",
+        "prob": 6.1
+      },
+      {
+        "score": "6-0",
+        "prob": 5.7
+      },
+      {
+        "score": "4-1",
+        "prob": 5.5
+      },
+      {
+        "score": "1-1",
+        "prob": 3.7
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.9
+    },
+    "xgHome": 3.3,
+    "xgAway": 0.35,
+    "upsetIndex": 0.33,
+    "eloHome": 2138,
+    "eloAway": 1845,
+    "eventHome": 66,
+    "eventAway": 0,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "qualified_resting",
+    "pressureAway": "mustWin",
+    "styleHome": "possession",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 15,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    },
+    "upsetReasons": [
+      "Elo差333分-强弱悬殊但足球非数学",
+      "Algeria背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-17",
+    "homeTeam": "Austria",
+    "awayTeam": "Jordan",
+    "kickoff": "12:00",
+    "group": "J",
+    "oddsHome": 1.38,
+    "oddsDraw": 10.31,
+    "oddsAway": 3.66,
+    "homeWinPct": 69,
+    "drawPct": 11,
+    "awayWinPct": 20,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 17.2
+      },
+      {
+        "score": "1-0",
+        "prob": 15.6
+      },
+      {
+        "score": "3-0",
+        "prob": 11.8
+      },
+      {
+        "score": "2-1",
+        "prob": 11.7
+      },
+      {
+        "score": "1-1",
+        "prob": 11.7
+      },
+      {
+        "score": "0-0",
+        "prob": 8.4
+      },
+      {
+        "score": "3-1",
+        "prob": 8.0
+      },
+      {
+        "score": "4-0",
+        "prob": 6.1
+      },
+      {
+        "score": "0-1",
+        "prob": 5.4
+      },
+      {
+        "score": "4-1",
+        "prob": 4.2
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 17.2
+    },
+    "xgHome": 2.06,
+    "xgAway": 0.68,
+    "upsetIndex": 0.32,
+    "eloHome": 1925,
+    "eloAway": 1795,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 165.1,
+      "outcomes": {
+        "home": 60,
+        "draw": 15,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "4-1",
+          2
+        ],
+        [
+          "3-1",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.7,
+      "avgAwayGoals": 0.85
+    },
+    "upsetReasons": [
+      "新军参赛-历史数据缺乏-变数极大",
+      "Jordan亚洲队-本届保持不败趋势",
+      "Jordan背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-18",
+    "homeTeam": "Portugal",
+    "awayTeam": "DR Congo",
+    "kickoff": "01:00",
+    "group": "K",
+    "oddsHome": 1.18,
+    "oddsDraw": 11.29,
+    "oddsAway": 6.62,
+    "homeWinPct": 84,
+    "drawPct": 7,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.1
+      },
+      {
+        "score": "2-0",
+        "prob": 16.6
+      },
+      {
+        "score": "4-0",
+        "prob": 14.7
+      },
+      {
+        "score": "1-0",
+        "prob": 9.9
+      },
+      {
+        "score": "5-0",
+        "prob": 9.5
+      },
+      {
+        "score": "3-1",
+        "prob": 7.9
+      },
+      {
+        "score": "2-1",
+        "prob": 7.2
+      },
+      {
+        "score": "4-1",
+        "prob": 6.4
+      },
+      {
+        "score": "6-0",
+        "prob": 5.2
+      },
+      {
+        "score": "1-1",
+        "prob": 4.5
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.1
+    },
+    "xgHome": 3.25,
+    "xgAway": 0.44,
+    "upsetIndex": 0.3,
+    "eloHome": 2040,
+    "eloAway": 1780,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    },
+    "upsetReasons": [
+      "Elo差300分-强弱悬殊但足球非数学",
+      "DR Congo背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-18",
+    "homeTeam": "England",
+    "awayTeam": "Croatia",
+    "kickoff": "04:00",
+    "group": "L",
+    "oddsHome": 1.43,
+    "oddsDraw": 4.59,
+    "oddsAway": 3.3,
+    "homeWinPct": 62,
+    "drawPct": 17,
+    "awayWinPct": 21,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 14.3
+      },
+      {
+        "score": "2-0",
+        "prob": 14.3
+      },
+      {
+        "score": "1-0",
+        "prob": 14.2
+      },
+      {
+        "score": "2-1",
+        "prob": 12.8
+      },
+      {
+        "score": "3-0",
+        "prob": 8.8
+      },
+      {
+        "score": "0-0",
+        "prob": 8.8
+      },
+      {
+        "score": "3-1",
+        "prob": 7.9
+      },
+      {
+        "score": "0-1",
+        "prob": 7.1
+      },
+      {
+        "score": "1-2",
+        "prob": 6.1
+      },
+      {
+        "score": "2-2",
+        "prob": 5.7
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 14.3
+    },
+    "xgHome": 1.86,
+    "xgAway": 0.9,
+    "upsetIndex": 0.14,
+    "eloHome": 2085,
+    "eloAway": 1980,
+    "eventHome": 67,
+    "eventAway": 10,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "possession",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 144.4,
+      "outcomes": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "topScores": [
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.6,
+      "avgAwayGoals": 0.8
+    },
+    "upsetReasons": [
+      "Croatia背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-18",
+    "homeTeam": "Ghana",
+    "awayTeam": "Panama",
+    "kickoff": "07:00",
+    "group": "L",
+    "oddsHome": 1.75,
+    "oddsDraw": 4.34,
+    "oddsAway": 2.33,
+    "homeWinPct": 48,
+    "drawPct": 20,
+    "awayWinPct": 31,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 19.8
+      },
+      {
+        "score": "0-0",
+        "prob": 19.6
+      },
+      {
+        "score": "1-1",
+        "prob": 14.2
+      },
+      {
+        "score": "0-1",
+        "prob": 11.9
+      },
+      {
+        "score": "2-0",
+        "prob": 11.6
+      },
+      {
+        "score": "2-1",
+        "prob": 7.5
+      },
+      {
+        "score": "1-2",
+        "prob": 4.4
+      },
+      {
+        "score": "3-0",
+        "prob": 4.3
+      },
+      {
+        "score": "0-2",
+        "prob": 4.0
+      },
+      {
+        "score": "3-1",
+        "prob": 2.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 19.8
+    },
+    "xgHome": 1.11,
+    "xgAway": 0.65,
+    "upsetIndex": 0.05,
+    "eloHome": 1840,
+    "eloAway": 1830,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "deadRubber",
+    "styleHome": "physical",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 49.05,
+      "outcomes": {
+        "home": 40,
+        "draw": 30,
+        "away": 30
+      },
+      "topScores": [
+        [
+          "1-1",
+          4
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.1,
+      "avgAwayGoals": 0.95
+    },
+    "upsetReasons": [],
+    "upsetRisk": "none"
+  },
+  {
+    "date": "2026-06-18",
+    "homeTeam": "Uzbekistan",
+    "awayTeam": "Colombia",
+    "kickoff": "10:00",
+    "group": "K",
+    "oddsHome": 3.3,
+    "oddsDraw": 1.7,
+    "oddsAway": 1.43,
+    "homeWinPct": 12,
+    "drawPct": 35,
+    "awayWinPct": 53,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 20.0
+      },
+      {
+        "score": "0-2",
+        "prob": 16.6
+      },
+      {
+        "score": "0-0",
+        "prob": 14.1
+      },
+      {
+        "score": "1-1",
+        "prob": 12.4
+      },
+      {
+        "score": "1-2",
+        "prob": 9.3
+      },
+      {
+        "score": "0-3",
+        "prob": 8.7
+      },
+      {
+        "score": "1-0",
+        "prob": 7.4
+      },
+      {
+        "score": "1-3",
+        "prob": 4.8
+      },
+      {
+        "score": "0-4",
+        "prob": 3.4
+      },
+      {
+        "score": "2-1",
+        "prob": 3.3
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 20.0
+    },
+    "xgHome": 0.56,
+    "xgAway": 1.56,
+    "upsetIndex": 0.29,
+    "eloHome": 1785,
+    "eloAway": 1970,
+    "eventHome": -5,
+    "eventAway": 5,
+    "restHome": null,
+    "restAway": null,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "needWin",
+    "styleHome": "counter",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -133.0,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "1-2",
+          4
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "2-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.8,
+      "avgAwayGoals": 1.75
+    },
+    "upsetReasons": [
+      "新军参赛-历史数据缺乏-变数极大",
+      "Uzbekistan亚洲队-本届保持不败趋势",
+      "Uzbekistan背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-19",
+    "homeTeam": "Czech Republic",
+    "awayTeam": "South Africa",
+    "kickoff": "00:00",
+    "group": "A",
+    "oddsHome": 1.82,
+    "oddsDraw": 4.3,
+    "oddsAway": 2.22,
+    "homeWinPct": 43,
+    "drawPct": 22,
+    "awayWinPct": 35,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 21.4
+      },
+      {
+        "score": "1-0",
+        "prob": 17.0
+      },
+      {
+        "score": "0-1",
+        "prob": 15.6
+      },
+      {
+        "score": "1-1",
+        "prob": 15.1
+      },
+      {
+        "score": "2-0",
+        "prob": 7.8
+      },
+      {
+        "score": "0-2",
+        "prob": 6.5
+      },
+      {
+        "score": "2-1",
+        "prob": 6.2
+      },
+      {
+        "score": "1-2",
+        "prob": 5.7
+      },
+      {
+        "score": "2-2",
+        "prob": 2.5
+      },
+      {
+        "score": "3-0",
+        "prob": 2.3
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 21.4
+    },
+    "xgHome": 0.87,
+    "xgAway": 0.8,
+    "upsetIndex": 0.02,
+    "eloHome": 1809,
+    "eloAway": 1825,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": 7,
+    "restAway": 7,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "mustWin",
+    "styleHome": "physical",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 22.4,
+      "outcomes": {
+        "home": 15,
+        "draw": 35,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "1-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.85,
+      "avgAwayGoals": 1.25
+    },
+    "upsetReasons": [
+      "South Africa背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-19",
+    "homeTeam": "Switzerland",
+    "awayTeam": "Bosnia & Herzegovina",
+    "kickoff": "03:00",
+    "group": "B",
+    "oddsHome": 1.38,
+    "oddsDraw": 10.31,
+    "oddsAway": 3.66,
+    "homeWinPct": 67,
+    "drawPct": 12,
+    "awayWinPct": 21,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 18.5
+      },
+      {
+        "score": "2-0",
+        "prob": 16.2
+      },
+      {
+        "score": "1-1",
+        "prob": 12.9
+      },
+      {
+        "score": "0-0",
+        "prob": 12.1
+      },
+      {
+        "score": "2-1",
+        "prob": 10.4
+      },
+      {
+        "score": "3-0",
+        "prob": 9.0
+      },
+      {
+        "score": "0-1",
+        "prob": 7.4
+      },
+      {
+        "score": "3-1",
+        "prob": 5.8
+      },
+      {
+        "score": "1-2",
+        "prob": 4.0
+      },
+      {
+        "score": "4-0",
+        "prob": 3.7
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 18.5
+    },
+    "xgHome": 1.66,
+    "xgAway": 0.64,
+    "upsetIndex": 0.17,
+    "eloHome": 1975,
+    "eloAway": 1849,
+    "eventHome": 10,
+    "eventAway": 0,
+    "restHome": 5,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 165.1,
+      "outcomes": {
+        "home": 60,
+        "draw": 15,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "4-1",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "3-1",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.7,
+      "avgAwayGoals": 0.85
+    },
+    "upsetReasons": [
+      "Switzerland攻击低效-射门多进球少",
+      "Bosnia & Herzegovina背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-19",
+    "homeTeam": "Canada",
+    "awayTeam": "Qatar",
+    "kickoff": "06:00",
+    "group": "B",
+    "oddsHome": 1.71,
+    "oddsDraw": 4.37,
+    "oddsAway": 2.41,
+    "homeWinPct": 45,
+    "drawPct": 20,
+    "awayWinPct": 35,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.4
+      },
+      {
+        "score": "0-0",
+        "prob": 15.6
+      },
+      {
+        "score": "0-1",
+        "prob": 15.2
+      },
+      {
+        "score": "1-0",
+        "prob": 13.8
+      },
+      {
+        "score": "0-2",
+        "prob": 8.7
+      },
+      {
+        "score": "1-2",
+        "prob": 8.5
+      },
+      {
+        "score": "2-1",
+        "prob": 7.6
+      },
+      {
+        "score": "2-0",
+        "prob": 7.1
+      },
+      {
+        "score": "2-2",
+        "prob": 4.1
+      },
+      {
+        "score": "0-3",
+        "prob": 3.1
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.4
+    },
+    "xgHome": 0.98,
+    "xgAway": 1.08,
+    "upsetIndex": 0.06,
+    "eloHome": 1886,
+    "eloAway": 1870,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 59.0,
+      "outcomes": {
+        "home": 55,
+        "draw": 20,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "2-0",
+          3
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.5,
+      "avgAwayGoals": 0.9
+    },
+    "upsetReasons": [
+      "Qatar射门转化率异常高-临床级终结",
+      "Canada攻击低效-射门多进球少",
+      "Qatar亚洲队-本届保持不败趋势",
+      "Qatar背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-19",
+    "homeTeam": "Mexico",
+    "awayTeam": "South Korea",
+    "kickoff": "09:00",
+    "group": "A",
+    "oddsHome": 1.67,
+    "oddsDraw": 4.4,
+    "oddsAway": 2.5,
+    "homeWinPct": 49,
+    "drawPct": 20,
+    "awayWinPct": 31,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.6
+      },
+      {
+        "score": "1-0",
+        "prob": 14.9
+      },
+      {
+        "score": "0-0",
+        "prob": 13.4
+      },
+      {
+        "score": "0-1",
+        "prob": 11.9
+      },
+      {
+        "score": "2-0",
+        "prob": 10.0
+      },
+      {
+        "score": "2-1",
+        "prob": 10.0
+      },
+      {
+        "score": "1-2",
+        "prob": 7.9
+      },
+      {
+        "score": "0-2",
+        "prob": 6.2
+      },
+      {
+        "score": "2-2",
+        "prob": 5.0
+      },
+      {
+        "score": "3-0",
+        "prob": 4.2
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.6
+    },
+    "xgHome": 1.26,
+    "xgAway": 1.0,
+    "upsetIndex": 0.06,
+    "eloHome": 1930,
+    "eloAway": 1911,
+    "eventHome": 15,
+    "eventAway": 10,
+    "restHome": 7,
+    "restAway": 7,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "tightRace",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 15,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 61.25,
+      "outcomes": {
+        "home": 50,
+        "draw": 20,
+        "away": 30
+      },
+      "topScores": [
+        [
+          "1-1",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "2-0",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.35,
+      "avgAwayGoals": 0.9
+    },
+    "upsetReasons": [
+      "South Korea亚洲队-本届保持不败趋势"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-20",
+    "homeTeam": "USA",
+    "awayTeam": "Australia",
+    "kickoff": "03:00",
+    "group": "D",
+    "oddsHome": 1.63,
+    "oddsDraw": 4.43,
+    "oddsAway": 2.58,
+    "homeWinPct": 50,
+    "drawPct": 19,
+    "awayWinPct": 31,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.9
+      },
+      {
+        "score": "1-0",
+        "prob": 12.8
+      },
+      {
+        "score": "2-1",
+        "prob": 11.3
+      },
+      {
+        "score": "0-1",
+        "prob": 10.8
+      },
+      {
+        "score": "0-0",
+        "prob": 10.6
+      },
+      {
+        "score": "2-0",
+        "prob": 9.7
+      },
+      {
+        "score": "1-2",
+        "prob": 9.4
+      },
+      {
+        "score": "0-2",
+        "prob": 6.7
+      },
+      {
+        "score": "2-2",
+        "prob": 6.6
+      },
+      {
+        "score": "3-1",
+        "prob": 5.3
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.9
+    },
+    "xgHome": 1.4,
+    "xgAway": 1.17,
+    "upsetIndex": 0.1,
+    "eloHome": 1954,
+    "eloAway": 1895,
+    "eventHome": 0,
+    "eventAway": 5,
+    "restHome": 7,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "qualified_resting",
+    "pressureAway": "tightRace",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 90.9,
+      "outcomes": {
+        "home": 40,
+        "draw": 20,
+        "away": 40
+      },
+      "topScores": [
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.4,
+      "avgAwayGoals": 1.25
+    },
+    "upsetReasons": [
+      "Australia射门转化率异常高-临床级终结",
+      "Australia亚洲队-本届保持不败趋势",
+      "USA势头正盛-上场高效",
+      "Australia势头正盛-上场高效"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-20",
+    "homeTeam": "Scotland",
+    "awayTeam": "Morocco",
+    "kickoff": "06:00",
+    "group": "C",
+    "oddsHome": 2.41,
+    "oddsDraw": 4.37,
+    "oddsAway": 1.71,
+    "homeWinPct": 32,
+    "drawPct": 20,
+    "awayWinPct": 48,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 17.0
+      },
+      {
+        "score": "0-1",
+        "prob": 16.8
+      },
+      {
+        "score": "1-1",
+        "prob": 15.8
+      },
+      {
+        "score": "1-0",
+        "prob": 13.1
+      },
+      {
+        "score": "0-2",
+        "prob": 9.8
+      },
+      {
+        "score": "1-2",
+        "prob": 8.3
+      },
+      {
+        "score": "2-1",
+        "prob": 6.4
+      },
+      {
+        "score": "2-0",
+        "prob": 5.8
+      },
+      {
+        "score": "0-3",
+        "prob": 3.6
+      },
+      {
+        "score": "2-2",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 17.0
+    },
+    "xgHome": 0.84,
+    "xgAway": 1.1,
+    "upsetIndex": 0.06,
+    "eloHome": 1860,
+    "eloAway": 1960,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "needWin",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -62.0,
+      "outcomes": {
+        "home": 10,
+        "draw": 30,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-3",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.65
+    },
+    "upsetReasons": [
+      "Morocco攻击低效-射门多进球少",
+      "Scotland背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-20",
+    "homeTeam": "Brazil",
+    "awayTeam": "Haiti",
+    "kickoff": "09:00",
+    "group": "C",
+    "oddsHome": 1.15,
+    "oddsDraw": 25.44,
+    "oddsAway": 7.8,
+    "homeWinPct": 88,
+    "drawPct": 4,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 19.4
+      },
+      {
+        "score": "4-0",
+        "prob": 17.6
+      },
+      {
+        "score": "2-0",
+        "prob": 16.1
+      },
+      {
+        "score": "5-0",
+        "prob": 12.7
+      },
+      {
+        "score": "1-0",
+        "prob": 8.6
+      },
+      {
+        "score": "6-0",
+        "prob": 7.7
+      },
+      {
+        "score": "3-1",
+        "prob": 5.1
+      },
+      {
+        "score": "4-1",
+        "prob": 4.6
+      },
+      {
+        "score": "2-1",
+        "prob": 4.2
+      },
+      {
+        "score": "7-0",
+        "prob": 4.0
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 19.4
+    },
+    "xgHome": 3.62,
+    "xgAway": 0.26,
+    "upsetIndex": 0.33,
+    "eloHome": 2098,
+    "eloAway": 1805,
+    "eventHome": 11,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    },
+    "upsetReasons": [
+      "Elo差333分-强弱悬殊但足球非数学",
+      "Haiti背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-20",
+    "homeTeam": "Turkey",
+    "awayTeam": "Paraguay",
+    "kickoff": "12:00",
+    "group": "D",
+    "oddsHome": 1.56,
+    "oddsDraw": 4.48,
+    "oddsAway": 2.78,
+    "homeWinPct": 52,
+    "drawPct": 21,
+    "awayWinPct": 27,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 23.0
+      },
+      {
+        "score": "1-0",
+        "prob": 20.5
+      },
+      {
+        "score": "1-1",
+        "prob": 13.5
+      },
+      {
+        "score": "0-1",
+        "prob": 13.4
+      },
+      {
+        "score": "2-0",
+        "prob": 10.1
+      },
+      {
+        "score": "2-1",
+        "prob": 6.2
+      },
+      {
+        "score": "0-2",
+        "prob": 4.2
+      },
+      {
+        "score": "1-2",
+        "prob": 4.0
+      },
+      {
+        "score": "3-0",
+        "prob": 3.2
+      },
+      {
+        "score": "3-1",
+        "prob": 1.9
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 23.0
+    },
+    "xgHome": 0.95,
+    "xgAway": 0.61,
+    "upsetIndex": 0.22,
+    "eloHome": 1915,
+    "eloAway": 1836,
+    "eventHome": 0,
+    "eventAway": -12,
+    "restHome": 6,
+    "restAway": 7,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "deadRubber",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 118.55,
+      "outcomes": {
+        "home": 30,
+        "draw": 35,
+        "away": 35
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.0
+    },
+    "upsetReasons": [
+      "Turkey攻击低效-射门多进球少",
+      "Paraguay背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-21",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Sweden",
+    "kickoff": "01:00",
+    "group": "F",
+    "oddsHome": 1.43,
+    "oddsDraw": 4.59,
+    "oddsAway": 3.3,
+    "homeWinPct": 59,
+    "drawPct": 18,
+    "awayWinPct": 23,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 15.6
+      },
+      {
+        "score": "1-0",
+        "prob": 15.5
+      },
+      {
+        "score": "2-0",
+        "prob": 12.4
+      },
+      {
+        "score": "0-0",
+        "prob": 11.6
+      },
+      {
+        "score": "2-1",
+        "prob": 11.3
+      },
+      {
+        "score": "0-1",
+        "prob": 9.6
+      },
+      {
+        "score": "1-2",
+        "prob": 6.8
+      },
+      {
+        "score": "3-0",
+        "prob": 6.2
+      },
+      {
+        "score": "3-1",
+        "prob": 5.7
+      },
+      {
+        "score": "2-2",
+        "prob": 5.1
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 15.6
+    },
+    "xgHome": 1.5,
+    "xgAway": 0.91,
+    "upsetIndex": 0.14,
+    "eloHome": 2025,
+    "eloAway": 1920,
+    "eventHome": 5,
+    "eventAway": 5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "possession",
+    "styleAway": "physical",
+    "tacticMult": 0.95,
+    "experienceHome": 5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 144.4,
+      "outcomes": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "topScores": [
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.6,
+      "avgAwayGoals": 0.8
+    },
+    "upsetReasons": [
+      "Sweden背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-21",
+    "homeTeam": "Germany",
+    "awayTeam": "Ivory Coast",
+    "kickoff": "04:00",
+    "group": "E",
+    "oddsHome": 1.3,
+    "oddsDraw": 10.66,
+    "oddsAway": 4.35,
+    "homeWinPct": 75,
+    "drawPct": 9,
+    "awayWinPct": 16,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.5
+      },
+      {
+        "score": "1-0",
+        "prob": 15.3
+      },
+      {
+        "score": "3-0",
+        "prob": 14.2
+      },
+      {
+        "score": "2-1",
+        "prob": 10.6
+      },
+      {
+        "score": "1-1",
+        "prob": 9.3
+      },
+      {
+        "score": "4-0",
+        "prob": 8.2
+      },
+      {
+        "score": "3-1",
+        "prob": 8.1
+      },
+      {
+        "score": "0-0",
+        "prob": 7.1
+      },
+      {
+        "score": "4-1",
+        "prob": 4.7
+      },
+      {
+        "score": "0-1",
+        "prob": 3.9
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.5
+    },
+    "xgHome": 2.31,
+    "xgAway": 0.57,
+    "upsetIndex": 0.21,
+    "eloHome": 2055,
+    "eloAway": 1885,
+    "eventHome": 16,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "qualified_resting",
+    "pressureAway": "tightRace",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 207.6,
+      "outcomes": {
+        "home": 65,
+        "draw": 25,
+        "away": 10
+      },
+      "topScores": [
+        [
+          "1-0",
+          5
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.5,
+      "avgAwayGoals": 0.55
+    },
+    "upsetReasons": [
+      "Elo差210分-强弱悬殊但足球非数学"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-21",
+    "homeTeam": "Ecuador",
+    "awayTeam": "Curaçao",
+    "kickoff": "08:00",
+    "group": "E",
+    "oddsHome": 1.45,
+    "oddsDraw": 4.58,
+    "oddsAway": 3.24,
+    "homeWinPct": 61,
+    "drawPct": 19,
+    "awayWinPct": 21,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 20.1
+      },
+      {
+        "score": "2-0",
+        "prob": 15.8
+      },
+      {
+        "score": "0-0",
+        "prob": 14.9
+      },
+      {
+        "score": "1-1",
+        "prob": 12.9
+      },
+      {
+        "score": "2-1",
+        "prob": 9.2
+      },
+      {
+        "score": "0-1",
+        "prob": 8.2
+      },
+      {
+        "score": "3-0",
+        "prob": 7.8
+      },
+      {
+        "score": "3-1",
+        "prob": 4.5
+      },
+      {
+        "score": "1-2",
+        "prob": 3.6
+      },
+      {
+        "score": "4-0",
+        "prob": 2.9
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 20.1
+    },
+    "xgHome": 1.48,
+    "xgAway": 0.58,
+    "upsetIndex": 0.29,
+    "eloHome": 1910,
+    "eloAway": 1810,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "mustWin",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 140.05,
+      "outcomes": {
+        "home": 50,
+        "draw": 25,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-0",
+          3
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.3,
+      "avgAwayGoals": 0.8
+    },
+    "upsetReasons": [
+      "新军参赛-历史数据缺乏-变数极大",
+      "Curaçao背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-21",
+    "homeTeam": "Tunisia",
+    "awayTeam": "Japan",
+    "kickoff": "12:00",
+    "group": "F",
+    "oddsHome": 2.26,
+    "oddsDraw": 4.31,
+    "oddsAway": 1.79,
+    "homeWinPct": 31,
+    "drawPct": 19,
+    "awayWinPct": 49,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.1
+      },
+      {
+        "score": "1-1",
+        "prob": 15.3
+      },
+      {
+        "score": "0-0",
+        "prob": 14.1
+      },
+      {
+        "score": "0-2",
+        "prob": 13.2
+      },
+      {
+        "score": "1-2",
+        "prob": 10.2
+      },
+      {
+        "score": "1-0",
+        "prob": 9.7
+      },
+      {
+        "score": "0-3",
+        "prob": 6.2
+      },
+      {
+        "score": "2-1",
+        "prob": 5.6
+      },
+      {
+        "score": "1-3",
+        "prob": 4.8
+      },
+      {
+        "score": "2-0",
+        "prob": 3.9
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.1
+    },
+    "xgHome": 0.77,
+    "xgAway": 1.41,
+    "upsetIndex": 0.04,
+    "eloHome": 1865,
+    "eloAway": 1945,
+    "eventHome": 5,
+    "eventAway": 10,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "deadRubber",
+    "pressureAway": "needWin",
+    "styleHome": "balanced",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -37.15,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.6,
+      "avgAwayGoals": 1.5
+    },
+    "upsetReasons": [
+      "Japan亚洲队-本届保持不败趋势"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-22",
+    "homeTeam": "Spain",
+    "awayTeam": "Saudi Arabia",
+    "kickoff": "00:00",
+    "group": "H",
+    "oddsHome": 1.26,
+    "oddsDraw": 10.86,
+    "oddsAway": 4.87,
+    "homeWinPct": 76,
+    "drawPct": 9,
+    "awayWinPct": 14,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 17.7
+      },
+      {
+        "score": "3-0",
+        "prob": 14.4
+      },
+      {
+        "score": "1-0",
+        "prob": 13.9
+      },
+      {
+        "score": "2-1",
+        "prob": 11.1
+      },
+      {
+        "score": "1-1",
+        "prob": 9.3
+      },
+      {
+        "score": "3-1",
+        "prob": 9.0
+      },
+      {
+        "score": "4-0",
+        "prob": 8.7
+      },
+      {
+        "score": "0-0",
+        "prob": 6.2
+      },
+      {
+        "score": "4-1",
+        "prob": 5.4
+      },
+      {
+        "score": "5-0",
+        "prob": 4.2
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 17.7
+    },
+    "xgHome": 2.43,
+    "xgAway": 0.62,
+    "upsetIndex": 0.24,
+    "eloHome": 2070,
+    "eloAway": 1875,
+    "eventHome": 5,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "possession",
+    "styleAway": "counter",
+    "tacticMult": 0.92,
+    "experienceHome": 5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 228.75,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          3
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ],
+        [
+          "4-1",
+          1
+        ]
+      ],
+      "avgHomeGoals": 2.8,
+      "avgAwayGoals": 0.8
+    },
+    "upsetReasons": [
+      "Elo差235分-强弱悬殊但足球非数学",
+      "Saudi Arabia亚洲队-本届保持不败趋势",
+      "Saudi Arabia背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-22",
+    "homeTeam": "Belgium",
+    "awayTeam": "Iran",
+    "kickoff": "03:00",
+    "group": "G",
+    "oddsHome": 1.55,
+    "oddsDraw": 4.49,
+    "oddsAway": 2.83,
+    "homeWinPct": 56,
+    "drawPct": 18,
+    "awayWinPct": 26,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 15.5
+      },
+      {
+        "score": "1-0",
+        "prob": 15.0
+      },
+      {
+        "score": "2-0",
+        "prob": 12.7
+      },
+      {
+        "score": "2-1",
+        "prob": 11.8
+      },
+      {
+        "score": "0-0",
+        "prob": 10.7
+      },
+      {
+        "score": "0-1",
+        "prob": 9.0
+      },
+      {
+        "score": "1-2",
+        "prob": 6.9
+      },
+      {
+        "score": "3-0",
+        "prob": 6.7
+      },
+      {
+        "score": "3-1",
+        "prob": 6.2
+      },
+      {
+        "score": "2-2",
+        "prob": 5.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 15.5
+    },
+    "xgHome": 1.58,
+    "xgAway": 0.93,
+    "upsetIndex": 0.11,
+    "eloHome": 2005,
+    "eloAway": 1940,
+    "eventHome": 25,
+    "eventAway": 5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "tightRace",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 99.35,
+      "outcomes": {
+        "home": 35,
+        "draw": 20,
+        "away": 45
+      },
+      "topScores": [
+        [
+          "1-1",
+          3
+        ],
+        [
+          "1-0",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-3",
+          1
+        ]
+      ],
+      "avgHomeGoals": 1.1,
+      "avgAwayGoals": 1.3
+    },
+    "upsetReasons": [
+      "Iran亚洲队-本届保持不败趋势"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-22",
+    "homeTeam": "Uruguay",
+    "awayTeam": "Cape Verde",
+    "kickoff": "06:00",
+    "group": "H",
+    "oddsHome": 1.29,
+    "oddsDraw": 10.7,
+    "oddsAway": 4.45,
+    "homeWinPct": 76,
+    "drawPct": 8,
+    "awayWinPct": 15,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.0
+      },
+      {
+        "score": "3-0",
+        "prob": 16.1
+      },
+      {
+        "score": "1-0",
+        "prob": 12.6
+      },
+      {
+        "score": "4-0",
+        "prob": 10.8
+      },
+      {
+        "score": "2-1",
+        "prob": 9.7
+      },
+      {
+        "score": "3-1",
+        "prob": 8.7
+      },
+      {
+        "score": "1-1",
+        "prob": 7.4
+      },
+      {
+        "score": "4-1",
+        "prob": 5.8
+      },
+      {
+        "score": "5-0",
+        "prob": 5.8
+      },
+      {
+        "score": "0-0",
+        "prob": 5.1
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.0
+    },
+    "xgHome": 2.69,
+    "xgAway": 0.54,
+    "upsetIndex": 0.36,
+    "eloHome": 1990,
+    "eloAway": 1815,
+    "eventHome": 10,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "mustWin",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 212.95,
+      "outcomes": {
+        "home": 70,
+        "draw": 20,
+        "away": 10
+      },
+      "topScores": [
+        [
+          "2-1",
+          4
+        ],
+        [
+          "1-0",
+          4
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "1-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.05,
+      "avgAwayGoals": 0.6
+    },
+    "upsetReasons": [
+      "Elo差215分-强弱悬殊但足球非数学",
+      "新军参赛-历史数据缺乏-变数极大",
+      "Cape Verde背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-22",
+    "homeTeam": "New Zealand",
+    "awayTeam": "Egypt",
+    "kickoff": "09:00",
+    "group": "G",
+    "oddsHome": 2.45,
+    "oddsDraw": 4.38,
+    "oddsAway": 1.69,
+    "homeWinPct": 28,
+    "drawPct": 20,
+    "awayWinPct": 52,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 19.5
+      },
+      {
+        "score": "0-0",
+        "prob": 16.8
+      },
+      {
+        "score": "1-1",
+        "prob": 14.1
+      },
+      {
+        "score": "0-2",
+        "prob": 13.5
+      },
+      {
+        "score": "1-0",
+        "prob": 10.1
+      },
+      {
+        "score": "1-2",
+        "prob": 8.7
+      },
+      {
+        "score": "0-3",
+        "prob": 5.8
+      },
+      {
+        "score": "2-1",
+        "prob": 4.3
+      },
+      {
+        "score": "1-3",
+        "prob": 3.7
+      },
+      {
+        "score": "2-0",
+        "prob": 3.4
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 19.5
+    },
+    "xgHome": 0.64,
+    "xgAway": 1.29,
+    "upsetIndex": 0.07,
+    "eloHome": 1800,
+    "eloAway": 1905,
+    "eventHome": -5,
+    "eventAway": 10,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "mustWin",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -69.45,
+      "outcomes": {
+        "home": 10,
+        "draw": 20,
+        "away": 70
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-3",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.85
+    },
+    "upsetReasons": [
+      "New Zealand背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-23",
+    "homeTeam": "Argentina",
+    "awayTeam": "Austria",
+    "kickoff": "01:00",
+    "group": "J",
+    "oddsHome": 1.23,
+    "oddsDraw": 10.99,
+    "oddsAway": 5.29,
+    "homeWinPct": 80,
+    "drawPct": 8,
+    "awayWinPct": 12,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.4
+      },
+      {
+        "score": "3-0",
+        "prob": 17.3
+      },
+      {
+        "score": "1-0",
+        "prob": 12.6
+      },
+      {
+        "score": "4-0",
+        "prob": 12.2
+      },
+      {
+        "score": "2-1",
+        "prob": 8.4
+      },
+      {
+        "score": "3-1",
+        "prob": 7.9
+      },
+      {
+        "score": "5-0",
+        "prob": 6.9
+      },
+      {
+        "score": "1-1",
+        "prob": 6.0
+      },
+      {
+        "score": "4-1",
+        "prob": 5.6
+      },
+      {
+        "score": "0-0",
+        "prob": 4.7
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.4
+    },
+    "xgHome": 2.83,
+    "xgAway": 0.46,
+    "upsetIndex": 0.25,
+    "eloHome": 2138,
+    "eloAway": 1925,
+    "eventHome": 61,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "qualified_resting",
+    "pressureAway": "tightRace",
+    "styleHome": "possession",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 15,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 241.6,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ],
+        [
+          "3-0",
+          1
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.7
+    },
+    "upsetReasons": [
+      "Elo差253分-强弱悬殊但足球非数学"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-23",
+    "homeTeam": "France",
+    "awayTeam": "Iraq",
+    "kickoff": "05:00",
+    "group": "I",
+    "oddsHome": 1.16,
+    "oddsDraw": 25.22,
+    "oddsAway": 7.2,
+    "homeWinPct": 88,
+    "drawPct": 4,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.6
+      },
+      {
+        "score": "4-0",
+        "prob": 17.5
+      },
+      {
+        "score": "2-0",
+        "prob": 14.9
+      },
+      {
+        "score": "5-0",
+        "prob": 13.1
+      },
+      {
+        "score": "6-0",
+        "prob": 8.2
+      },
+      {
+        "score": "1-0",
+        "prob": 7.6
+      },
+      {
+        "score": "3-1",
+        "prob": 5.7
+      },
+      {
+        "score": "4-1",
+        "prob": 5.4
+      },
+      {
+        "score": "2-1",
+        "prob": 4.6
+      },
+      {
+        "score": "7-0",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.6
+    },
+    "xgHome": 3.75,
+    "xgAway": 0.31,
+    "upsetIndex": 0.32,
+    "eloHome": 2112,
+    "eloAway": 1835,
+    "eventHome": 58,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "qualified_resting",
+    "pressureAway": "deadRubber",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    },
+    "upsetReasons": [
+      "Elo差317分-强弱悬殊但足球非数学",
+      "Iraq亚洲队-本届保持不败趋势"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-23",
+    "homeTeam": "Norway",
+    "awayTeam": "Senegal",
+    "kickoff": "08:00",
+    "group": "I",
+    "oddsHome": 2.41,
+    "oddsDraw": 4.37,
+    "oddsAway": 1.71,
+    "homeWinPct": 36,
+    "drawPct": 20,
+    "awayWinPct": 44,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.4
+      },
+      {
+        "score": "1-0",
+        "prob": 15.5
+      },
+      {
+        "score": "0-0",
+        "prob": 14.6
+      },
+      {
+        "score": "0-1",
+        "prob": 12.4
+      },
+      {
+        "score": "2-0",
+        "prob": 9.9
+      },
+      {
+        "score": "2-1",
+        "prob": 9.4
+      },
+      {
+        "score": "1-2",
+        "prob": 7.4
+      },
+      {
+        "score": "0-2",
+        "prob": 6.1
+      },
+      {
+        "score": "2-2",
+        "prob": 4.4
+      },
+      {
+        "score": "3-0",
+        "prob": 4.0
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.4
+    },
+    "xgHome": 1.2,
+    "xgAway": 0.94,
+    "upsetIndex": 0.06,
+    "eloHome": 1850,
+    "eloAway": 1950,
+    "eventHome": 60,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "deadRubber",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -62.0,
+      "outcomes": {
+        "home": 10,
+        "draw": 30,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-3",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.65
+    },
+    "upsetReasons": [],
+    "upsetRisk": "none"
+  },
+  {
+    "date": "2026-06-23",
+    "homeTeam": "Jordan",
+    "awayTeam": "Algeria",
+    "kickoff": "11:00",
+    "group": "J",
+    "oddsHome": 2.06,
+    "oddsDraw": 2.81,
+    "oddsAway": 1.94,
+    "homeWinPct": 34,
+    "drawPct": 27,
+    "awayWinPct": 39,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 20.5
+      },
+      {
+        "score": "0-1",
+        "prob": 17.8
+      },
+      {
+        "score": "1-1",
+        "prob": 15.1
+      },
+      {
+        "score": "1-0",
+        "prob": 14.2
+      },
+      {
+        "score": "0-2",
+        "prob": 9.0
+      },
+      {
+        "score": "1-2",
+        "prob": 6.8
+      },
+      {
+        "score": "2-0",
+        "prob": 5.6
+      },
+      {
+        "score": "2-1",
+        "prob": 5.4
+      },
+      {
+        "score": "0-3",
+        "prob": 2.9
+      },
+      {
+        "score": "2-2",
+        "prob": 2.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 20.5
+    },
+    "xgHome": 0.76,
+    "xgAway": 0.96,
+    "upsetIndex": 0.16,
+    "eloHome": 1795,
+    "eloAway": 1845,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "mustWin",
+    "styleHome": "counter",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -10.0,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          6
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "3-3",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.0,
+      "avgAwayGoals": 1.8
+    },
+    "upsetReasons": [
+      "新军参赛-历史数据缺乏-变数极大",
+      "Jordan亚洲队-本届保持不败趋势",
+      "Jordan背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-24",
+    "homeTeam": "Portugal",
+    "awayTeam": "Uzbekistan",
+    "kickoff": "01:00",
+    "group": "K",
+    "oddsHome": 1.18,
+    "oddsDraw": 11.26,
+    "oddsAway": 6.46,
+    "homeWinPct": 84,
+    "drawPct": 7,
+    "awayWinPct": 9,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 17.8
+      },
+      {
+        "score": "2-0",
+        "prob": 16.4
+      },
+      {
+        "score": "4-0",
+        "prob": 14.5
+      },
+      {
+        "score": "1-0",
+        "prob": 9.8
+      },
+      {
+        "score": "5-0",
+        "prob": 9.4
+      },
+      {
+        "score": "3-1",
+        "prob": 8.1
+      },
+      {
+        "score": "2-1",
+        "prob": 7.5
+      },
+      {
+        "score": "4-1",
+        "prob": 6.6
+      },
+      {
+        "score": "6-0",
+        "prob": 5.1
+      },
+      {
+        "score": "1-1",
+        "prob": 4.7
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 17.8
+    },
+    "xgHome": 3.25,
+    "xgAway": 0.46,
+    "upsetIndex": 0.45,
+    "eloHome": 2040,
+    "eloAway": 1785,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    },
+    "upsetReasons": [
+      "Elo差295分-强弱悬殊但足球非数学",
+      "新军参赛-历史数据缺乏-变数极大",
+      "Uzbekistan亚洲队-本届保持不败趋势",
+      "Uzbekistan背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-24",
+    "homeTeam": "England",
+    "awayTeam": "Ghana",
+    "kickoff": "04:00",
+    "group": "L",
+    "oddsHome": 1.19,
+    "oddsDraw": 11.2,
+    "oddsAway": 6.16,
+    "homeWinPct": 83,
+    "drawPct": 7,
+    "awayWinPct": 10,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "3-0",
+        "prob": 18.0
+      },
+      {
+        "score": "2-0",
+        "prob": 17.0
+      },
+      {
+        "score": "4-0",
+        "prob": 14.3
+      },
+      {
+        "score": "1-0",
+        "prob": 10.4
+      },
+      {
+        "score": "5-0",
+        "prob": 9.1
+      },
+      {
+        "score": "3-1",
+        "prob": 7.9
+      },
+      {
+        "score": "2-1",
+        "prob": 7.4
+      },
+      {
+        "score": "4-1",
+        "prob": 6.2
+      },
+      {
+        "score": "6-0",
+        "prob": 4.8
+      },
+      {
+        "score": "1-1",
+        "prob": 4.7
+      }
+    ],
+    "bestScore": {
+      "score": "3-0",
+      "prob": 18.0
+    },
+    "xgHome": 3.18,
+    "xgAway": 0.44,
+    "upsetIndex": 0.29,
+    "eloHome": 2085,
+    "eloAway": 1840,
+    "eventHome": 77,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "needWin",
+    "styleHome": "possession",
+    "styleAway": "physical",
+    "tacticMult": 0.95,
+    "experienceHome": 5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 250.9,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-0",
+          4
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "7-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 2.75,
+      "avgAwayGoals": 0.75
+    },
+    "upsetReasons": [
+      "Elo差285分-强弱悬殊但足球非数学"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-24",
+    "homeTeam": "Panama",
+    "awayTeam": "Croatia",
+    "kickoff": "07:00",
+    "group": "L",
+    "oddsHome": 2.88,
+    "oddsDraw": 1.59,
+    "oddsAway": 1.53,
+    "homeWinPct": 14,
+    "drawPct": 37,
+    "awayWinPct": 50,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 18.8
+      },
+      {
+        "score": "0-2",
+        "prob": 16.9
+      },
+      {
+        "score": "0-0",
+        "prob": 12.6
+      },
+      {
+        "score": "1-1",
+        "prob": 12.4
+      },
+      {
+        "score": "1-2",
+        "prob": 10.0
+      },
+      {
+        "score": "0-3",
+        "prob": 9.4
+      },
+      {
+        "score": "1-0",
+        "prob": 7.0
+      },
+      {
+        "score": "1-3",
+        "prob": 5.6
+      },
+      {
+        "score": "0-4",
+        "prob": 3.9
+      },
+      {
+        "score": "2-1",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 18.8
+    },
+    "xgHome": 0.59,
+    "xgAway": 1.67,
+    "upsetIndex": 0.11,
+    "eloHome": 1830,
+    "eloAway": 1980,
+    "eventHome": -5,
+    "eventAway": 10,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "deadRubber",
+    "pressureAway": "mustWin",
+    "styleHome": "physical",
+    "styleAway": "possession",
+    "tacticMult": 1.05,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -107.25,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-1",
+          6
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.75
+    },
+    "upsetReasons": [],
+    "upsetRisk": "none"
+  },
+  {
+    "date": "2026-06-24",
+    "homeTeam": "Colombia",
+    "awayTeam": "DR Congo",
+    "kickoff": "10:00",
+    "group": "K",
+    "oddsHome": 1.27,
+    "oddsDraw": 10.82,
+    "oddsAway": 4.76,
+    "homeWinPct": 78,
+    "drawPct": 8,
+    "awayWinPct": 14,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 18.1
+      },
+      {
+        "score": "3-0",
+        "prob": 15.9
+      },
+      {
+        "score": "1-0",
+        "prob": 13.0
+      },
+      {
+        "score": "4-0",
+        "prob": 10.5
+      },
+      {
+        "score": "2-1",
+        "prob": 9.8
+      },
+      {
+        "score": "3-1",
+        "prob": 8.6
+      },
+      {
+        "score": "1-1",
+        "prob": 7.6
+      },
+      {
+        "score": "4-1",
+        "prob": 5.7
+      },
+      {
+        "score": "5-0",
+        "prob": 5.5
+      },
+      {
+        "score": "0-0",
+        "prob": 5.3
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 18.1
+    },
+    "xgHome": 2.64,
+    "xgAway": 0.54,
+    "upsetIndex": 0.23,
+    "eloHome": 1970,
+    "eloAway": 1780,
+    "eventHome": 5,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 228.75,
+      "outcomes": {
+        "home": 75,
+        "draw": 20,
+        "away": 5
+      },
+      "topScores": [
+        [
+          "2-1",
+          3
+        ],
+        [
+          "2-0",
+          3
+        ],
+        [
+          "7-0",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "5-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 2.8,
+      "avgAwayGoals": 0.8
+    },
+    "upsetReasons": [
+      "Elo差230分-强弱悬殊但足球非数学",
+      "DR Congo背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-25",
+    "homeTeam": "Switzerland",
+    "awayTeam": "Canada",
+    "kickoff": "03:00",
+    "group": "B",
+    "oddsHome": 1.49,
+    "oddsDraw": 4.55,
+    "oddsAway": 3.05,
+    "homeWinPct": 57,
+    "drawPct": 20,
+    "awayWinPct": 23,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 19.4
+      },
+      {
+        "score": "0-0",
+        "prob": 16.6
+      },
+      {
+        "score": "1-1",
+        "prob": 14.3
+      },
+      {
+        "score": "2-0",
+        "prob": 13.0
+      },
+      {
+        "score": "0-1",
+        "prob": 10.5
+      },
+      {
+        "score": "2-1",
+        "prob": 8.7
+      },
+      {
+        "score": "3-0",
+        "prob": 5.5
+      },
+      {
+        "score": "1-2",
+        "prob": 4.6
+      },
+      {
+        "score": "3-1",
+        "prob": 3.7
+      },
+      {
+        "score": "0-2",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 19.4
+    },
+    "xgHome": 1.27,
+    "xgAway": 0.67,
+    "upsetIndex": 0.13,
+    "eloHome": 1975,
+    "eloAway": 1886,
+    "eventHome": 10,
+    "eventAway": -5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "tightRace",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 10,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 133.6,
+      "outcomes": {
+        "home": 45,
+        "draw": 30,
+        "away": 25
+      },
+      "topScores": [
+        [
+          "0-0",
+          4
+        ],
+        [
+          "1-0",
+          4
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.95,
+      "avgAwayGoals": 0.7
+    },
+    "upsetReasons": [
+      "Switzerland攻击低效-射门多进球少"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-25",
+    "homeTeam": "Bosnia & Herzegovina",
+    "awayTeam": "Qatar",
+    "kickoff": "03:00",
+    "group": "B",
+    "oddsHome": 1.92,
+    "oddsDraw": 2.82,
+    "oddsAway": 2.09,
+    "homeWinPct": 37,
+    "drawPct": 26,
+    "awayWinPct": 36,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.5
+      },
+      {
+        "score": "0-0",
+        "prob": 16.4
+      },
+      {
+        "score": "0-1",
+        "prob": 15.2
+      },
+      {
+        "score": "1-0",
+        "prob": 13.9
+      },
+      {
+        "score": "0-2",
+        "prob": 8.5
+      },
+      {
+        "score": "1-2",
+        "prob": 8.2
+      },
+      {
+        "score": "2-1",
+        "prob": 7.4
+      },
+      {
+        "score": "2-0",
+        "prob": 7.0
+      },
+      {
+        "score": "2-2",
+        "prob": 3.9
+      },
+      {
+        "score": "0-3",
+        "prob": 3.0
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.5
+    },
+    "xgHome": 0.96,
+    "xgAway": 1.05,
+    "upsetIndex": 0.02,
+    "eloHome": 1849,
+    "eloAway": 1870,
+    "eventHome": 0,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "mustWin",
+    "styleHome": "balanced",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 19.65,
+      "outcomes": {
+        "home": 15,
+        "draw": 35,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "2-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.35
+    },
+    "upsetReasons": [
+      "Qatar射门转化率异常高-临床级终结",
+      "Qatar亚洲队-本届保持不败趋势",
+      "Qatar背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-25",
+    "homeTeam": "Morocco",
+    "awayTeam": "Haiti",
+    "kickoff": "06:00",
+    "group": "C",
+    "oddsHome": 1.33,
+    "oddsDraw": 10.54,
+    "oddsAway": 4.07,
+    "homeWinPct": 71,
+    "drawPct": 11,
+    "awayWinPct": 18,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-0",
+        "prob": 19.3
+      },
+      {
+        "score": "2-0",
+        "prob": 18.3
+      },
+      {
+        "score": "0-0",
+        "prob": 11.7
+      },
+      {
+        "score": "1-1",
+        "prob": 11.0
+      },
+      {
+        "score": "3-0",
+        "prob": 10.9
+      },
+      {
+        "score": "2-1",
+        "prob": 9.6
+      },
+      {
+        "score": "0-1",
+        "prob": 5.9
+      },
+      {
+        "score": "3-1",
+        "prob": 5.7
+      },
+      {
+        "score": "4-0",
+        "prob": 4.9
+      },
+      {
+        "score": "1-2",
+        "prob": 2.8
+      }
+    ],
+    "bestScore": {
+      "score": "1-0",
+      "prob": 19.3
+    },
+    "xgHome": 1.79,
+    "xgAway": 0.52,
+    "upsetIndex": 0.2,
+    "eloHome": 1960,
+    "eloAway": 1805,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 198.35,
+      "outcomes": {
+        "home": 65,
+        "draw": 20,
+        "away": 15
+      },
+      "topScores": [
+        [
+          "1-0",
+          6
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "6-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 1.5,
+      "avgAwayGoals": 0.7
+    },
+    "upsetReasons": [
+      "Morocco攻击低效-射门多进球少",
+      "Haiti背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-25",
+    "homeTeam": "Scotland",
+    "awayTeam": "Brazil",
+    "kickoff": "06:00",
+    "group": "C",
+    "oddsHome": 4.13,
+    "oddsDraw": 1.96,
+    "oddsAway": 1.32,
+    "homeWinPct": 8,
+    "drawPct": 30,
+    "awayWinPct": 61,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-2",
+        "prob": 17.2
+      },
+      {
+        "score": "0-1",
+        "prob": 17.1
+      },
+      {
+        "score": "1-1",
+        "prob": 11.9
+      },
+      {
+        "score": "1-2",
+        "prob": 11.0
+      },
+      {
+        "score": "0-3",
+        "prob": 10.9
+      },
+      {
+        "score": "0-0",
+        "prob": 9.9
+      },
+      {
+        "score": "1-3",
+        "prob": 7.0
+      },
+      {
+        "score": "1-0",
+        "prob": 6.0
+      },
+      {
+        "score": "0-4",
+        "prob": 5.2
+      },
+      {
+        "score": "2-1",
+        "prob": 3.7
+      }
+    ],
+    "bestScore": {
+      "score": "0-2",
+      "prob": 17.2
+    },
+    "xgHome": 0.64,
+    "xgAway": 1.9,
+    "upsetIndex": 0.2,
+    "eloHome": 1860,
+    "eloAway": 2098,
+    "eventHome": -5,
+    "eventAway": 9,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "needWin",
+    "styleHome": "physical",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    },
+    "upsetReasons": [
+      "Scotland背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-25",
+    "homeTeam": "South Africa",
+    "awayTeam": "South Korea",
+    "kickoff": "09:00",
+    "group": "A",
+    "oddsHome": 2.22,
+    "oddsDraw": 4.3,
+    "oddsAway": 1.82,
+    "homeWinPct": 32,
+    "drawPct": 20,
+    "awayWinPct": 47,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.6
+      },
+      {
+        "score": "0-0",
+        "prob": 16.0
+      },
+      {
+        "score": "1-1",
+        "prob": 15.4
+      },
+      {
+        "score": "0-2",
+        "prob": 12.0
+      },
+      {
+        "score": "1-0",
+        "prob": 11.0
+      },
+      {
+        "score": "1-2",
+        "prob": 9.1
+      },
+      {
+        "score": "2-1",
+        "prob": 5.5
+      },
+      {
+        "score": "0-3",
+        "prob": 5.0
+      },
+      {
+        "score": "2-0",
+        "prob": 4.4
+      },
+      {
+        "score": "1-3",
+        "prob": 3.8
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.6
+    },
+    "xgHome": 0.76,
+    "xgAway": 1.26,
+    "upsetIndex": 0.05,
+    "eloHome": 1825,
+    "eloAway": 1911,
+    "eventHome": -5,
+    "eventAway": 10,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "tightRace",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -42.45,
+      "outcomes": {
+        "home": 5,
+        "draw": 35,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          6
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "2-2",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.6
+    },
+    "upsetReasons": [
+      "South Korea亚洲队-本届保持不败趋势",
+      "South Africa背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-25",
+    "homeTeam": "Czech Republic",
+    "awayTeam": "Mexico",
+    "kickoff": "09:00",
+    "group": "A",
+    "oddsHome": 2.5,
+    "oddsDraw": 1.5,
+    "oddsAway": 1.67,
+    "homeWinPct": 18,
+    "drawPct": 40,
+    "awayWinPct": 42,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 18.8
+      },
+      {
+        "score": "0-0",
+        "prob": 16.0
+      },
+      {
+        "score": "1-1",
+        "prob": 14.5
+      },
+      {
+        "score": "0-2",
+        "prob": 13.2
+      },
+      {
+        "score": "1-0",
+        "prob": 10.2
+      },
+      {
+        "score": "1-2",
+        "prob": 9.1
+      },
+      {
+        "score": "0-3",
+        "prob": 5.8
+      },
+      {
+        "score": "2-1",
+        "prob": 4.8
+      },
+      {
+        "score": "1-3",
+        "prob": 4.0
+      },
+      {
+        "score": "2-0",
+        "prob": 3.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 18.8
+    },
+    "xgHome": 0.69,
+    "xgAway": 1.31,
+    "upsetIndex": 0.08,
+    "eloHome": 1809,
+    "eloAway": 1930,
+    "eventHome": 0,
+    "eventAway": 15,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "needWin",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 15,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -82.75,
+      "outcomes": {
+        "home": 15,
+        "draw": 15,
+        "away": 70
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "0-3",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "0-0",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.7,
+      "avgAwayGoals": 1.9
+    },
+    "upsetReasons": [
+      "Czech Republic背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-26",
+    "homeTeam": "Curaçao",
+    "awayTeam": "Ivory Coast",
+    "kickoff": "04:00",
+    "group": "E",
+    "oddsHome": 2.22,
+    "oddsDraw": 4.3,
+    "oddsAway": 1.82,
+    "homeWinPct": 33,
+    "drawPct": 21,
+    "awayWinPct": 46,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 18.8
+      },
+      {
+        "score": "0-1",
+        "prob": 18.0
+      },
+      {
+        "score": "1-1",
+        "prob": 15.3
+      },
+      {
+        "score": "1-0",
+        "prob": 12.8
+      },
+      {
+        "score": "0-2",
+        "prob": 10.4
+      },
+      {
+        "score": "1-2",
+        "prob": 7.8
+      },
+      {
+        "score": "2-1",
+        "prob": 5.4
+      },
+      {
+        "score": "2-0",
+        "prob": 5.0
+      },
+      {
+        "score": "0-3",
+        "prob": 3.7
+      },
+      {
+        "score": "2-2",
+        "prob": 2.9
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 18.8
+    },
+    "xgHome": 0.75,
+    "xgAway": 1.08,
+    "upsetIndex": 0.18,
+    "eloHome": 1810,
+    "eloAway": 1885,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "tightRace",
+    "styleHome": "counter",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -31.5,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "2-2",
+          1
+        ],
+        [
+          "1-0",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.5
+    },
+    "upsetReasons": [
+      "新军参赛-历史数据缺乏-变数极大",
+      "Curaçao背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-26",
+    "homeTeam": "Ecuador",
+    "awayTeam": "Germany",
+    "kickoff": "04:00",
+    "group": "E",
+    "oddsHome": 2.83,
+    "oddsDraw": 1.58,
+    "oddsAway": 1.55,
+    "homeWinPct": 18,
+    "drawPct": 38,
+    "awayWinPct": 43,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.4
+      },
+      {
+        "score": "0-1",
+        "prob": 15.1
+      },
+      {
+        "score": "0-0",
+        "prob": 12.9
+      },
+      {
+        "score": "1-0",
+        "prob": 11.7
+      },
+      {
+        "score": "0-2",
+        "prob": 10.3
+      },
+      {
+        "score": "1-2",
+        "prob": 10.2
+      },
+      {
+        "score": "2-1",
+        "prob": 7.8
+      },
+      {
+        "score": "2-0",
+        "prob": 6.1
+      },
+      {
+        "score": "2-2",
+        "prob": 5.1
+      },
+      {
+        "score": "0-3",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.4
+    },
+    "xgHome": 0.99,
+    "xgAway": 1.29,
+    "upsetIndex": 0.11,
+    "eloHome": 1910,
+    "eloAway": 2055,
+    "eventHome": 0,
+    "eventAway": 16,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "qualified_resting",
+    "styleHome": "counter",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -98.9,
+      "outcomes": {
+        "home": 15,
+        "draw": 15,
+        "away": 70
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.75
+    },
+    "upsetReasons": [
+      "Ecuador背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-26",
+    "homeTeam": "Tunisia",
+    "awayTeam": "Netherlands",
+    "kickoff": "07:00",
+    "group": "F",
+    "oddsHome": 3.0,
+    "oddsDraw": 1.62,
+    "oddsAway": 1.5,
+    "homeWinPct": 14,
+    "drawPct": 36,
+    "awayWinPct": 50,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 17.6
+      },
+      {
+        "score": "0-2",
+        "prob": 15.9
+      },
+      {
+        "score": "1-1",
+        "prob": 13.4
+      },
+      {
+        "score": "0-0",
+        "prob": 11.8
+      },
+      {
+        "score": "1-2",
+        "prob": 10.8
+      },
+      {
+        "score": "0-3",
+        "prob": 8.9
+      },
+      {
+        "score": "1-0",
+        "prob": 7.5
+      },
+      {
+        "score": "1-3",
+        "prob": 6.1
+      },
+      {
+        "score": "2-1",
+        "prob": 4.4
+      },
+      {
+        "score": "0-4",
+        "prob": 3.7
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 17.6
+    },
+    "xgHome": 0.68,
+    "xgAway": 1.68,
+    "upsetIndex": 0.12,
+    "eloHome": 1865,
+    "eloAway": 2025,
+    "eventHome": 5,
+    "eventAway": 5,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "deadRubber",
+    "pressureAway": "needWin",
+    "styleHome": "balanced",
+    "styleAway": "possession",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -113.1,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "1-2",
+          4
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.65,
+      "avgAwayGoals": 1.7
+    },
+    "upsetReasons": [],
+    "upsetRisk": "none"
+  },
+  {
+    "date": "2026-06-26",
+    "homeTeam": "Japan",
+    "awayTeam": "Sweden",
+    "kickoff": "07:00",
+    "group": "F",
+    "oddsHome": 1.69,
+    "oddsDraw": 4.38,
+    "oddsAway": 2.45,
+    "homeWinPct": 49,
+    "drawPct": 19,
+    "awayWinPct": 32,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 16.7
+      },
+      {
+        "score": "1-0",
+        "prob": 14.4
+      },
+      {
+        "score": "0-0",
+        "prob": 13.0
+      },
+      {
+        "score": "0-1",
+        "prob": 11.9
+      },
+      {
+        "score": "2-1",
+        "prob": 10.1
+      },
+      {
+        "score": "2-0",
+        "prob": 9.8
+      },
+      {
+        "score": "1-2",
+        "prob": 8.2
+      },
+      {
+        "score": "0-2",
+        "prob": 6.5
+      },
+      {
+        "score": "2-2",
+        "prob": 5.2
+      },
+      {
+        "score": "3-1",
+        "prob": 4.2
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 16.7
+    },
+    "xgHome": 1.26,
+    "xgAway": 1.03,
+    "upsetIndex": 0.07,
+    "eloHome": 1945,
+    "eloAway": 1920,
+    "eventHome": 10,
+    "eventAway": 5,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "needWin",
+    "pressureAway": "mustWin",
+    "styleHome": "possession",
+    "styleAway": "physical",
+    "tacticMult": 0.95,
+    "experienceHome": 10,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 69.3,
+      "outcomes": {
+        "home": 50,
+        "draw": 20,
+        "away": 30
+      },
+      "topScores": [
+        [
+          "2-1",
+          4
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "1-0",
+          1
+        ]
+      ],
+      "avgHomeGoals": 1.55,
+      "avgAwayGoals": 1.15
+    },
+    "upsetReasons": [
+      "Japan亚洲队-本届保持不败趋势",
+      "Sweden背水一战-出线压力激发"
+    ],
+    "upsetRisk": "medium"
+  },
+  {
+    "date": "2026-06-26",
+    "homeTeam": "Turkey",
+    "awayTeam": "USA",
+    "kickoff": "10:00",
+    "group": "D",
+    "oddsHome": 1.89,
+    "oddsDraw": 2.83,
+    "oddsAway": 2.12,
+    "homeWinPct": 35,
+    "drawPct": 26,
+    "awayWinPct": 39,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 16.8
+      },
+      {
+        "score": "1-1",
+        "prob": 15.6
+      },
+      {
+        "score": "0-0",
+        "prob": 14.2
+      },
+      {
+        "score": "0-2",
+        "prob": 12.6
+      },
+      {
+        "score": "1-0",
+        "prob": 10.2
+      },
+      {
+        "score": "1-2",
+        "prob": 10.1
+      },
+      {
+        "score": "2-1",
+        "prob": 5.9
+      },
+      {
+        "score": "0-3",
+        "prob": 5.8
+      },
+      {
+        "score": "1-3",
+        "prob": 4.6
+      },
+      {
+        "score": "2-0",
+        "prob": 4.3
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 16.8
+    },
+    "xgHome": 0.8,
+    "xgAway": 1.37,
+    "upsetIndex": 0.0,
+    "eloHome": 1915,
+    "eloAway": 1954,
+    "eventHome": 0,
+    "eventAway": 0,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "deadRubber",
+    "pressureAway": "qualified_resting",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 1.6,
+      "outcomes": {
+        "home": 15,
+        "draw": 30,
+        "away": 55
+      },
+      "topScores": [
+        [
+          "0-1",
+          5
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "3-3",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.1,
+      "avgAwayGoals": 1.65
+    },
+    "upsetReasons": [
+      "USA射门转化率异常高-临床级终结",
+      "Turkey攻击低效-射门多进球少",
+      "USA势头正盛-上场高效"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-26",
+    "homeTeam": "Paraguay",
+    "awayTeam": "Australia",
+    "kickoff": "10:00",
+    "group": "D",
+    "oddsHome": 2.0,
+    "oddsDraw": 2.8,
+    "oddsAway": 2.0,
+    "homeWinPct": 32,
+    "drawPct": 25,
+    "awayWinPct": 43,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 18.1
+      },
+      {
+        "score": "0-2",
+        "prob": 14.8
+      },
+      {
+        "score": "1-1",
+        "prob": 14.2
+      },
+      {
+        "score": "0-0",
+        "prob": 14.2
+      },
+      {
+        "score": "1-2",
+        "prob": 10.0
+      },
+      {
+        "score": "1-0",
+        "prob": 8.6
+      },
+      {
+        "score": "0-3",
+        "prob": 7.3
+      },
+      {
+        "score": "1-3",
+        "prob": 4.9
+      },
+      {
+        "score": "2-1",
+        "prob": 4.5
+      },
+      {
+        "score": "2-2",
+        "prob": 3.4
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 18.1
+    },
+    "xgHome": 0.67,
+    "xgAway": 1.49,
+    "upsetIndex": 0.12,
+    "eloHome": 1836,
+    "eloAway": 1895,
+    "eventHome": -12,
+    "eventAway": 5,
+    "restHome": 6,
+    "restAway": 6,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "tightRace",
+    "styleHome": "physical",
+    "styleAway": "physical",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -17.1,
+      "outcomes": {
+        "home": 5,
+        "draw": 35,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          5
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "1-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.7,
+      "avgAwayGoals": 1.4
+    },
+    "upsetReasons": [
+      "Australia亚洲队-本届保持不败趋势",
+      "Paraguay背水一战-出线压力激发",
+      "Australia势头正盛-上场高效"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-27",
+    "homeTeam": "Norway",
+    "awayTeam": "France",
+    "kickoff": "03:00",
+    "group": "I",
+    "oddsHome": 4.59,
+    "oddsDraw": 2.11,
+    "oddsAway": 1.28,
+    "homeWinPct": 7,
+    "drawPct": 28,
+    "awayWinPct": 66,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-2",
+        "prob": 18.7
+      },
+      {
+        "score": "0-1",
+        "prob": 16.0
+      },
+      {
+        "score": "0-3",
+        "prob": 13.9
+      },
+      {
+        "score": "1-2",
+        "prob": 10.4
+      },
+      {
+        "score": "1-1",
+        "prob": 9.5
+      },
+      {
+        "score": "0-4",
+        "prob": 7.8
+      },
+      {
+        "score": "1-3",
+        "prob": 7.7
+      },
+      {
+        "score": "0-0",
+        "prob": 7.7
+      },
+      {
+        "score": "1-4",
+        "prob": 4.3
+      },
+      {
+        "score": "1-0",
+        "prob": 4.1
+      }
+    ],
+    "bestScore": {
+      "score": "0-2",
+      "prob": 18.7
+    },
+    "xgHome": 0.55,
+    "xgAway": 2.23,
+    "upsetIndex": 0.22,
+    "eloHome": 1850,
+    "eloAway": 2112,
+    "eventHome": 47,
+    "eventAway": 57,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "tightRace",
+    "pressureAway": "qualified_resting",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    },
+    "upsetReasons": [
+      "Elo差222分-强弱悬殊但足球非数学"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-27",
+    "homeTeam": "Senegal",
+    "awayTeam": "Iraq",
+    "kickoff": "03:00",
+    "group": "I",
+    "oddsHome": 1.41,
+    "oddsDraw": 10.17,
+    "oddsAway": 3.44,
+    "homeWinPct": 68,
+    "drawPct": 11,
+    "awayWinPct": 22,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 17.6
+      },
+      {
+        "score": "1-0",
+        "prob": 17.2
+      },
+      {
+        "score": "1-1",
+        "prob": 11.6
+      },
+      {
+        "score": "3-0",
+        "prob": 11.3
+      },
+      {
+        "score": "2-1",
+        "prob": 10.8
+      },
+      {
+        "score": "0-0",
+        "prob": 9.8
+      },
+      {
+        "score": "3-1",
+        "prob": 7.0
+      },
+      {
+        "score": "0-1",
+        "prob": 5.7
+      },
+      {
+        "score": "4-0",
+        "prob": 5.5
+      },
+      {
+        "score": "1-2",
+        "prob": 3.4
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 17.6
+    },
+    "xgHome": 1.93,
+    "xgAway": 0.61,
+    "upsetIndex": 0.16,
+    "eloHome": 1950,
+    "eloAway": 1835,
+    "eventHome": 0,
+    "eventAway": -5,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "deadRubber",
+    "pressureAway": "deadRubber",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 150.8,
+      "outcomes": {
+        "home": 60,
+        "draw": 25,
+        "away": 15
+      },
+      "topScores": [
+        [
+          "0-0",
+          4
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.7,
+      "avgAwayGoals": 0.65
+    },
+    "upsetReasons": [
+      "Iraq亚洲队-本届保持不败趋势"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-27",
+    "homeTeam": "Cape Verde",
+    "awayTeam": "Saudi Arabia",
+    "kickoff": "08:00",
+    "group": "H",
+    "oddsHome": 2.12,
+    "oddsDraw": 2.83,
+    "oddsAway": 1.89,
+    "homeWinPct": 32,
+    "drawPct": 27,
+    "awayWinPct": 41,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 18.0
+      },
+      {
+        "score": "0-1",
+        "prob": 17.7
+      },
+      {
+        "score": "1-1",
+        "prob": 15.5
+      },
+      {
+        "score": "1-0",
+        "prob": 12.6
+      },
+      {
+        "score": "0-2",
+        "prob": 10.5
+      },
+      {
+        "score": "1-2",
+        "prob": 8.1
+      },
+      {
+        "score": "2-1",
+        "prob": 5.7
+      },
+      {
+        "score": "2-0",
+        "prob": 5.1
+      },
+      {
+        "score": "0-3",
+        "prob": 3.9
+      },
+      {
+        "score": "2-2",
+        "prob": 3.1
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 18.0
+    },
+    "xgHome": 0.77,
+    "xgAway": 1.11,
+    "upsetIndex": 0.17,
+    "eloHome": 1815,
+    "eloAway": 1875,
+    "eventHome": -5,
+    "eventAway": 0,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "mustWin",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -17.1,
+      "outcomes": {
+        "home": 5,
+        "draw": 35,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          5
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "1-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.7,
+      "avgAwayGoals": 1.4
+    },
+    "upsetReasons": [
+      "新军参赛-历史数据缺乏-变数极大",
+      "Saudi Arabia亚洲队-本届保持不败趋势",
+      "Cape Verde背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-27",
+    "homeTeam": "Uruguay",
+    "awayTeam": "Spain",
+    "kickoff": "08:00",
+    "group": "H",
+    "oddsHome": 2.26,
+    "oddsDraw": 4.31,
+    "oddsAway": 1.79,
+    "homeWinPct": 36,
+    "drawPct": 19,
+    "awayWinPct": 44,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 17.3
+      },
+      {
+        "score": "0-1",
+        "prob": 12.1
+      },
+      {
+        "score": "1-0",
+        "prob": 12.0
+      },
+      {
+        "score": "0-0",
+        "prob": 11.4
+      },
+      {
+        "score": "1-2",
+        "prob": 10.2
+      },
+      {
+        "score": "2-1",
+        "prob": 10.2
+      },
+      {
+        "score": "0-2",
+        "prob": 8.2
+      },
+      {
+        "score": "2-0",
+        "prob": 8.1
+      },
+      {
+        "score": "2-2",
+        "prob": 6.4
+      },
+      {
+        "score": "1-3",
+        "prob": 4.3
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 17.3
+    },
+    "xgHome": 1.25,
+    "xgAway": 1.25,
+    "upsetIndex": 0.04,
+    "eloHome": 1990,
+    "eloAway": 2070,
+    "eventHome": 10,
+    "eventAway": 5,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "tightRace",
+    "pressureAway": "needWin",
+    "styleHome": "physical",
+    "styleAway": "possession",
+    "tacticMult": 1.05,
+    "experienceHome": 10,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -37.15,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.6,
+      "avgAwayGoals": 1.5
+    },
+    "upsetReasons": [],
+    "upsetRisk": "none"
+  },
+  {
+    "date": "2026-06-27",
+    "homeTeam": "New Zealand",
+    "awayTeam": "Belgium",
+    "kickoff": "11:00",
+    "group": "G",
+    "oddsHome": 3.59,
+    "oddsDraw": 1.79,
+    "oddsAway": 1.39,
+    "homeWinPct": 9,
+    "drawPct": 32,
+    "awayWinPct": 58,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-2",
+        "prob": 17.5
+      },
+      {
+        "score": "0-1",
+        "prob": 15.9
+      },
+      {
+        "score": "0-3",
+        "prob": 12.1
+      },
+      {
+        "score": "1-2",
+        "prob": 11.4
+      },
+      {
+        "score": "1-1",
+        "prob": 11.3
+      },
+      {
+        "score": "0-0",
+        "prob": 8.5
+      },
+      {
+        "score": "1-3",
+        "prob": 7.8
+      },
+      {
+        "score": "0-4",
+        "prob": 6.3
+      },
+      {
+        "score": "1-0",
+        "prob": 5.2
+      },
+      {
+        "score": "1-4",
+        "prob": 4.1
+      }
+    ],
+    "bestScore": {
+      "score": "0-2",
+      "prob": 17.5
+    },
+    "xgHome": 0.65,
+    "xgAway": 2.07,
+    "upsetIndex": 0.17,
+    "eloHome": 1800,
+    "eloAway": 2005,
+    "eventHome": -5,
+    "eventAway": 29,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "tightRace",
+    "styleHome": "physical",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": 10,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "1-0",
+          2
+        ],
+        [
+          "2-3",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    },
+    "upsetReasons": [
+      "New Zealand背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-27",
+    "homeTeam": "Egypt",
+    "awayTeam": "Iran",
+    "kickoff": "11:00",
+    "group": "G",
+    "oddsHome": 1.97,
+    "oddsDraw": 2.81,
+    "oddsAway": 2.03,
+    "homeWinPct": 38,
+    "drawPct": 26,
+    "awayWinPct": 36,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 17.0
+      },
+      {
+        "score": "0-0",
+        "prob": 13.6
+      },
+      {
+        "score": "1-0",
+        "prob": 13.4
+      },
+      {
+        "score": "0-1",
+        "prob": 13.1
+      },
+      {
+        "score": "2-1",
+        "prob": 9.2
+      },
+      {
+        "score": "1-2",
+        "prob": 9.0
+      },
+      {
+        "score": "2-0",
+        "prob": 8.2
+      },
+      {
+        "score": "0-2",
+        "prob": 7.8
+      },
+      {
+        "score": "2-2",
+        "prob": 5.1
+      },
+      {
+        "score": "3-1",
+        "prob": 3.5
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 17.0
+    },
+    "xgHome": 1.14,
+    "xgAway": 1.12,
+    "upsetIndex": 0.01,
+    "eloHome": 1905,
+    "eloAway": 1940,
+    "eventHome": 10,
+    "eventAway": 5,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "tightRace",
+    "styleHome": "counter",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 6.95,
+      "outcomes": {
+        "home": 20,
+        "draw": 30,
+        "away": 50
+      },
+      "topScores": [
+        [
+          "0-1",
+          4
+        ],
+        [
+          "2-1",
+          3
+        ],
+        [
+          "3-3",
+          2
+        ],
+        [
+          "1-2",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.2,
+      "avgAwayGoals": 1.7
+    },
+    "upsetReasons": [
+      "Iran亚洲队-本届保持不败趋势"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-28",
+    "homeTeam": "Panama",
+    "awayTeam": "England",
+    "kickoff": "05:00",
+    "group": "L",
+    "oddsHome": 4.45,
+    "oddsDraw": 2.07,
+    "oddsAway": 1.29,
+    "homeWinPct": 5,
+    "drawPct": 26,
+    "awayWinPct": 68,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-2",
+        "prob": 18.6
+      },
+      {
+        "score": "0-3",
+        "prob": 17.2
+      },
+      {
+        "score": "0-1",
+        "prob": 12.6
+      },
+      {
+        "score": "0-4",
+        "prob": 11.9
+      },
+      {
+        "score": "1-2",
+        "prob": 8.5
+      },
+      {
+        "score": "1-3",
+        "prob": 7.9
+      },
+      {
+        "score": "0-5",
+        "prob": 6.6
+      },
+      {
+        "score": "1-1",
+        "prob": 6.3
+      },
+      {
+        "score": "1-4",
+        "prob": 5.5
+      },
+      {
+        "score": "0-0",
+        "prob": 4.9
+      }
+    ],
+    "bestScore": {
+      "score": "0-2",
+      "prob": 18.6
+    },
+    "xgHome": 0.46,
+    "xgAway": 2.77,
+    "upsetIndex": 0.21,
+    "eloHome": 1830,
+    "eloAway": 2085,
+    "eventHome": -5,
+    "eventAway": 78,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "deadRubber",
+    "pressureAway": "needWin",
+    "styleHome": "physical",
+    "styleAway": "possession",
+    "tacticMult": 1.05,
+    "experienceHome": -5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    },
+    "upsetReasons": [
+      "Elo差215分-强弱悬殊但足球非数学"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-28",
+    "homeTeam": "Croatia",
+    "awayTeam": "Ghana",
+    "kickoff": "05:00",
+    "group": "L",
+    "oddsHome": 1.35,
+    "oddsDraw": 10.4,
+    "oddsAway": 3.82,
+    "homeWinPct": 71,
+    "drawPct": 10,
+    "awayWinPct": 19,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "2-0",
+        "prob": 17.8
+      },
+      {
+        "score": "1-0",
+        "prob": 16.5
+      },
+      {
+        "score": "3-0",
+        "prob": 12.1
+      },
+      {
+        "score": "1-1",
+        "prob": 11.1
+      },
+      {
+        "score": "2-1",
+        "prob": 11.0
+      },
+      {
+        "score": "0-0",
+        "prob": 8.9
+      },
+      {
+        "score": "3-1",
+        "prob": 7.4
+      },
+      {
+        "score": "4-0",
+        "prob": 6.1
+      },
+      {
+        "score": "0-1",
+        "prob": 5.2
+      },
+      {
+        "score": "4-1",
+        "prob": 3.8
+      }
+    ],
+    "bestScore": {
+      "score": "2-0",
+      "prob": 17.8
+    },
+    "xgHome": 2.03,
+    "xgAway": 0.62,
+    "upsetIndex": 0.18,
+    "eloHome": 1980,
+    "eloAway": 1840,
+    "eventHome": 10,
+    "eventAway": 0,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "mustWin",
+    "pressureAway": "needWin",
+    "styleHome": "possession",
+    "styleAway": "physical",
+    "tacticMult": 0.95,
+    "experienceHome": 10,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 182.7,
+      "outcomes": {
+        "home": 60,
+        "draw": 20,
+        "away": 20
+      },
+      "topScores": [
+        [
+          "1-0",
+          3
+        ],
+        [
+          "1-1",
+          3
+        ],
+        [
+          "3-1",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "4-1",
+          2
+        ]
+      ],
+      "avgHomeGoals": 1.9,
+      "avgAwayGoals": 0.85
+    },
+    "upsetReasons": [],
+    "upsetRisk": "none"
+  },
+  {
+    "date": "2026-06-28",
+    "homeTeam": "Colombia",
+    "awayTeam": "Portugal",
+    "kickoff": "07:30",
+    "group": "K",
+    "oddsHome": 2.19,
+    "oddsDraw": 2.84,
+    "oddsAway": 1.84,
+    "homeWinPct": 33,
+    "drawPct": 25,
+    "awayWinPct": 42,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "1-1",
+        "prob": 17.0
+      },
+      {
+        "score": "0-1",
+        "prob": 13.5
+      },
+      {
+        "score": "0-0",
+        "prob": 12.7
+      },
+      {
+        "score": "1-0",
+        "prob": 12.0
+      },
+      {
+        "score": "1-2",
+        "prob": 10.0
+      },
+      {
+        "score": "0-2",
+        "prob": 9.2
+      },
+      {
+        "score": "2-1",
+        "prob": 8.8
+      },
+      {
+        "score": "2-0",
+        "prob": 7.1
+      },
+      {
+        "score": "2-2",
+        "prob": 5.5
+      },
+      {
+        "score": "1-3",
+        "prob": 4.2
+      }
+    ],
+    "bestScore": {
+      "score": "1-1",
+      "prob": 17.0
+    },
+    "xgHome": 1.1,
+    "xgAway": 1.25,
+    "upsetIndex": 0.03,
+    "eloHome": 1970,
+    "eloAway": 2040,
+    "eventHome": 5,
+    "eventAway": 5,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "needWin",
+    "pressureAway": "needWin",
+    "styleHome": "balanced",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": 5,
+    "experienceAway": 5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -26.2,
+      "outcomes": {
+        "home": 10,
+        "draw": 30,
+        "away": 60
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-0",
+          3
+        ],
+        [
+          "1-1",
+          1
+        ],
+        [
+          "0-1",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.9,
+      "avgAwayGoals": 1.55
+    },
+    "upsetReasons": [],
+    "upsetRisk": "none"
+  },
+  {
+    "date": "2026-06-28",
+    "homeTeam": "DR Congo",
+    "awayTeam": "Uzbekistan",
+    "kickoff": "07:30",
+    "group": "K",
+    "oddsHome": 1.82,
+    "oddsDraw": 4.3,
+    "oddsAway": 2.22,
+    "homeWinPct": 42,
+    "drawPct": 23,
+    "awayWinPct": 35,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-0",
+        "prob": 26.6
+      },
+      {
+        "score": "1-0",
+        "prob": 18.1
+      },
+      {
+        "score": "0-1",
+        "prob": 16.7
+      },
+      {
+        "score": "1-1",
+        "prob": 13.5
+      },
+      {
+        "score": "2-0",
+        "prob": 6.9
+      },
+      {
+        "score": "0-2",
+        "prob": 5.9
+      },
+      {
+        "score": "2-1",
+        "prob": 4.7
+      },
+      {
+        "score": "1-2",
+        "prob": 4.3
+      },
+      {
+        "score": "3-0",
+        "prob": 1.7
+      },
+      {
+        "score": "2-2",
+        "prob": 1.6
+      }
+    ],
+    "bestScore": {
+      "score": "0-0",
+      "prob": 26.6
+    },
+    "xgHome": 0.73,
+    "xgAway": 0.68,
+    "upsetIndex": 0.18,
+    "eloHome": 1780,
+    "eloAway": 1785,
+    "eventHome": -5,
+    "eventAway": -5,
+    "restHome": 4,
+    "restAway": 4,
+    "fatigueHome": 0.97,
+    "fatigueAway": 0.97,
+    "pressureHome": "mustWin",
+    "pressureAway": "mustWin",
+    "styleHome": "physical",
+    "styleAway": "counter",
+    "tacticMult": 1.0,
+    "experienceHome": -5,
+    "experienceAway": -5,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": 32.0,
+      "outcomes": {
+        "home": 35,
+        "draw": 20,
+        "away": 45
+      },
+      "topScores": [
+        [
+          "0-1",
+          4
+        ],
+        [
+          "1-1",
+          2
+        ],
+        [
+          "0-0",
+          2
+        ],
+        [
+          "2-1",
+          2
+        ],
+        [
+          "2-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.95,
+      "avgAwayGoals": 1.1
+    },
+    "upsetReasons": [
+      "新军参赛-历史数据缺乏-变数极大",
+      "Uzbekistan亚洲队-本届保持不败趋势",
+      "Uzbekistan背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  },
+  {
+    "date": "2026-06-28",
+    "homeTeam": "Algeria",
+    "awayTeam": "Austria",
+    "kickoff": "10:00",
+    "group": "J",
+    "oddsHome": 2.26,
+    "oddsDraw": 4.31,
+    "oddsAway": 1.79,
+    "homeWinPct": 33,
+    "drawPct": 20,
+    "awayWinPct": 46,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-1",
+        "prob": 16.3
+      },
+      {
+        "score": "0-0",
+        "prob": 16.2
+      },
+      {
+        "score": "1-1",
+        "prob": 16.1
+      },
+      {
+        "score": "1-0",
+        "prob": 12.6
+      },
+      {
+        "score": "0-2",
+        "prob": 10.0
+      },
+      {
+        "score": "1-2",
+        "prob": 8.7
+      },
+      {
+        "score": "2-1",
+        "prob": 6.6
+      },
+      {
+        "score": "2-0",
+        "prob": 5.8
+      },
+      {
+        "score": "0-3",
+        "prob": 3.8
+      },
+      {
+        "score": "2-2",
+        "prob": 3.8
+      }
+    ],
+    "bestScore": {
+      "score": "0-1",
+      "prob": 16.3
+    },
+    "xgHome": 0.87,
+    "xgAway": 1.15,
+    "upsetIndex": 0.04,
+    "eloHome": 1845,
+    "eloAway": 1925,
+    "eventHome": 0,
+    "eventAway": 0,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "tightRace",
+    "styleHome": "balanced",
+    "styleAway": "balanced",
+    "tacticMult": 1.0,
+    "experienceHome": 0,
+    "experienceAway": 0,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -37.15,
+      "outcomes": {
+        "home": 5,
+        "draw": 30,
+        "away": 65
+      },
+      "topScores": [
+        [
+          "1-2",
+          7
+        ],
+        [
+          "0-0",
+          4
+        ],
+        [
+          "0-2",
+          2
+        ],
+        [
+          "0-1",
+          2
+        ],
+        [
+          "2-2",
+          1
+        ]
+      ],
+      "avgHomeGoals": 0.6,
+      "avgAwayGoals": 1.5
+    },
+    "upsetReasons": [
+      "Algeria背水一战-出线压力激发"
+    ],
+    "upsetRisk": "low"
+  },
+  {
+    "date": "2026-06-28",
+    "homeTeam": "Jordan",
+    "awayTeam": "Argentina",
+    "kickoff": "10:00",
+    "group": "J",
+    "oddsHome": 6.72,
+    "oddsDraw": 2.84,
+    "oddsAway": 1.17,
+    "homeWinPct": 3,
+    "drawPct": 19,
+    "awayWinPct": 78,
+    "source": "odds + elo + events + fatigue + squad + pressure + tactic + weather + historical + dc-rho",
+    "topScores": [
+      {
+        "score": "0-3",
+        "prob": 18.4
+      },
+      {
+        "score": "0-2",
+        "prob": 18.1
+      },
+      {
+        "score": "0-4",
+        "prob": 14.1
+      },
+      {
+        "score": "0-1",
+        "prob": 11.4
+      },
+      {
+        "score": "0-5",
+        "prob": 8.6
+      },
+      {
+        "score": "1-3",
+        "prob": 7.4
+      },
+      {
+        "score": "1-2",
+        "prob": 7.2
+      },
+      {
+        "score": "1-4",
+        "prob": 5.6
+      },
+      {
+        "score": "1-1",
+        "prob": 4.8
+      },
+      {
+        "score": "0-6",
+        "prob": 4.4
+      }
+    ],
+    "bestScore": {
+      "score": "0-3",
+      "prob": 18.4
+    },
+    "xgHome": 0.4,
+    "xgAway": 3.06,
+    "upsetIndex": 0.45,
+    "eloHome": 1795,
+    "eloAway": 2138,
+    "eventHome": -5,
+    "eventAway": 69,
+    "restHome": 5,
+    "restAway": 5,
+    "fatigueHome": 1.0,
+    "fatigueAway": 1.0,
+    "pressureHome": "mustWin",
+    "pressureAway": "qualified_resting",
+    "styleHome": "counter",
+    "styleAway": "possession",
+    "tacticMult": 1.08,
+    "experienceHome": -5,
+    "experienceAway": 15,
+    "oddsSignal": 0,
+    "weatherTotalAdj": 0.0,
+    "weatherPhysical": false,
+    "historicalSimilar": {
+      "matchCount": 20,
+      "avgEloDiff": -151.55,
+      "outcomes": {
+        "home": 15,
+        "draw": 10,
+        "away": 75
+      },
+      "topScores": [
+        [
+          "0-2",
+          3
+        ],
+        [
+          "0-1",
+          3
+        ],
+        [
+          "1-2",
+          3
+        ],
+        [
+          "0-3",
+          2
+        ],
+        [
+          "1-0",
+          2
+        ]
+      ],
+      "avgHomeGoals": 0.75,
+      "avgAwayGoals": 1.8
+    },
+    "upsetReasons": [
+      "Elo差303分-强弱悬殊但足球非数学",
+      "新军参赛-历史数据缺乏-变数极大",
+      "Jordan亚洲队-本届保持不败趋势",
+      "Jordan背水一战-出线压力激发"
+    ],
+    "upsetRisk": "high"
+  }
+]
