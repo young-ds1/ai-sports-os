@@ -93,7 +93,8 @@ export default function HomePage() {
         </div>))}
       </div>
 
-      <h2 style={{fontSize:14,fontWeight:700,color:"#222",margin:"0 0 12px 0"}}>📊 每日 AI 预测</h2>
+      {predictions.some((x:any)=>x.knockout) && <h2 style={{fontSize:14,fontWeight:700,color:"#dc2626",margin:"16px 0 12px 0"}}>🏆 淘汰赛</h2>}
+      <h2 style={{fontSize:14,fontWeight:700,color:"#222",margin:"0 0 12px 0"}}>📊 小组赛</h2>
       <div style={{display:"flex",flexDirection:"column",gap:8,marginBottom:16}}>
         {Object.entries(byDate).map(([date,preds])=>(<div key={date}>
           <div style={{fontSize:11,color:"#999",marginBottom:6,fontWeight:600}}>{date}</div>
