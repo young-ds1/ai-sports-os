@@ -1,4 +1,3 @@
-export const dynamic = "force-dynamic";
 import Link from "next/link";
 import AccuracyBadge from "@/components/ai/accuracy-badge";
 import fs from "fs";
