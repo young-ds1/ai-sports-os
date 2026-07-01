@@ -43,10 +43,12 @@ export default function HomePage() {
     for (const r of resultsData.results) { const k=`${r.homeTeam}|${r.awayTeam}`; completed.add(k); actualScore[k]=`${r.homeScore}-${r.awayScore}`; }
   }
 
-  // Tournament ranking
+  // Tournament ranking — only teams still alive (appear in knockout)
+  const aliveTeams = new Set<string>();
+  for (const p of predictions) { if (p.knockout) { aliveTeams.add(p.homeTeam); aliveTeams.add(p.awayTeam); } }
   const teamScores: Record<string, number> = {};
   for (const p of predictions) { teamScores[p.homeTeam]=(teamScores[p.homeTeam]||0)+(p.homeWinPct||0); teamScores[p.awayTeam]=(teamScores[p.awayTeam]||0)+(p.awayWinPct||0); }
-  const tournament = Object.entries(teamScores).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([team,score])=>({team,prob:Math.round(score/Math.max(predictions.length,1)),flag:FLAGS[team]||"⚽"}));
+  const tournament = Object.entries(teamScores).filter(([team])=>aliveTeams.has(team)).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([team,score])=>({team,prob:Math.round(score/Math.max(predictions.length,1)),flag:FLAGS[team]||"⚽"}));
 
   // Group by date
   const byDate: Record<string, any[]> = {};
