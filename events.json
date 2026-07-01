@@ -1,7 +1,12 @@
 {
   "description": "Off-field events & 小道消息 affecting team performance",
-  "lastUpdated": "2026-06-15",
-  "reliabilityWeights": {"confirmed": 1.0, "reliable_source": 0.8, "rumor": 0.4, "unverified": 0.2},
+  "lastUpdated": "2026-07-02",
+  "reliabilityWeights": {
+    "confirmed": 1.0,
+    "reliable_source": 0.8,
+    "rumor": 0.4,
+    "unverified": 0.2
+  },
   "categories": {
     "injury": "核心球员伤停/缺阵",
     "locker_room": "更衣室矛盾/内讧",
@@ -11,137 +16,318 @@
   },
   "events": [
     {
-      "team": "England", "event": "全队装备被盗(球鞋+战术平板)", "category": "travel_logistics",
-      "reliability": "reliable_source", "severity": -25,
-      "date": "2026-06-13", "expiresAfter": "2026-06-20", "source": "BBC/Guardian"
+      "team": "England",
+      "event": "全队装备被盗(球鞋+战术平板)",
+      "category": "travel_logistics",
+      "reliability": "reliable_source",
+      "severity": -25,
+      "date": "2026-06-13",
+      "expiresAfter": "2026-06-20",
+      "source": "BBC/Guardian"
     },
     {
-      "team": "Japan", "event": "队长远藤航伤退+队内疑似内讧(绕开足协自行宣布退出)", "category": "locker_room",
-      "reliability": "reliable_source", "severity": -30,
-      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "Sohu/Nikkansports"
+      "team": "Japan",
+      "event": "队长远藤航伤退+队内疑似内讧(绕开足协自行宣布退出)",
+      "category": "locker_room",
+      "reliability": "reliable_source",
+      "severity": -30,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-21",
+      "source": "Sohu/Nikkansports"
     },
     {
-      "team": "Brazil", "event": "内马尔小腿二级撕裂缺阵首战, 俱乐部隐瞒伤情引发信任危机", "category": "injury",
-      "reliability": "confirmed", "severity": -28,
-      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "ChinaTimes/ESPN"
+      "team": "Brazil",
+      "event": "内马尔小腿二级撕裂缺阵首战, 俱乐部隐瞒伤情引发信任危机",
+      "category": "injury",
+      "reliability": "confirmed",
+      "severity": -28,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-21",
+      "source": "ChinaTimes/ESPN"
     },
     {
-      "team": "Netherlands", "event": "主力后卫Jurrien Timber腹股沟伤退出世界杯", "category": "injury",
-      "reliability": "confirmed", "severity": -20,
-      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+      "team": "Netherlands",
+      "event": "主力后卫Jurrien Timber腹股沟伤退出世界杯",
+      "category": "injury",
+      "reliability": "confirmed",
+      "severity": -20,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-21",
+      "source": "VN Express"
     },
     {
-      "team": "USA", "event": "Pulisic小腿被踢, 半场换下, 走路困难", "category": "injury",
-      "reliability": "reliable_source", "severity": -18,
-      "date": "2026-06-14", "expiresAfter": "2026-06-19", "source": "The Mirror"
+      "team": "USA",
+      "event": "Pulisic小腿被踢, 半场换下, 走路困难",
+      "category": "injury",
+      "reliability": "reliable_source",
+      "severity": -18,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-19",
+      "source": "The Mirror"
     },
     {
-      "team": "France", "event": "Mbappé/Cherki不满博彩广告未经同意使用其形象, 队内气氛紧张", "category": "scandal",
-      "reliability": "reliable_source", "severity": -15,
-      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+      "team": "France",
+      "event": "Mbappé/Cherki不满博彩广告未经同意使用其形象, 队内气氛紧张",
+      "category": "scandal",
+      "reliability": "reliable_source",
+      "severity": -15,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-21",
+      "source": "VN Express"
     },
     {
-      "team": "Argentina", "event": "后防核心塔利亚菲科受伤, 大概率缺阵首战", "category": "injury",
-      "reliability": "reliable_source", "severity": -12,
-      "date": "2026-06-14", "expiresAfter": "2026-06-19", "source": "Leisu Sports"
+      "team": "Argentina",
+      "event": "后防核心塔利亚菲科受伤, 大概率缺阵首战",
+      "category": "injury",
+      "reliability": "reliable_source",
+      "severity": -12,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-19",
+      "source": "Leisu Sports"
     },
     {
-      "team": "Ghana", "event": "核心Thomas Partey被加拿大拒绝入境签证, 缺席首战", "category": "travel_logistics",
-      "reliability": "confirmed", "severity": -22,
-      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+      "team": "Ghana",
+      "event": "核心Thomas Partey被加拿大拒绝入境签证, 缺席首战",
+      "category": "travel_logistics",
+      "reliability": "confirmed",
+      "severity": -22,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-21",
+      "source": "VN Express"
     },
     {
-      "team": "Iran", "event": "15名足协成员被美国拒签, FIFA被指控毁约, 训练营被迫从亚利桑那迁至墨西哥", "category": "travel_logistics",
-      "reliability": "confirmed", "severity": -12,
-      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+      "team": "Iran",
+      "event": "15名足协成员被美国拒签, FIFA被指控毁约, 训练营被迫从亚利桑那迁至墨西哥",
+      "category": "travel_logistics",
+      "reliability": "confirmed",
+      "severity": -12,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-21",
+      "source": "VN Express"
     },
     {
-      "team": "Morocco", "event": "边锋Ezzalzouli右膝重伤退赛+后卫Aguerd未恢复", "category": "injury",
-      "reliability": "confirmed", "severity": -20,
-      "date": "2026-06-14", "expiresAfter": "2026-06-21", "source": "VN Express"
+      "team": "Morocco",
+      "event": "边锋Ezzalzouli右膝重伤退赛+后卫Aguerd未恢复",
+      "category": "injury",
+      "reliability": "confirmed",
+      "severity": -20,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-21",
+      "source": "VN Express"
     },
     {
-      "team": "Qatar", "event": "首战1-1逼平瑞士, 补时乌龙送对手队史首个世界杯积分", "category": "external_pressure",
-      "reliability": "confirmed", "severity": -6,
-      "date": "2026-06-14", "expiresAfter": "2026-06-18", "source": "Titan Sports"
+      "team": "Qatar",
+      "event": "首战1-1逼平瑞士, 补时乌龙送对手队史首个世界杯积分",
+      "category": "external_pressure",
+      "reliability": "confirmed",
+      "severity": -6,
+      "date": "2026-06-14",
+      "expiresAfter": "2026-06-18",
+      "source": "Titan Sports"
     },
     {
-      "team": "Uruguay", "event": "专机被美国拒入滞留墨西哥,Bielsa赛前发布会被迫取消", "category": "travel_logistics",
-      "reliability": "confirmed", "severity": -18,
-      "date": "2026-06-15", "expiresAfter": "2026-06-22", "source": "KhelNow/OneFootball"
+      "team": "Uruguay",
+      "event": "专机被美国拒入滞留墨西哥,Bielsa赛前发布会被迫取消",
+      "category": "travel_logistics",
+      "reliability": "confirmed",
+      "severity": -18,
+      "date": "2026-06-15",
+      "expiresAfter": "2026-06-22",
+      "source": "KhelNow/OneFootball"
     },
     {
-      "team": "Japan", "event": "久保建英膝盖受伤退场,伤势待评估", "category": "injury",
-      "reliability": "reliable_source", "severity": -15,
-      "date": "2026-06-15", "expiresAfter": "2026-06-22", "source": "Chosun"
+      "team": "Japan",
+      "event": "久保建英膝盖受伤退场,伤势待评估",
+      "category": "injury",
+      "reliability": "reliable_source",
+      "severity": -15,
+      "date": "2026-06-15",
+      "expiresAfter": "2026-06-22",
+      "source": "Chosun"
     },
     {
-      "team": "Spain", "event": "Yamal/Williams恢复但替补出场,攻击线受限", "category": "injury_news",
-      "reliability": "reliable_source", "severity": -10,
-      "date": "2026-06-15", "expiresAfter": "2026-06-19", "source": "Xinhua"
+      "team": "Spain",
+      "event": "Yamal/Williams恢复但替补出场,攻击线受限",
+      "category": "injury_news",
+      "reliability": "reliable_source",
+      "severity": -10,
+      "date": "2026-06-15",
+      "expiresAfter": "2026-06-19",
+      "source": "Xinhua"
     },
     {
-      "team": "Brazil", "event": "1-1平摩洛哥后媒体围攻安切洛蒂,更衣室压力大", "category": "external_pressure",
-      "reliability": "reliable_source", "severity": -12,
-      "date": "2026-06-15", "expiresAfter": "2026-06-22", "source": "BHarian/Media Brazil"
+      "team": "Brazil",
+      "event": "1-1平摩洛哥后媒体围攻安切洛蒂,更衣室压力大",
+      "category": "external_pressure",
+      "reliability": "reliable_source",
+      "severity": -12,
+      "date": "2026-06-15",
+      "expiresAfter": "2026-06-22",
+      "source": "BHarian/Media Brazil"
     },
     {
-      "team": "Brazil", "event": "Neymar缺阵整个小组赛(二级肌肉撕裂),媒体炮轰安切洛蒂", "category": "injury",
-      "reliability": "confirmed", "severity": -30,
-      "date": "2026-06-17", "expiresAfter": "2026-06-28", "source": "Vietnam.vn"
+      "team": "Brazil",
+      "event": "Neymar缺阵整个小组赛(二级肌肉撕裂),媒体炮轰安切洛蒂",
+      "category": "injury",
+      "reliability": "confirmed",
+      "severity": -30,
+      "date": "2026-06-17",
+      "expiresAfter": "2026-06-28",
+      "source": "Vietnam.vn"
     },
     {
-      "team": "Norway", "event": "主帅Solbakken公开骂球员Strand Larsen(发烧就回家)", "category": "locker_room",
-      "reliability": "reliable_source", "severity": -10,
-      "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Vietnam.vn"
+      "team": "Norway",
+      "event": "主帅Solbakken公开骂球员Strand Larsen(发烧就回家)",
+      "category": "locker_room",
+      "reliability": "reliable_source",
+      "severity": -10,
+      "date": "2026-06-17",
+      "expiresAfter": "2026-06-24",
+      "source": "Vietnam.vn"
     },
     {
-      "team": "England", "event": "Livramento伤退,Tuchel争议选人跳过Arnold/Maguire", "category": "injury",
-      "reliability": "confirmed", "severity": -12,
-      "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Independent"
+      "team": "England",
+      "event": "Livramento伤退,Tuchel争议选人跳过Arnold/Maguire",
+      "category": "injury",
+      "reliability": "confirmed",
+      "severity": -12,
+      "date": "2026-06-17",
+      "expiresAfter": "2026-06-24",
+      "source": "Independent"
     },
     {
-      "team": "Iran", "event": "国歌被球迷嘘+场外抗议+球员枪手势庆祝引争议", "category": "external_pressure",
-      "reliability": "confirmed", "severity": -10,
-      "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Multiple"
+      "team": "Iran",
+      "event": "国歌被球迷嘘+场外抗议+球员枪手势庆祝引争议",
+      "category": "external_pressure",
+      "reliability": "confirmed",
+      "severity": -10,
+      "date": "2026-06-17",
+      "expiresAfter": "2026-06-24",
+      "source": "Multiple"
     },
     {
-      "team": "Senegal", "event": "对法国进球被VAR取消+点球争议,士气受挫", "category": "external_pressure",
-      "reliability": "reliable_source", "severity": -8,
-      "date": "2026-06-17", "expiresAfter": "2026-06-24", "source": "Mirror"
+      "team": "Senegal",
+      "event": "对法国进球被VAR取消+点球争议,士气受挫",
+      "category": "external_pressure",
+      "reliability": "reliable_source",
+      "severity": -8,
+      "date": "2026-06-17",
+      "expiresAfter": "2026-06-24",
+      "source": "Mirror"
     },
     {
-      "team": "Germany", "event": "主力中卫Schlotterbeck脚踝韧带撕裂退出世界杯", "category": "injury",
-      "reliability": "confirmed", "severity": -18,
-      "date": "2026-06-23", "expiresAfter": "2026-07-05", "source": "Bundesliga.com"
+      "team": "Germany",
+      "event": "主力中卫Schlotterbeck脚踝韧带撕裂退出世界杯",
+      "category": "injury",
+      "reliability": "confirmed",
+      "severity": -18,
+      "date": "2026-06-23",
+      "expiresAfter": "2026-07-05",
+      "source": "Bundesliga.com"
     },
     {
-      "team": "Paraguay", "event": "Almiron历史性红牌(捂嘴新规)停赛,10人仍1-0胜土耳其", "category": "scandal",
-      "reliability": "confirmed", "severity": -12,
-      "date": "2026-06-23", "expiresAfter": "2026-06-27", "source": "Vietnam.vn"
+      "team": "Paraguay",
+      "event": "Almiron历史性红牌(捂嘴新规)停赛,10人仍1-0胜土耳其",
+      "category": "scandal",
+      "reliability": "confirmed",
+      "severity": -12,
+      "date": "2026-06-23",
+      "expiresAfter": "2026-06-27",
+      "source": "Vietnam.vn"
     },
     {
-      "team": "England", "event": "Saka伤愈回归训练,利好进攻线", "severity": 10,
-      "reliability": "reliable_source", "date": "2026-06-23", "expiresAfter": "2026-06-28", "source": "Mirror"
+      "team": "England",
+      "event": "Saka伤愈回归训练,利好进攻线",
+      "severity": 10,
+      "reliability": "reliable_source",
+      "date": "2026-06-23",
+      "expiresAfter": "2026-06-28",
+      "source": "Mirror"
     },
     {
-      "team": "Norway", "event": "已出线对法国轮换二队,Haaland等主力休息", "category": "injury_news",
-      "reliability": "confirmed", "severity": -25,
-      "date": "2026-06-27", "expiresAfter": "2026-06-28", "source": "Lineup"
+      "team": "Norway",
+      "event": "已出线对法国轮换二队,Haaland等主力休息",
+      "category": "injury_news",
+      "reliability": "confirmed",
+      "severity": -25,
+      "date": "2026-06-27",
+      "expiresAfter": "2026-06-28",
+      "source": "Lineup"
     },
     {
-      "team": "France", "event": "已出线对挪威轮换,姆巴佩替补", "category": "injury_news",
-      "reliability": "confirmed", "severity": -15,
-      "date": "2026-06-27", "expiresAfter": "2026-06-28", "source": "Lineup"
+      "team": "France",
+      "event": "已出线对挪威轮换,姆巴佩替补",
+      "category": "injury_news",
+      "reliability": "confirmed",
+      "severity": -15,
+      "date": "2026-06-27",
+      "expiresAfter": "2026-06-28",
+      "source": "Lineup"
     },
     {
-      "team": "Belgium", "event": "Trossard小腿流血+队友阻医疗入场引发争议", "category": "scandal",
-      "reliability": "confirmed", "severity": -8,
-      "date": "2026-06-23", "expiresAfter": "2026-06-28", "source": "Vietnam.vn"
+      "team": "Belgium",
+      "event": "Trossard小腿流血+队友阻医疗入场引发争议",
+      "category": "scandal",
+      "reliability": "confirmed",
+      "severity": -8,
+      "date": "2026-06-23",
+      "expiresAfter": "2026-06-28",
+      "source": "Vietnam.vn"
     },
     {
-      "team": "Egypt", "event": "Salah传射历史性首胜,士气高涨", "severity": 10,
-      "reliability": "confirmed", "date": "2026-06-23", "expiresAfter": "2026-06-30", "source": "Multiple"
+      "team": "Egypt",
+      "event": "Salah传射历史性首胜,士气高涨",
+      "severity": 10,
+      "reliability": "confirmed",
+      "date": "2026-06-23",
+      "expiresAfter": "2026-06-30",
+      "source": "Multiple"
+    },
+    {
+      "team": "England",
+      "event": "James+Quansah伤缺,防线危机",
+      "category": "injury",
+      "reliability": "confirmed",
+      "severity": -15,
+      "date": "2026-07-02",
+      "expiresAfter": "2026-07-09",
+      "source": "Mirror"
+    },
+    {
+      "team": "Netherlands",
+      "event": "Koeman二度辞职,士气受创",
+      "reliability": "confirmed",
+      "severity": -12,
+      "date": "2026-07-02",
+      "expiresAfter": "2026-07-05",
+      "source": "WalesOnline"
+    },
+    {
+      "team": "France",
+      "event": "Mbappe淘汰赛历史射手王",
+      "reliability": "confirmed",
+      "severity": 12,
+      "date": "2026-07-02",
+      "expiresAfter": "2026-07-09",
+      "source": "Multiple"
+    },
+    {
+      "team": "Norway",
+      "event": "Haaland绝杀科特迪瓦",
+      "reliability": "confirmed",
+      "severity": 10,
+      "date": "2026-07-02",
+      "expiresAfter": "2026-07-09",
+      "source": "Multiple"
+    },
+    {
+      "team": "Mexico",
+      "event": "1986年来首次淘汰赛赢球",
+      "reliability": "confirmed",
+      "severity": 10,
+      "date": "2026-07-02",
+      "expiresAfter": "2026-07-09",
+      "source": "theScore"
     }
   ]
 }
