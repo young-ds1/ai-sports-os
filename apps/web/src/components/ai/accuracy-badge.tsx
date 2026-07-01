@@ -59,7 +59,7 @@ export default function AccuracyBadge() {
   if (!data || data.summary.totalMatches === 0) return null;
 
   const { summary, matches } = data;
-  const recent = matches.slice(-3).reverse();
+  const recent = [...matches].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
 
   return (
     <div className="card p-4 mb-4" style={{
