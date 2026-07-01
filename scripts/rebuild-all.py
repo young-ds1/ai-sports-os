@@ -61,8 +61,30 @@ json.dump(merged, open(os.path.join(PROJECT_DIR,'worldcup-predictions.json'),'w'
 predict_script = os.path.join(PROJECT_DIR,'scripts','predict-v3.py')
 result = subprocess.run(['python3',predict_script,'--apply'], capture_output=True, text=True, cwd=PROJECT_DIR)
 
-# Reorder: KO first
+# Reorder: KO first, ensure topScores exist
 p2 = json.load(open(os.path.join(PROJECT_DIR,'worldcup-predictions.json')))
+for x in p2:
+    if x.get('knockout') and not x.get('topScores'):
+        # Generate basic score distribution from odds
+        import math as _m
+        oh,od,oa = x.get('oddsHome',2), x.get('oddsDraw',3.5), x.get('oddsAway',3.5)
+        hp,dp,ap = 1/oh, 1/od, 1/oa
+        margin = (hp+dp+ap-1)/3
+        hc,dc,ac = max(.02,hp-margin), max(.02,dp-margin), max(.02,ap-margin)
+        total = hc+dc+ac
+        x['homeWinPct'] = round(hc/total*100); x['drawPct'] = round(dc/total*100); x['awayWinPct'] = round(ac/total*100)
+        # Simple Poisson-based top scores
+        lh = max(0.3, x['homeWinPct']/50); la = max(0.3, x['awayWinPct']/50)
+        scores = []
+        for h in range(8):
+            for a in range(8):
+                p = (_m.exp(-lh)*lh**h/_m.factorial(h)) * (_m.exp(-la)*la**a/_m.factorial(a)) * 100
+                scores.append({'score':f'{h}-{a}','prob':round(p,2)})
+        scores.sort(key=lambda s:-s['prob'])
+        top = scores[:10]; t = sum(s['prob'] for s in top)
+        if t > 0:
+            for s in top: s['prob'] = round(s['prob']/t*100,1)
+        x['topScores'] = top; x['bestScore'] = top[0]
 ko_out = [x for x in p2 if x.get('knockout')]
 gp_out = [x for x in p2 if not x.get('knockout')]
 final = ko_out + gp_out
