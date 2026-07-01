@@ -768,6 +768,7 @@ def main():
         w = ODDS_WEIGHT
         new_preds.append({
             **p,
+            'knockout': p.get('knockout', False),
             'homeWinPct': round(odds_hwp*w + elo_probs['homeWinPct']*(1-w)),
             'drawPct': round(odds_dp*w + elo_probs['drawPct']*(1-w)),
             'awayWinPct': round(odds_awp*w + elo_probs['awayWinPct']*(1-w)),
