@@ -244,14 +244,18 @@ def main():
             except Exception:
                 continue
 
-        # Merge: existing results + new scraped results (newer wins)
+        # Merge: keep ALL existing + add/replace by (team, team) key only (ignore date mismatch)
         merged_map = {}
         for r in existing_results:
-            key = f"{r.get('homeTeam','')}|{r.get('awayTeam','')}|{r.get('date','')}"
-            merged_map[key] = r
+            key = f"{r.get('homeTeam','')}|{r.get('awayTeam','')}"
+            merged_map[key] = r  # existing wins initially
         for r in results:
-            key = f"{r.get('homeTeam','')}|{r.get('awayTeam','')}|{r.get('date','')}"
-            merged_map[key] = r  # scraped data wins for same key
+            key = f"{r.get('homeTeam','')}|{r.get('awayTeam','')}"
+            # Scraped data always wins (has live scores)
+            if 'homeScore' in r and r.get('homeScore') is not None:
+                merged_map[key] = r
+            elif key not in merged_map:
+                merged_map[key] = r
 
         merged_results = list(merged_map.values())
         merged_output = build_output(merged_results)
