@@ -134,10 +134,7 @@ let ContentController = class ContentController {
             contentId,
             platform,
             metric: 'clicks',
-            value: (async () => {
-                // Increment current click count — simplified
-                return 1;
-            })(),
+            value: 1,
         }).catch(() => { });
         // Track the attribution event for conversion funnel
         if (ref) {

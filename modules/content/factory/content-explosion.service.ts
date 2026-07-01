@@ -49,7 +49,7 @@ export class ContentExplosionService {
     douyinAdapter: DouyinAdapter,
     seoAdapter: SeoAdapter,
   ) {
-    this.platformAdapters = new Map([
+    this.platformAdapters = new Map<string, PlatformAdapter>([
       ['xiaohongshu', xhsAdapter],
       ['twitter', twitterAdapter],
       ['wechat', wechatAdapter],

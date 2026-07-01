@@ -13,7 +13,7 @@ import { WechatAdapter } from '../adapters/wechat.adapter';
 import { DouyinAdapter } from '../adapters/douyin.adapter';
 import { SeoAdapter } from '../adapters/seo.adapter';
 import { UtmBuilderService } from '../distribution/utm-builder.service';
-import { PlatformAdapter, PLATFORM_ADAPTERS } from '../adapters/platform.interface';
+import { PlatformAdapter } from '../adapters/platform.interface';
 
 interface CreateTaskParams {
   trigger_type: string;
@@ -46,7 +46,7 @@ export class ContentFactoryService {
     private readonly douyinAdapter: DouyinAdapter,
     private readonly seoAdapter: SeoAdapter,
   ) {
-    this.platformAdapters = new Map([
+    this.platformAdapters = new Map<string, PlatformAdapter>([
       ['xiaohongshu', xhsAdapter],
       ['twitter', twitterAdapter],
       ['wechat', wechatAdapter],

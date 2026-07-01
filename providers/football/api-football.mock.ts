@@ -1,7 +1,7 @@
 import {
   IProviderAdapter, RawCompetition, RawSeason, RawTeam, RawPlayer,
   RawMatch, RawMatchEvent, RawStanding,
-} from '../../provider.interface';
+} from '../provider.interface';
 
 /**
  * Mock API-Football Adapter — returns World Cup 2026 data without real API calls.

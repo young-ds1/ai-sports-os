@@ -67,7 +67,7 @@ export class AiRequestMiddleware implements NestMiddleware {
         }
       }
 
-      return originalEnd.apply(res, args);
+      return (originalEnd as Function).apply(res, args);
     };
 
     next();

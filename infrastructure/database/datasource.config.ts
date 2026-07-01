@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
-import { config } from 'dotenv';
-config();
+// dotenv loaded by @nestjs/config ConfigModule.forRoot()
+try { require('dotenv').config(); } catch {}
 
 export const AppDataSource = new DataSource({
   type: 'postgres',

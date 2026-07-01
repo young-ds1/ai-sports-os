@@ -354,6 +354,7 @@ export class ICPValidationService {
       const rvs = Math.round(((d.revenuePerUser || 0) / maxRev) * 20);
       const rfs = Math.round(((d.referralRate || 0) / maxRef) * 10);
       const icp = Math.min(100, rs + as + rvs + rfs);
+      const tier = (icp >= 70 ? 'core_icp' : icp >= 50 ? 'growth_icp' : icp >= 25 ? 'emerging' : 'low_value') as "core_icp" | "growth_icp" | "emerging" | "low_value";
       return {
         segmentKey: d.segmentKey, segmentName: USER_SEGMENTS[d.segmentKey],
         users: d.users, dau: d.dau, avgSessionsPerUser: d.avgSessionsPerUser!,
@@ -363,7 +364,7 @@ export class ICPValidationService {
         ltvEstimate: d.ltvEstimate!, referralCount: d.referralCount!,
         referralRate: d.referralRate!, retentionScore: rs, aiUsageScore: as,
         revenueScore: rvs, referralScore: rfs, icpScore: icp,
-        tier: icp >= 70 ? 'core_icp' : icp >= 50 ? 'growth_icp' : icp >= 25 ? 'emerging' : 'low_value',
+        tier,
       };
     }).sort((a, b) => b.icpScore - a.icpScore);
   }

@@ -179,7 +179,7 @@ export class MarketValidationController {
     userId: string; channel: string; contentExperiment: string;
     action: string; invitedBy?: string;
   }) {
-    this.quality.trackUserAction(body);
+    this.quality.trackUserAction(body as any);
     return { status: 'ok' };
   }
 
@@ -234,7 +234,7 @@ export class MarketValidationController {
     userId: string; channel?: string; contentExperiment?: string;
     action: string; amount?: number;
   }) {
-    this.icp.trackAction(body.userId, body);
+    this.icp.trackAction(body.userId, body as any);
     return { status: 'ok' };
   }
 

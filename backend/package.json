@@ -5,8 +5,9 @@
   "scripts": {
     "build": "nest build",
     "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:prod": "node dist/main",
+    "start:dev": "nest build && node dist/backend/src/main.dev",
+    "start:dev:watch": "nest build --watch & sleep 3 && node dist/backend/src/main.dev",
+    "start:prod": "node dist/backend/src/main",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
     "migration:run": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:run -d infrastructure/database/datasource.config.ts",
     "seed": "ts-node -r tsconfig-paths/register infrastructure/database/seeds/seed.ts"

@@ -211,7 +211,7 @@ const DASHBOARD_SCHEMA: FlywheelDashboardSchema = {
   },
   conversion_by_segment: {
     schema: { Casual_to_Fan: { from: 'Casual Users', to: 'Football Fans', rate: 'percentage' }, Fan_to_Fantasy: { from: 'Football Fans', to: 'Fantasy Players', rate: 'percentage' }, Fantasy_to_Bettor: { from: 'Fantasy Players', to: 'Sports Bettors', rate: 'percentage' } },
-    description: 'Conversion rates between segments',
+    description: 'Conversion rates between segments (e.g., Fan → Fantasy)',
   },
   revenue_by_segment: {
     schema: { Sports_Bettors: { total: 'USD', per_user: 'USD', mrr: 'USD' }, Fantasy_Players: { total: 'USD', per_user: 'USD', mrr: 'USD' } },
@@ -219,7 +219,7 @@ const DASHBOARD_SCHEMA: FlywheelDashboardSchema = {
   },
   retention_by_segment: {
     schema: { Sports_Bettors: { d7: 'percentage', d30: 'percentage', avg_sessions: 'number' }, Fantasy_Players: { d7: 'percentage', d30: 'percentage', avg_sessions: 'number' } },
-    description: 'Retention metrics by segment',
+    description: 'Retention metrics broken down by segment',
   },
   flywheel_velocity: {
     schema: { value: 'number', description: 'Net flow: new users entering vs churning per week' },

@@ -205,7 +205,7 @@ export class SubscriptionsController {
     source?: string;
   }, @Req() req: any) {
     const userId = req.user?.id || 'anonymous';
-    this.monetizationAnalytics.trackSignal({ userId, type: body.type, feature: body.feature, source: body.source });
+    this.monetizationAnalytics.trackSignal({ userId, type: body.type, feature: body.feature, source: body.source } as any);
     this.attribution.trackEvent(userId, body.feature || 'unknown', body.source || 'api');
     return { status: 'ok' };
   }

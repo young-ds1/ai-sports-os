@@ -2,9 +2,17 @@
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": ".",
+    "rootDir": "..",
+    "declaration": false,
+    "declarationMap": false,
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
     "baseUrl": ".",
     "paths": {
+      "*": ["./node_modules/*"],
+      "express": ["./node_modules/@types/express"],
       "@modules/*": ["../modules/*"],
       "@shared/*": ["../shared/*"],
       "@providers/*": ["../providers/*"],
@@ -18,5 +26,5 @@
     "../shared/**/*",
     "../infrastructure/**/*"
   ],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"]
 }

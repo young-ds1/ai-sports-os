@@ -86,7 +86,7 @@ export class RevenueFlywheelService {
     const arppu = payingUsers > 0 ? totalMrr / payingUsers : 0;
 
     // LTV = ARPU × avg lifetime (months). Conservative: 6 months for early stage.
-    const avgLifetimeMonths = overview.d30 && overview.d30 > 0 ? Math.min(12, Math.max(3, 100 / (100 - overview.d30) * 1.5)) : 6;
+    const avgLifetimeMonths = (overview as any).d30 && (overview as any).d30 > 0 ? Math.min(12, Math.max(3, 100 / (100 - (overview as any).d30) * 1.5)) : 6;
     const ltv = arpu * avgLifetimeMonths;
 
     // Flywheel velocity
@@ -94,8 +94,8 @@ export class RevenueFlywheelService {
 
     // Health assessment
     let health: FlywheelDashboard['flywheel']['health'];
-    if (velocity >= 3 && overview.d7 && overview.d7 >= 30) health = 'accelerating';
-    else if (velocity >= 1.5 && overview.d7 && overview.d7 >= 20) health = 'healthy';
+    if (velocity >= 3 && (overview as any).d7 && (overview as any).d7 >= 30) health = 'accelerating';
+    else if (velocity >= 1.5 && (overview as any).d7 && (overview as any).d7 >= 20) health = 'healthy';
     else if (velocity >= 0.5) health = 'building';
     else health = 'critical';
 

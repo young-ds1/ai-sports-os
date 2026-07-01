@@ -20,13 +20,19 @@ let OpenaiService = OpenaiService_1 = class OpenaiService {
     logger = new common_1.Logger(OpenaiService_1.name);
     client;
     constructor() {
-        this.client = new openai_1.default({
-            apiKey: process.env.OPENAI_API_KEY || 'sk-mock-key',
-        });
+        const apiKey = process.env.OPENAI_API_KEY || 'sk-mock-key';
+        const baseURL = process.env.OPENAI_BASE_URL || undefined; // GitHub Models, DeepSeek etc.
+        const config = { apiKey };
+        if (baseURL) {
+            config.baseURL = baseURL;
+            this.logger.log(`Using custom AI provider: ${baseURL}`);
+        }
+        this.client = new openai_1.default(config);
     }
     async chat(messages, options) {
-        const model = options?.model || 'gpt-4o';
-        // Phase 3 MVP: when no API key is set, return mock AI response
+        // DeepSeek V4 Pro by default. Override with OPENAI_MODEL env var.
+        const model = options?.model || process.env.OPENAI_MODEL || 'deepseek-v4-pro';
+        // Mock mode: no API key or explicitly set to mock
         if (!process.env.OPENAI_API_KEY || process.env.OPENAI_API_KEY === 'sk-mock-key') {
             return this.mockResponse(messages);
         }
@@ -44,11 +50,10 @@ let OpenaiService = OpenaiService_1 = class OpenaiService {
             };
         }
         catch (err) {
-            this.logger.error('OpenAI API call failed', err);
+            this.logger.error('AI API call failed', err);
             throw err;
         }
     }
-    // Mock response for development without API key
     mockResponse(messages) {
         const userMsg = messages.find((m) => m.role === 'user')?.content || '';
         if (userMsg.includes('分析') || userMsg.includes('analysis')) {
@@ -69,13 +74,13 @@ let OpenaiService = OpenaiService_1 = class OpenaiService {
 
 ### 💡 AI 总结
 综合来看，主队占据明显优势，但足球比赛充满变数。本场比赛值得关注。`,
-                model: 'gpt-4o-mock',
+                model: 'mock-mode',
                 tokensUsed: 0,
             };
         }
         return {
             answer: `Based on the available data: ${userMsg.substring(0, 100)}... I'd recommend checking the match details for comprehensive statistics and insights.`,
-            model: 'gpt-4o-mock',
+            model: 'mock-mode',
             tokensUsed: 0,
         };
     }
