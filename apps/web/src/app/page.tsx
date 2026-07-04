@@ -45,7 +45,7 @@ export default function HomePage() {
 
   // Tournament ranking — only teams still alive (appear in knockout)
   const aliveTeams = new Set<string>();
-  for (const p of predictions) { if (p.knockout) { aliveTeams.add(p.homeTeam); aliveTeams.add(p.awayTeam); } }
+  for (const p of predictions) { if (p.knockout && p.date >= '2026-07-05') { aliveTeams.add(p.homeTeam); aliveTeams.add(p.awayTeam); } }
   const koMatchCount: Record<string, number> = {};
   const teamScores: Record<string, number> = {};
   for (const p of predictions) {
