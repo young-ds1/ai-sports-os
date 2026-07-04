@@ -22,6 +22,15 @@ KO_MATCHES = [
     ('2026-07-04','Argentina','Cape Verde','06:00'),
     ('2026-07-04','Australia','Egypt','02:00'),
     ('2026-07-04','Colombia','Ghana','09:30'),
+    # Round of 16
+    ('2026-07-05','Canada','Morocco','00:00'),
+    ('2026-07-05','Paraguay','France','04:00'),
+    ('2026-07-06','Brazil','Norway','03:00'),
+    ('2026-07-06','Mexico','England','07:00'),
+    ('2026-07-07','Portugal','Spain','02:00'),
+    ('2026-07-07','USA','Belgium','07:00'),
+    ('2026-07-07','Argentina','Egypt','23:00'),
+    ('2026-07-08','Switzerland','Colombia','03:00'),
 ]
 ODDS = {
     'South Africa|Canada':(5.5,3.8,1.65),'Brazil|Japan':(1.67,3.75,5.25),
@@ -32,6 +41,10 @@ ODDS = {
     'Spain|Austria':(1.27,5.0,17.0),'Portugal|Croatia':(1.83,3.3,4.75),
     'Switzerland|Algeria':(1.91,3.25,4.33),'Australia|Egypt':(3.25,2.88,2.5),
     'Argentina|Cape Verde':(1.13,6.5,19.0),'Colombia|Ghana':(1.62,3.6,6.25),
+    'Canada|Morocco':(2.5,3.1,3.0),'Paraguay|France':(7.0,4.2,1.5),
+    'Brazil|Norway':(1.8,3.5,4.5),'Mexico|England':(3.5,3.2,2.2),
+    'Portugal|Spain':(2.8,3.1,2.7),'USA|Belgium':(2.6,3.2,2.8),
+    'Argentina|Egypt':(1.22,6.0,13.0),'Switzerland|Colombia':(2.9,3.0,2.6),
 }
 
 # Generate KO predictions
