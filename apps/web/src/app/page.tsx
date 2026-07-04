@@ -46,9 +46,17 @@ export default function HomePage() {
   // Tournament ranking — only teams still alive (appear in knockout)
   const aliveTeams = new Set<string>();
   for (const p of predictions) { if (p.knockout) { aliveTeams.add(p.homeTeam); aliveTeams.add(p.awayTeam); } }
+  const koMatchCount: Record<string, number> = {};
   const teamScores: Record<string, number> = {};
-  for (const p of predictions) { teamScores[p.homeTeam]=(teamScores[p.homeTeam]||0)+(p.homeWinPct||0); teamScores[p.awayTeam]=(teamScores[p.awayTeam]||0)+(p.awayWinPct||0); }
-  const tournament = Object.entries(teamScores).filter(([team])=>aliveTeams.has(team)).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([team,score])=>({team,prob:Math.round(score/Math.max(predictions.length,1)),flag:FLAGS[team]||"⚽"}));
+  for (const p of predictions) {
+    if (p.knockout) {
+      teamScores[p.homeTeam]=(teamScores[p.homeTeam]||0)+(p.homeWinPct||0);
+      teamScores[p.awayTeam]=(teamScores[p.awayTeam]||0)+(p.awayWinPct||0);
+      koMatchCount[p.homeTeam]=(koMatchCount[p.homeTeam]||0)+1;
+      koMatchCount[p.awayTeam]=(koMatchCount[p.awayTeam]||0)+1;
+    }
+  }
+  const tournament = Object.entries(teamScores).filter(([team])=>aliveTeams.has(team)).map(([team,score])=>({team,prob:Math.round(score/Math.max(koMatchCount[team]||1,1)),flag:FLAGS[team]||"⚽"})).sort((a,b)=>b.prob-a.prob).slice(0,8);
 
   // Group by date
   const byDate: Record<string, any[]> = {};
